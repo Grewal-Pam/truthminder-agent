@@ -1,0 +1,206 @@
+.
+├── analysis_results
+│   └── dataset_summary.csv
+├── config.py
+├── data
+│   ├── all_samples (also includes non multimodal)
+│   ├── drive-download-20231221T062725Z-001.zip
+│   ├── filtered_data.csv
+│   ├── filtered_data.tsv
+│   ├── multimodal_only_samples
+│   ├── sample_test.xlsx
+│   ├── sample_validate.xlsx
+│   ├── sample.xlsx
+│   ├── scaler.pkl
+│   ├── TEST DATA
+│   ├── TRAIN_DATA
+│   └── VALIDATE DATA
+│       ├── readme.txt.txt
+│       ├── validate_data_inaccessible.tsv
+│       └── validate_data_inaccessible.xlsx
+├── dataloaders
+│   ├── clip_dataloader.py
+│   ├── flava_dataloader.py
+│   ├── __pycache__
+│   │   ├── clip_dataloader.cpython-39.pyc
+│   │   ├── flava_dataloader.cpython-39.pyc
+│   │   └── vilt_dataloader.cpython-39.pyc
+│   └── vilt_dataloader.py
+├── datasets
+│   ├── data_analysis.py
+│   ├── dataset.py
+│   ├── __init__.py
+│   ├── pre_processing.py
+│   └── __pycache__
+│       ├── data_analysis.cpython-312.pyc
+│       ├── data_analysis.cpython-39.pyc
+│       ├── dataset.cpython-39.pyc
+│       ├── __init__.cpython-312.pyc
+│       ├── __init__.cpython-39.pyc
+│       └── pre_processing.cpython-39.pyc
+├── evaluate
+│   ├── flava_evaluate.py
+│   ├── __pycache__
+│   │   ├── flava_evaluate.cpython-39.pyc
+│   │   └── vilt_evaluate.cpython-39.pyc
+│   └── vilt_evaluate.py
+├── experiment_manager.py
+├── flava_tuning.py
+├── folder_structure.txt
+├── logs
+│   ├── CLIP
+│   ├── clip_dataloader_log.log
+│   ├── clip_model_log.log
+│   ├── data_analysis.log.log
+│   ├── evaluation_log.log
+│   ├── experiment.log.log
+│   ├── experiment_manager.log.log
+│   ├── experiment_manager_log.log
+│   ├── FLAVA
+│   ├── flava_dataloader_log.log
+│   ├── flava_evaluate_log.log
+│   ├── flava_experiment_log.log
+│   ├── flava_model_log.log
+│   ├── flava_training_log.log
+│   ├── flava_tuning_log.log
+│   ├── pre_processing.log.log
+│   ├── training_log.log
+│   ├── VILT
+│   ├── vilt_dataloader_log.log
+│   ├── vilt_evaluate_log.log
+│   ├── vilt_evaluation_log.log
+│   ├── vilt_model_log.log
+│   └── vilt_training_log.log
+├── main.py
+├── models
+│   ├── clip_model.py
+│   ├── flava_model.py
+│   ├── __pycache__
+│   │   ├── clip_model.cpython-39.pyc
+│   │   ├── flava_model.cpython-39.pyc
+│   │   └── vilt_model.cpython-39.pyc
+│   └── vilt_model.py
+├── __pycache__
+│   ├── experiment_manager.cpython-39.pyc
+│   ├── flava_tuning.cpython-39.pyc
+│   ├── main.cpython-312.pyc
+│   └── main.cpython-39.pyc
+├── real_analysis_results
+├── real_scaler.pkl
+├── requirements.txt
+├── results
+│   ├── CLIP
+│   │   ├── CLIP
+│   │   │   ├── images
+│   │   │   │   └── validation_2_way_confusion_matrix.png
+│   │   │   ├── logs
+│   │   │   └── metrics
+│   │   │       └── validation_metrics.json
+│   │   ├── test_2_way_confusion_matrix.png
+│   │   ├── test_2_way_precision_recall_curve.png
+│   │   ├── test_2_way_roc_curve.png
+│   │   ├── test_3_way_confusion_matrix.png
+│   │   ├── test_3_way_precision_recall_curve.png
+│   │   ├── test_3_way_roc_curve.png
+│   │   ├── test_metrics.json
+│   │   ├── validation_2_way_confusion_matrix.png
+│   │   ├── validation_2_way_precision_recall_curve.png
+│   │   ├── validation_2_way_roc_curve.png
+│   │   ├── validation_3_way_confusion_matrix.png
+│   │   ├── validation_3_way_precision_recall_curve.png
+│   │   ├── validation_3_way_roc_curve.png
+│   │   └── validation_metrics.json
+│   ├── FLAVA
+│   │   ├── 2-way_classification_model.pth
+│   │   ├── 3-way_classification_model.pth
+│   │   └── FLAVA
+│   │       ├── images
+│   │       │   ├── 2-way_classification_test_confusion_matrix.png
+│   │       │   ├── 2-way_classification_test_precision_recall_curve.png
+│   │       │   ├── 2-way_classification_test_roc_curve.png
+│   │       │   ├── 2-way_classification_validation_confusion_matrix.png
+│   │       │   ├── 2-way_classification_validation_precision_recall_curve.png
+│   │       │   ├── 2-way_classification_validation_roc_curve.png
+│   │       │   ├── 3-way_classification_test_confusion_matrix.png
+│   │       │   ├── 3-way_classification_test_multiclass_precision_recall_curve.png
+│   │       │   ├── 3-way_classification_test_multiclass_roc_curve.png
+│   │       │   ├── 3-way_classification_validation_confusion_matrix.png
+│   │       │   ├── 3-way_classification_validation_multiclass_precision_recall_curve.png
+│   │       │   └── 3-way_classification_validation_multiclass_roc_curve.png
+│   │       ├── logs
+│   │       └── metrics
+│   │           ├── 2-way_classification_test_metrics.json
+│   │           ├── 2-way_classification_validation_metrics.json
+│   │           ├── 3-way_classification_test_metrics.json
+│   │           └── 3-way_classification_validation_metrics.json
+│   ├── images
+│   │   ├── class_distribution_2_way_label.png
+│   │   ├── histogram_num_comments.png
+│   │   ├── validation_2_way_classification_report.png
+│   │   ├── validation_2_way_confusion_matrix.png
+│   │   ├── validation_2_way_precision_recall_curve.png
+│   │   ├── validation_2_way_roc_curve.png
+│   │   ├── validation_3_way_classification_report.png
+│   │   └── validation_3_way_confusion_matrix.png
+│   ├── model_weights.pth
+│   └── VILT
+│       ├── 2-way_classification_model.pth
+│       ├── 2-way_classification_test_metrics.json
+│       ├── 2-way_classification_val_metrics.json
+│       ├── 3-way_classification_model.pth
+│       ├── 3-way_classification_test_metrics.json
+│       ├── 3-way_classification_val_metrics.json
+│       └── VILT
+│           ├── images
+│           │   ├── 2-way_classification_confusion_matrix.png
+│           │   ├── 2-way_classification_pr_curve.png
+│           │   ├── 2-way_classification_roc_curve.png
+│           │   ├── 3-way_classification_confusion_matrix.png
+│           │   ├── 3-way_classification_pr_curve.png
+│           │   └── 3-way_classification_roc_curve.png
+│           ├── logs
+│           └── metrics
+├── scaler.pkl
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── test_clip_model.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_data_analysis.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_dataset.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_evaluator.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_helpers.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_main.cpython-39-pytest-8.3.4.pyc
+│   │   ├── test_pre_processing.cpython-39-pytest-8.3.4.pyc
+│   │   └── test_trainer.cpython-39-pytest-8.3.4.pyc
+│   ├── test_clip_model.py
+│   ├── test_data_analysis.py
+│   ├── test_dataset.py
+│   ├── test_evaluator.py
+│   ├── test_helpers.py
+│   ├── test_main.py
+│   ├── test_pre_processing.py
+│   └── test_trainer.py
+├── training
+│   ├── evaluator.py
+│   ├── flava_training.py
+│   ├── __pycache__
+│   │   ├── evaluator.cpython-39.pyc
+│   │   ├── flava_training.cpython-39.pyc
+│   │   ├── trainer.cpython-39.pyc
+│   │   └── vilt_training.cpython-39.pyc
+│   ├── trainer.py
+│   └── vilt_training.py
+├── tuning.py
+└── utils
+    ├── helpers.py
+    ├── logger.py
+    ├── plotting_manager.py
+    ├── plotting.py
+    └── __pycache__
+        ├── helpers.cpython-39.pyc
+        ├── logger.cpython-39.pyc
+        ├── plotting.cpython-39.pyc
+        └── plotting_manager.cpython-39.pyc
+
+44 directories, 159 files

@@ -1,0 +1,18 @@
+# Ignore heavy folders and temp files
+runs/
+logs/
+results/
+data/
+datasets/
+__pycache__/
+nohup.out
+*.log
+*.pkl
+*.pt
+*.pth
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.tsv
+*.npy

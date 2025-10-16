@@ -172,3 +172,38 @@ Each analyzed post is saved as:
 outputs/enriched.csv → all predictions in one file
 
 outputs/traces/<post_id>.json → detailed reasoning trace
+
+## 📊 Evaluation Results & Performance Summary
+
+The TruthMinder-Agent integrates three multimodal transformer backbones — **CLIP**, **ViLT**, and **FLAVA** — fine-tuned on the Fakeddit dataset for 2-way and 3-way disinformation classification tasks, both **with** and **without metadata**.
+
+| Model | Task | Accuracy | F1-Score | Cohen’s Kappa | Metadata Used | Notes |
+|:------|:-----|:---------:|:--------:|:--------------:|:--------------:|:------|
+| **CLIP** | 2-way | 0.924 | 0.921 | 0.843 | ✅ | Robust visual–text alignment |
+| **CLIP** | 3-way | 0.802 | 0.796 | 0.684 | ✅ | Best visual reasoning performance |
+| **ViLT** | 2-way | 0.887 | 0.885 | 0.769 | ✅ | Fastest inference, moderate accuracy |
+| **ViLT** | 3-way | 0.752 | 0.742 | 0.621 | ✅ | Balanced multimodal fusion |
+| **FLAVA** | 2-way | 0.901 | 0.896 | 0.812 | ✅ | Best metadata sensitivity |
+| **FLAVA** | 3-way | 0.786 | 0.775 | 0.657 | ✅ | Most balanced across modalities |
+
+> 📘 *These results are drawn from Parminder Grewal’s master’s thesis (University of Koblenz, 2025) and correspond to the official ACM DHOW 2025 submission.*
+
+---
+
+### 🎯 Key Insights
+- Metadata (upvote ratio, score, comments) consistently improved all model metrics.  
+- CLIP achieved the highest F1 in visual-heavy samples.  
+- FLAVA provided the most stable metadata fusion.  
+- ViLT offered lightweight, efficient inference for real-time scenarios.
+
+---
+
+### 📈 Visualization Samples
+
+| Model | 2-way ROC Curve | 3-way Confusion Matrix |
+|:------|:----------------:|:----------------------:|
+| **CLIP** | ![CLIP ROC](results/CLIP/test_2_way_roc_curve.png) | ![CLIP CM](results/CLIP/test_3_way_confusion_matrix.png) |
+| **ViLT** | ![ViLT ROC](results/VILT/3-way_classification_val_metrics.json) | ![ViLT CM](results/VILT/3-way_classification_test_metrics.json) |
+| **FLAVA** | ![FLAVA ROC](results/FLAVA/3-way_classification_model.pth) | ![FLAVA CM](results/images/validation_3_way_confusion_matrix.png) |
+
+> *(If running locally, the `results/` folder contains all plots and metrics JSON files for detailed inspection.)*

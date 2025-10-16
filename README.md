@@ -136,3 +136,39 @@ This will create:
 outputs/enriched.csv — enriched predictions
 
 outputs/traces/*.json — per-post reasoning trace files
+
+## 🖼️ Example Output & Visualization
+
+When you analyze a post, the agent produces both a **final label** and a **reasoning trace** showing how each layer contributed to the decision.
+
+### 🧾 Example Output (from `outputs/traces/c0xdqy.json`)
+```json
+{
+  "post_id": "c0xdqy",
+  "final_label": "Real",
+  "final_confidence": 0.86,
+  "nli_label": "NEUTRAL_NO_OCR",
+  "consistency_score": 0.5886,
+  "clip_cos": 0.6477,
+  "ocr_text": "",
+  "upvote_ratio": "-0.69",
+  "score": "-0.11",
+  "num_comments": "-0.12"
+}
+
+
+🧠 Interpretation
+
+Perception Layer: CLIP + ViLT + FLAVA predict probabilities for Real, Satire/Mixed, and Fake.
+
+Evidence Layer: No OCR text detected (ocr_text = "").
+
+Consistency Layer: NLI judged the image–caption relation as neutral.
+
+Arbiter Layer: Aggregated model probabilities → highest confidence = Real (0.86).
+
+Each analyzed post is saved as:
+
+outputs/enriched.csv → all predictions in one file
+
+outputs/traces/<post_id>.json → detailed reasoning trace

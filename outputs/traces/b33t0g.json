@@ -1,0 +1,51 @@
+{
+  "post_id": "b33t0g",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.01578556001186371,
+        "SatireMixed": 0.0002134444221155718,
+        "Fake": 0.9840009212493896
+      },
+      "vilt": {
+        "Real": 0.2034744769334793,
+        "SatireMixed": 0.012175014242529869,
+        "Fake": 0.7843504548072815
+      },
+      "flava": {
+        "Real": 0.9802400469779968,
+        "SatireMixed": 0.007806138135492802,
+        "Fake": 0.011953840032219887
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Hitpeel iescApapa ee tee a uf",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.6559798717498779,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.63828544318676,
+      "consistency_score": 0.5414856329560279
+    }
+  ],
+  "final": {
+    "post_id": "b33t0g",
+    "final_label": "Uncertain",
+    "final_confidence": 0.595924210006992,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5414856329560279,
+    "clip_cos": 0.63828544318676,
+    "ocr_text": "Hitpeel iescApapa ee tee a uf",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.12232739174037656",
+    "num_comments": "-0.12476323641396671"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "bn70bv",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.014688334427773952,
+        "SatireMixed": 0.018693553283810616,
+        "Fake": 0.9666181206703186
+      },
+      "vilt": {
+        "Real": 0.7597053050994873,
+        "SatireMixed": 0.02080703340470791,
+        "Fake": 0.21948762238025665
+      },
+      "flava": {
+        "Real": 0.0041545783169567585,
+        "SatireMixed": 0.06708552688360214,
+        "Fake": 0.9287599325180054
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "RIS ING",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.5913335680961609,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6538585722446442,
+      "consistency_score": 0.19615757167339323
+    }
+  ],
+  "final": {
+    "post_id": "bn70bv",
+    "final_label": "Fake",
+    "final_confidence": 0.6867246794899305,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19615757167339323,
+    "clip_cos": 0.6538585722446442,
+    "ocr_text": "RIS ING",
+    "upvote_ratio": "-0.8727115546221728",
+    "score": "-0.12884229717708628",
+    "num_comments": "-0.12476323641396671"
+  }
+}

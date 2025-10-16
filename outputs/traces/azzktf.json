@@ -1,0 +1,51 @@
+{
+  "post_id": "azzktf",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0006771625485271215,
+        "SatireMixed": 0.000442190415924415,
+        "Fake": 0.9988806843757629
+      },
+      "vilt": {
+        "Real": 0.2641393542289734,
+        "SatireMixed": 0.01945302076637745,
+        "Fake": 0.7164076566696167
+      },
+      "flava": {
+        "Real": 0.007545989006757736,
+        "SatireMixed": 0.04734867066144943,
+        "Fake": 0.9451053738594055
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ohh dal OO Tk SeedCCC eTNS oeUnder Video uNenaPresa",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.6466836929321289,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.632280245423317,
+      "consistency_score": 0.539684073626995
+    }
+  ],
+  "final": {
+    "post_id": "azzktf",
+    "final_label": "Fake",
+    "final_confidence": 0.8891789493858814,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.539684073626995,
+    "clip_cos": 0.632280245423317,
+    "ocr_text": "ohh dal OO Tk SeedCCC eTNS oeUnder Video uNenaPresa",
+    "upvote_ratio": "0.855010790396182",
+    "score": "-0.12069866538119912",
+    "num_comments": "-0.13165234161815034"
+  }
+}

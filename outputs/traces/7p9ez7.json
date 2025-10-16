@@ -1,0 +1,51 @@
+{
+  "post_id": "7p9ez7",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00019141101802233607,
+        "SatireMixed": 0.0019339130958542228,
+        "Fake": 0.9978747367858887
+      },
+      "vilt": {
+        "Real": 0.045230522751808167,
+        "SatireMixed": 0.20026245713233948,
+        "Fake": 0.7545070052146912
+      },
+      "flava": {
+        "Real": 0.004647577181458473,
+        "SatireMixed": 0.05577076971530914,
+        "Fake": 0.9395816922187805
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "COO ee La CLUS",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.7746025323867798,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6504928022623062,
+      "consistency_score": 0.19514784067869187
+    }
+  ],
+  "final": {
+    "post_id": "7p9ez7",
+    "final_label": "Fake",
+    "final_confidence": 0.8790300151805083,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19514784067869187,
+    "clip_cos": 0.6504928022623062,
+    "ocr_text": "COO ee La CLUS",
+    "upvote_ratio": "0.30941426039038616",
+    "score": "-0.12069866538119912",
+    "num_comments": "-0.13165234161815034"
+  }
+}

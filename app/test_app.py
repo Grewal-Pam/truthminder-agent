@@ -1,120 +1,156 @@
+# truthmindr_agent/app/test_app.py
+import os
 import streamlit as st
-import torch
-import shap
-import numpy as np
+import pandas as pd
 from PIL import Image
-import requests
-import matplotlib.pyplot as plt
-from transformers import FlavaModel, FlavaProcessor
-from models.flava_model import FlavaClassificationModel
 
-# Load FLAVA model
+# Environment fixes
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
+st.set_page_config(page_title="TruthMindr", layout="wide")
+st.title("📰 TruthMindr: Multimodal Disinformation Detector")
+st.markdown("🚀 *Please wait a moment while models initialize (first run may take 1–2 mins)*")
+
+# -------------------------------------------------------------------
+# Cache heavy imports (run_row, rephrase_result)
+# -------------------------------------------------------------------
 @st.cache_resource
-def load_model():
-    flava_model = FlavaModel.from_pretrained("facebook/flava-full")
-    return FlavaClassificationModel(
-        flava_model=flava_model,
-        num_labels=2,
-        metadata_dim=3,
-        include_metadata=True
-    )
+def load_runner():
+    from agent.runner import run_row
+    return run_row
 
-# Helper to load image
-def load_image(url):
+@st.cache_resource
+def load_rephraser():
+    from tools.rephraser import rephrase_result
+    return rephrase_result
+
+run_row = load_runner()
+rephrase_result = load_rephraser()
+
+# Initialize session state to prevent unnecessary re-runs
+if "analysis_done" not in st.session_state:
+    st.session_state.analysis_done = False
+if "last_result" not in st.session_state:
+    st.session_state.last_result = None
+if "last_trace" not in st.session_state:
+    st.session_state.last_trace = None
+
+# -------------------------------------------------------------------
+# Tabs
+# -------------------------------------------------------------------
+tab1, tab2 = st.tabs(["📂 Explore Saved Posts", "🧪 Try Your Own Post"])
+
+# -------------------------------------------------------------------
+# TAB 1: Explore pre-annotated enriched.csv
+# -------------------------------------------------------------------
+with tab1:
+    st.subheader("Explore Pre-Annotated Posts")
+
     try:
-        response = requests.get(url, stream=True)
-        image = Image.open(response.raw).convert("RGB")
-        image = image.resize((224, 224))  # Resize to match FLAVA input size
-        return image
-    except Exception as e:
-        st.error(f"Failed to load image from URL: {e}")
-        return None
+        df = pd.read_csv("outputs/enriched.csv")
+        selected_id = st.selectbox("Choose a Post ID", df["post_id"].unique())
 
-# SHAP explanation function
-def explain_prediction(model, text_input, image_input, metadata_input, training_data):
-    def model_predict(metadata):
-        # Convert metadata to tensor
-        metadata_tensor = torch.tensor(metadata).float().to("cpu")
+        if selected_id:
+            row = df[df["post_id"] == selected_id].iloc[0].to_dict()
 
-        # Dummy image and text handling
-        text_tensor = [text_input] if text_input else None
-        image_tensor = (
-            torch.tensor(np.array(image))
-            .unsqueeze(0)
-            .permute(0, 3, 1, 2)
-            .float()
-            if image else None
-        )
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                if row.get("image_url") and str(row["image_url"]).startswith("http"):
+                    st.image(row["image_url"], caption=row["clean_title"], use_container_width=True)
 
-        with torch.no_grad():
-            output = model.predict(
-                text=text_tensor,
-                image=image_tensor,
-                metadata=metadata_tensor.tolist(),
-                processor=None,
-                device="cpu"
-            )
-        
-        # Debugging
-        st.write(f"Model output: {output}")
+            with col2:
+                st.write(f"### {row['clean_title']}")
+                st.markdown(f"**Final Label:** `{row['final_label']}`")
+                st.markdown(f"**Confidence:** {row['final_confidence']:.2f}")
+                st.caption(f"Consistency Score: {row['consistency_score']:.2f}, NLI: {row['nli_label']}")
 
-        if not output or "probs" not in output:
-            raise ValueError("Model did not return valid probabilities.")
-    
-        probs = np.array(output["probs"])
-        st.write(f"Probabilities shape: {probs.shape}, Probabilities: {probs}")
-        return probs
+            explanation = rephrase_result(row)
+            st.info(explanation)
 
+    except FileNotFoundError:
+        st.error("⚠️ No enriched.csv found in outputs/. Run the agent first.")
 
-    # Initialize SHAP explainer
-    try:
-        explainer = shap.KernelExplainer(model_predict, training_metadata)
-        st.write("SHAP Explainer initialized successfully.")
-    except Exception as e:
-        raise RuntimeError(f"Failed to initialize SHAP explainer: {e}")
-    st.write(f"Metadata input: {metadata_input}")
-    st.write(f"Training data shape: {training_data.shape}")
-    # Generate SHAP values
-    try:
-        shap_values = explainer.shap_values(metadata_input)
-        st.write(f"SHAP values: {shap_values}")
-        shap.summary_plot(shap_values, metadata_input)
-        return plt.gcf()
-    except Exception as e:
-        raise RuntimeError(f"Failed to generate SHAP values: {e}")
+# -------------------------------------------------------------------
+# TAB 2: Try a new post
+# -------------------------------------------------------------------
+with tab2:
+    st.subheader("Test a New News Post")
 
+    clean_title = st.text_input("News Title", "")
+    task = st.selectbox("Classification Task", ["3way", "2way"])
 
-# Streamlit UI
-st.title("SHAP Explanation with FLAVA Model")
+    uploaded_img = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
+    image_url = st.text_input("...or paste an Image URL")
 
-# Load the model
-model = load_model()
+    st.markdown("### Optional Metadata")
+    num_comments = st.number_input("Number of Comments", value=0)
+    score = st.number_input("Score", value=0)
+    upvote_ratio = st.number_input("Upvote Ratio", value=0.0, step=0.01)
 
-# Input values
-text_input = st.text_input("Text Input", "there is a longlegged distressed creature in my ice cream")
-image_url = "https://external-preview.redd.it/Djew2GzV41YGXmfFSvwa3n3Mv91ttT1DrcAFBqcUFmA.jpg?width=320&crop=smart&auto=webp&s=5977b8d905553b61fb4a63c19d577e057bbb911d"
-metadata = {
-    "num_comments": 0.0,
-    "score": 3,
-    "upvote_ratio": 0.72
-}
+    # 🔍 Analyze button — only run models when pressed
+    if st.button("🔍 Analyze"):
+        if not clean_title or (not uploaded_img and not image_url):
+            st.error("Please provide a Title and either upload an Image or paste URL.")
+        else:
+            st.session_state.analysis_done = True
 
-# Load and display the image
-image = load_image(image_url)
-if image:
-    st.image(image, caption="Input Image")
+            if uploaded_img:
+                img = Image.open(uploaded_img).convert("RGB")
+                local_path = "temp_upload.png"
+                img.save(local_path)
+                image_input = local_path
+            else:
+                image_input = image_url
 
-# Prepare metadata and training data
-training_metadata = np.random.rand(100, 3)  # Dummy training metadata
-metadata_input = np.array([list(metadata.values())])  # Convert to array
+            row = {
+                "id": "user_post",
+                "clean_title": clean_title,
+                "image_url": image_input,
+                "num_comments": num_comments,
+                "score": score,
+                "upvote_ratio": upvote_ratio,
+                "2_way_label": 1,
+                "3_way_label": 0
+            }
 
+            with st.spinner("Running CLIP, ViLT, FLAVA + Arbiter..."):
+                result, trace = run_row(row)
 
+            # Cache results in session_state
+            st.session_state.last_result = result
+            st.session_state.last_trace = trace
 
-# Generate SHAP explanation
-if st.button("Run SHAP Explanation"):
-    try:
-        shap_fig = explain_prediction(model, text_input, image, metadata_input, training_metadata)
-        st.pyplot(shap_fig)
-    except Exception as e:
-        st.error(f"Failed to generate SHAP explanation: {e}")
+    # 💾 Display results only if analysis is complete
+    if st.session_state.analysis_done and st.session_state.last_result:
+        result = st.session_state.last_result
+        trace = st.session_state.last_trace
 
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            if uploaded_img:
+                st.image(Image.open("temp_upload.png"), caption="Uploaded Image", use_container_width=True)
+            elif image_url:
+                st.image(image_url, caption="From URL", use_container_width=True)
+
+        with col2:
+            st.write(f"### {clean_title}")
+            st.markdown(f"**Final Label:** `{result['final_label']}`")
+            st.markdown(f"**Confidence:** {result['final_confidence']:.2f}")
+            st.caption(f"Consistency Score: {result['consistency_score']:.2f}, NLI: {result['nli_label']}")
+
+        explanation = rephrase_result(result)
+        st.success("✅ Analysis Complete")
+        st.info(explanation)
+
+        with st.expander("🔬 Technical Trace"):
+            st.json(trace)
+
+        # Add model comparison
+        if "steps" in trace and len(trace["steps"]) > 0:
+            votes = pd.DataFrame([
+                {'Model': 'CLIP', 'Real': trace['steps'][0]['clip']['Real'], 'Fake': trace['steps'][0]['clip']['Fake']},
+                {'Model': 'ViLT', 'Real': trace['steps'][0]['vilt']['Real'], 'Fake': trace['steps'][0]['vilt']['Fake']},
+                {'Model': 'FLAVA', 'Real': trace['steps'][0]['flava']['Real'], 'Fake': trace['steps'][0]['flava']['Fake']}
+            ])
+            st.bar_chart(votes.set_index("Model"))

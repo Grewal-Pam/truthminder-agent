@@ -1,0 +1,51 @@
+{
+  "post_id": "53zbtd",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.44386032223701477,
+        "SatireMixed": 0.0005344580858945847,
+        "Fake": 0.5556051731109619
+      },
+      "vilt": {
+        "Real": 0.3853970766067505,
+        "SatireMixed": 0.023615222424268723,
+        "Fake": 0.5909877419471741
+      },
+      "flava": {
+        "Real": 0.9859302639961243,
+        "SatireMixed": 0.006637895945459604,
+        "Fake": 0.007431953679770231
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "re ee ae ee Oe tee enealbum featuring them was found dumpedina bin in Holmfirth  wed like to give itback!",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.928968608379364,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6568809002637863,
+      "consistency_score": 0.19706427007913588
+    }
+  ],
+  "final": {
+    "post_id": "53zbtd",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5868864104847112,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19706427007913588,
+    "clip_cos": 0.6568809002637863,
+    "ocr_text": "re ee ae ee Oe tee enealbum featuring them was found dumpedina bin in Holmfirth  wed like to give itback!",
+    "upvote_ratio": "-0.9636443096231389",
+    "score": "-0.12297888228404753",
+    "num_comments": "-0.11787413120978307"
+  }
+}

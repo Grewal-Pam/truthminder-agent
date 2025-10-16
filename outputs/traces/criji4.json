@@ -1,0 +1,51 @@
+{
+  "post_id": "criji4",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00022690706828143448,
+        "SatireMixed": 0.0003488283255137503,
+        "Fake": 0.9994243383407593
+      },
+      "vilt": {
+        "Real": 0.03192814439535141,
+        "SatireMixed": 0.35221627354621887,
+        "Fake": 0.6158556342124939
+      },
+      "flava": {
+        "Real": 0.004365183878690004,
+        "SatireMixed": 0.06355240941047668,
+        "Fake": 0.93208247423172
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "SONIC YOUTH",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.5055147409439087,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6650401949882507,
+      "consistency_score": 0.5495120584964752
+    }
+  ],
+  "final": {
+    "post_id": "criji4",
+    "final_label": "Fake",
+    "final_confidence": 0.8520915391047796,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5495120584964752,
+    "clip_cos": 0.6650401949882507,
+    "ocr_text": "SONIC YOUTH",
+    "upvote_ratio": "-0.23618226961541072",
+    "score": "-0.1285165519052508",
+    "num_comments": "-0.1454305520265176"
+  }
+}

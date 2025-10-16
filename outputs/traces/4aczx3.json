@@ -1,0 +1,51 @@
+{
+  "post_id": "4aczx3",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9993422627449036,
+        "SatireMixed": 3.97017938666977e-05,
+        "Fake": 0.0006181086646392941
+      },
+      "vilt": {
+        "Real": 0.9874305725097656,
+        "SatireMixed": 0.003048482583835721,
+        "Fake": 0.009520890191197395
+      },
+      "flava": {
+        "Real": 0.9890528321266174,
+        "SatireMixed": 0.006264534778892994,
+        "Fake": 0.004682691302150488
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ES RNY Paranacan  ",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.5283417701721191,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6556855589151382,
+      "consistency_score": 0.5467056676745414
+    }
+  ],
+  "final": {
+    "post_id": "4aczx3",
+    "final_label": "Real",
+    "final_confidence": 0.9947442291875681,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5467056676745414,
+    "clip_cos": 0.6556855589151382,
+    "ocr_text": "ES RNY Paranacan  ",
+    "upvote_ratio": "-0.05431675961347842",
+    "score": "-0.11092630722613454",
+    "num_comments": "-0.09031771039304853"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "4frghj",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0007926298421807587,
+        "SatireMixed": 0.9966212511062622,
+        "Fake": 0.002586028538644314
+      },
+      "vilt": {
+        "Real": 0.011692284606397152,
+        "SatireMixed": 0.628318190574646,
+        "Fake": 0.3599895238876343
+      },
+      "flava": {
+        "Real": 0.0038997079245746136,
+        "SatireMixed": 0.11385039985179901,
+        "Fake": 0.8822498321533203
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "The Happy Manilais the Man at the     Apply at the Armoury ofa9 Bleury Street .MONTREAL",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.7548121213912964,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6460867822170258,
+      "consistency_score": 0.19382603466510773
+    }
+  ],
+  "final": {
+    "post_id": "4frghj",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5612261759241423,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19382603466510773,
+    "clip_cos": 0.6460867822170258,
+    "ocr_text": "The Happy Manilais the Man at the     Apply at the Armoury ofa9 Bleury Street .MONTREAL",
+    "upvote_ratio": "1.1278090553990805",
+    "score": "-0.02948998926726294",
+    "num_comments": "0.10257723532409327"
+  }
+}

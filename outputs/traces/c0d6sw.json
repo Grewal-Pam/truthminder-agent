@@ -1,0 +1,51 @@
+{
+  "post_id": "c0d6sw",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00045678799506276846,
+        "SatireMixed": 0.0034421554300934076,
+        "Fake": 0.9961010217666626
+      },
+      "vilt": {
+        "Real": 0.003936209250241518,
+        "SatireMixed": 0.34666845202445984,
+        "Fake": 0.6493953466415405
+      },
+      "flava": {
+        "Real": 0.0039603253826498985,
+        "SatireMixed": 0.11892040818929672,
+        "Fake": 0.877119243144989
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "stole itn",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.6032016277313232,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6308256685733795,
+      "consistency_score": 0.18924770057201384
+    }
+  ],
+  "final": {
+    "post_id": "c0d6sw",
+    "final_label": "Fake",
+    "final_confidence": 0.8222267325520516,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.18924770057201384,
+    "clip_cos": 0.6308256685733795,
+    "ocr_text": "stole itn",
+    "upvote_ratio": "0.6731452803942507",
+    "score": "-0.1167897221191733",
+    "num_comments": "-0.12476323641396671"
+  }
+}

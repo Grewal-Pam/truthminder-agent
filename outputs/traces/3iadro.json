@@ -1,0 +1,51 @@
+{
+  "post_id": "3iadro",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.33,
+        "SatireMixed": 0.34,
+        "Fake": 0.33
+      },
+      "vilt": {
+        "Real": 0.33,
+        "SatireMixed": 0.34,
+        "Fake": 0.33
+      },
+      "flava": {
+        "Real": 0.9872258305549622,
+        "SatireMixed": 0.007047906517982483,
+        "Fake": 0.005726304836571217
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "",
+      "no_ocr": true
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL_NO_OCR",
+        "score": 1.0,
+        "consistency_score": 0.5,
+        "no_ocr": true
+      },
+      "clip_cos": "",
+      "consistency_score": 0.5
+    }
+  ],
+  "final": {
+    "post_id": "3iadro",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5490752768516541,
+    "nli_label": "NEUTRAL_NO_OCR",
+    "consistency_score": 0.5,
+    "clip_cos": "",
+    "ocr_text": "",
+    "upvote_ratio": "0.7640780353952159",
+    "score": "-0.02134635747137578",
+    "num_comments": "0.19213560297848054"
+  }
+}

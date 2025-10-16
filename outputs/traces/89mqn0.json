@@ -1,0 +1,51 @@
+{
+  "post_id": "89mqn0",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00011047475709347054,
+        "SatireMixed": 0.00028426203061826527,
+        "Fake": 0.9996052384376526
+      },
+      "vilt": {
+        "Real": 0.003272139932960272,
+        "SatireMixed": 0.011744089424610138,
+        "Fake": 0.9849837422370911
+      },
+      "flava": {
+        "Real": 0.004726871382445097,
+        "SatireMixed": 0.05556001514196396,
+        "Fake": 0.939713180065155
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Willy Wonka 5 minutes before openingthe gate of his factory",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.800385594367981,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6525776237249374,
+      "consistency_score": 0.5457732871174812
+    }
+  ],
+  "final": {
+    "post_id": "89mqn0",
+    "final_label": "Fake",
+    "final_confidence": 0.9775137841403484,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5457732871174812,
+    "clip_cos": 0.6525776237249374,
+    "ocr_text": "Willy Wonka 5 minutes before openingthe gate of his factory",
+    "upvote_ratio": "0.6731452803942507",
+    "score": "-0.11222928831347648",
+    "num_comments": "-0.1454305520265176"
+  }
+}

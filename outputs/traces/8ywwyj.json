@@ -1,0 +1,51 @@
+{
+  "post_id": "8ywwyj",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0003374017833266407,
+        "SatireMixed": 0.0005339994095265865,
+        "Fake": 0.9991286396980286
+      },
+      "vilt": {
+        "Real": 0.00404238048940897,
+        "SatireMixed": 0.023569684475660324,
+        "Fake": 0.972387969493866
+      },
+      "flava": {
+        "Real": 0.003881627693772316,
+        "SatireMixed": 0.08334792405366898,
+        "Fake": 0.9127704501152039
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "CHILD OF EXODUSese",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.6367416977882385,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6637973487377167,
+      "consistency_score": 0.5491392046213149
+    }
+  ],
+  "final": {
+    "post_id": "8ywwyj",
+    "final_label": "Fake",
+    "final_confidence": 0.9643773720463117,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5491392046213149,
+    "clip_cos": 0.6637973487377167,
+    "ocr_text": "CHILD OF EXODUSese",
+    "upvote_ratio": "1.3096745654010127",
+    "score": "-0.1259105897305669",
+    "num_comments": "-0.138541446822334"
+  }
+}

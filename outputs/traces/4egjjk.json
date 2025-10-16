@@ -1,0 +1,51 @@
+{
+  "post_id": "4egjjk",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9997847676277161,
+        "SatireMixed": 6.686712731607258e-05,
+        "Fake": 0.0001484390813857317
+      },
+      "vilt": {
+        "Real": 0.9808701872825623,
+        "SatireMixed": 0.006387027446180582,
+        "Fake": 0.012742815539240837
+      },
+      "flava": {
+        "Real": 0.9896764159202576,
+        "SatireMixed": 0.006245996803045273,
+        "Fake": 0.00407759053632617
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "EYEWITNESSGC NEWS",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.5063218474388123,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.5962163507938385,
+      "consistency_score": 0.5288649052381516
+    }
+  ],
+  "final": {
+    "post_id": "4egjjk",
+    "final_label": "Real",
+    "final_confidence": 0.9918423512578011,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5288649052381516,
+    "clip_cos": 0.5962163507938385,
+    "ocr_text": "EYEWITNESSGC NEWS",
+    "upvote_ratio": "-0.23618226961541072",
+    "score": "-0.12558484445873141",
+    "num_comments": "-0.11098502600559944"
+  }
+}

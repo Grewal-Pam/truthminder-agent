@@ -1,0 +1,51 @@
+{
+  "post_id": "60jhhz",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00032773392740637064,
+        "SatireMixed": 0.00016300495190080255,
+        "Fake": 0.9995092153549194
+      },
+      "vilt": {
+        "Real": 0.6817951202392578,
+        "SatireMixed": 0.007981710135936737,
+        "Fake": 0.3102231025695801
+      },
+      "flava": {
+        "Real": 0.9877839684486389,
+        "SatireMixed": 0.0065475935116410255,
+        "Fake": 0.005668485537171364
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Farmer Discovers 4 Kittens In Barn, But When TheyGrow He Realizes Theyre Not House Cats",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.9905027151107788,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6589484810829163,
+      "consistency_score": 0.8976845443248749
+    }
+  ],
+  "final": {
+    "post_id": "60jhhz",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5804966801979268,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.8976845443248749,
+    "clip_cos": 0.6589484810829163,
+    "ocr_text": "Farmer Discovers 4 Kittens In Barn, But When TheyGrow He Realizes Theyre Not House Cats",
+    "upvote_ratio": "1.0368763003981143",
+    "score": "-0.11027481668246357",
+    "num_comments": "-0.12476323641396671"
+  }
+}

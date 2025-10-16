@@ -1,0 +1,51 @@
+{
+  "post_id": "38zki8",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0011788966367021203,
+        "SatireMixed": 0.00232812506146729,
+        "Fake": 0.9964929223060608
+      },
+      "vilt": {
+        "Real": 0.00540513638406992,
+        "SatireMixed": 0.04021068289875984,
+        "Fake": 0.9543841481208801
+      },
+      "flava": {
+        "Real": 0.5088603496551514,
+        "SatireMixed": 0.046282801777124405,
+        "Fake": 0.44485679268836975
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ALOT OF PEOPLE CRYWHEN THEY CUT SeeCEUTAOEE LEO",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.4121525287628174,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6048771888017654,
+      "consistency_score": 0.5314631566405296
+    }
+  ],
+  "final": {
+    "post_id": "38zki8",
+    "final_label": "Fake",
+    "final_confidence": 0.8004657437702021,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5314631566405296,
+    "clip_cos": 0.6048771888017654,
+    "ocr_text": "ALOT OF PEOPLE CRYWHEN THEY CUT SeeCEUTAOEE LEO",
+    "upvote_ratio": "-1.4183080846279696",
+    "score": "-0.12688782554607336",
+    "num_comments": "-0.1454305520265176"
+  }
+}

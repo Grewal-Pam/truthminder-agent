@@ -1,0 +1,51 @@
+{
+  "post_id": "8l2fw4",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.000914147007279098,
+        "SatireMixed": 0.00014634667604696006,
+        "Fake": 0.9989394545555115
+      },
+      "vilt": {
+        "Real": 0.6390898823738098,
+        "SatireMixed": 0.00904841162264347,
+        "Fake": 0.35186174511909485
+      },
+      "flava": {
+        "Real": 0.006848535500466824,
+        "SatireMixed": 0.0467100590467453,
+        "Fake": 0.9464413523674011
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ONG EYED WONDER",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.800574779510498,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6620646417140961,
+      "consistency_score": 0.8986193925142287
+    }
+  ],
+  "final": {
+    "post_id": "8l2fw4",
+    "final_label": "Fake",
+    "final_confidence": 0.7896646808981895,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.8986193925142287,
+    "clip_cos": 0.6620646417140961,
+    "ocr_text": "ONG EYED WONDER",
+    "upvote_ratio": "0.49127977039231846",
+    "score": "-0.12786506136157982",
+    "num_comments": "-0.1454305520265176"
+  }
+}

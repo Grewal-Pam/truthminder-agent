@@ -1,0 +1,51 @@
+{
+  "post_id": "c8zyrz",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0012611818965524435,
+        "SatireMixed": 0.0006872612866573036,
+        "Fake": 0.9980515241622925
+      },
+      "vilt": {
+        "Real": 0.006757397670298815,
+        "SatireMixed": 0.013199012726545334,
+        "Fake": 0.9800436496734619
+      },
+      "flava": {
+        "Real": 0.0058643268421292305,
+        "SatireMixed": 0.04956318065524101,
+        "Fake": 0.9445725679397583
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "THE LEFT HOOKSnea",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.9344667196273804,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6611838787794113,
+      "consistency_score": 0.5483551636338233
+    }
+  ],
+  "final": {
+    "post_id": "c8zyrz",
+    "final_label": "Fake",
+    "final_confidence": 0.9771238904098669,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5483551636338233,
+    "clip_cos": 0.6611838787794113,
+    "ocr_text": "THE LEFT HOOKSnea",
+    "upvote_ratio": "0.21848150538942002",
+    "score": "-0.12688782554607336",
+    "num_comments": "-0.1454305520265176"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "6fyxz9",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9762393236160278,
+        "SatireMixed": 0.00023693051480222493,
+        "Fake": 0.023523682728409767
+      },
+      "vilt": {
+        "Real": 0.029906056821346283,
+        "SatireMixed": 0.016733385622501373,
+        "Fake": 0.9533605575561523
+      },
+      "flava": {
+        "Real": 0.011322854086756706,
+        "SatireMixed": 0.04239073023200035,
+        "Fake": 0.9462864398956299
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "EeOM yung ae",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.6907481551170349,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6365332007408142,
+      "consistency_score": 0.19095996022224426
+    }
+  ],
+  "final": {
+    "post_id": "6fyxz9",
+    "final_label": "Fake",
+    "final_confidence": 0.622514491006732,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19095996022224426,
+    "clip_cos": 0.6365332007408142,
+    "ocr_text": "EeOM yung ae",
+    "upvote_ratio": "-0.9636443096231389",
+    "score": "-0.13014527826442823",
+    "num_comments": "-0.1454305520265176"
+  }
+}

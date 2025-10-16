@@ -36,8 +36,12 @@ class FLAVADataset(Dataset):
         self.include_metadata = include_metadata
         self.metadata_columns = metadata_columns if metadata_columns else []
 
+        #for col in self.metadata_columns:
+            #self.dataframe[col] = pd.to_numeric(self.dataframe[col], errors='coerce')
+
         for col in self.metadata_columns:
-            self.dataframe[col] = pd.to_numeric(self.dataframe[col], errors='coerce')
+            self.dataframe[col] = pd.to_numeric(self.dataframe[col], errors='coerce').fillna(0.0)
+
 
     def __len__(self):
         return len(self.dataframe)
@@ -47,10 +51,15 @@ class FLAVADataset(Dataset):
         text = row['clean_title']
         image = row.get('image_url', None)
         #image = row['image_url']
-        if image is None or pd.isna(image):
-            logger.error(f"Missing image URL in row {idx}: {row}")
+        
+        #if image is None or pd.isna(image):
+            #logger.error(f"Missing image URL in row {idx}: {row}")
             #raise ValueError(f"Missing image URL in row {idx}")
-            return None  # Skip this row
+            #return None  # Skip this row
+        if image is None or pd.isna(image):
+            logger.warning(f"Missing image URL in row {idx}. Using blank fallback.")
+            image = Image.new('RGB', (224, 224), color='white')
+
         
         label = torch.tensor(row[self.label_type], dtype=torch.long)
         metadata_values = (
@@ -60,10 +69,15 @@ class FLAVADataset(Dataset):
 
         # Fetch and preprocess the image
         image = preprocess_image(image)
-        if image is None:
-            logger.error(f"Could not process image at URL: {image} in row {idx}")
+        #if image is None:
+           # logger.error(f"Could not process image at URL: {image} in row {idx}")
             #raise ValueError(f"Could not process image at URL: {image} in row {idx}")
-            return None
+            #return None
+        
+        if image is None:
+            logger.warning(f"Failed to fetch/parse image. Using blank fallback for row {idx}.")
+            image = Image.new('RGB', (224, 224), color='white')
+
         # Ensure the image tensor is properly shaped
         image_tensor = self.processor(images=image, return_tensors="pt")["pixel_values"].squeeze(0)
         # Ensure pixel_values is 4D (batch_size, channels, height, width)
@@ -99,40 +113,6 @@ def get_flava_dataloader(df, processor, label_type, batch_size, include_metadata
 
     dataset = FLAVADataset(df, processor, label_type, include_metadata, metadata_columns)
     return DataLoader(dataset, batch_size=batch_size, shuffle=True, collate_fn= collate_fn)
-
-def collate_fn_deletelaterifbelowcollateworks(batch):
-    # Filter out None values before processing
-    batch = [item for item in batch if item is not None and item['labels'].numel() > 0]  
-    row_indices = torch.stack([item["row_index"] for item in batch])
-
-    
-    if len(batch) == 0:
-        return None  # Return None if the entire batch is empty
-    
-    input_ids = torch.cat([item['input_ids'] for item in batch], dim=0)
-    attention_mask = torch.cat([item['attention_mask'] for item in batch], dim=0)
-    pixel_values = torch.cat(
-        [item['pixel_values'].unsqueeze(0) if item['pixel_values'].dim() == 3 else item['pixel_values'] for item in batch],
-        dim=0
-    )
-    labels = torch.cat([item['labels'].unsqueeze(0) if item['labels'].dim() == 0 else item['labels'] for item in batch], dim=0)
-
-    metadata = (
-        torch.stack([item['metadata'] for item in batch], dim=0)
-        if 'metadata' in batch[0] else torch.tensor([], dtype=torch.float32)
-    )
-    
-    logger.info(f"Collated batch, input_ids shape: {input_ids.shape}, labels shape: {labels.shape}")
-
-    return {
-        'input_ids': input_ids,
-        'attention_mask': attention_mask,
-        'pixel_values': pixel_values,
-        'labels': labels.squeeze(),
-        'metadata': metadata if metadata.nelement() > 0 else None,
-        'row_index': row_indices
-    }
-
 
 def collate_fn(batch):
     # Filter out invalid items

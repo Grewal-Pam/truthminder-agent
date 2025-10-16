@@ -1,0 +1,51 @@
+{
+  "post_id": "cx4okn",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.24982134997844696,
+        "SatireMixed": 0.00014247633225750178,
+        "Fake": 0.7500361204147339
+      },
+      "vilt": {
+        "Real": 0.9676632881164551,
+        "SatireMixed": 0.00271394825540483,
+        "Fake": 0.029622765257954597
+      },
+      "flava": {
+        "Real": 0.005839475430548191,
+        "SatireMixed": 0.04906674474477768,
+        "Fake": 0.9450938105583191
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "",
+      "no_ocr": true
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL_NO_OCR",
+        "score": 1.0,
+        "consistency_score": 0.5,
+        "no_ocr": true
+      },
+      "clip_cos": 0.6609552353620529,
+      "consistency_score": 0.5965731412172317
+    }
+  ],
+  "final": {
+    "post_id": "cx4okn",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5807119538833698,
+    "nli_label": "NEUTRAL_NO_OCR",
+    "consistency_score": 0.5965731412172317,
+    "clip_cos": 0.6609552353620529,
+    "ocr_text": "",
+    "upvote_ratio": "-0.23618226961541072",
+    "score": "-0.12688782554607336",
+    "num_comments": "-0.1454305520265176"
+  }
+}

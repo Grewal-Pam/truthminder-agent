@@ -1,0 +1,51 @@
+{
+  "post_id": "c9piwl",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00017115091031882912,
+        "SatireMixed": 0.000256745726801455,
+        "Fake": 0.9995720982551575
+      },
+      "vilt": {
+        "Real": 0.04568009451031685,
+        "SatireMixed": 0.01738058589398861,
+        "Fake": 0.9369392991065979
+      },
+      "flava": {
+        "Real": 0.005002925172448158,
+        "SatireMixed": 0.05611163005232811,
+        "Fake": 0.9388854503631592
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "HEED pies",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.885166585445404,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6404692381620407,
+      "consistency_score": 0.5421407714486122
+    }
+  ],
+  "final": {
+    "post_id": "c9piwl",
+    "final_label": "Fake",
+    "final_confidence": 0.9609940621952215,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5421407714486122,
+    "clip_cos": 0.6404692381620407,
+    "ocr_text": "HEED pies",
+    "upvote_ratio": "-0.05431675961347842",
+    "score": "-0.12786506136157982",
+    "num_comments": "-0.1454305520265176"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "7ckru0",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00042208292870782316,
+        "SatireMixed": 0.0778287872672081,
+        "Fake": 0.9217491149902344
+      },
+      "vilt": {
+        "Real": 0.01560487225651741,
+        "SatireMixed": 0.1267072558403015,
+        "Fake": 0.8576878905296326
+      },
+      "flava": {
+        "Real": 0.0038540023379027843,
+        "SatireMixed": 0.08578385412693024,
+        "Fake": 0.9103621244430542
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Love Letters From Haw.",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.8972311615943909,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.7021620720624924,
+      "consistency_score": 0.5606486216187476
+    }
+  ],
+  "final": {
+    "post_id": "7ckru0",
+    "final_label": "Fake",
+    "final_confidence": 0.9002386272847652,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5606486216187476,
+    "clip_cos": 0.7021620720624924,
+    "ocr_text": "Love Letters From Haw.",
+    "upvote_ratio": "0.6731452803942507",
+    "score": "-0.12688782554607336",
+    "num_comments": "-0.12476323641396671"
+  }
+}

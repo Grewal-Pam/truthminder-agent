@@ -1,0 +1,51 @@
+{
+  "post_id": "b5k3ie",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9998040795326233,
+        "SatireMixed": 5.7885132264345884e-05,
+        "Fake": 0.00013807258801534772
+      },
+      "vilt": {
+        "Real": 0.7474169731140137,
+        "SatireMixed": 0.011396285146474838,
+        "Fake": 0.24118672311306
+      },
+      "flava": {
+        "Real": 0.9584625363349915,
+        "SatireMixed": 0.011864877305924892,
+        "Fake": 0.02967264875769615
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "F  a i,FS plattedaSa aErteayer ae      lonmet",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.8188269734382629,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.63695028424263,
+      "consistency_score": 0.541085085272789
+    }
+  ],
+  "final": {
+    "post_id": "b5k3ie",
+    "final_label": "Real",
+    "final_confidence": 0.9043596347769102,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.541085085272789,
+    "clip_cos": 0.63695028424263,
+    "ocr_text": "F  a i,FS plattedaSa aErteayer ae      lonmet",
+    "upvote_ratio": "0.5822125253932846",
+    "score": "-0.12721357081790885",
+    "num_comments": "-0.12476323641396671"
+  }
+}

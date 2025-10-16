@@ -1,0 +1,51 @@
+{
+  "post_id": "cadlh3",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.008510028943419456,
+        "SatireMixed": 0.00042474042857065797,
+        "Fake": 0.9910652041435242
+      },
+      "vilt": {
+        "Real": 0.3344856798648834,
+        "SatireMixed": 0.012424040585756302,
+        "Fake": 0.653090238571167
+      },
+      "flava": {
+        "Real": 0.010761700570583344,
+        "SatireMixed": 0.04498312249779701,
+        "Fake": 0.9442551732063293
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "eaeScodPROTECT THE NECKTTA TTT  a",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.9779431819915771,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6946633756160736,
+      "consistency_score": 0.5583990126848221
+    }
+  ],
+  "final": {
+    "post_id": "cadlh3",
+    "final_label": "Fake",
+    "final_confidence": 0.8663074794014295,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5583990126848221,
+    "clip_cos": 0.6946633756160736,
+    "ocr_text": "eaeScodPROTECT THE NECKTTA TTT  a",
+    "upvote_ratio": "0.5822125253932846",
+    "score": "-0.12753931608974434",
+    "num_comments": "-0.138541446822334"
+  }
+}

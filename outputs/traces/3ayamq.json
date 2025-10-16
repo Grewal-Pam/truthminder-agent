@@ -1,0 +1,51 @@
+{
+  "post_id": "3ayamq",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.00030948329367674887,
+        "SatireMixed": 0.0006618379266001284,
+        "Fake": 0.9990286827087402
+      },
+      "vilt": {
+        "Real": 0.0140161057934165,
+        "SatireMixed": 0.011476557701826096,
+        "Fake": 0.9745073318481445
+      },
+      "flava": {
+        "Real": 0.0046118744648993015,
+        "SatireMixed": 0.057054854929447174,
+        "Fake": 0.9383332133293152
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ea Roast BibleLMAO THIS BITCH LOOK LIKEMYSTERY THE SEA HORSE FROMSPONGEBOB",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.539035975933075,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6042477563023567,
+      "consistency_score": 0.531274326890707
+    }
+  ],
+  "final": {
+    "post_id": "3ayamq",
+    "final_label": "Fake",
+    "final_confidence": 0.972499535575509,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.531274326890707,
+    "clip_cos": 0.6042477563023567,
+    "ocr_text": "ea Roast BibleLMAO THIS BITCH LOOK LIKEMYSTERY THE SEA HORSE FROMSPONGEBOB",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.12786506136157982",
+    "num_comments": "-0.0076484479428449055"
+  }
+}

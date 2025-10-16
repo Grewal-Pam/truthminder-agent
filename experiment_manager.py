@@ -37,12 +37,17 @@ import pytesseract
 from torch.utils.data._utils.collate import default_collate
 from training.lr_finder import lr_finder
 
-
+import logging
+experiment_logger = logging.getLogger("experiment_manager")
+experiment_logger.setLevel(logging.INFO)
 from utils.plotting_manager import PlottingManager
 
 # Setting up main logger
 
-
+if not experiment_logger.handlers:
+    h = logging.StreamHandler()
+    h.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    experiment_logger.addHandler(h)
 
 def run_experiment(args):
     """
@@ -435,7 +440,10 @@ def prepare_dataloader(dataframe, processor, metadata_columns, batch_size, shuff
             # Process the image using your preprocessing function
             image = preprocess_image(image_url)
             if image is None:
-                experiment_logger.error(f"Could not process image at URL: {image_url} in row {idx}")
+                #experiment_logger.error(f"Could not process image at URL: {image_url} in row {idx}")
+                # wherever it's used
+                print(f"[experiment_manager] Could not process image at URL: {image_url} in row {idx}")
+
                 return None
 
             # Use the processor to calculate pixel values from the image
@@ -1605,51 +1613,62 @@ def is_placeholder_image(img):
 
     return False
 
-def preprocess_image(url, size=(224, 224)):
+def preprocess_image(url_or_path, size=(224, 224)):
     """
-    Download and preprocess an image from a URL.
-    Returns a resized PIL image in RGB mode if successful, otherwise None.
+    Load and preprocess an image from either a local path or a URL.
+    Returns a resized RGB PIL image, or None if the image cannot be loaded.
     """
-    session = requests.Session()
-    retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[502, 503, 504])
-    session.mount('http://', HTTPAdapter(max_retries=retries))
-    session.mount('https://', HTTPAdapter(max_retries=retries))
-    # Update headers to mimic a real browser
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Connection': 'keep-alive',
-        'Referer': url,  # Simulate a referer header with the URL itself
-    })
+    import warnings, os
+    from urllib.parse import urlparse
+    from PIL import Image
+    import requests
+    from requests.adapters import HTTPAdapter, Retry
+    from io import BytesIO
+
     try:
-        response = session.get(url, timeout=10)
-        response.raise_for_status()  # Raises HTTPError for bad status codes
-        img = Image.open(BytesIO(response.content)).convert("RGB")
+        # ✅ 1. Check if it's a local file
+        if os.path.exists(url_or_path):
+            img = Image.open(url_or_path).convert("RGB")
 
-        # Check if the image is empty
+        # ✅ 2. Otherwise, assume it's a URL and fetch it
+        else:
+            parsed = urlparse(url_or_path)
+            if not parsed.scheme:
+                raise ValueError(f"Invalid URL or path: {url_or_path}")
+
+            session = requests.Session()
+            retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[502, 503, 504])
+            session.mount('http://', HTTPAdapter(max_retries=retries))
+            session.mount('https://', HTTPAdapter(max_retries=retries))
+            session.headers.update({
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                              '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Connection': 'keep-alive',
+                'Referer': url_or_path,
+            })
+            response = session.get(url_or_path, timeout=10)
+            response.raise_for_status()
+            img = Image.open(BytesIO(response.content)).convert("RGB")
+
+        # ✅ 3. Handle empty or placeholder images
         if img.size == (0, 0):
-            #logger.error(f"Empty image at URL: {url}")
+            warnings.warn(f"Empty image: {url_or_path}")
             return None
 
-        # Check if the image is a placeholder
         if is_placeholder_image(img):
-            #logger.warning(f"Placeholder image detected at URL: {url}")
+            warnings.warn(f"Placeholder image detected at: {url_or_path}")
             return None
 
-        # Resize the image to the specified size
-        processed_img = img.resize(size)
-        return processed_img
+        # ✅ 4. Resize and return
+        return img.resize(size)
 
     except requests.exceptions.HTTPError as http_err:
-        if response.status_code == 404:
-            experiment_logger.warning(f"Image not found (404): {url}")
-        else:
-            experiment_logger.error(f"HTTP error for image {url}: {http_err}")
+        warnings.warn(f"HTTP error for image {url_or_path}: {http_err}")
     except requests.RequestException as req_err:
-        experiment_logger.error(f"Request error for image {url}: {req_err}")
+        warnings.warn(f"Request error for image {url_or_path}: {req_err}")
     except Exception as e:
-        experiment_logger.error(f"Error processing image {url}: {e}")
-
+        warnings.warn(f"Error processing image {url_or_path}: {e}")
     return None

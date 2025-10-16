@@ -1,0 +1,51 @@
+{
+  "post_id": "4rjje9",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.8262038230895996,
+        "SatireMixed": 0.00016495976888108999,
+        "Fake": 0.17363113164901733
+      },
+      "vilt": {
+        "Real": 0.5386465787887573,
+        "SatireMixed": 0.09173797070980072,
+        "Fake": 0.36961549520492554
+      },
+      "flava": {
+        "Real": 0.9886459112167358,
+        "SatireMixed": 0.006272895727306604,
+        "Fake": 0.005081217270344496
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "RA Sis.",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.8766692876815796,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6257635056972504,
+      "consistency_score": 0.5377290517091751
+    }
+  ],
+  "final": {
+    "post_id": "4rjje9",
+    "final_label": "Real",
+    "final_confidence": 0.7867625141342481,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5377290517091751,
+    "clip_cos": 0.6257635056972504,
+    "ocr_text": "RA Sis.",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.11320652412898294",
+    "num_comments": "-0.13165234161815034"
+  }
+}

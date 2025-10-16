@@ -1,0 +1,51 @@
+{
+  "post_id": "18mfr9",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.19285014271736145,
+        "SatireMixed": 0.0010506438557058573,
+        "Fake": 0.8060992360115051
+      },
+      "vilt": {
+        "Real": 0.004564386792480946,
+        "SatireMixed": 0.01645606942474842,
+        "Fake": 0.9789794683456421
+      },
+      "flava": {
+        "Real": 0.9870380163192749,
+        "SatireMixed": 0.006371385883539915,
+        "Fake": 0.006590577773749828
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Che Me cay beeet",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.6363211274147034,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6086316034197807,
+      "consistency_score": 0.5325894810259342
+    }
+  ],
+  "final": {
+    "post_id": "18mfr9",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5991784629051884,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5325894810259342,
+    "clip_cos": 0.6086316034197807,
+    "ocr_text": "Che Me cay beeet",
+    "upvote_ratio": "-1.3273753296270034",
+    "score": "-0.12981953299259275",
+    "num_comments": "-0.1454305520265176"
+  }
+}

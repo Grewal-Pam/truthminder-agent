@@ -1,0 +1,51 @@
+{
+  "post_id": "824mmh",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0001940843794727698,
+        "SatireMixed": 0.00046296152868308127,
+        "Fake": 0.9993429780006409
+      },
+      "vilt": {
+        "Real": 0.46178603172302246,
+        "SatireMixed": 0.016626715660095215,
+        "Fake": 0.5215871930122375
+      },
+      "flava": {
+        "Real": 0.004586473107337952,
+        "SatireMixed": 0.05635455250740051,
+        "Fake": 0.9390589594841003
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "opO cost ob",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.7059954404830933,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6474055051803589,
+      "consistency_score": 0.5442216515541076
+    }
+  ],
+  "final": {
+    "post_id": "824mmh",
+    "final_label": "Fake",
+    "final_confidence": 0.8226496759255727,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5442216515541076,
+    "clip_cos": 0.6474055051803589,
+    "ocr_text": "opO cost ob",
+    "upvote_ratio": "0.5822125253932846",
+    "score": "-0.12753931608974434",
+    "num_comments": "-0.1454305520265176"
+  }
+}

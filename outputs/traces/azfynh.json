@@ -1,0 +1,51 @@
+{
+  "post_id": "azfynh",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.999784529209137,
+        "SatireMixed": 5.576054536504671e-05,
+        "Fake": 0.00015972151595633477
+      },
+      "vilt": {
+        "Real": 0.9874375462532043,
+        "SatireMixed": 0.0021099962759763002,
+        "Fake": 0.010452439077198505
+      },
+      "flava": {
+        "Real": 0.9897524118423462,
+        "SatireMixed": 0.006350897718220949,
+        "Fake": 0.003896610578522086
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "erms and conditk you for shopping at Asda, ASDA Tickled Pinkyour proudly supportsKS 5 Breast Cancer Now Breast Cancer Care.DID YOU KNOW?Breast cancer is the mostcommon cancer in the UK?Vin 2 women are not checking theirfeasts regularly so its importantto get to know your breasts,There is no right of wrong way toheck, its about looking and feelinregularly, Make a pledge t",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.816656231880188,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.7013863623142242,
+      "consistency_score": 0.5604159086942673
+    }
+  ],
+  "final": {
+    "post_id": "azfynh",
+    "final_label": "Real",
+    "final_confidence": 0.9959497836232185,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5604159086942673,
+    "clip_cos": 0.7013863623142242,
+    "ocr_text": "erms and conditk you for shopping at Asda, ASDA Tickled Pinkyour proudly supportsKS 5 Breast Cancer Now Breast Cancer Care.DID YOU KNOW?Breast cancer is the mostcommon cancer in th",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.12753931608974434",
+    "num_comments": "-0.138541446822334"
+  }
+}

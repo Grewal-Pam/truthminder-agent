@@ -1,0 +1,51 @@
+{
+  "post_id": "17f6my",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0008202737662941217,
+        "SatireMixed": 0.981792151927948,
+        "Fake": 0.017387477681040764
+      },
+      "vilt": {
+        "Real": 0.00820593535900116,
+        "SatireMixed": 0.19531235098838806,
+        "Fake": 0.796481728553772
+      },
+      "flava": {
+        "Real": 0.005926832091063261,
+        "SatireMixed": 0.05167308449745178,
+        "Fake": 0.9424001574516296
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "aap ataSeRO ELL",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.916469156742096,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6492193788290024,
+      "consistency_score": 0.5447658136487007
+    }
+  ],
+  "final": {
+    "post_id": "17f6my",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5881090700477362,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5447658136487007,
+    "clip_cos": 0.6492193788290024,
+    "ocr_text": "aap ataSeRO ELL",
+    "upvote_ratio": "-0.5089805346183082",
+    "score": "-0.12558484445873141",
+    "num_comments": "-0.12476323641396671"
+  }
+}

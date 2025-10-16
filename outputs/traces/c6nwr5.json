@@ -1,0 +1,51 @@
+{
+  "post_id": "c6nwr5",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0005963912699371576,
+        "SatireMixed": 0.0005604078760370612,
+        "Fake": 0.9988431930541992
+      },
+      "vilt": {
+        "Real": 0.0025211451575160027,
+        "SatireMixed": 0.033140260726213455,
+        "Fake": 0.9643386006355286
+      },
+      "flava": {
+        "Real": 0.005402497947216034,
+        "SatireMixed": 0.05782047659158707,
+        "Fake": 0.9367770552635193
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "The U.S coming up with ways totake revenge on Japan after theybombed Pear! Harbor 1941,colorized",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.987630307674408,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6612720489501953,
+      "consistency_score": 0.8983816146850585
+    }
+  ],
+  "final": {
+    "post_id": "c6nwr5",
+    "final_label": "Fake",
+    "final_confidence": 0.9905558465321859,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.8983816146850585,
+    "clip_cos": 0.6612720489501953,
+    "ocr_text": "The U.S coming up with ways totake revenge on Japan after theybombed Pear! Harbor 1941,colorized",
+    "upvote_ratio": "1.3096745654010127",
+    "score": "-0.12753931608974434",
+    "num_comments": "-0.138541446822334"
+  }
+}

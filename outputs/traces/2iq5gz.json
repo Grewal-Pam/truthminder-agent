@@ -1,0 +1,51 @@
+{
+  "post_id": "2iq5gz",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.2198164016008377,
+        "SatireMixed": 0.0004694418457802385,
+        "Fake": 0.7797141671180725
+      },
+      "vilt": {
+        "Real": 0.9812127947807312,
+        "SatireMixed": 0.003514251671731472,
+        "Fake": 0.015273003838956356
+      },
+      "flava": {
+        "Real": 0.9896134734153748,
+        "SatireMixed": 0.006233579013496637,
+        "Fake": 0.004152995999902487
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "SMUT ANE Ee STON SteleCALLS MADE TOORLEANS COP",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.8396186232566833,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6464418917894363,
+      "consistency_score": 0.5439325675368308
+    }
+  ],
+  "final": {
+    "post_id": "2iq5gz",
+    "final_label": "Real",
+    "final_confidence": 0.7328501773178577,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5439325675368308,
+    "clip_cos": 0.6464418917894363,
+    "ocr_text": "SMUT ANE Ee STON SteleCALLS MADE TOORLEANS COP",
+    "upvote_ratio": "-0.23618226961541072",
+    "score": "-0.12949378772075726",
+    "num_comments": "-0.1454305520265176"
+  }
+}

@@ -9,7 +9,7 @@ import config
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import FlavaProcessor, FlavaModel
-from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score, cohen_kappa_score, confusion_matrix, roc_curve, precision_recall_curve, auc
+from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score, cohen_kappa_score, confusion_matrix, roc_curve, precision_recall_curve, auc, classification_report
 import torch.nn as nn
 import torch.nn.functional as F
 from datetime import datetime
@@ -100,6 +100,17 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
     f1 = f1_score(all_labels, all_preds, average='weighted', zero_division=0)
     recall = recall_score(all_labels, all_preds, average='weighted')
     precision = precision_score(all_labels, all_preds, average='weighted' , zero_division=0)
+    # Determine number of classes dynamically from predictions (safe fallback)
+    num_classes = len(np.unique(all_labels))
+
+    # Create per-class report
+    class_report = classification_report(
+        all_labels,
+        all_preds,
+        labels=list(range(num_classes)),
+        output_dict=True,
+        zero_division=0,
+    )
 
     metrics = {
     "loss": float(total_loss / len(dataloader)),
@@ -108,7 +119,10 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
     "f1": float(f1),
     "recall": float(recall),
     "precision": float(precision),
+    "class_report": class_report
     }
+    print(f"→ Number of predicted classes: {len(np.unique(all_preds))}")
+    print(f"→ Predicted classes: {np.unique(all_preds)}")
 
     
     return metrics, (all_labels, all_preds, all_probs, val_losses, val_accuracies, all_indices)

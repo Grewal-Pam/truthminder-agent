@@ -1,0 +1,51 @@
+{
+  "post_id": "by3c1p",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.004766643978655338,
+        "SatireMixed": 0.0027679745107889175,
+        "Fake": 0.9924653768539429
+      },
+      "vilt": {
+        "Real": 0.030847033485770226,
+        "SatireMixed": 0.018438221886754036,
+        "Fake": 0.9507147669792175
+      },
+      "flava": {
+        "Real": 0.00480501027777791,
+        "SatireMixed": 0.13297657668590546,
+        "Fake": 0.8622183799743652
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "KoolAid  koolaid  22hWalls",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.5786083936691284,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6042345389723778,
+      "consistency_score": 0.18127036169171332
+    }
+  ],
+  "final": {
+    "post_id": "by3c1p",
+    "final_label": "Fake",
+    "final_confidence": 0.916009062970678,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.18127036169171332,
+    "clip_cos": 0.6042345389723778,
+    "ocr_text": "KoolAid  koolaid  22hWalls",
+    "upvote_ratio": "1.1278090553990805",
+    "score": "1.9481095560459751",
+    "num_comments": "0.1094663405282769"
+  }
+}

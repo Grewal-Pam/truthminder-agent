@@ -1,0 +1,51 @@
+{
+  "post_id": "5wevty",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0034093093127012253,
+        "SatireMixed": 0.3680894076824188,
+        "Fake": 0.628501296043396
+      },
+      "vilt": {
+        "Real": 0.021914726123213768,
+        "SatireMixed": 0.7239083051681519,
+        "Fake": 0.25417694449424744
+      },
+      "flava": {
+        "Real": 0.003928961232304573,
+        "SatireMixed": 0.11155335605144501,
+        "Fake": 0.8845176696777344
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "AUC e ELLCLO ray Lae",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.5974657535552979,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.659810021519661,
+      "consistency_score": 0.19794300645589827
+    }
+  ],
+  "final": {
+    "post_id": "5wevty",
+    "final_label": "Uncertain",
+    "final_confidence": 0.5709418837924799,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19794300645589827,
+    "clip_cos": 0.659810021519661,
+    "ocr_text": "AUC e ELLCLO ray Lae",
+    "upvote_ratio": "1.3096745654010127",
+    "score": "-0.12330462755588302",
+    "num_comments": "-0.11098502600559944"
+  }
+}

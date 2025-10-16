@@ -1,0 +1,51 @@
+{
+  "post_id": "7h8rtl",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9021669626235962,
+        "SatireMixed": 0.053087830543518066,
+        "Fake": 0.044745221734046936
+      },
+      "vilt": {
+        "Real": 0.9875269532203674,
+        "SatireMixed": 0.0009075660491362214,
+        "Fake": 0.011565503664314747
+      },
+      "flava": {
+        "Real": 0.9858884215354919,
+        "SatireMixed": 0.006431295536458492,
+        "Fake": 0.0076803104020655155
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "WO oarau",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.959332287311554,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6584677696228027,
+      "consistency_score": 0.5475403308868407
+    }
+  ],
+  "final": {
+    "post_id": "7h8rtl",
+    "final_label": "Real",
+    "final_confidence": 0.9613798656463624,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5475403308868407,
+    "clip_cos": 0.6584677696228027,
+    "ocr_text": "WO oarau",
+    "upvote_ratio": "0.5822125253932846",
+    "score": "7.551579722160012",
+    "num_comments": "7.136353648795585"
+  }
+}

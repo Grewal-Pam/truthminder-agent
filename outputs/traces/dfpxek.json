@@ -1,0 +1,51 @@
+{
+  "post_id": "dfpxek",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0001998077641474083,
+        "SatireMixed": 0.00040523248026147485,
+        "Fake": 0.9993948936462402
+      },
+      "vilt": {
+        "Real": 0.004729610402137041,
+        "SatireMixed": 0.026900121942162514,
+        "Fake": 0.968370258808136
+      },
+      "flava": {
+        "Real": 0.003920445218682289,
+        "SatireMixed": 0.0801069512963295,
+        "Fake": 0.9159725904464722
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ION Sd a",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.731033444404602,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6284485459327698,
+      "consistency_score": 0.18853456377983094
+    }
+  ],
+  "final": {
+    "post_id": "dfpxek",
+    "final_label": "Fake",
+    "final_confidence": 0.9425579881270727,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.18853456377983094,
+    "clip_cos": 0.6284485459327698,
+    "ocr_text": "ION Sd a",
+    "upvote_ratio": "0.855010790396182",
+    "score": "-0.11711546739100878",
+    "num_comments": "-0.11098502600559944"
+  }
+}

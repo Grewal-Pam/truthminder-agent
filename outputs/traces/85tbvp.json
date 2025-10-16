@@ -1,0 +1,51 @@
+{
+  "post_id": "85tbvp",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0019213508348912,
+        "SatireMixed": 0.9779149293899536,
+        "Fake": 0.02016375958919525
+      },
+      "vilt": {
+        "Real": 0.01047671027481556,
+        "SatireMixed": 0.5016582608222961,
+        "Fake": 0.48786497116088867
+      },
+      "flava": {
+        "Real": 0.0039357650093734264,
+        "SatireMixed": 0.11993567645549774,
+        "Fake": 0.8761284947395325
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Le AMERICAN SOLDIERS!i ig ",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.5476446747779846,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6652379035949707,
+      "consistency_score": 0.5495713710784912
+    }
+  ],
+  "final": {
+    "post_id": "85tbvp",
+    "final_label": "Uncertain",
+    "final_confidence": 0.536143904487292,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5495713710784912,
+    "clip_cos": 0.6652379035949707,
+    "ocr_text": "Le AMERICAN SOLDIERS!i ig ",
+    "upvote_ratio": "1.2187418104000465",
+    "score": "0.0030845379162856997",
+    "num_comments": "0.1508009717533787"
+  }
+}

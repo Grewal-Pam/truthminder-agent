@@ -1,0 +1,51 @@
+{
+  "post_id": "c3j6fr",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9991989731788635,
+        "SatireMixed": 0.00029735983116552234,
+        "Fake": 0.0005037561058998108
+      },
+      "vilt": {
+        "Real": 0.8480989933013916,
+        "SatireMixed": 0.01059555634856224,
+        "Fake": 0.14130555093288422
+      },
+      "flava": {
+        "Real": 0.00910985004156828,
+        "SatireMixed": 0.04813340678811073,
+        "Fake": 0.942756712436676
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "EN COMMANDMENTSPrinciplesof behaviourtowardsprostitutes1 oven gto2 bomtuperetonne noe5 bameeadtetanonsesevenminrenySioeiande staan meearnerSaecoFhncten nnapec amano ning Wore,birleteearhertDion",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.9578956961631775,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6949489265680313,
+      "consistency_score": 0.5584846779704093
+    }
+  ],
+  "final": {
+    "post_id": "c3j6fr",
+    "final_label": "Real",
+    "final_confidence": 0.622311686185499,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5584846779704093,
+    "clip_cos": 0.6949489265680313,
+    "ocr_text": "EN COMMANDMENTSPrinciplesof behaviourtowardsprostitutes1 oven gto2 bomtuperetonne noe5 bameeadtetanonsesevenminrenySioeiande staan meearnerSaecoFhncten nnapec amano ning Wore,birle",
+    "upvote_ratio": "0.9459435453971482",
+    "score": "-0.045451507587201775",
+    "num_comments": "0.06813170930317508"
+  }
+}

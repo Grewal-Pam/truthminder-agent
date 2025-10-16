@@ -1,0 +1,51 @@
+{
+  "post_id": "73g03u",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.10167407244443893,
+        "SatireMixed": 0.0004561350215226412,
+        "Fake": 0.8978697657585144
+      },
+      "vilt": {
+        "Real": 0.06692776083946228,
+        "SatireMixed": 0.028629645705223083,
+        "Fake": 0.904442548751831
+      },
+      "flava": {
+        "Real": 0.9893856048583984,
+        "SatireMixed": 0.006396892946213484,
+        "Fake": 0.004217410460114479
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "What Happens When You TakeAll the Air Out of Lays? Shrinking.The Action Lab SK views2hours ago",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.9618573188781738,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6270548105239868,
+      "consistency_score": 0.888116443157196
+    }
+  ],
+  "final": {
+    "post_id": "73g03u",
+    "final_label": "Fake",
+    "final_confidence": 0.625463561579585,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.888116443157196,
+    "clip_cos": 0.6270548105239868,
+    "ocr_text": "What Happens When You TakeAll the Air Out of Lays? Shrinking.The Action Lab SK views2hours ago",
+    "upvote_ratio": "0.6731452803942507",
+    "score": "-0.11288077885714745",
+    "num_comments": "-0.138541446822334"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "d7mwzb",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0006385339656844735,
+        "SatireMixed": 0.994091808795929,
+        "Fake": 0.005269714631140232
+      },
+      "vilt": {
+        "Real": 0.022586610168218613,
+        "SatireMixed": 0.8390757441520691,
+        "Fake": 0.1383376270532608
+      },
+      "flava": {
+        "Real": 0.004117998760193586,
+        "SatireMixed": 0.1098155751824379,
+        "Fake": 0.8860664367675781
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "ea UMTAATE KYBHAN 3zaRde OA MN Za",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.7187950015068054,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6444753855466843,
+      "consistency_score": 0.19334261566400526
+    }
+  ],
+  "final": {
+    "post_id": "d7mwzb",
+    "final_label": "SatireMixed",
+    "final_confidence": 0.6292615996499856,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19334261566400526,
+    "clip_cos": 0.6444753855466843,
+    "ocr_text": "ea UMTAATE KYBHAN 3zaRde OA MN Za",
+    "upvote_ratio": "0.30941426039038616",
+    "score": "-0.12525909918689593",
+    "num_comments": "-0.11787413120978307"
+  }
+}

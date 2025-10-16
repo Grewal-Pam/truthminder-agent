@@ -1,0 +1,51 @@
+{
+  "post_id": "7mzyg8",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0010806036880239844,
+        "SatireMixed": 0.0006343327695503831,
+        "Fake": 0.9982849955558777
+      },
+      "vilt": {
+        "Real": 0.938520073890686,
+        "SatireMixed": 0.0031991307623684406,
+        "Fake": 0.058280814439058304
+      },
+      "flava": {
+        "Real": 0.00479372963309288,
+        "SatireMixed": 0.055237531661987305,
+        "Fake": 0.9399687051773071
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Magic Mike 2012",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.7952396273612976,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.664391040802002,
+      "consistency_score": 0.8993173122406005
+    }
+  ],
+  "final": {
+    "post_id": "7mzyg8",
+    "final_label": "Fake",
+    "final_confidence": 0.6894705437918505,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.8993173122406005,
+    "clip_cos": 0.664391040802002,
+    "ocr_text": "Magic Mike 2012",
+    "upvote_ratio": "1.3096745654010127",
+    "score": "-0.1262363350024024",
+    "num_comments": "-0.1454305520265176"
+  }
+}

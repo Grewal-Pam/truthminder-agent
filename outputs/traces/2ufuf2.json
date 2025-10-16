@@ -1,0 +1,51 @@
+{
+  "post_id": "2ufuf2",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.006174865178763866,
+        "SatireMixed": 0.40153875946998596,
+        "Fake": 0.5922864079475403
+      },
+      "vilt": {
+        "Real": 0.007447090465575457,
+        "SatireMixed": 0.015981415286660194,
+        "Fake": 0.9765714406967163
+      },
+      "flava": {
+        "Real": 0.004412749782204628,
+        "SatireMixed": 0.05978519469499588,
+        "Fake": 0.9358020424842834
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": " SToPAUToRITaRISMEDERIVE AUTORITAIRELES PREMIERS SIGNES QUI DOIVENT ALERTERa2 2 nec pce   wi        5LegniyCerSerre ta nee eepeer creePeetOe",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.4190090298652649,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6300544589757919,
+      "consistency_score": 0.18901633769273757
+    }
+  ],
+  "final": {
+    "post_id": "2ufuf2",
+    "final_label": "Fake",
+    "final_confidence": 0.8162276106377443,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.18901633769273757,
+    "clip_cos": 0.6300544589757919,
+    "ocr_text": " SToPAUToRITaRISMEDERIVE AUTORITAIRELES PREMIERS SIGNES QUI DOIVENT ALERTERa2 2 nec pce   wi        5LegniyCerSerre ta nee eepeer creePeetOe",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.12916804244892177",
+    "num_comments": "-0.13165234161815034"
+  }
+}

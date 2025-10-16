@@ -1,0 +1,51 @@
+{
+  "post_id": "awtdhy",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 8.368229464394972e-05,
+        "SatireMixed": 0.0006789953913539648,
+        "Fake": 0.9992372989654541
+      },
+      "vilt": {
+        "Real": 0.5619903802871704,
+        "SatireMixed": 0.010637191124260426,
+        "Fake": 0.42737239599227905
+      },
+      "flava": {
+        "Real": 0.01315664779394865,
+        "SatireMixed": 0.043914780020713806,
+        "Fake": 0.9429284930229187
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Bn ue eRRe ees unrDe eee Une eePM eae Rei",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.7912585735321045,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6576210558414459,
+      "consistency_score": 0.19728631675243377
+    }
+  ],
+  "final": {
+    "post_id": "awtdhy",
+    "final_label": "Fake",
+    "final_confidence": 0.7716832416653633,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.19728631675243377,
+    "clip_cos": 0.6576210558414459,
+    "ocr_text": "Bn ue eRRe ees unrDe eee Une eePM eae Rei",
+    "upvote_ratio": "0.6731452803942507",
+    "score": "-0.11841844847835073",
+    "num_comments": "-0.12476323641396671"
+  }
+}

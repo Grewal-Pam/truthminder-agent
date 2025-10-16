@@ -1,0 +1,51 @@
+{
+  "post_id": "53b5b5",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9993797540664673,
+        "SatireMixed": 9.126927034230903e-05,
+        "Fake": 0.0005289216642268002
+      },
+      "vilt": {
+        "Real": 0.9856163263320923,
+        "SatireMixed": 0.0028102491050958633,
+        "Fake": 0.011573489755392075
+      },
+      "flava": {
+        "Real": 0.9895929098129272,
+        "SatireMixed": 0.0060652317479252815,
+        "Fake": 0.004341851454228163
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "mfelKerola",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.9044437408447266,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6104160696268082,
+      "consistency_score": 0.5331248208880424
+    }
+  ],
+  "final": {
+    "post_id": "53b5b5",
+    "final_label": "Real",
+    "final_confidence": 0.9935171526571115,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5331248208880424,
+    "clip_cos": 0.6104160696268082,
+    "ocr_text": "mfelKerola",
+    "upvote_ratio": "-1.4183080846279696",
+    "score": "-0.12916804244892177",
+    "num_comments": "-0.1454305520265176"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "post_id": "at1mxt",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.0005143092712387443,
+        "SatireMixed": 0.00010396731522632763,
+        "Fake": 0.9993816614151001
+      },
+      "vilt": {
+        "Real": 0.18372882902622223,
+        "SatireMixed": 0.024523379281163216,
+        "Fake": 0.7917478680610657
+      },
+      "flava": {
+        "Real": 0.004431982059031725,
+        "SatireMixed": 0.05763360857963562,
+        "Fake": 0.9379344582557678
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Made  book shelf for my brick collection",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "ENTAILMENT",
+        "score": 0.7503073215484619,
+        "consistency_score": 1.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6625839024782181,
+      "consistency_score": 0.8987751707434654
+    }
+  ],
+  "final": {
+    "post_id": "at1mxt",
+    "final_label": "Fake",
+    "final_confidence": 0.9336145061552524,
+    "nli_label": "ENTAILMENT",
+    "consistency_score": 0.8987751707434654,
+    "clip_cos": 0.6625839024782181,
+    "ocr_text": "Made  book shelf for my brick collection",
+    "upvote_ratio": "0.5822125253932846",
+    "score": "-0.11613823157550232",
+    "num_comments": "-0.1454305520265176"
+  }
+}

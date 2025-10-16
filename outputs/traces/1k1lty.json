@@ -1,0 +1,51 @@
+{
+  "post_id": "1k1lty",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.675848662853241,
+        "SatireMixed": 0.0005006770370528102,
+        "Fake": 0.32365062832832336
+      },
+      "vilt": {
+        "Real": 0.6279148459434509,
+        "SatireMixed": 0.012084775604307652,
+        "Fake": 0.360000342130661
+      },
+      "flava": {
+        "Real": 0.9879363179206848,
+        "SatireMixed": 0.006481494288891554,
+        "Fake": 0.005582119803875685
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "france24.comen20130808dr...821am  9 Aug 13  Twitter for iPhoneDrone delivers beer not bombs atS.Africa music festivalRevellers at a South African Oo",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.7280911803245544,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.621527373790741,
+      "consistency_score": 0.5364582121372222
+    }
+  ],
+  "final": {
+    "post_id": "1k1lty",
+    "final_label": "Real",
+    "final_confidence": 0.766087434967359,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5364582121372222,
+    "clip_cos": 0.621527373790741,
+    "ocr_text": "france24.comen20130808dr...821am  9 Aug 13  Twitter for iPhoneDrone delivers beer not bombs atS.Africa music festivalRevellers at a South African Oo",
+    "upvote_ratio": "0.12754875038845387",
+    "score": "-0.11125205249797003",
+    "num_comments": "-0.09031771039304853"
+  }
+}

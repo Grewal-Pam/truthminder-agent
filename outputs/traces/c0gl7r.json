@@ -1,0 +1,51 @@
+{
+  "post_id": "c0gl7r",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9995298385620117,
+        "SatireMixed": 0.00010717070836108178,
+        "Fake": 0.0003630790743045509
+      },
+      "vilt": {
+        "Real": 0.9883686304092407,
+        "SatireMixed": 0.002980120712891221,
+        "Fake": 0.00865122675895691
+      },
+      "flava": {
+        "Real": 0.9895053505897522,
+        "SatireMixed": 0.006328018847852945,
+        "Fake": 0.004166690167039633
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "Bega rouruse rurona. susts crook Pelon,",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.7685878276824951,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6369103789329529,
+      "consistency_score": 0.5410731136798859
+    }
+  ],
+  "final": {
+    "post_id": "c0gl7r",
+    "final_label": "Real",
+    "final_confidence": 0.9949323266744614,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5410731136798859,
+    "clip_cos": 0.6369103789329529,
+    "ocr_text": "Bega rouruse rurona. susts crook Pelon,",
+    "upvote_ratio": "0.30941426039038616",
+    "score": "-0.12558484445873141",
+    "num_comments": "-0.13165234161815034"
+  }
+}

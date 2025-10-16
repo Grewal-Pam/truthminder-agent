@@ -1,0 +1,51 @@
+{
+  "post_id": "2j99y7",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9989159107208252,
+        "SatireMixed": 0.00010637805098667741,
+        "Fake": 0.0009777969680726528
+      },
+      "vilt": {
+        "Real": 0.9357405304908752,
+        "SatireMixed": 0.006121254991739988,
+        "Fake": 0.0581381693482399
+      },
+      "flava": {
+        "Real": 0.989633321762085,
+        "SatireMixed": 0.006048082374036312,
+        "Fake": 0.004318668972700834
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "SoerrroinN RetrONTN",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.8523770570755005,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6579487472772598,
+      "consistency_score": 0.5473846241831779
+    }
+  ],
+  "final": {
+    "post_id": "2j99y7",
+    "final_label": "Real",
+    "final_confidence": 0.9776063317755858,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5473846241831779,
+    "clip_cos": 0.6579487472772598,
+    "ocr_text": "SoerrroinN RetrONTN",
+    "upvote_ratio": "-1.5092408396289356",
+    "score": "-0.1285165519052508",
+    "num_comments": "-0.138541446822334"
+  }
+}

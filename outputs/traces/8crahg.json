@@ -1,0 +1,51 @@
+{
+  "post_id": "8crahg",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.006312956567853689,
+        "SatireMixed": 8.796084875939414e-05,
+        "Fake": 0.9935990571975708
+      },
+      "vilt": {
+        "Real": 0.7858042120933533,
+        "SatireMixed": 0.008731069974601269,
+        "Fake": 0.20546461641788483
+      },
+      "flava": {
+        "Real": 0.0049089244566857815,
+        "SatireMixed": 0.062471505254507065,
+        "Fake": 0.932619571685791
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "rover Ausra S31eateitionAUSTRALIA",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "CONTRADICTION",
+        "score": 0.7687366604804993,
+        "consistency_score": 0.0,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6203717291355133,
+      "consistency_score": 0.186111518740654
+    }
+  ],
+  "final": {
+    "post_id": "8crahg",
+    "final_label": "Fake",
+    "final_confidence": 0.6917277728915214,
+    "nli_label": "CONTRADICTION",
+    "consistency_score": 0.186111518740654,
+    "clip_cos": 0.6203717291355133,
+    "ocr_text": "rover Ausra S31eateitionAUSTRALIA",
+    "upvote_ratio": "0.03661599538748772",
+    "score": "-0.1262363350024024",
+    "num_comments": "-0.1454305520265176"
+  }
+}

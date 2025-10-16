@@ -1,0 +1,51 @@
+{
+  "post_id": "b4qnt5",
+  "steps": [
+    {
+      "stage": "perception",
+      "clip": {
+        "Real": 0.9900503158569336,
+        "SatireMixed": 7.336422277148813e-05,
+        "Fake": 0.009876318275928497
+      },
+      "vilt": {
+        "Real": 0.9887580871582031,
+        "SatireMixed": 0.0031217061914503574,
+        "Fake": 0.008120117709040642
+      },
+      "flava": {
+        "Real": 0.9897516965866089,
+        "SatireMixed": 0.006083872634917498,
+        "Fake": 0.004164401907473803
+      }
+    },
+    {
+      "stage": "evidence",
+      "ocr_text": "iaa Beeeee pees fe ee a neath na atta",
+      "no_ocr": false
+    },
+    {
+      "stage": "consistency",
+      "nli": {
+        "label": "NEUTRAL",
+        "score": 0.919359564781189,
+        "consistency_score": 0.5,
+        "no_ocr": false
+      },
+      "clip_cos": 0.6418918073177338,
+      "consistency_score": 0.5425675421953201
+    }
+  ],
+  "final": {
+    "post_id": "b4qnt5",
+    "final_label": "Real",
+    "final_confidence": 0.9920740857323012,
+    "nli_label": "NEUTRAL",
+    "consistency_score": 0.5425675421953201,
+    "clip_cos": 0.6418918073177338,
+    "ocr_text": "iaa Beeeee pees fe ee a neath na atta",
+    "upvote_ratio": "-0.6908460446202405",
+    "score": "-0.12753931608974434",
+    "num_comments": "-0.1454305520265176"
+  }
+}

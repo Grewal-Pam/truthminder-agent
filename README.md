@@ -63,79 +63,40 @@ The TruthMinder-Agent project is structured into clear modular layers to ensure 
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
+> 🧩 **Recommended**: Use a clean Conda environment with Python 3.9 + PyTorch + Transformers
+
+```yaml
+# 1️⃣ Clone the repository
 git clone https://github.com/parmindergrewal/truthminder-agent.git
 cd truthminder-agent
 
-2️⃣ Create and Activate a Conda Environment
-
-It’s recommended to use a fresh Python 3.9 environment for compatibility with PyTorch and Hugging Face Transformers.
-
+# 2️⃣ Create & activate a new Conda environment
 conda create -n truthminder python=3.9 -y
 conda activate truthminder
 
-3️⃣ Install Dependencies
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Verify Installation
+# 4️⃣ Verify setup
 python -c "from tools import ocr; print('✅ OCR module import OK')"
 
 
-You should see:
+## 🧠 Running the Agentic Pipeline
 
-✅ OCR module import OK
+> 💡 TruthMinder-Agent supports three execution modes:  
+> 1️⃣ **Interactive UI (Streamlit)**  
+> 2️⃣ **Background Server Mode (for cloud/VMs)**  
+> 3️⃣ **Batch Mode (offline dataset processing)**  
 
+---
 
-🧠 Running the Agentic Pipeline
-▶️ Option 1: Run via Streamlit (Interactive UI)
+### ▶️ **Option 1 — Interactive UI (Streamlit)**
 
-Launch the complete web app locally:
+Launch the full web dashboard locally:
 
+```yaml
 streamlit run app/test_app.py --server.port 8501
 
-
-Once launched, open your browser and go to:
-👉 http://localhost:8501
-
-This allows you to:
-
-Upload a post (image + caption)
-
-View predictions from CLIP, ViLT, and FLAVA
-
-Inspect OCR, NLI, and Arbiter reasoning
-
-See the final disinformation label with confidence
-
-▶️ Option 2: Run in Background (Server Mode)
-
-Useful for remote VMs or cloud environments:
-
-nohup streamlit run app/test_app.py --server.port 8501 > truthmindr.log 2>&1 &
-
-
-Check logs:
-
-tail -f truthmindr.log
-
-
-Stop the process:
-
-pkill -f streamlit
-
-▶️ Option 3: Batch Mode (Offline Evaluation)
-
-To process a file containing multiple posts:
-
-python agent/runner.py
-
-
-This will create:
-
-outputs/enriched.csv — enriched predictions
-
-outputs/traces/*.json — per-post reasoning trace files
 
 ## 🖼️ Example Output & Visualization
 
@@ -207,3 +168,40 @@ The TruthMinder-Agent integrates three multimodal transformer backbones — **CL
 | **FLAVA** | ![FLAVA ROC](results/FLAVA/3-way_classification_model.pth) | ![FLAVA CM](results/images/validation_3_way_confusion_matrix.png) |
 
 > *(If running locally, the `results/` folder contains all plots and metrics JSON files for detailed inspection.)*
+
+## 🚀 Future Directions
+
+TruthMinder-Agent currently implements a full multimodal disinformation detection pipeline with OCR and NLI-based reasoning.  
+Next planned enhancements include:
+
+- **Verifier LLM Integration** → adds final human-like judgment based on trace data.  
+- **Retrieval-Augmented Generation (RAG)** → links suspicious posts to credible news sources for evidence-backed verification.  
+- **Explainability Module** → highlights image/text regions influencing the model’s decision.  
+- **Risk–Coverage & Calibration** → measures model confidence and abstention reliability.  
+- **FastAPI Deployment** → enables lightweight API-based inference for integration into external products.
+
+> 🧩 Long-term vision: evolve TruthMinder-Agent into a **self-explaining, evidence-aware disinformation verification assistant** capable of cross-modal reasoning and traceable outputs.
+
+---
+
+## 🧾 Citation
+
+If you use or build upon this work, please cite:
+
+```bibtex
+@inproceedings{10.1145/3746275.3762205,
+  author = {Grewal, Parminder and Hopfgartner, Frank},
+  title = {Disinformation Detection Using a Multimodal Approach},
+  year = {2025},
+  isbn = {9798400712771},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3746275.3762205},
+  doi = {10.1145/3746275.3762205},
+  booktitle = {Proceedings of the 3rd Workshop on Disinformation and Harmful Online Content (DHOW 2025)},
+  pages = {45–52},
+  numpages = {8},
+  keywords = {disinformation, multimodal learning, pretrained transformers, CLIP, ViLT, FLAVA},
+  location = {Dublin, Ireland},
+  series = {DHOW 2025}
+}

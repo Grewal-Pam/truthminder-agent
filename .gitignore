@@ -1,18 +1,29 @@
-# Ignore heavy folders and temp files
+# === Core Heavy Folders ===
 runs/
 logs/
+outputs/
 results/
 data/
 datasets/
 __pycache__/
+
+# === Temporary & Local Files ===
 nohup.out
-*.log
-*.pkl
-*.pt
+temp_upload.png
+truthmindr.log
+
+# === Heavy ML artifacts ===
 *.pth
-*.png
-*.jpg
-*.jpeg
-*.csv
-*.tsv
+*.pt
+*.pkl
 *.npy
+*.npz
+
+# === Cache / OS junk ===
+*.log
+.DS_Store
+Thumbs.db
+
+# === VSCode / Env ===
+.vscode/
+.env

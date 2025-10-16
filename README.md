@@ -30,7 +30,8 @@ The TruthMinder-Agent follows a modular **agentic workflow** consisting of four 
 
 ```mermaid
 flowchart LR
-    A[🧠 Perception<br/>CLIP · ViLT · FLAVA] --> B[📜 Evidence<br/>OCR Extraction]
-    B --> C[🔍 Consistency<br/>NLI + CLIP Similarity]
-    C --> D[⚖️ Arbiter<br/>Decision Fusion]
-    D --> E[✅ Final Label<br/>(Real · Satire/Mixed · Fake)]
+    A["🧠 Perception<br/>CLIP · ViLT · FLAVA"] --> B["📜 Evidence<br/>OCR Extraction"]
+    B --> C["🔍 Consistency<br/>NLI + CLIP Similarity"]
+    C --> D["⚖️ Arbiter<br/>Decision Fusion"]
+    D --> E["✅ Final Label<br/>(Real · Satire/Mixed · Fake)"]
+

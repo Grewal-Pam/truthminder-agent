@@ -233,6 +233,7 @@ If you use or build upon this work, please cite:
    pages = {75-83},
    publisher = {ACM},
    title = {Beyond Text: Leveraging Vision-Language Models for Misinformation Detection},
+   url = {https://dl.acm.org/doi/10.1145/3746275.3762205},
    year = {2025}
 }
 

@@ -24,9 +24,9 @@ This project extends Parminder Grewal’s **Master’s Thesis in Web and Data Sc
 - **Interactive UI** – Streamlit-based visualization and test interface  
 
 ---
-## 🧭 System Architecture
+### 🧭 System Architecture
 
-The TruthMinder-Agent follows a modular **agentic workflow** consisting of four main reasoning stages:
+The TruthMinder-Agent follows a modular agentic workflow consisting of four main reasoning stages:
 
 ```mermaid
 flowchart LR
@@ -34,6 +34,7 @@ flowchart LR
     B --> C["🔍 Consistency<br/>NLI + CLIP Similarity"]
     C --> D["⚖️ Arbiter<br/>Decision Fusion"]
     D --> E["✅ Final Label<br/>(Real · Satire/Mixed · Fake)"]
+
 
 ## 🧩 Core Components
 

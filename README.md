@@ -34,10 +34,8 @@ flowchart LR
     B --> C["🔍 Consistency<br/>NLI + CLIP Similarity"]
     C --> D["⚖️ Arbiter<br/>Decision Fusion"]
     D --> E["✅ Final Label<br/>(Real · Satire/Mixed · Fake)"]
-
-
-
-## 🧩 Core Components
+```
+### 🧩 Core Components
 
 The TruthMinder-Agent project is structured into clear modular layers to ensure transparency, maintainability, and reproducibility.
 

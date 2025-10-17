@@ -223,19 +223,16 @@ Next planned enhancements include:
 If you use or build upon this work, please cite:
 
 ```bibtex
-@inproceedings{10.1145/3746275.3762205,
-  author = {Grewal, Parminder and Hopfgartner, Frank},
-  title = {Disinformation Detection Using a Multimodal Approach},
-  year = {2025},
-  isbn = {9798400712771},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3746275.3762205},
-  doi = {10.1145/3746275.3762205},
-  booktitle = {Proceedings of the 3rd Workshop on Disinformation and Harmful Online Content (DHOW 2025)},
-  pages = {45–52},
-  numpages = {8},
-  keywords = {disinformation, multimodal learning, pretrained transformers, CLIP, ViLT, FLAVA},
-  location = {Dublin, Ireland},
-  series = {DHOW 2025}
+@inproceedings{Grewal2025,
+   author = {Parminder Kaur Grewal and Marina Ernst and Frank Hopfgartner},
+   city = {New York, NY, USA},
+   doi = {10.1145/3746275.3762205},
+   isbn = {9798400720574},
+   booktitle = {Proceedings of the 2nd International Workshop on Diffusion of Harmful Content on Online Web},
+   month = {10},
+   pages = {75-83},
+   publisher = {ACM},
+   title = {Beyond Text: Leveraging Vision-Language Models for Misinformation Detection},
+   year = {2025}
 }
+

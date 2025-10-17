@@ -34,7 +34,8 @@ flowchart LR
     B --> C["🔍 Consistency<br/>NLI + CLIP Similarity"]
     C --> D["⚖️ Arbiter<br/>Decision Fusion"]
     D --> E["✅ Final Label<br/>(Real · Satire/Mixed · Fake)"]
-
+```markdown
+---
 
 ## 🧩 Core Components
 

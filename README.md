@@ -66,7 +66,7 @@ The TruthMinder-Agent project is structured into clear modular layers to ensure 
 
 
 ```markdown
-## ⚙️ Installation & Setup
+### ⚙️ Installation & Setup
 
 > 🧩 **Recommended**: Use a clean Conda environment with Python 3.9 + PyTorch + Transformers
 
@@ -190,7 +190,7 @@ Next planned enhancements include:
 
 ---
 
-## 🧾 Citation
+### 🧾 Citation
 
 If you use or build upon this work, please cite:
 

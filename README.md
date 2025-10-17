@@ -36,6 +36,7 @@ flowchart LR
     D --> E["✅ Final Label<br/>(Real · Satire/Mixed · Fake)"]
 
 
+
 ## 🧩 Core Components
 
 The TruthMinder-Agent project is structured into clear modular layers to ensure transparency, maintainability, and reproducibility.
@@ -62,11 +63,16 @@ The TruthMinder-Agent project is structured into clear modular layers to ensure 
 - Each layer (Perception → Evidence → Consistency → Arbiter) is fully traceable through JSON logs.
 - Enables both **single-post analysis** (interactive UI) and **batch evaluation** (CLI mode).
 
+
+---
+
+
+```markdown
 ## ⚙️ Installation & Setup
 
 > 🧩 **Recommended**: Use a clean Conda environment with Python 3.9 + PyTorch + Transformers
 
-```yaml
+```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/parmindergrewal/truthminder-agent.git
 cd truthminder-agent
@@ -80,6 +86,7 @@ pip install -r requirements.txt
 
 # 4️⃣ Verify setup
 python -c "from tools import ocr; print('✅ OCR module import OK')"
+
 
 
 ## 🧠 Running the Agentic Pipeline

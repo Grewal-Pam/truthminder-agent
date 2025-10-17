@@ -87,7 +87,7 @@ python -c "from tools import ocr; print('✅ OCR module import OK')"
 
 
 
-## 🧠 Running the Agentic Pipeline
+### 🧠 Running the Agentic Pipeline
 
 > 💡 TruthMinder-Agent supports three execution modes:  
 > 1️⃣ **Interactive UI (Streamlit)**  
@@ -100,9 +100,37 @@ python -c "from tools import ocr; print('✅ OCR module import OK')"
 
 Launch the full web dashboard locally:
 
-```yaml
+```bash
 streamlit run app/test_app.py --server.port 8501
+Then open your browser at 👉 http://localhost:8501
 
+This allows you to:
+
+-Upload an image + caption pair.
+-View predictions from CLIP, ViLT, and FLAVA
+-Inspect OCR, NLI, and Arbiter reasoning layers
+-See the final disinformation label with model confidence
+-Explore visualizations of prediction traces
+
+### ▶️ **Option 2 — Background Server Mode (🖧 for Cloud/VMs)**
+
+Run the Streamlit app as a background process — ideal for remote servers.
+
+```bash
+nohup streamlit run app/test_app.py --server.port 8501 > truthmindr.log 2>&1 &
+Monitor live logs:
+tail -f truthmindr.log
+Stop the server when finished:
+pkill -f streamlit
+
+### ▶️ **Option 3 — Batch Mode (📦 Offline Dataset Processing)**
+Run the agent pipeline in non-interactive mode to process an entire dataset:
+python agent/runner.py
+
+This will generate:
+-outputs/enriched.csv → consolidated predictions for all posts
+-outputs/traces/*.json → per-post reasoning traces with all model outputs
+Use this mode for large-scale evaluation, experiments, or model benchmarking.
 
 ## 🖼️ Example Output & Visualization
 

@@ -9,9 +9,9 @@
         "Fake": 0.9996511936187744
       },
       "vilt": {
-        "Real": 0.7456089854240417,
-        "SatireMixed": 0.009294920600950718,
-        "Fake": 0.2450961470603943
+        "Real": 0.7456079125404358,
+        "SatireMixed": 0.009294946677982807,
+        "Fake": 0.2450970560312271
       },
       "flava": {
         "Real": 0.004926922265440226,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6224800422787666,
       "consistency_score": 0.57348802536726
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know what to do with this question! The context is about NASA and extraterrestrial life, but the question itself doesn't seem related to that topic. It appears to be a nonsensical combination of words and phrases. I'll just have to shrug and say... I don't know!"
     }
   ],
   "final": {
     "post_id": "byas9w",
     "final_label": "Fake",
-    "final_confidence": 0.7327965181171894,
+    "final_confidence": 0.732796821107467,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.57348802536726,
     "clip_cos": 0.6224800422787666,
     "ocr_text": "",
+    "retrieved_text": "I don't know what to do with this question! The context is about NASA and extraterrestrial life, but the question itself doesn't seem related to that topic. It appears to be a nonsensical combination of words and phrases. I'll just have to shrug and say... I don't know!",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12200164646854107",
     "num_comments": "-0.1040959208014158"

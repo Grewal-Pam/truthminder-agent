@@ -9,9 +9,9 @@
         "Fake": 0.9840009212493896
       },
       "vilt": {
-        "Real": 0.2034744769334793,
-        "SatireMixed": 0.012175014242529869,
-        "Fake": 0.7843504548072815
+        "Real": 0.20347414910793304,
+        "SatireMixed": 0.01217501237988472,
+        "Fake": 0.7843507528305054
       },
       "flava": {
         "Real": 0.9802400469779968,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.63828544318676,
       "consistency_score": 0.5414856329560279
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I need some clarification on what you're asking me to do. It seems like there's some sort of encoded message or puzzle that needs solving. Can you please provide more context or clarify what this message \"this little roof Hitpeel iescApapa ee tee a uf\" represents?"
     }
   ],
   "final": {
     "post_id": "b33t0g",
-    "final_label": "Uncertain",
-    "final_confidence": 0.595924210006992,
+    "final_label": "Fake",
+    "final_confidence": 0.5959243093480667,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5414856329560279,
     "clip_cos": 0.63828544318676,
     "ocr_text": "Hitpeel iescApapa ee tee a uf",
+    "retrieved_text": "I'm happy to help! However, I need some clarification on what you're asking me to do. It seems like there's some sort of encoded message or puzzle that needs solving. Can you please provide more context or clarify what this message \"this little roof Hitpeel iescApapa ee tee a uf\" represents?",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12232739174037656",
     "num_comments": "-0.12476323641396671"

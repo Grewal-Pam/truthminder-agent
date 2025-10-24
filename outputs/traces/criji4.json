@@ -9,9 +9,9 @@
         "Fake": 0.9994243383407593
       },
       "vilt": {
-        "Real": 0.03192814439535141,
-        "SatireMixed": 0.35221627354621887,
-        "Fake": 0.6158556342124939
+        "Real": 0.03192808851599693,
+        "SatireMixed": 0.35221564769744873,
+        "Fake": 0.6158562898635864
       },
       "flava": {
         "Real": 0.004365183878690004,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6650401949882507,
       "consistency_score": 0.5495120584964752
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with any connection between NASA and Sonic Youth. It seems like you're asking about two completely different topics!\n\nTo answer your question, \"Sonic Youth\" is an American rock band that formed in 1981 and was active until 2011. The band's name comes from the idea of sound itself being a form of youth or energy."
     }
   ],
   "final": {
     "post_id": "criji4",
     "final_label": "Fake",
-    "final_confidence": 0.8520915391047796,
+    "final_confidence": 0.8520917576551438,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5495120584964752,
     "clip_cos": 0.6650401949882507,
     "ocr_text": "SONIC YOUTH",
+    "retrieved_text": "I'm not familiar with any connection between NASA and Sonic Youth. It seems like you're asking about two completely different topics!\n\nTo answer your question, \"Sonic Youth\" is an American rock band that formed in 1981 and was active until 2011. The band's name comes from the idea of sound itself being a form of youth or energy.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.016740504652261734
       },
       "vilt": {
-        "Real": 0.9429410099983215,
-        "SatireMixed": 0.004207287449389696,
-        "Fake": 0.05285162478685379
+        "Real": 0.942942202091217,
+        "SatireMixed": 0.004207276273518801,
+        "Fake": 0.05285053327679634
       },
       "flava": {
         "Real": 0.9892445802688599,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6348172128200531,
-      "consistency_score": 0.5808903276920319
+      "clip_cos": 0.6348171979188919,
+      "consistency_score": 0.5808903187513351
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about \"guys in suits\" or what they might be doing, so I can't make an educated guess or try to fill in the blanks. If you're asking about a specific instance of NASA personnel, astronauts, or scientists wearing suits, more context would be needed for me to help answer the question!"
     }
   ],
   "final": {
     "post_id": "7twl8z",
     "final_label": "Real",
-    "final_confidence": 0.9766542436679204,
+    "final_confidence": 0.9766546404957771,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5808903276920319,
-    "clip_cos": 0.6348172128200531,
+    "consistency_score": 0.5808903187513351,
+    "clip_cos": 0.6348171979188919,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about \"guys in suits\" or what they might be doing, so I can't make an educated guess or try to fill in the blanks. If you're asking about a specific instance of NASA personnel, astronauts, or scientists wearing suits, more context would be needed for me to help answer the question!",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.12949378772075726",
     "num_comments": "-0.138541446822334"

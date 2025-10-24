@@ -9,9 +9,9 @@
         "Fake": 0.9993290901184082
       },
       "vilt": {
-        "Real": 0.12490223348140717,
-        "SatireMixed": 0.014290492050349712,
-        "Fake": 0.8608072400093079
+        "Real": 0.1249016746878624,
+        "SatireMixed": 0.01429047528654337,
+        "Fake": 0.8608078956604004
       },
       "flava": {
         "Real": 0.0048503871075809,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6471648812294006,
       "consistency_score": 0.5882989287376403
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to answer this question because I don't think it's related to the provided context about NASA and alien life. The phrase \"grand prince\" seems out of place, and I don't see how it relates to the topic at hand."
     }
   ],
   "final": {
     "post_id": "4558kb",
     "final_label": "Fake",
-    "final_confidence": 0.9393388397693634,
+    "final_confidence": 0.9393390583197275,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5882989287376403,
     "clip_cos": 0.6471648812294006,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to answer this question because I don't think it's related to the provided context about NASA and alien life. The phrase \"grand prince\" seems out of place, and I don't see how it relates to the topic at hand.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.12330462755588302",
     "num_comments": "-0.138541446822334"

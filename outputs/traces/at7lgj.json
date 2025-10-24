@@ -9,9 +9,9 @@
         "Fake": 0.0008016916690394282
       },
       "vilt": {
-        "Real": 0.3254754841327667,
-        "SatireMixed": 0.042314313352108,
-        "Fake": 0.6322102546691895
+        "Real": 0.32547593116760254,
+        "SatireMixed": 0.042314354330301285,
+        "Fake": 0.6322097778320312
       },
       "flava": {
         "Real": 0.0045832241885364056,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6336753666400909,
       "consistency_score": 0.5802052199840546
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to the Cuban Raft Exodus, which was a mass migration of Cubans leaving Cuba in small boats and rafts for the United States in the 1980s. It appears to be unrelated to the topics discussed (NASA, aliens, microbial life)."
     }
   ],
   "final": {
     "post_id": "at7lgj",
-    "final_label": "Uncertain",
-    "final_confidence": 0.528924878603158,
+    "final_label": "Fake",
+    "final_confidence": 0.5289247196574385,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5802052199840546,
     "clip_cos": 0.6336753666400909,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to the Cuban Raft Exodus, which was a mass migration of Cubans leaving Cuba in small boats and rafts for the United States in the 1980s. It appears to be unrelated to the topics discussed (NASA, aliens, microbial life).",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12656208027423788",
     "num_comments": "-0.1454305520265176"

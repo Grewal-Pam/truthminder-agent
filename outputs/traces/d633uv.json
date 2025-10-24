@@ -9,9 +9,9 @@
         "Fake": 0.0005258788587525487
       },
       "vilt": {
-        "Real": 0.0912105143070221,
-        "SatireMixed": 0.008494926616549492,
-        "Fake": 0.9002945423126221
+        "Real": 0.0912119448184967,
+        "SatireMixed": 0.008494913578033447,
+        "Fake": 0.9002931118011475
       },
       "flava": {
         "Real": 0.9895651340484619,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6089021638035774,
-      "consistency_score": 0.5653412982821464
+      "clip_cos": 0.6089021563529968,
+      "consistency_score": 0.5653412938117981
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question doesn't seem related to NASA or alien life, but rather seems like a personal query about a snack (Fruit by the Foot)."
     }
   ],
   "final": {
     "post_id": "d633uv",
     "final_label": "Real",
-    "final_confidence": 0.6973256988028684,
+    "final_confidence": 0.6973261753718057,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5653412982821464,
-    "clip_cos": 0.6089021638035774,
+    "consistency_score": 0.5653412938117981,
+    "clip_cos": 0.6089021563529968,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question doesn't seem related to NASA or alien life, but rather seems like a personal query about a snack (Fruit by the Foot).",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.12476323641396671"

@@ -9,9 +9,9 @@
         "Fake": 0.0007552176830358803
       },
       "vilt": {
-        "Real": 0.47755861282348633,
-        "SatireMixed": 0.016955405473709106,
-        "Fake": 0.505486011505127
+        "Real": 0.4775574505329132,
+        "SatireMixed": 0.016955411061644554,
+        "Fake": 0.5054871439933777
       },
       "flava": {
         "Real": 0.9880954027175903,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6546994298696518,
       "consistency_score": 0.592819657921791
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not mention Drake or a homeless shelter. It appears to be unrelated to the given information about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "7wtavr",
     "final_label": "Real",
-    "final_confidence": 0.8271889086763063,
+    "final_confidence": 0.8271885212461153,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.592819657921791,
     "clip_cos": 0.6546994298696518,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not mention Drake or a homeless shelter. It appears to be unrelated to the given information about NASA and alien life.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.11809270320651524",
     "num_comments": "-0.13165234161815034"

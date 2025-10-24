@@ -9,9 +9,9 @@
         "Fake": 0.0015677256742492318
       },
       "vilt": {
-        "Real": 0.8539443612098694,
-        "SatireMixed": 0.006482596509158611,
-        "Fake": 0.1395730823278427
+        "Real": 0.853943943977356,
+        "SatireMixed": 0.0064826058223843575,
+        "Fake": 0.13957343995571136
       },
       "flava": {
         "Real": 0.9886333346366882,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6617251485586166,
       "consistency_score": 0.59703508913517
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA or aliens, and it appears to be asking about a specific incident involving a bridge collapse. I'm not aware of any information that would allow me to answer this question accurately."
     }
   ],
   "final": {
     "post_id": "850l7j",
     "final_label": "Real",
-    "final_confidence": 0.9527939191857974,
+    "final_confidence": 0.952793780108293,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.59703508913517,
     "clip_cos": 0.6617251485586166,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA or aliens, and it appears to be asking about a specific incident involving a bridge collapse. I'm not aware of any information that would allow me to answer this question accurately.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.12232739174037656",
     "num_comments": "-0.13165234161815034"

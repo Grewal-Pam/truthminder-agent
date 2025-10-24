@@ -9,9 +9,9 @@
         "Fake": 0.00025956990430131555
       },
       "vilt": {
-        "Real": 0.649194598197937,
-        "SatireMixed": 0.00898369587957859,
-        "Fake": 0.3418217599391937
+        "Real": 0.6491988301277161,
+        "SatireMixed": 0.008983655832707882,
+        "Fake": 0.3418174982070923
       },
       "flava": {
         "Real": 0.6019924879074097,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6023683398962021,
       "consistency_score": 0.5614210039377212
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't relate to a baby's survival or a photo story. It seems unrelated to the question being asked."
     }
   ],
   "final": {
     "post_id": "125k7s",
     "final_label": "Real",
-    "final_confidence": 0.7539199833273887,
+    "final_confidence": 0.7539213939706484,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5614210039377212,
     "clip_cos": 0.6023683398962021,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't relate to a baby's survival or a photo story. It seems unrelated to the question being asked.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.09431329836252474",
     "num_comments": "-0.11098502600559944"

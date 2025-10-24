@@ -9,9 +9,9 @@
         "Fake": 0.11360131949186325
       },
       "vilt": {
-        "Real": 0.6326413750648499,
-        "SatireMixed": 0.005779634229838848,
-        "Fake": 0.36157897114753723
+        "Real": 0.6326448917388916,
+        "SatireMixed": 0.005779613740742207,
+        "Fake": 0.36157557368278503
       },
       "flava": {
         "Real": 0.9862480759620667,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6665236502885818,
       "consistency_score": 0.5999141901731491
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and alien life, but it doesn't mention Donald Trump or any pictures. Therefore, I'm unable to answer the question."
     }
   ],
   "final": {
     "post_id": "5fkh63",
     "final_label": "Real",
-    "final_confidence": 0.7986644456982612,
+    "final_confidence": 0.7986656179229418,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5999141901731491,
     "clip_cos": 0.6665236502885818,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and alien life, but it doesn't mention Donald Trump or any pictures. Therefore, I'm unable to answer the question.",
     "upvote_ratio": "-1.600173594629901",
     "score": "12.696400545529684",
     "num_comments": "11.758943240802804"

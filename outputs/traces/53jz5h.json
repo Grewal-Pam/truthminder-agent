@@ -9,8 +9,8 @@
         "Fake": 0.9985615611076355
       },
       "vilt": {
-        "Real": 0.011080506257712841,
-        "SatireMixed": 0.014545007608830929,
+        "Real": 0.011080511845648289,
+        "SatireMixed": 0.014544980600476265,
         "Fake": 0.9743744730949402
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6146872267127037,
       "consistency_score": 0.5688123360276223
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The provided context is about NASA and alien life, but it doesn't mention anything about leftovers or food."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5688123360276223,
     "clip_cos": 0.6146872267127037,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The provided context is about NASA and alien life, but it doesn't mention anything about leftovers or food.",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12916804244892177",
     "num_comments": "-0.13165234161815034"

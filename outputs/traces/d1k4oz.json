@@ -9,9 +9,9 @@
         "Fake": 0.9984555244445801
       },
       "vilt": {
-        "Real": 0.19183672964572906,
+        "Real": 0.1918359100818634,
         "SatireMixed": 0.01416539866477251,
-        "Fake": 0.7939978837966919
+        "Fake": 0.793998658657074
       },
       "flava": {
         "Real": 0.005406029522418976,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6032068505883217,
       "consistency_score": 0.5619241103529931
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is unrelated to the provided context about NASA and alien life, so I won't attempt to answer it based on that information. If you'd like to provide more context or clarify what \"life as a cardboard cup carrier\" refers to, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "d1k4oz",
     "final_label": "Fake",
-    "final_confidence": 0.9151683559318384,
+    "final_confidence": 0.9151686142186324,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5619241103529931,
     "clip_cos": 0.6032068505883217,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is unrelated to the provided context about NASA and alien life, so I won't attempt to answer it based on that information. If you'd like to provide more context or clarify what \"life as a cardboard cup carrier\" refers to, I'd be happy to try and help!",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

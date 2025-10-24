@@ -9,8 +9,8 @@
         "Fake": 0.9965230226516724
       },
       "vilt": {
-        "Real": 0.003004556056112051,
-        "SatireMixed": 0.02027009427547455,
+        "Real": 0.003004554659128189,
+        "SatireMixed": 0.020270109176635742,
         "Fake": 0.9767253994941711
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6269149780273438,
       "consistency_score": 0.5761489868164062
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I cannot provide content that is defamatory or promotes hate speech towards any group, including German Jews during World War II. Is there something else I can help you with?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5761489868164062,
     "clip_cos": 0.6269149780273438,
     "ocr_text": "",
+    "retrieved_text": "I cannot provide content that is defamatory or promotes hate speech towards any group, including German Jews during World War II. Is there something else I can help you with?",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.09203308145967633",
     "num_comments": "-0.138541446822334"

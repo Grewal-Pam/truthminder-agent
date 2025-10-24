@@ -9,9 +9,9 @@
         "Fake": 0.029392676427960396
       },
       "vilt": {
-        "Real": 0.889478325843811,
-        "SatireMixed": 0.0059113940224051476,
-        "Fake": 0.10461023449897766
+        "Real": 0.8894773721694946,
+        "SatireMixed": 0.00591142475605011,
+        "Fake": 0.10461116582155228
       },
       "flava": {
         "Real": 0.9898724555969238,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6294388622045517,
       "consistency_score": 0.577663317322731
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but there is no mention of a smiling dog."
     }
   ],
   "final": {
     "post_id": "bopb6s",
     "final_label": "Real",
-    "final_confidence": 0.9545500350991885,
+    "final_confidence": 0.9545497172077497,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.577663317322731,
     "clip_cos": 0.6294388622045517,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but there is no mention of a smiling dog.",
     "upvote_ratio": "-2.418568389638596",
     "score": "-0.13014527826442823",
     "num_comments": "-0.12476323641396671"

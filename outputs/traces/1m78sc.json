@@ -9,8 +9,8 @@
         "Fake": 0.9997170567512512
       },
       "vilt": {
-        "Real": 0.0029049322474747896,
-        "SatireMixed": 0.029794001951813698,
+        "Real": 0.00290492782369256,
+        "SatireMixed": 0.02979401685297489,
         "Fake": 0.967301070690155
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6131457388401031,
       "consistency_score": 0.5678874433040619
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem to relate to NASA or alien life, so I'm not able to provide a helpful answer for this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5678874433040619,
     "clip_cos": 0.6131457388401031,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem to relate to NASA or alien life, so I'm not able to provide a helpful answer for this question.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

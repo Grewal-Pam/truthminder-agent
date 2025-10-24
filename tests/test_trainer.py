@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader, Dataset
 from transformers import AdamW, AutoTokenizer
 from models.clip_model import CLIPMultiTaskClassifier
 from training.trainer import train_model
-from datasets.pre_processing import handle_missing_values, normalize_metadata, split_dataset, compute_pixel_values
+from local_datasets.pre_processing import handle_missing_values, normalize_metadata, split_dataset, compute_pixel_values
 import pandas as pd
 import os
 from utils.logger import setup_logger

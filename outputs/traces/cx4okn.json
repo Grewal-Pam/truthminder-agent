@@ -9,9 +9,9 @@
         "Fake": 0.7500361204147339
       },
       "vilt": {
-        "Real": 0.9676632881164551,
-        "SatireMixed": 0.00271394825540483,
-        "Fake": 0.029622765257954597
+        "Real": 0.9676634669303894,
+        "SatireMixed": 0.0027139410376548767,
+        "Fake": 0.02962258830666542
       },
       "flava": {
         "Real": 0.005839475430548191,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6609552353620529,
       "consistency_score": 0.5965731412172317
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not seem to be related to Roblox or doomsday scenarios, so I couldn't find any information to help answer the question. It seems like a standalone statement that is unrelated to NASA's findings on extraterrestrial life or microbial evidence."
     }
   ],
   "final": {
     "post_id": "cx4okn",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5807119538833698,
+    "final_label": "Fake",
+    "final_confidence": 0.5807118948996067,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5965731412172317,
     "clip_cos": 0.6609552353620529,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not seem to be related to Roblox or doomsday scenarios, so I couldn't find any information to help answer the question. It seems like a standalone statement that is unrelated to NASA's findings on extraterrestrial life or microbial evidence.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

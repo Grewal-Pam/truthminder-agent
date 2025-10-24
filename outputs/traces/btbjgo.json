@@ -9,9 +9,9 @@
         "Fake": 0.007059674244374037
       },
       "vilt": {
-        "Real": 0.00432982062920928,
-        "SatireMixed": 0.025448188185691833,
-        "Fake": 0.9702219367027283
+        "Real": 0.004329821094870567,
+        "SatireMixed": 0.025448104366660118,
+        "Fake": 0.9702220559120178
       },
       "flava": {
         "Real": 0.003999676555395126,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.5886758491396904,
-      "consistency_score": 0.5532055094838142
+      "clip_cos": 0.5886758416891098,
+      "consistency_score": 0.5532055050134659
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see any connection between the question about Jesus' resurrection and the context about NASA or alien life. The two topics seem unrelated.\n\nTo answer your original question, the theorized location where Jesus was resurrected is often associated with the Garden of Gethsemane, which is located near Jerusalem."
     }
   ],
   "final": {
     "post_id": "btbjgo",
     "final_label": "Fake",
-    "final_confidence": 0.6327110914029181,
+    "final_confidence": 0.632711130871127,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5532055094838142,
-    "clip_cos": 0.5886758491396904,
+    "consistency_score": 0.5532055050134659,
+    "clip_cos": 0.5886758416891098,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see any connection between the question about Jesus' resurrection and the context about NASA or alien life. The two topics seem unrelated.\n\nTo answer your original question, the theorized location where Jesus was resurrected is often associated with the Garden of Gethsemane, which is located near Jerusalem.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.10604012814860224",
     "num_comments": "-0.062761289576314"

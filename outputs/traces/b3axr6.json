@@ -9,9 +9,9 @@
         "Fake": 0.01868387684226036
       },
       "vilt": {
-        "Real": 0.9574658274650574,
-        "SatireMixed": 0.0027747906278818846,
-        "Fake": 0.03975934535264969
+        "Real": 0.9574657082557678,
+        "SatireMixed": 0.002774792956188321,
+        "Fake": 0.03975939750671387
       },
       "flava": {
         "Real": 0.9895268678665161,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6706010699272156,
-      "consistency_score": 0.6023606419563293
+      "clip_cos": 0.6706010848283768,
+      "consistency_score": 0.6023606508970261
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA, aliens, or microbial life, which are the topics mentioned in the context. It appears to be a unrelated and seemingly absurd question about shadows and snow."
     }
   ],
   "final": {
     "post_id": "b3axr6",
     "final_label": "Real",
-    "final_confidence": 0.9821596500873566,
+    "final_confidence": 0.9821596108873686,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.6023606419563293,
-    "clip_cos": 0.6706010699272156,
+    "consistency_score": 0.6023606508970261,
+    "clip_cos": 0.6706010848283768,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA, aliens, or microbial life, which are the topics mentioned in the context. It appears to be a unrelated and seemingly absurd question about shadows and snow.",
     "upvote_ratio": "1.0368763003981143",
     "score": "1.3386401524417801",
     "num_comments": "0.17835739257011327"

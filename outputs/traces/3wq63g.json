@@ -9,9 +9,9 @@
         "Fake": 0.0006048786453902721
       },
       "vilt": {
-        "Real": 0.9631536602973938,
-        "SatireMixed": 0.0017330177361145616,
-        "Fake": 0.035113297402858734
+        "Real": 0.9631537795066833,
+        "SatireMixed": 0.0017330171540379524,
+        "Fake": 0.03511320799589157
       },
       "flava": {
         "Real": 0.9881464242935181,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6400438249111176,
       "consistency_score": 0.5420131474733352
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think this question is relevant to the context you provided! The text talks about NASA and alien life, but doesn't mention pugs or treats. I'm happy to help with questions related to the original topic, but I don't have any information about pug behavior. Can you ask a new question that's more closely related to the context?"
     }
   ],
   "final": {
     "post_id": "3wq63g",
     "final_label": "Real",
-    "final_confidence": 0.9860411377151808,
+    "final_confidence": 0.9860411774516106,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5420131474733352,
     "clip_cos": 0.6400438249111176,
     "ocr_text": "vy",
+    "retrieved_text": "I don't think this question is relevant to the context you provided! The text talks about NASA and alien life, but doesn't mention pugs or treats. I'm happy to help with questions related to the original topic, but I don't have any information about pug behavior. Can you ask a new question that's more closely related to the context?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

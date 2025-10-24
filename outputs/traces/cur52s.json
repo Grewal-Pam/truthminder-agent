@@ -9,9 +9,9 @@
         "Fake": 0.03197234496474266
       },
       "vilt": {
-        "Real": 0.17467984557151794,
-        "SatireMixed": 0.009615556336939335,
-        "Fake": 0.8157045841217041
+        "Real": 0.1746794730424881,
+        "SatireMixed": 0.009615551680326462,
+        "Fake": 0.8157050013542175
       },
       "flava": {
         "Real": 0.9892603158950806,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6670109927654266,
       "consistency_score": 0.6002065956592559
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA, aliens, or microbial life at all - it appears to be a personal and unrelated observation about a hat and its effect on shadows."
     }
   ],
   "final": {
     "post_id": "cur52s",
     "final_label": "Real",
-    "final_confidence": 0.7085259017546972,
+    "final_confidence": 0.7085257775783539,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6002065956592559,
     "clip_cos": 0.6670109927654266,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA, aliens, or microbial life at all - it appears to be a personal and unrelated observation about a hat and its effect on shadows.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "6.046636566280065",
     "num_comments": "4.332487830692846"

@@ -5,8 +5,8 @@ import os
 from sklearn.preprocessing import StandardScaler
 import pickle
 from PIL import Image  # Importing Image from PIL
-from datasets.pre_processing import handle_missing_values, normalize_metadata, split_dataset
-from datasets.pre_processing import preprocess_image, compute_pixel_values
+from local_datasets.pre_processing import handle_missing_values, normalize_metadata, split_dataset
+from local_datasets.pre_processing import preprocess_image, compute_pixel_values
 
 
 @pytest.fixture

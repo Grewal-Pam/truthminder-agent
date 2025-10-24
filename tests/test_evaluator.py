@@ -4,7 +4,7 @@ import torch
 from training.evaluator import evaluate_model
 from models.clip_model import CLIPMultiTaskClassifier
 from torch.utils.data import DataLoader
-from datasets.pre_processing import compute_pixel_values, handle_missing_values, normalize_metadata
+from local_datasets.pre_processing import compute_pixel_values, handle_missing_values, normalize_metadata
 
 @pytest.fixture
 def preprocessed_dataset():

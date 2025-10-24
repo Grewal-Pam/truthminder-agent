@@ -9,9 +9,9 @@
         "Fake": 0.0018529698718339205
       },
       "vilt": {
-        "Real": 0.04603949934244156,
-        "SatireMixed": 0.01680675894021988,
-        "Fake": 0.937153697013855
+        "Real": 0.046038925647735596,
+        "SatireMixed": 0.016806714236736298,
+        "Fake": 0.9371543526649475
       },
       "flava": {
         "Real": 0.9880273342132568,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6577790677547455,
-      "consistency_score": 0.5946674406528473
+      "clip_cos": 0.6577790826559067,
+      "consistency_score": 0.594667449593544
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to relate to a \"guy sitting too close to the edge\" in any way, so I'm unable to provide an answer."
     }
   ],
   "final": {
     "post_id": "c2q93h",
     "final_label": "Real",
-    "final_confidence": 0.6830346131920815,
+    "final_confidence": 0.6830344224969546,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5946674406528473,
-    "clip_cos": 0.6577790677547455,
+    "consistency_score": 0.594667449593544,
+    "clip_cos": 0.6577790826559067,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to relate to a \"guy sitting too close to the edge\" in any way, so I'm unable to provide an answer.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12884229717708628",
     "num_comments": "-0.07653949998468126"

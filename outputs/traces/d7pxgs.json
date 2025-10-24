@@ -9,9 +9,9 @@
         "Fake": 0.004399521742016077
       },
       "vilt": {
-        "Real": 0.16792705655097961,
-        "SatireMixed": 0.6894711256027222,
-        "Fake": 0.14260172843933105
+        "Real": 0.1679273247718811,
+        "SatireMixed": 0.6894710063934326,
+        "Fake": 0.14260175824165344
       },
       "flava": {
         "Real": 0.0039216591976583,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6651642322540283,
       "consistency_score": 0.599098539352417
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem related to NASA's search for extraterrestrial life or the Vietnam War, so I'm not in a position to answer this question."
     }
   ],
   "final": {
     "post_id": "d7pxgs",
     "final_label": "SatireMixed",
-    "final_confidence": 0.6042782950997353,
+    "final_confidence": 0.6042782553633055,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.599098539352417,
     "clip_cos": 0.6651642322540283,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem related to NASA's search for extraterrestrial life or the Vietnam War, so I'm not in a position to answer this question.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.05554961101410185",
     "num_comments": "-0.09031771039304853"

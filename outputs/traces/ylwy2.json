@@ -9,9 +9,9 @@
         "Fake": 0.9669811725616455
       },
       "vilt": {
-        "Real": 0.915158748626709,
-        "SatireMixed": 0.002083843108266592,
-        "Fake": 0.0827573761343956
+        "Real": 0.9151602983474731,
+        "SatireMixed": 0.002083822852000594,
+        "Fake": 0.08275585621595383
       },
       "flava": {
         "Real": 0.019803477451205254,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6309023797512054,
       "consistency_score": 0.5785414278507233
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I notice that there's no question related to \"fried froggy\". The provided context is about NASA and alien life, but it doesn't seem to be connected to the phrase \"fried froggy\".\n\nIf you meant to ask a different question or provide more context for \"fried froggy\", please feel free to do so! I'll do my best to help if I can."
     }
   ],
   "final": {
     "post_id": "ylwy2",
     "final_label": "Fake",
-    "final_confidence": 0.667411258717378,
+    "final_confidence": 0.6674107520778975,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5785414278507233,
     "clip_cos": 0.6309023797512054,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I notice that there's no question related to \"fried froggy\". The provided context is about NASA and alien life, but it doesn't seem to be connected to the phrase \"fried froggy\".\n\nIf you meant to ask a different question or provide more context for \"fried froggy\", please feel free to do so! I'll do my best to help if I can.",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12558484445873141",
     "num_comments": "-0.12476323641396671"

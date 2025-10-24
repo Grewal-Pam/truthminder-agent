@@ -9,9 +9,9 @@
         "Fake": 0.9914299845695496
       },
       "vilt": {
-        "Real": 0.9172360301017761,
-        "SatireMixed": 0.0034154755994677544,
-        "Fake": 0.07934846729040146
+        "Real": 0.9172342419624329,
+        "SatireMixed": 0.0034155226312577724,
+        "Fake": 0.07935025542974472
       },
       "flava": {
         "Real": 0.9898484349250793,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.664767399430275,
-      "consistency_score": 0.5988604396581649
+      "clip_cos": 0.6647674143314362,
+      "consistency_score": 0.5988604485988617
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to your question because it seems unrelated to the context about NASA and microbial life. Can you provide more information or clarify what you're asking?"
     }
   ],
   "final": {
     "post_id": "cyr5bg",
     "final_label": "Real",
-    "final_confidence": 0.6444556567147374,
+    "final_confidence": 0.6444550612047315,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5988604396581649,
-    "clip_cos": 0.664767399430275,
+    "consistency_score": 0.5988604485988617,
+    "clip_cos": 0.6647674143314362,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to your question because it seems unrelated to the context about NASA and microbial life. Can you provide more information or clarify what you're asking?",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

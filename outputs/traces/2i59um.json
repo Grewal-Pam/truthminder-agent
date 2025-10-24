@@ -9,9 +9,9 @@
         "Fake": 0.32016125321388245
       },
       "vilt": {
-        "Real": 0.9865006804466248,
-        "SatireMixed": 0.002740271622315049,
-        "Fake": 0.010759043507277966
+        "Real": 0.9865005612373352,
+        "SatireMixed": 0.0027402699925005436,
+        "Fake": 0.010759073309600353
       },
       "flava": {
         "Real": 0.9885250926017761,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.67417773604393,
       "consistency_score": 0.604506641626358
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to answer the question about the naked girl with a green screen because it's NSFW (not safe for work) and doesn't have anything to do with the context provided. I won't try to make up an answer, as that would be irresponsible and unprofessional.\n\nIf you're looking for help or information about NASA's findings on extraterrestrial life, I can provide some clarification based on the given context."
     }
   ],
   "final": {
     "post_id": "2i59um",
     "final_label": "Real",
-    "final_confidence": 0.888103534579277,
+    "final_confidence": 0.8881034948428472,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.604506641626358,
     "clip_cos": 0.67417773604393,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to answer the question about the naked girl with a green screen because it's NSFW (not safe for work) and doesn't have anything to do with the context provided. I won't try to make up an answer, as that would be irresponsible and unprofessional.\n\nIf you're looking for help or information about NASA's findings on extraterrestrial life, I can provide some clarification based on the given context.",
     "upvote_ratio": "0.21848150538942002",
     "score": "1.0718547748085165",
     "num_comments": "4.043145412117132"

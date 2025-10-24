@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9907989501953125,
-        "SatireMixed": 0.0018733534961938858,
-        "Fake": 0.007327753119170666
+        "SatireMixed": 0.0018733571050688624,
+        "Fake": 0.007327735424041748
       },
       "flava": {
         "Real": 0.9896275997161865,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6338021755218506,
       "consistency_score": 0.5802813053131104
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context you provided is about NASA, aliens, and microbial life, which has no relation to your question about lost ID cards and credit cards after St. Patrick's Day at a bar. I'd be happy to help with an unrelated question if you'd like!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5802813053131104,
     "clip_cos": 0.6338021755218506,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context you provided is about NASA, aliens, and microbial life, which has no relation to your question about lost ID cards and credit cards after St. Patrick's Day at a bar. I'd be happy to help with an unrelated question if you'd like!",
     "upvote_ratio": "1.2187418104000465",
     "score": "1.7080352907032217",
     "num_comments": "0.9843827014595986"

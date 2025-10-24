@@ -9,9 +9,9 @@
         "Fake": 0.0001092842358048074
       },
       "vilt": {
-        "Real": 0.9779370427131653,
-        "SatireMixed": 0.0022716333623975515,
-        "Fake": 0.019791316241025925
+        "Real": 0.9779369235038757,
+        "SatireMixed": 0.002271629637107253,
+        "Fake": 0.019791385158896446
       },
       "flava": {
         "Real": 0.9868832230567932,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6479961425065994,
       "consistency_score": 0.5887976855039596
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be unrelated to cats or yin-yang philosophy, and I'm not aware of any information about a \"cat on a box\" being related to NASA or alien life."
     }
   ],
   "final": {
     "post_id": "dj1agv",
     "final_label": "Real",
-    "final_confidence": 0.9935458904703458,
+    "final_confidence": 0.9935458507339159,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5887976855039596,
     "clip_cos": 0.6479961425065994,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be unrelated to cats or yin-yang philosophy, and I'm not aware of any information about a \"cat on a box\" being related to NASA or alien life.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12200164646854107",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.000690251647029072
       },
       "vilt": {
-        "Real": 0.45394638180732727,
-        "SatireMixed": 0.011397754773497581,
-        "Fake": 0.5346559286117554
+        "Real": 0.4539477229118347,
+        "SatireMixed": 0.011397737078368664,
+        "Fake": 0.5346545577049255
       },
       "flava": {
         "Real": 0.005619314033538103,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.607157751917839,
-      "consistency_score": 0.5642946511507034
+      "clip_cos": 0.6071577444672585,
+      "consistency_score": 0.5642946466803551
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem to be related to the topic of being \"armed\", and I don't see any connection between NASA's findings or microbial life evidence and the concept of being armed."
     }
   ],
   "final": {
     "post_id": "7nnaka",
-    "final_label": "Uncertain",
-    "final_confidence": 0.49717749845935033,
+    "final_label": "Fake",
+    "final_confidence": 0.49717704122218614,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5642946511507034,
-    "clip_cos": 0.607157751917839,
+    "consistency_score": 0.5642946466803551,
+    "clip_cos": 0.6071577444672585,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem to be related to the topic of being \"armed\", and I don't see any connection between NASA's findings or microbial life evidence and the concept of being armed.",
     "upvote_ratio": "0.21848150538942002",
     "score": "0.08321787478781535",
     "num_comments": "0.06124260409899145"

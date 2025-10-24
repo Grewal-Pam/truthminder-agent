@@ -9,9 +9,9 @@
         "Fake": 0.9994865655899048
       },
       "vilt": {
-        "Real": 0.019171956926584244,
-        "SatireMixed": 0.011629527434706688,
-        "Fake": 0.9691985249519348
+        "Real": 0.019171681255102158,
+        "SatireMixed": 0.01162950973957777,
+        "Fake": 0.9691988825798035
       },
       "flava": {
         "Real": 0.025073610246181488,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6236211657524109,
-      "consistency_score": 0.5741726994514466
+      "clip_cos": 0.6236211806535721,
+      "consistency_score": 0.5741727083921433
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there's been a mix-up! The question \"happy baby Groot\" seems unrelated to the NASA context, and I'm not aware of any connection between the two. As such, I don't have an answer for this one."
     }
   ],
   "final": {
     "post_id": "3l009a",
     "final_label": "Fake",
-    "final_confidence": 0.9716206799348196,
+    "final_confidence": 0.9716207996805509,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5741726994514466,
-    "clip_cos": 0.6236211657524109,
+    "consistency_score": 0.5741727083921433,
+    "clip_cos": 0.6236211806535721,
     "ocr_text": "",
+    "retrieved_text": "I think there's been a mix-up! The question \"happy baby Groot\" seems unrelated to the NASA context, and I'm not aware of any connection between the two. As such, I don't have an answer for this one.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

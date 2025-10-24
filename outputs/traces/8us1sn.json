@@ -9,9 +9,9 @@
         "Fake": 0.06634601950645447
       },
       "vilt": {
-        "Real": 0.9895709753036499,
-        "SatireMixed": 0.0022802322637289762,
-        "Fake": 0.008148777298629284
+        "Real": 0.9895708560943604,
+        "SatireMixed": 0.0022802255116403103,
+        "Fake": 0.00814881082624197
       },
       "flava": {
         "Real": 0.9879156351089478,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6683324724435806,
       "consistency_score": 0.6009994834661484
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about a bunny on a breezy beach, which seems unrelated to NASA or alien life. I'm not trying to make an educated guess or provide an answer that's not supported by the provided context. If you'd like me to clarify anything from the original context, feel free to ask!"
     }
   ],
   "final": {
     "post_id": "8us1sn",
     "final_label": "Real",
-    "final_confidence": 0.9763342584570249,
+    "final_confidence": 1.026334218720595,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6009994834661484,
     "clip_cos": 0.6683324724435806,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about a bunny on a breezy beach, which seems unrelated to NASA or alien life. I'm not trying to make an educated guess or provide an answer that's not supported by the provided context. If you'd like me to clarify anything from the original context, feel free to ask!",
     "upvote_ratio": "1.2187418104000465",
     "score": "0.09527044984572836",
     "num_comments": "-0.07653949998468126"

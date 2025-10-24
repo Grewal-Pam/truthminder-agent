@@ -9,9 +9,9 @@
         "Fake": 0.0002531648497097194
       },
       "vilt": {
-        "Real": 0.9811949133872986,
-        "SatireMixed": 0.002467080019414425,
-        "Fake": 0.016338041052222252
+        "Real": 0.981194794178009,
+        "SatireMixed": 0.002467081882059574,
+        "Fake": 0.016338147222995758
       },
       "flava": {
         "Real": 0.9895234704017639,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6439900398254395,
-      "consistency_score": 0.5863940238952636
+      "clip_cos": 0.6439900547266006,
+      "consistency_score": 0.5863940328359604
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer. Can you please provide more information about who this person is, what they are doing with the flower petals and leaves, or any other relevant details?"
     }
   ],
   "final": {
     "post_id": "by0mrx",
     "final_label": "Real",
-    "final_confidence": 0.9953225297927857,
+    "final_confidence": 0.9953224905927976,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5863940238952636,
-    "clip_cos": 0.6439900398254395,
+    "consistency_score": 0.5863940328359604,
+    "clip_cos": 0.6439900547266006,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer. Can you please provide more information about who this person is, what they are doing with the flower petals and leaves, or any other relevant details?",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12656208027423788",
     "num_comments": "-0.12476323641396671"

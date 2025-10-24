@@ -9,8 +9,8 @@
         "Fake": 0.9331215620040894
       },
       "vilt": {
-        "Real": 0.003293748013675213,
-        "SatireMixed": 0.021521007642149925,
+        "Real": 0.0032937510404735804,
+        "SatireMixed": 0.021521013230085373,
         "Fake": 0.9751852750778198
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6277288645505905,
       "consistency_score": 0.5766373187303543
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! The question doesn't seem related to NASA or extraterrestrial life, so I'll take a stab at it. The answer is... whatever direction the force of gravity is pulling on you! In other words, if you're standing on Earth, your \"up\" is towards the sky."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5766373187303543,
     "clip_cos": 0.6277288645505905,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! The question doesn't seem related to NASA or extraterrestrial life, so I'll take a stab at it. The answer is... whatever direction the force of gravity is pulling on you! In other words, if you're standing on Earth, your \"up\" is towards the sky.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.09463904363436022",
     "num_comments": "-0.028315763555395813"

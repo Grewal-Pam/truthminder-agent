@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9853562712669373,
-        "SatireMixed": 0.002306943526491523,
-        "Fake": 0.012336714193224907
+        "SatireMixed": 0.0023069411981850863,
+        "Fake": 0.01233675517141819
       },
       "flava": {
         "Real": 0.9895704984664917,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6477484256029129,
       "consistency_score": 0.5886490553617477
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The given context is about NASA's findings on alien life and microbial life, but it doesn't mention anything about Trump's trade war or a Texas steel pipe manufacturer. It seems to be unrelated topics."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5886490553617477,
     "clip_cos": 0.6477484256029129,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The given context is about NASA's findings on alien life and microbial life, but it doesn't mention anything about Trump's trade war or a Texas steel pipe manufacturer. It seems to be unrelated topics.",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12721357081790885",
     "num_comments": "-0.12476323641396671"

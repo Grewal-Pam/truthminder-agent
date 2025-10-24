@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9659163951873779,
-        "SatireMixed": 0.0028573882300406694,
-        "Fake": 0.031226323917508125
+        "SatireMixed": 0.0028573814779520035,
+        "Fake": 0.0312262624502182
       },
       "flava": {
         "Real": 0.9895989894866943,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6597843319177628,
       "consistency_score": 0.5958705991506577
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between finding a fist in your bag of Fritos and NASA's admission or lack thereof about alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5958705991506577,
     "clip_cos": 0.6597843319177628,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between finding a fist in your bag of Fritos and NASA's admission or lack thereof about alien life.",
     "upvote_ratio": "-2.2367028796366637",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1040959208014158"

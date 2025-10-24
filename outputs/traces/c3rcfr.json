@@ -9,9 +9,9 @@
         "Fake": 0.00017410816508345306
       },
       "vilt": {
-        "Real": 0.9554989337921143,
-        "SatireMixed": 0.0023187079932540655,
-        "Fake": 0.04218236356973648
+        "Real": 0.9554991722106934,
+        "SatireMixed": 0.0023187007755041122,
+        "Fake": 0.042182087898254395
       },
       "flava": {
         "Real": 0.9884126782417297,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.660644456744194,
-      "consistency_score": 0.5963866740465165
+      "clip_cos": 0.6606444716453552,
+      "consistency_score": 0.5963866829872131
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to the question about NASA or the existence of aliens. It appears to be a separate topic altogether, involving a fishing club and cleaning up waterways in Queensland."
     }
   ],
   "final": {
     "post_id": "c3rcfr",
     "final_label": "Real",
-    "final_confidence": 0.9870096446871758,
+    "final_confidence": 0.9870097246964773,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5963866740465165,
-    "clip_cos": 0.660644456744194,
+    "consistency_score": 0.5963866829872131,
+    "clip_cos": 0.6606444716453552,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to the question about NASA or the existence of aliens. It appears to be a separate topic altogether, involving a fishing club and cleaning up waterways in Queensland.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.11092630722613454",
     "num_comments": "-0.1454305520265176"

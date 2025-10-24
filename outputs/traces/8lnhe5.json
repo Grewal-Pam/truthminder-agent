@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9837446212768555,
-        "SatireMixed": 0.0034899995662271976,
-        "Fake": 0.012765340507030487
+        "SatireMixed": 0.003490001428872347,
+        "Fake": 0.012765382416546345
       },
       "flava": {
         "Real": 0.9884392619132996,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6458578407764435,
-      "consistency_score": 0.5875147044658661
+      "clip_cos": 0.6458578258752823,
+      "consistency_score": 0.5875146955251693
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA, aliens, microbial life, and voting rights in Ireland, but it doesn't seem related to your question."
     }
   ],
   "final": {
     "post_id": "8lnhe5",
     "final_label": "Real",
-    "final_confidence": 0.9956430108944575,
+    "final_confidence": 0.9956430103580156,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5875147044658661,
-    "clip_cos": 0.6458578407764435,
+    "consistency_score": 0.5875146955251693,
+    "clip_cos": 0.6458578258752823,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA, aliens, microbial life, and voting rights in Ireland, but it doesn't seem related to your question.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.10766885450777967",
     "num_comments": "-0.1454305520265176"

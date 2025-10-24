@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.985853910446167,
-        "SatireMixed": 0.0020727738738059998,
-        "Fake": 0.01207337062805891
+        "SatireMixed": 0.002072772942483425,
+        "Fake": 0.012073417194187641
       },
       "flava": {
         "Real": 0.9892340898513794,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6383465677499771,
       "consistency_score": 0.5830079406499863
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about mayonnaise tubes or their landing behavior, so I'll just say I don't know!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5830079406499863,
     "clip_cos": 0.6383465677499771,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about mayonnaise tubes or their landing behavior, so I'll just say I don't know!",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.123956118099554",
     "num_comments": "0.04057528848644054"

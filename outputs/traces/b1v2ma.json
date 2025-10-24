@@ -9,9 +9,9 @@
         "Fake": 0.3350977599620819
       },
       "vilt": {
-        "Real": 0.2930406630039215,
-        "SatireMixed": 0.010573843494057655,
-        "Fake": 0.6963855028152466
+        "Real": 0.29304274916648865,
+        "SatireMixed": 0.01057384256273508,
+        "Fake": 0.6963834166526794
       },
       "flava": {
         "Real": 0.013741865754127502,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.58717480301857,
       "consistency_score": 0.552304881811142
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention anything about alien life or NASA admitting to it, so I won't try to make an answer up. Additionally, the term \"Hoth-like\" likely refers to a planet similar in appearance to Hoth from Star Wars, but it's not related to the question of alien existence."
     }
   ],
   "final": {
     "post_id": "b1v2ma",
     "final_label": "Fake",
-    "final_confidence": 0.6613347123861313,
+    "final_confidence": 0.6613340169986089,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.552304881811142,
     "clip_cos": 0.58717480301857,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention anything about alien life or NASA admitting to it, so I won't try to make an answer up. Additionally, the term \"Hoth-like\" likely refers to a planet similar in appearance to Hoth from Star Wars, but it's not related to the question of alien existence.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.08454094020746014",
     "num_comments": "-0.138541446822334"

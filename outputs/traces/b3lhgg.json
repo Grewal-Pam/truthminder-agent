@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9886749982833862,
-        "SatireMixed": 0.0024323847610503435,
-        "Fake": 0.008892649784684181
+        "SatireMixed": 0.0024323882535099983,
+        "Fake": 0.00889264140278101
       },
       "flava": {
         "Real": 0.9895582795143127,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6372261047363281,
       "consistency_score": 0.5823356628417968
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about a package and a packing card, which has nothing to do with NASA or alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5823356628417968,
     "clip_cos": 0.6372261047363281,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about a package and a packing card, which has nothing to do with NASA or alien life.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.10636587342043773",
     "num_comments": "-0.12476323641396671"

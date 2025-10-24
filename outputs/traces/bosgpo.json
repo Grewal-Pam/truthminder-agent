@@ -9,9 +9,9 @@
         "Fake": 0.9983465671539307
       },
       "vilt": {
-        "Real": 0.9646555781364441,
-        "SatireMixed": 0.002827372634783387,
-        "Fake": 0.032517027109861374
+        "Real": 0.964655876159668,
+        "SatireMixed": 0.002827364020049572,
+        "Fake": 0.03251676633954048
       },
       "flava": {
         "Real": 0.005413464270532131,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6343674510717392,
       "consistency_score": 0.5806204706430436
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any relevant information or context about owls being seen in a friend's bathroom, as this seems unrelated to NASA, aliens, or microbial life. I can provide helpful responses if you'd like!"
     }
   ],
   "final": {
     "post_id": "bosgpo",
     "final_label": "Fake",
-    "final_confidence": 0.6626869014203548,
+    "final_confidence": 0.6626868144969145,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5806204706430436,
     "clip_cos": 0.6343674510717392,
     "ocr_text": "",
+    "retrieved_text": "I don't have any relevant information or context about owls being seen in a friend's bathroom, as this seems unrelated to NASA, aliens, or microbial life. I can provide helpful responses if you'd like!",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12916804244892177",
     "num_comments": "-0.13165234161815034"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9878754019737244,
-        "SatireMixed": 0.0028243055567145348,
-        "Fake": 0.00930030643939972
+        "SatireMixed": 0.002824302762746811,
+        "Fake": 0.009300319477915764
       },
       "flava": {
         "Real": 0.9889485836029053,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6476155519485474,
-      "consistency_score": 0.5885693311691285
+      "clip_cos": 0.6476155370473862,
+      "consistency_score": 0.5885693222284317
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life, so I won't attempt to answer it based on the provided context. If you'd like to provide more information about the situation involving a former shelter dog helping save a year-old girl, I'd be happy to try and help with that specific question!"
     }
   ],
   "final": {
     "post_id": "60wwn7",
     "final_label": "Real",
-    "final_confidence": 0.997485944112142,
+    "final_confidence": 0.9974859435757002,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5885693311691285,
-    "clip_cos": 0.6476155519485474,
+    "consistency_score": 0.5885693222284317,
+    "clip_cos": 0.6476155370473862,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life, so I won't attempt to answer it based on the provided context. If you'd like to provide more information about the situation involving a former shelter dog helping save a year-old girl, I'd be happy to try and help with that specific question!",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12297888228404753",
     "num_comments": "-0.138541446822334"

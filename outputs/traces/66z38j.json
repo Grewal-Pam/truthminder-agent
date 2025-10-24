@@ -9,9 +9,9 @@
         "Fake": 0.012926212511956692
       },
       "vilt": {
-        "Real": 0.6593762040138245,
-        "SatireMixed": 0.01168446708470583,
-        "Fake": 0.3289393484592438
+        "Real": 0.6593744158744812,
+        "SatireMixed": 0.011684496887028217,
+        "Fake": 0.32894113659858704
       },
       "flava": {
         "Real": 0.005372504238039255,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6418180167675018,
-      "consistency_score": 0.5850908100605011
+      "clip_cos": 0.6418180018663406,
+      "consistency_score": 0.5850908011198044
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about a little old lady reading on top of a succulent plant, and has nothing to do with NASA or alien life. I'm happy to help with questions related to the provided context, but this one is out of my scope!"
     }
   ],
   "final": {
     "post_id": "66z38j",
-    "final_label": "Uncertain",
-    "final_confidence": 0.555665022255232,
+    "final_label": "Real",
+    "final_confidence": 0.5556644256723424,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5850908100605011,
-    "clip_cos": 0.6418180167675018,
+    "consistency_score": 0.5850908011198044,
+    "clip_cos": 0.6418180018663406,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about a little old lady reading on top of a succulent plant, and has nothing to do with NASA or alien life. I'm happy to help with questions related to the provided context, but this one is out of my scope!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

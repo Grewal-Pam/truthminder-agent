@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9843845367431641,
-        "SatireMixed": 0.0017548466566950083,
-        "Fake": 0.013860655017197132
+        "SatireMixed": 0.0017548482865095139,
+        "Fake": 0.013860609382390976
       },
       "flava": {
         "Real": 0.9892780780792236,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.655214786529541,
       "consistency_score": 0.5931288719177246
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about a surprised duckling, so I can't determine who or what it might refer to."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5931288719177246,
     "clip_cos": 0.655214786529541,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about a surprised duckling, so I can't determine who or what it might refer to.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.10864609032328613",
     "num_comments": "-0.09720681559723217"

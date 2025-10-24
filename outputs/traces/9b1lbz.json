@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9818885922431946,
-        "SatireMixed": 0.0038418390322476625,
-        "Fake": 0.014269624836742878
+        "SatireMixed": 0.00384182995185256,
+        "Fake": 0.014269611798226833
       },
       "flava": {
         "Real": 0.988879919052124,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6388119161128998,
-      "consistency_score": 0.5832871496677399
+      "clip_cos": 0.6388118863105774,
+      "consistency_score": 0.5832871317863464
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't mention anything about the Pope or Dublin. It seems to be discussing NASA and the search for extraterrestrial life, so I'll stick with what I know and not try to make something up."
     }
   ],
   "final": {
     "post_id": "9b1lbz",
     "final_label": "Real",
-    "final_confidence": 0.994984920223554,
+    "final_confidence": 0.9949849191506704,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5832871496677399,
-    "clip_cos": 0.6388119161128998,
+    "consistency_score": 0.5832871317863464,
+    "clip_cos": 0.6388118863105774,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't mention anything about the Pope or Dublin. It seems to be discussing NASA and the search for extraterrestrial life, so I'll stick with what I know and not try to make something up.",
     "upvote_ratio": "-1.600173594629901",
     "score": "-0.12884229717708628",
     "num_comments": "-0.138541446822334"

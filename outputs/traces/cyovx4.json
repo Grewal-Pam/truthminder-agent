@@ -9,9 +9,9 @@
         "Fake": 0.3738471567630768
       },
       "vilt": {
-        "Real": 0.003703173715621233,
-        "SatireMixed": 0.020054927095770836,
-        "Fake": 0.9762418270111084
+        "Real": 0.0037031848914921284,
+        "SatireMixed": 0.020054804161190987,
+        "Fake": 0.976241946220398
       },
       "flava": {
         "Real": 0.003954555373638868,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6156774833798409,
       "consistency_score": 0.5694064900279046
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context seems unrelated to the question about rare footage of a Jonestown cultist, and I don't have any information about that specific topic."
     }
   ],
   "final": {
     "post_id": "cyovx4",
     "final_label": "Fake",
-    "final_confidence": 0.7594459470411142,
+    "final_confidence": 0.759445986777544,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5694064900279046,
     "clip_cos": 0.6156774833798409,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context seems unrelated to the question about rare footage of a Jonestown cultist, and I don't have any information about that specific topic.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12363037282771851",
     "num_comments": "-0.1454305520265176"

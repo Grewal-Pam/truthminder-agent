@@ -9,9 +9,9 @@
         "Fake": 0.00042237952584400773
       },
       "vilt": {
-        "Real": 0.050415560603141785,
-        "SatireMixed": 0.007898706942796707,
-        "Fake": 0.9416857361793518
+        "Real": 0.050414830446243286,
+        "SatireMixed": 0.007898724637925625,
+        "Fake": 0.9416864514350891
       },
       "flava": {
         "Real": 0.005803873762488365,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6172602996230125,
       "consistency_score": 0.5703561797738075
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "A straightforward one!\n\nI'd say: \"Actually, not necessarily. It's a common phenomenon for humans to have certain expectations or beliefs about the existence of alien life, and when scientific findings contradict those expectations, it can be unsettling. But the scientific consensus is based on empirical evidence, and if NASA has confirmed microbial life through multiple independent missions, that's what we should rely on. The unknown can be uncomfortable, but it's also what drives human curiosity and innovation!\""
     }
   ],
   "final": {
     "post_id": "8ruphg",
     "final_label": "Fake",
-    "final_confidence": 0.6328393995968314,
+    "final_confidence": 0.6328396380154105,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5703561797738075,
     "clip_cos": 0.6172602996230125,
     "ocr_text": "",
+    "retrieved_text": "A straightforward one!\n\nI'd say: \"Actually, not necessarily. It's a common phenomenon for humans to have certain expectations or beliefs about the existence of alien life, and when scientific findings contradict those expectations, it can be unsettling. But the scientific consensus is based on empirical evidence, and if NASA has confirmed microbial life through multiple independent missions, that's what we should rely on. The unknown can be uncomfortable, but it's also what drives human curiosit",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.11092630722613454",
     "num_comments": "-0.11098502600559944"

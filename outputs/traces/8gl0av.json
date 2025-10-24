@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9900475740432739,
-        "SatireMixed": 0.004607143811881542,
-        "Fake": 0.005345211364328861
+        "SatireMixed": 0.004607157316058874,
+        "Fake": 0.005345214158296585
       },
       "flava": {
         "Real": 0.9889662861824036,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6583542227745056,
       "consistency_score": 0.5950125336647034
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention anything about aliens, so I can only answer based on the information provided. Since there is no mention of extraterrestrial life or any connection to NASA's claims, I don't have enough information to provide an answer about aliens."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5950125336647034,
     "clip_cos": 0.6583542227745056,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention anything about aliens, so I can only answer based on the information provided. Since there is no mention of extraterrestrial life or any connection to NASA's claims, I don't have enough information to provide an answer about aliens.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12297888228404753",
     "num_comments": "-0.13165234161815034"

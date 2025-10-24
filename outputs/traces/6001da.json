@@ -9,9 +9,9 @@
         "Fake": 0.00034623415558598936
       },
       "vilt": {
-        "Real": 0.8500010967254639,
-        "SatireMixed": 0.007195170037448406,
-        "Fake": 0.14280374348163605
+        "Real": 0.8499943614006042,
+        "SatireMixed": 0.007195312064141035,
+        "Fake": 0.14281024038791656
       },
       "flava": {
         "Real": 0.9875527620315552,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6644013375043869,
       "consistency_score": 0.5986408025026322
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention President Obama having a meeting with a young monk in Laos, nor does it provide any information about President Obama's answers to the monk's life questions. Therefore, I cannot provide an answer to this question based on the provided context."
     }
   ],
   "final": {
     "post_id": "6001da",
     "final_label": "Real",
-    "final_confidence": 0.9516457567413649,
+    "final_confidence": 0.9516435116330783,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5986408025026322,
     "clip_cos": 0.6644013375043869,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention President Obama having a meeting with a young monk in Laos, nor does it provide any information about President Obama's answers to the monk's life questions. Therefore, I cannot provide an answer to this question based on the provided context.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12297888228404753",
     "num_comments": "-0.138541446822334"

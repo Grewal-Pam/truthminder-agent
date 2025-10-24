@@ -9,9 +9,9 @@
         "Fake": 0.32365062832832336
       },
       "vilt": {
-        "Real": 0.6279148459434509,
-        "SatireMixed": 0.012084775604307652,
-        "Fake": 0.360000342130661
+        "Real": 0.6279173493385315,
+        "SatireMixed": 0.012084723450243473,
+        "Fake": 0.3599978983402252
       },
       "flava": {
         "Real": 0.9879363179206848,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.621527373790741,
       "consistency_score": 0.5364582121372222
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is unrelated to Rand Paul or the delivery of beer by drones, and it appears to be a random tweet about a music festival in South Africa."
     }
   ],
   "final": {
     "post_id": "1k1lty",
     "final_label": "Real",
-    "final_confidence": 0.766087434967359,
+    "final_confidence": 0.7660882694323858,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5364582121372222,
     "clip_cos": 0.621527373790741,
     "ocr_text": "france24.comen20130808dr...821am  9 Aug 13  Twitter for iPhoneDrone delivers beer not bombs atS.Africa music festivalRevellers at a South African Oo",
+    "retrieved_text": "I don't know. The provided context is unrelated to Rand Paul or the delivery of beer by drones, and it appears to be a random tweet about a music festival in South Africa.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.11125205249797003",
     "num_comments": "-0.09031771039304853"

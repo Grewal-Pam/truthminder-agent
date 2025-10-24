@@ -9,9 +9,9 @@
         "Fake": 0.003582810517400503
       },
       "vilt": {
-        "Real": 0.9621480703353882,
-        "SatireMixed": 0.0028786752372980118,
-        "Fake": 0.034973256289958954
+        "Real": 0.96214759349823,
+        "SatireMixed": 0.0028786889743059874,
+        "Fake": 0.034973688423633575
       },
       "flava": {
         "Real": 0.911967396736145,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.645347073674202,
       "consistency_score": 0.5872082442045212
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The provided information seems unrelated to Kim Jong Un or North Korea, and I don't know anything about a \"new symbol of strength\" related to him."
     }
   ],
   "final": {
     "post_id": "6581qa",
     "final_label": "Real",
-    "final_confidence": 0.9620404060482979,
+    "final_confidence": 0.9620402471025785,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5872082442045212,
     "clip_cos": 0.645347073674202,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The provided information seems unrelated to Kim Jong Un or North Korea, and I don't know anything about a \"new symbol of strength\" related to him.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.06597345971283741",
     "num_comments": "-0.05587218437213035"

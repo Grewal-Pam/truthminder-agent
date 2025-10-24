@@ -9,7 +9,7 @@
         "Fake": 0.9699633717536926
       },
       "vilt": {
-        "Real": 0.006286113988608122,
+        "Real": 0.006286117248237133,
         "SatireMixed": 0.014634454622864723,
         "Fake": 0.9790794849395752
       },
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5900273025035858,
       "consistency_score": 0.5540163815021515
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any relevant information or context that would allow me to provide a helpful answer to your question \"dont mind me just practicin my stabbin\". It appears to be a cryptic message, but I don't know what it refers to. If you meant something else, please clarify and I'll do my best to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5540163815021515,
     "clip_cos": 0.5900273025035858,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any relevant information or context that would allow me to provide a helpful answer to your question \"dont mind me just practicin my stabbin\". It appears to be a cryptic message, but I don't know what it refers to. If you meant something else, please clarify and I'll do my best to help!",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.08844988346948597",
     "num_comments": "-0.0834286051888649"

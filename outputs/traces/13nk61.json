@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9890718460083008,
-        "SatireMixed": 0.0022860828321427107,
-        "Fake": 0.00864210445433855
+        "SatireMixed": 0.0022860891185700893,
+        "Fake": 0.008642074652016163
       },
       "flava": {
         "Real": 0.9897365570068359,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6760251075029373,
       "consistency_score": 0.6056150645017624
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think this question is related to NASA or alien life at all! It seems like a completely unrelated topic, possibly about an animal behavior or something else entirely. I'm happy to help with any questions you might have, but in this case, I don't have any information that would be relevant to the topic of cats chewing on fence posts."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6056150645017624,
     "clip_cos": 0.6760251075029373,
     "ocr_text": "",
+    "retrieved_text": "I don't think this question is related to NASA or alien life at all! It seems like a completely unrelated topic, possibly about an animal behavior or something else entirely. I'm happy to help with any questions you might have, but in this case, I don't have any information that would be relevant to the topic of cats chewing on fence posts.",
     "upvote_ratio": "-1.5092408396289356",
     "score": "-0.12884229717708628",
     "num_comments": "-0.12476323641396671"

@@ -9,7 +9,7 @@
         "Fake": 0.9980515241622925
       },
       "vilt": {
-        "Real": 0.006757397670298815,
+        "Real": 0.006757381837815046,
         "SatireMixed": 0.013199012726545334,
         "Fake": 0.9800436496734619
       },
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6611838787794113,
       "consistency_score": 0.5483551636338233
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context seems unrelated to the question about a punch in boxing, so I'm not able to provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5483551636338233,
     "clip_cos": 0.6611838787794113,
     "ocr_text": "THE LEFT HOOKSnea",
+    "retrieved_text": "I don't know. The context seems unrelated to the question about a punch in boxing, so I'm not able to provide an answer.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

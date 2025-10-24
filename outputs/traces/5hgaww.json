@@ -9,9 +9,9 @@
         "Fake": 0.00030285929096862674
       },
       "vilt": {
-        "Real": 0.8928956389427185,
-        "SatireMixed": 0.0044844183139503,
-        "Fake": 0.10261997580528259
+        "Real": 0.8928970694541931,
+        "SatireMixed": 0.004484374076128006,
+        "Fake": 0.10261859744787216
       },
       "flava": {
         "Real": 0.9891250133514404,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.634435847401619,
       "consistency_score": 0.5806615084409714
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a chair of Prince George's County Liquor Board being charged with DUI, nor do I know anything about the specific incident mentioned (outside MGM National Harbor). My training data doesn't contain any relevant information to answer this question."
     }
   ],
   "final": {
     "post_id": "5hgaww",
     "final_label": "Real",
-    "final_confidence": 0.9653830051223437,
+    "final_confidence": 0.9653834819595019,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5806615084409714,
     "clip_cos": 0.634435847401619,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a chair of Prince George's County Liquor Board being charged with DUI, nor do I know anything about the specific incident mentioned (outside MGM National Harbor). My training data doesn't contain any relevant information to answer this question.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12037292010936364",
     "num_comments": "-0.13165234161815034"

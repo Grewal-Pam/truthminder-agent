@@ -9,8 +9,8 @@
         "Fake": 0.993640124797821
       },
       "vilt": {
-        "Real": 0.0035163932479918003,
-        "SatireMixed": 0.013424805365502834,
+        "Real": 0.0035163918510079384,
+        "SatireMixed": 0.013424818404018879,
         "Fake": 0.9830588102340698
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6202537640929222,
-      "consistency_score": 0.5721522584557533
+      "clip_cos": 0.6202537789940834,
+      "consistency_score": 0.5721522673964501
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context only mentions NASA's stance on alien life and microbial life evidence from multiple independent missions, but it doesn't provide any information about a \"depressedshadow\" to help answer the question."
     }
   ],
   "final": {
     "post_id": "cfxxyx",
     "final_label": "Fake",
-    "final_confidence": 0.9769409005741277,
+    "final_confidence": 0.9769409011105696,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5721522584557533,
-    "clip_cos": 0.6202537640929222,
+    "consistency_score": 0.5721522673964501,
+    "clip_cos": 0.6202537789940834,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context only mentions NASA's stance on alien life and microbial life evidence from multiple independent missions, but it doesn't provide any information about a \"depressedshadow\" to help answer the question.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.07248836514954714",
     "num_comments": "-0.09720681559723217"

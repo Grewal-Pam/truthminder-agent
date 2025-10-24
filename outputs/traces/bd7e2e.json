@@ -9,9 +9,9 @@
         "Fake": 0.004603300243616104
       },
       "vilt": {
-        "Real": 0.974601686000824,
-        "SatireMixed": 0.0019330921350046992,
-        "Fake": 0.02346518076956272
+        "Real": 0.9746015667915344,
+        "SatireMixed": 0.001933090970851481,
+        "Fake": 0.023465249687433243
       },
       "flava": {
         "Real": 0.004096993710845709,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6926237493753433,
       "consistency_score": 0.615574249625206
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem to be related to NASA's admission of aliens or the existence of microbial life evidence, but rather asks about HANKOOK and its relation to South Korea. Based on the context provided, it appears that HANKOOK is a tire company from South Korea, and \"Hankook\" is the anglicized form of \"\" (Hanguk), which indeed means \"South Korea\"."
     }
   ],
   "final": {
     "post_id": "bd7e2e",
     "final_label": "Real",
-    "final_confidence": 0.664944781769067,
+    "final_confidence": 0.6649447420326372,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.615574249625206,
     "clip_cos": 0.6926237493753433,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem to be related to NASA's admission of aliens or the existence of microbial life evidence, but rather asks about HANKOOK and its relation to South Korea. Based on the context provided, it appears that HANKOOK is a tire company from South Korea, and \"Hankook\" is the anglicized form of \"\" (Hanguk), which indeed means \"South Korea\".",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12916804244892177",
     "num_comments": "-0.09031771039304853"

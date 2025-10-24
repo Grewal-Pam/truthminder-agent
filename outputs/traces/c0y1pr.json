@@ -9,8 +9,8 @@
         "Fake": 0.0002999255957547575
       },
       "vilt": {
-        "Real": 0.02184426598250866,
-        "SatireMixed": 0.01363297551870346,
+        "Real": 0.021844198927283287,
+        "SatireMixed": 0.013632982037961483,
         "Fake": 0.9645227789878845
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6516102999448776,
-      "consistency_score": 0.5909661799669266
+      "clip_cos": 0.6516102850437164,
+      "consistency_score": 0.5909661710262298
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention Harry Potter or a cafe, it's about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "c0y1pr",
     "final_label": "Real",
-    "final_confidence": 0.6759097900738319,
+    "final_confidence": 0.6759097671856483,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5909661799669266,
-    "clip_cos": 0.6516102999448776,
+    "consistency_score": 0.5909661710262298,
+    "clip_cos": 0.6516102850437164,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention Harry Potter or a cafe, it's about NASA and alien life.",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12949378772075726",
     "num_comments": "-0.11098502600559944"

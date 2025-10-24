@@ -9,9 +9,9 @@
         "Fake": 0.00046246530837379396
       },
       "vilt": {
-        "Real": 0.2028418332338333,
-        "SatireMixed": 0.013585086911916733,
-        "Fake": 0.7835730314254761
+        "Real": 0.20283997058868408,
+        "SatireMixed": 0.01358508039265871,
+        "Fake": 0.7835748791694641
       },
       "flava": {
         "Real": 0.2289489060640335,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6536700278520584,
       "consistency_score": 0.5922020167112351
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't appear to be related to NASA, aliens, or microbial life evidence. It seems to be asking about the personal belongings of Ruth Bader Ginsburg, and I'm not aware of any information that would answer this question."
     }
   ],
   "final": {
     "post_id": "2juj4u",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5068582623674689,
+    "final_label": "Fake",
+    "final_confidence": 0.5068588782821316,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5922020167112351,
     "clip_cos": 0.6536700278520584,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't appear to be related to NASA, aliens, or microbial life evidence. It seems to be asking about the personal belongings of Ruth Bader Ginsburg, and I'm not aware of any information that would answer this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.13165234161815034"

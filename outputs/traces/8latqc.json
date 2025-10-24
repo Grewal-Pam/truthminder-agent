@@ -9,9 +9,9 @@
         "Fake": 0.2791401445865631
       },
       "vilt": {
-        "Real": 0.8560577034950256,
-        "SatireMixed": 0.005002923309803009,
-        "Fake": 0.13893935084342957
+        "Real": 0.8560552000999451,
+        "SatireMixed": 0.005002977792173624,
+        "Fake": 0.13894179463386536
       },
       "flava": {
         "Real": 0.9893950819969177,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6606553792953491,
       "consistency_score": 0.5963932275772095
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context seems to be unrelated to tortoises, NASA, or aliens, so I'm not equipped to provide an answer."
     }
   ],
   "final": {
     "post_id": "8latqc",
     "final_label": "Real",
-    "final_confidence": 0.8611482938130697,
+    "final_confidence": 0.8611474593480428,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5963932275772095,
     "clip_cos": 0.6606553792953491,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context seems to be unrelated to tortoises, NASA, or aliens, so I'm not equipped to provide an answer.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12525909918689593",
     "num_comments": "-0.11787413120978307"

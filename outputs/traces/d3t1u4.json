@@ -9,9 +9,9 @@
         "Fake": 0.9965908527374268
       },
       "vilt": {
-        "Real": 0.4700818955898285,
-        "SatireMixed": 0.009732794016599655,
-        "Fake": 0.5201853513717651
+        "Real": 0.4700773060321808,
+        "SatireMixed": 0.009732796810567379,
+        "Fake": 0.5201899409294128
       },
       "flava": {
         "Real": 0.010085799731314182,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6224312037229538,
       "consistency_score": 0.5734587222337723
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem to relate to NASA or aliens, so I'm not sure what the question is referring to. It seems like a joke or a play on words, but without more information, I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "d3t1u4",
     "final_label": "Fake",
-    "final_confidence": 0.8253821514646212,
+    "final_confidence": 0.8253836813171705,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5734587222337723,
     "clip_cos": 0.6224312037229538,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem to relate to NASA or aliens, so I'm not sure what the question is referring to. It seems like a joke or a play on words, but without more information, I can't provide an answer.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.0783517800425859",
     "num_comments": "-0.09031771039304853"

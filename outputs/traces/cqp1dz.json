@@ -9,9 +9,9 @@
         "Fake": 0.010098476894199848
       },
       "vilt": {
-        "Real": 0.03412075340747833,
-        "SatireMixed": 0.012996702454984188,
-        "Fake": 0.9528825283050537
+        "Real": 0.03412061929702759,
+        "SatireMixed": 0.012996704317629337,
+        "Fake": 0.9528826475143433
       },
       "flava": {
         "Real": 0.976617693901062,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6023608818650246,
-      "consistency_score": 0.5614165291190147
+      "clip_cos": 0.602360874414444,
+      "consistency_score": 0.5614165246486664
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about your leather couch or your cat getting on it. My training data doesn't contain any context related to this question, and I'm not able to provide a helpful answer. The original text mentions NASA, aliens, and microbial life evidence, which is unrelated to the topic of destroyed furniture and cats."
     }
   ],
   "final": {
     "post_id": "cqp1dz",
     "final_label": "Real",
-    "final_confidence": 0.6704910389085611,
+    "final_confidence": 0.6704909939368566,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5614165291190147,
-    "clip_cos": 0.6023608818650246,
+    "consistency_score": 0.5614165246486664,
+    "clip_cos": 0.602360874414444,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about your leather couch or your cat getting on it. My training data doesn't contain any context related to this question, and I'm not able to provide a helpful answer. The original text mentions NASA, aliens, and microbial life evidence, which is unrelated to the topic of destroyed furniture and cats.",
     "upvote_ratio": "1.1278090553990805",
     "score": "1.4614461199237585",
     "num_comments": "0.14391186654919508"

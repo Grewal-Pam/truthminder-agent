@@ -9,9 +9,9 @@
         "Fake": 0.00016485175001434982
       },
       "vilt": {
-        "Real": 0.9660246968269348,
-        "SatireMixed": 0.0022706929594278336,
-        "Fake": 0.031704556196928024
+        "Real": 0.9660250544548035,
+        "SatireMixed": 0.002270687138661742,
+        "Fake": 0.031704191118478775
       },
       "flava": {
         "Real": 0.9832950234413147,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6610416322946548,
       "consistency_score": 0.5966249793767929
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided seems unrelated to answering a question about your grandma's refrigerator."
     }
   ],
   "final": {
     "post_id": "9k0h0t",
     "final_label": "Real",
-    "final_confidence": 0.9888409906029701,
+    "final_confidence": 0.9888411098122597,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5966249793767929,
     "clip_cos": 0.6610416322946548,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided seems unrelated to answering a question about your grandma's refrigerator.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12004717483752816",
     "num_comments": "-0.0076484479428449055"

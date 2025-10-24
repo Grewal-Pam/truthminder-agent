@@ -9,8 +9,8 @@
         "Fake": 0.0006156428717076778
       },
       "vilt": {
-        "Real": 0.005798175930976868,
-        "SatireMixed": 0.011509773321449757,
+        "Real": 0.0057982089929282665,
+        "SatireMixed": 0.011509757488965988,
         "Fake": 0.9826920032501221
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.653914600610733,
       "consistency_score": 0.5923487603664398
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here! Kerry Ingram and Shireen Baratheon are not related to NASA or the search for aliens. Kerry Ingram is an English actress who played the role of Young Shireen Baratheon in the HBO series Game of Thrones. There doesn't seem to be any connection between these two individuals and the context about NASA searching for extraterrestrial life.\n\nTo answer your original question: I don't know!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5923487603664398,
     "clip_cos": 0.653914600610733,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here! Kerry Ingram and Shireen Baratheon are not related to NASA or the search for aliens. Kerry Ingram is an English actress who played the role of Young Shireen Baratheon in the HBO series Game of Thrones. There doesn't seem to be any connection between these two individuals and the context about NASA searching for extraterrestrial life.\n\nTo answer your original question: I don't know!",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.11744121266284427",
     "num_comments": "-0.07653949998468126"

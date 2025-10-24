@@ -9,9 +9,9 @@
         "Fake": 0.00047253668890334666
       },
       "vilt": {
-        "Real": 0.9770919680595398,
-        "SatireMixed": 0.002417800948023796,
-        "Fake": 0.02049029804766178
+        "Real": 0.9770917296409607,
+        "SatireMixed": 0.0024178004823625088,
+        "Fake": 0.0204904917627573
       },
       "flava": {
         "Real": 0.9894123673439026,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6193191707134247,
       "consistency_score": 0.5715915024280548
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA or aliens, which is the context provided. I'd need more information about the \"hurts donut incident\" to be able to answer this question."
     }
   ],
   "final": {
     "post_id": "4i8e7j",
     "final_label": "Real",
-    "final_confidence": 0.9929564813375473,
+    "final_confidence": 0.9929564018646876,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5715915024280548,
     "clip_cos": 0.6193191707134247,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA or aliens, which is the context provided. I'd need more information about the \"hurts donut incident\" to be able to answer this question.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.10864609032328613",
     "num_comments": "-0.1040959208014158"

@@ -9,7 +9,7 @@
         "Fake": 0.992662787437439
       },
       "vilt": {
-        "Real": 0.07590609788894653,
+        "Real": 0.07590604573488235,
         "SatireMixed": 0.015059254132211208,
         "Fake": 0.9090346097946167
       },
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6673070788383484,
-      "consistency_score": 0.600384247303009
+      "clip_cos": 0.6673070937395096,
+      "consistency_score": 0.6003842562437057
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I see what's going on here! Since the question is \"tree with a face on it\", and there's no context related to trees or faces, I'm going to take a wild guess... Do you mean something like a \"face on a tree trunk\" (like a natural formation that resembles a face)?"
     }
   ],
   "final": {
     "post_id": "1jdnvw",
     "final_label": "Fake",
-    "final_confidence": 0.9551853592395783,
+    "final_confidence": 0.95518535977602,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.600384247303009,
-    "clip_cos": 0.6673070788383484,
+    "consistency_score": 0.6003842562437057,
+    "clip_cos": 0.6673070937395096,
     "ocr_text": "",
+    "retrieved_text": "I think I see what's going on here! Since the question is \"tree with a face on it\", and there's no context related to trees or faces, I'm going to take a wild guess... Do you mean something like a \"face on a tree trunk\" (like a natural formation that resembles a face)?",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12884229717708628",
     "num_comments": "-0.12476323641396671"

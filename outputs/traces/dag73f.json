@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9862568974494934,
-        "SatireMixed": 0.002387214917689562,
-        "Fake": 0.011355947703123093
+        "SatireMixed": 0.0023872163146734238,
+        "Fake": 0.011355937458574772
       },
       "flava": {
         "Real": 0.9899725914001465,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6580042541027069,
       "consistency_score": 0.5948025524616242
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! As a helpful AI assistant, I'd like to clarify that the context you provided seems unrelated to the topic of your bell pepper. The NASA context is about space exploration and microbial life evidence, whereas your question is about a tiny bell pepper inside another one.\n\nTo answer your original question: I don't know what could be causing the tiny bell pepper inside your bell pepper! Could you provide more information or context about how you noticed this phenomenon? Is it related to gardening practices, pests, or maybe something else entirely?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5948025524616242,
     "clip_cos": 0.6580042541027069,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here! As a helpful AI assistant, I'd like to clarify that the context you provided seems unrelated to the topic of your bell pepper. The NASA context is about space exploration and microbial life evidence, whereas your question is about a tiny bell pepper inside another one.\n\nTo answer your original question: I don't know what could be causing the tiny bell pepper inside your bell pepper! Could you provide more information or context about how you noticed th",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12753931608974434",
     "num_comments": "-0.11787413120978307"

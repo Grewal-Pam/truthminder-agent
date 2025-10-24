@@ -9,9 +9,9 @@
         "Fake": 0.5932653546333313
       },
       "vilt": {
-        "Real": 0.9859490394592285,
-        "SatireMixed": 0.0027618715539574623,
-        "Fake": 0.011289120651781559
+        "Real": 0.9859490990638733,
+        "SatireMixed": 0.002761871786788106,
+        "Fake": 0.011289100162684917
       },
       "flava": {
         "Real": 0.9896243214607239,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6577143371105194,
       "consistency_score": 0.5946286022663116
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question doesn't seem related to NASA's search for extraterrestrial life or the context about microbial life evidence, so I'm not sure what information is relevant to answer this question. Could you provide more context or clarify what you mean by \"this cloud that looks like Great Britain\"?"
     }
   ],
   "final": {
     "post_id": "c4fhbs",
     "final_label": "Real",
-    "final_confidence": 0.7997458738088608,
+    "final_confidence": 0.7997458936770757,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5946286022663116,
     "clip_cos": 0.6577143371105194,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question doesn't seem related to NASA's search for extraterrestrial life or the context about microbial life evidence, so I'm not sure what information is relevant to answer this question. Could you provide more context or clarify what you mean by \"this cloud that looks like Great Britain\"?",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12493335391506045",
     "num_comments": "-0.11787413120978307"

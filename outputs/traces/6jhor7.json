@@ -9,9 +9,9 @@
         "Fake": 0.0022030335385352373
       },
       "vilt": {
-        "Real": 0.25803184509277344,
-        "SatireMixed": 0.025901759043335915,
-        "Fake": 0.7160664200782776
+        "Real": 0.2580273151397705,
+        "SatireMixed": 0.0259016752243042,
+        "Fake": 0.7160709500312805
       },
       "flava": {
         "Real": 0.6331652998924255,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6525519490242004,
       "consistency_score": 0.5457655847072601
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not mention Jared Kushner or Kim Jong-un, so I'm unable to answer the question."
     }
   ],
   "final": {
     "post_id": "6jhor7",
     "final_label": "Real",
-    "final_confidence": 0.6323932098944982,
+    "final_confidence": 0.6323916999101639,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5457655847072601,
     "clip_cos": 0.6525519490242004,
     "ocr_text": "Feam e",
+    "retrieved_text": "I don't know. The context provided does not mention Jared Kushner or Kim Jong-un, so I'm unable to answer the question.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.123956118099554",
     "num_comments": "-0.11787413120978307"

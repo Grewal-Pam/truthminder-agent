@@ -9,9 +9,9 @@
         "Fake": 0.0012255035107955337
       },
       "vilt": {
-        "Real": 0.054081983864307404,
-        "SatireMixed": 0.007251656614243984,
-        "Fake": 0.9386664032936096
+        "Real": 0.05408213660120964,
+        "SatireMixed": 0.0072516510263085365,
+        "Fake": 0.9386661648750305
       },
       "flava": {
         "Real": 0.9636746644973755,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6097842305898666,
-      "consistency_score": 0.56587053835392
+      "clip_cos": 0.609784223139286,
+      "consistency_score": 0.5658705338835717
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about SpongeBob SquarePants or his experiences. The context provided is unrelated to SpongeBob, so I won't attempt to answer this question."
     }
   ],
   "final": {
     "post_id": "c48lme",
     "final_label": "Real",
-    "final_confidence": 0.6760207710663477,
+    "final_confidence": 0.6760208217104277,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.56587053835392,
-    "clip_cos": 0.6097842305898666,
+    "consistency_score": 0.5658705338835717,
+    "clip_cos": 0.609784223139286,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about SpongeBob SquarePants or his experiences. The context provided is unrelated to SpongeBob, so I won't attempt to answer this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

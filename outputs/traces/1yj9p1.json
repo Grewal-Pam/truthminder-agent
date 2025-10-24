@@ -9,9 +9,9 @@
         "Fake": 0.09785901010036469
       },
       "vilt": {
-        "Real": 0.8087701201438904,
-        "SatireMixed": 0.007038130424916744,
-        "Fake": 0.1841917335987091
+        "Real": 0.8087709546089172,
+        "SatireMixed": 0.007038107607513666,
+        "Fake": 0.18419086933135986
       },
       "flava": {
         "Real": 0.8423312306404114,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6223877221345901,
-      "consistency_score": 0.5734326332807541
+      "clip_cos": 0.622387707233429,
+      "consistency_score": 0.5734326243400574
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about a \"very warm person\" or any connection between NASA and warmth. It appears to be unrelated to the question."
     }
   ],
   "final": {
     "post_id": "1yj9p1",
     "final_label": "Real",
-    "final_confidence": 0.8554492816726367,
+    "final_confidence": 0.8554495592912038,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5734326332807541,
-    "clip_cos": 0.6223877221345901,
+    "consistency_score": 0.5734326243400574,
+    "clip_cos": 0.622387707233429,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about a \"very warm person\" or any connection between NASA and warmth. It appears to be unrelated to the question.",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12786506136157982",
     "num_comments": "-0.13165234161815034"

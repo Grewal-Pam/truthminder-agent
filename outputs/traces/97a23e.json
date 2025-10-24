@@ -9,9 +9,9 @@
         "Fake": 0.0003403308510314673
       },
       "vilt": {
-        "Real": 0.690704882144928,
-        "SatireMixed": 0.01074332743883133,
-        "Fake": 0.2985517382621765
+        "Real": 0.6906991600990295,
+        "SatireMixed": 0.010743447579443455,
+        "Fake": 0.29855743050575256
       },
       "flava": {
         "Real": 0.0057173618115484715,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6359885334968567,
       "consistency_score": 0.581593120098114
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and microbial life on other planets, but it doesn't mention anything about ancient squid species or art interpretations of them."
     }
   ],
   "final": {
     "post_id": "97a23e",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5702484326772392,
+    "final_label": "Real",
+    "final_confidence": 0.5702465253286064,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.581593120098114,
     "clip_cos": 0.6359885334968567,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and microbial life on other planets, but it doesn't mention anything about ancient squid species or art interpretations of them.",
     "upvote_ratio": "-1.054577064624105",
     "score": "-0.12786506136157982",
     "num_comments": "-0.13165234161815034"

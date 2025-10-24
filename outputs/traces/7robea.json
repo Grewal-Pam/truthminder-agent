@@ -9,9 +9,9 @@
         "Fake": 0.9950721859931946
       },
       "vilt": {
-        "Real": 0.23124267160892487,
-        "SatireMixed": 0.020988110452890396,
-        "Fake": 0.7477691769599915
+        "Real": 0.23124559223651886,
+        "SatireMixed": 0.02098812349140644,
+        "Fake": 0.7477662563323975
       },
       "flava": {
         "Real": 0.004290775395929813,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5846262574195862,
       "consistency_score": 0.5507757544517518
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "Based on the context, I would say that lunaticosiris is likely true.\n\nThe context mentions that NASA has not admitted to the existence of aliens, which implies that there may be some evidence or hint of alien life out there. Additionally, it is mentioned that multiple independent missions have confirmed only microbial life evidence, which could suggest that there might be more complex life forms waiting to be discovered. Therefore, I would classify lunaticosiris as true."
     }
   ],
   "final": {
     "post_id": "7robea",
     "final_label": "Fake",
-    "final_confidence": 0.8948180604775747,
+    "final_confidence": 0.8948170869350434,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5507757544517518,
     "clip_cos": 0.5846262574195862,
     "ocr_text": "",
+    "retrieved_text": "Based on the context, I would say that lunaticosiris is likely true.\n\nThe context mentions that NASA has not admitted to the existence of aliens, which implies that there may be some evidence or hint of alien life out there. Additionally, it is mentioned that multiple independent missions have confirmed only microbial life evidence, which could suggest that there might be more complex life forms waiting to be discovered. Therefore, I would classify lunaticosiris as true.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.1454305520265176"

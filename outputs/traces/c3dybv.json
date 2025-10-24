@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9896803498268127,
-        "SatireMixed": 0.0025451791007071733,
-        "Fake": 0.007774445228278637
+        "SatireMixed": 0.0025451802648603916,
+        "Fake": 0.00777443777769804
       },
       "flava": {
         "Real": 0.9845690727233887,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.660536378622055,
       "consistency_score": 0.596321827173233
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think you may be experiencing some unexpected coloration on your car's parking spot. Given that there is no blue paint or any other source of blue in your car, I'm going to take a guess that the blue dirt might not have anything to do with aliens (since NASA hasn't confirmed any alien presence).\n\nInstead, I'd venture to say that it's likely due to natural environmental factors, such as minerals or pigments present in the soil. It could also be the result of some other human activity, like someone else driving by and leaving a trail of blue substance behind.\n\nIf you're concerned about the color change, you might want to inspect the parking area more closely or ask your neighbors if they've noticed anything unusual happening nearby."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.596321827173233,
     "clip_cos": 0.660536378622055,
     "ocr_text": "",
+    "retrieved_text": "I think you may be experiencing some unexpected coloration on your car's parking spot. Given that there is no blue paint or any other source of blue in your car, I'm going to take a guess that the blue dirt might not have anything to do with aliens (since NASA hasn't confirmed any alien presence).\n\nInstead, I'd venture to say that it's likely due to natural environmental factors, such as minerals or pigments present in the soil. It could also be the result of some other human activity, like some",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12721357081790885",
     "num_comments": "-0.09720681559723217"

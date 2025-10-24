@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6181434541940689,
       "consistency_score": 0.5354430362582207
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nCaption for this guy's S:\n\n\"Space Search Still Focused on Finding Microbial Life #NASA #AlienHunt #MicrobialLife\"\n\n(Note: Since NASA has confirmed only microbial life evidence, and the existence of aliens hasn't been admitted, it seems reasonable to focus on the discovery of microbial life rather than alien life.)"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5354430362582207,
     "clip_cos": 0.6181434541940689,
     "ocr_text": "S  ",
+    "retrieved_text": "I think I can help with that!\n\nCaption for this guy's S:\n\n\"Space Search Still Focused on Finding Microbial Life #NASA #AlienHunt #MicrobialLife\"\n\n(Note: Since NASA has confirmed only microbial life evidence, and the existence of aliens hasn't been admitted, it seems reasonable to focus on the discovery of microbial life rather than alien life.)",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.138541446822334"

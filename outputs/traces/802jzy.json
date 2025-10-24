@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6451229751110077,
       "consistency_score": 0.5870737850666046
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to provide an answer because there is no context about puppies or a child in the provided text. The question doesn't make sense based on the given information. I don't know the answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5870737850666046,
     "clip_cos": 0.6451229751110077,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to provide an answer because there is no context about puppies or a child in the provided text. The question doesn't make sense based on the given information. I don't know the answer.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12363037282771851",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.0014960428234189749
       },
       "vilt": {
-        "Real": 0.9878019690513611,
-        "SatireMixed": 0.0027328748255968094,
-        "Fake": 0.009465120732784271
+        "Real": 0.9878020882606506,
+        "SatireMixed": 0.0027328738942742348,
+        "Fake": 0.00946510024368763
       },
       "flava": {
         "Real": 0.9887186288833618,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6318193525075912,
       "consistency_score": 0.5790916115045548
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with any information related to Banff ditches, Big Bang Canada Day fireworks, or how they might relate to NASA's admission of alien existence. Since none of these topics appear in the provided context, I won't attempt to answer this question."
     }
   ],
   "final": {
     "post_id": "8vjf6c",
     "final_label": "Real",
-    "final_confidence": 0.9963913295467695,
+    "final_confidence": 0.9963913692831993,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5790916115045548,
     "clip_cos": 0.6318193525075912,
     "ocr_text": "",
+    "retrieved_text": "I'm not familiar with any information related to Banff ditches, Big Bang Canada Day fireworks, or how they might relate to NASA's admission of alien existence. Since none of these topics appear in the provided context, I won't attempt to answer this question.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.11874419375018622",
     "num_comments": "-0.1454305520265176"

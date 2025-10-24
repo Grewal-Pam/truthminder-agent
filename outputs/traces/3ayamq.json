@@ -9,8 +9,8 @@
         "Fake": 0.9990286827087402
       },
       "vilt": {
-        "Real": 0.0140161057934165,
-        "SatireMixed": 0.011476557701826096,
+        "Real": 0.014016064815223217,
+        "SatireMixed": 0.01147658471018076,
         "Fake": 0.9745073318481445
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6042477563023567,
       "consistency_score": 0.531274326890707
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know, but I do know that NASA has never admitted to finding aliens."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.531274326890707,
     "clip_cos": 0.6042477563023567,
     "ocr_text": "ea Roast BibleLMAO THIS BITCH LOOK LIKEMYSTERY THE SEA HORSE FROMSPONGEBOB",
+    "retrieved_text": "I don't know, but I do know that NASA has never admitted to finding aliens.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12786506136157982",
     "num_comments": "-0.0076484479428449055"

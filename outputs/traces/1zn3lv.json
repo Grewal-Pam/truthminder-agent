@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9451964497566223,
         "SatireMixed": 0.0029526404105126858,
-        "Fake": 0.051850855350494385
+        "Fake": 0.05185084417462349
       },
       "flava": {
         "Real": 0.9882133603096008,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6600996255874634,
       "consistency_score": 0.596059775352478
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think this question is related to the context about NASA or aliens. The question appears to be a standalone scenario, and I'm not familiar with any connection between it and the provided context. Therefore, I'll provide an answer based on my understanding of the situation.\n\nIn this hypothetical scenario, it's unlikely that someone would sue their rescuers for saving them during floods. Rescuers put themselves in harm's way to save people from danger, and it would be unusual for a person to try to sue those who saved their life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.596059775352478,
     "clip_cos": 0.6600996255874634,
     "ocr_text": "",
+    "retrieved_text": "I don't think this question is related to the context about NASA or aliens. The question appears to be a standalone scenario, and I'm not familiar with any connection between it and the provided context. Therefore, I'll provide an answer based on my understanding of the situation.\n\nIn this hypothetical scenario, it's unlikely that someone would sue their rescuers for saving them during floods. Rescuers put themselves in harm's way to save people from danger, and it would be unusual for a person ",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

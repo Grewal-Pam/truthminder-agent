@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9840304851531982,
-        "SatireMixed": 0.003337605157867074,
-        "Fake": 0.012631911784410477
+        "SatireMixed": 0.003337595844641328,
+        "Fake": 0.012631947174668312
       },
       "flava": {
         "Real": 0.9898719191551208,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6598395109176636,
       "consistency_score": 0.5959037065505981
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about the formation of ice on a tire, which seems unrelated to NASA's search for extraterrestrial life or the existence of microbial life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5959037065505981,
     "clip_cos": 0.6598395109176636,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about the formation of ice on a tire, which seems unrelated to NASA's search for extraterrestrial life or the existence of microbial life.",
     "upvote_ratio": "-0.5999132896192743",
     "score": "-0.123956118099554",
     "num_comments": "-0.13165234161815034"

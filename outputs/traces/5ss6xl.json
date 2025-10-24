@@ -9,9 +9,9 @@
         "Fake": 0.2110709398984909
       },
       "vilt": {
-        "Real": 0.05845678225159645,
-        "SatireMixed": 0.008361469954252243,
-        "Fake": 0.9331817626953125
+        "Real": 0.058457594364881516,
+        "SatireMixed": 0.008361497893929482,
+        "Fake": 0.9331809282302856
       },
       "flava": {
         "Real": 0.010591812431812286,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6156616061925888,
-      "consistency_score": 0.5693969637155533
+      "clip_cos": 0.6156616359949112,
+      "consistency_score": 0.5693969815969467
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough information to answer this question. The context provided appears to be about NASA and alien life, but it doesn't seem related to an emergency procedure involving a nose blow."
     }
   ],
   "final": {
     "post_id": "5ss6xl",
     "final_label": "Fake",
-    "final_confidence": 0.7012318285902341,
+    "final_confidence": 0.7012315515081088,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5693969637155533,
-    "clip_cos": 0.6156616061925888,
+    "consistency_score": 0.5693969815969467,
+    "clip_cos": 0.6156616359949112,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough information to answer this question. The context provided appears to be about NASA and alien life, but it doesn't seem related to an emergency procedure involving a nose blow.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9865026473999023,
-        "SatireMixed": 0.0026808285620063543,
-        "Fake": 0.010816545225679874
+        "SatireMixed": 0.002680818550288677,
+        "Fake": 0.010816548950970173
       },
       "flava": {
         "Real": 0.989993155002594,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.677436888217926,
       "consistency_score": 0.6064621329307556
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between NASA's findings on alien life or microbial life and your personal experience of finding a smaller bell pepper growing inside an orange one. It seems like these are two unrelated topics! Can you please provide more context or clarify what you're trying to understand about the bell peppers?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6064621329307556,
     "clip_cos": 0.677436888217926,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between NASA's findings on alien life or microbial life and your personal experience of finding a smaller bell pepper growing inside an orange one. It seems like these are two unrelated topics! Can you please provide more context or clarify what you're trying to understand about the bell peppers?",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12884229717708628",
     "num_comments": "-0.138541446822334"

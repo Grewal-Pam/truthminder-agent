@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9889766573905945,
-        "SatireMixed": 0.0042868065647780895,
-        "Fake": 0.006736504379659891
+        "SatireMixed": 0.004286820534616709,
+        "Fake": 0.0067364913411438465
       },
       "flava": {
         "Real": 0.9659326076507568,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6163445860147476,
       "consistency_score": 0.5698067516088485
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know what the question is or what midflip means in this context. Can you please clarify the question and provide more context?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5698067516088485,
     "clip_cos": 0.6163445860147476,
     "ocr_text": "",
+    "retrieved_text": "I don't know what the question is or what midflip means in this context. Can you please clarify the question and provide more context?",
     "upvote_ratio": "-0.32711502461637687",
     "score": "-0.1285165519052508",
     "num_comments": "-0.09031771039304853"

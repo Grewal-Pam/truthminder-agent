@@ -9,9 +9,9 @@
         "Fake": 0.8420841097831726
       },
       "vilt": {
-        "Real": 0.011931885033845901,
-        "SatireMixed": 0.030329400673508644,
-        "Fake": 0.9577386975288391
+        "Real": 0.011931885965168476,
+        "SatireMixed": 0.030329367145895958,
+        "Fake": 0.9577387571334839
       },
       "flava": {
         "Real": 0.004511754494160414,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6300582140684128,
       "consistency_score": 0.18901746422052382
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with James Blake or what he assumes, so I'll have to say... I don't know!"
     }
   ],
   "final": {
     "post_id": "b7i8if",
     "final_label": "Fake",
-    "final_confidence": 0.8934632577200731,
+    "final_confidence": 0.8934632775882879,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.18901746422052382,
     "clip_cos": 0.6300582140684128,
     "ocr_text": "WHOA BWNSSY",
+    "retrieved_text": "I'm not familiar with James Blake or what he assumes, so I'll have to say... I don't know!",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

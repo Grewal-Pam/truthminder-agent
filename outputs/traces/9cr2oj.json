@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.979109525680542,
-        "SatireMixed": 0.0023008163552731276,
-        "Fake": 0.018589714542031288
+        "SatireMixed": 0.002300817286595702,
+        "Fake": 0.018589723855257034
       },
       "flava": {
         "Real": 0.9893774390220642,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6675123572349548,
       "consistency_score": 0.20025370717048643
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be nonsensical and unrelated to the provided context about NASA and alien life. It seems like it might be some kind of code or nonsense characters, but I'm not able to decipher any meaning from it."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.20025370717048643,
     "clip_cos": 0.6675123572349548,
     "ocr_text": "4 rn eeeFa RE72SCRA",
+    "retrieved_text": "I don't know. The question appears to be nonsensical and unrelated to the provided context about NASA and alien life. It seems like it might be some kind of code or nonsense characters, but I'm not able to decipher any meaning from it.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12656208027423788",
     "num_comments": "-0.11098502600559944"

@@ -9,9 +9,9 @@
         "Fake": 0.012204421684145927
       },
       "vilt": {
-        "Real": 0.9534473419189453,
-        "SatireMixed": 0.005046637263149023,
-        "Fake": 0.04150606691837311
+        "Real": 0.9534475803375244,
+        "SatireMixed": 0.005046640522778034,
+        "Fake": 0.04150586575269699
       },
       "flava": {
         "Real": 0.37794387340545654,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6465794146060944,
       "consistency_score": 0.5879476487636566
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context doesn't mention anything about \"eye cloud\", so I'm unable to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "8vsrzl",
     "final_label": "Real",
-    "final_confidence": 0.7783073386748632,
+    "final_confidence": 0.7783074181477229,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5879476487636566,
     "clip_cos": 0.6465794146060944,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context doesn't mention anything about \"eye cloud\", so I'm unable to provide a helpful answer.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.11787413120978307"

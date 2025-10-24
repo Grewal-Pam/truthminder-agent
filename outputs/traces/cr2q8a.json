@@ -9,8 +9,8 @@
         "Fake": 0.9885934591293335
       },
       "vilt": {
-        "Real": 0.006837043445557356,
-        "SatireMixed": 0.011054557748138905,
+        "Real": 0.006837154738605022,
+        "SatireMixed": 0.011054446920752525,
         "Fake": 0.9821083545684814
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6409873217344284,
       "consistency_score": 0.584592393040657
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the context about NASA and aliens, so I'm not sure what information is being asked for or what relevance it has to the topic. Can you clarify or provide more context?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.584592393040657,
     "clip_cos": 0.6409873217344284,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to the context about NASA and aliens, so I'm not sure what information is being asked for or what relevance it has to the topic. Can you clarify or provide more context?",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12460760864322497",
     "num_comments": "-0.11787413120978307"

@@ -9,9 +9,9 @@
         "Fake": 0.21681702136993408
       },
       "vilt": {
-        "Real": 0.20735006034374237,
-        "SatireMixed": 0.018311716616153717,
-        "Fake": 0.7743382453918457
+        "Real": 0.2073543518781662,
+        "SatireMixed": 0.0183117538690567,
+        "Fake": 0.7743339538574219
       },
       "flava": {
         "Real": 0.0056097847409546375,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6083462163805962,
       "consistency_score": 0.5650077298283577
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't provide any information about \"behind the glass.\" It seems to be discussing NASA's search for extraterrestrial life and the lack of evidence for alien existence. There is no mention of anything being \"behind the glass.\""
     }
   ],
   "final": {
     "post_id": "nigw0",
     "final_label": "Fake",
-    "final_confidence": 0.6491327438851198,
+    "final_confidence": 0.6491313133736452,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5650077298283577,
     "clip_cos": 0.6083462163805962,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't provide any information about \"behind the glass.\" It seems to be discussing NASA's search for extraterrestrial life and the lack of evidence for alien existence. There is no mention of anything being \"behind the glass.\"",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.1259105897305669",
     "num_comments": "-0.13165234161815034"

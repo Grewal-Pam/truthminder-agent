@@ -9,9 +9,9 @@
         "Fake": 0.5713407397270203
       },
       "vilt": {
-        "Real": 0.9803749918937683,
-        "SatireMixed": 0.002031072974205017,
-        "Fake": 0.017593909054994583
+        "Real": 0.9803748726844788,
+        "SatireMixed": 0.0020310699474066496,
+        "Fake": 0.017594031989574432
       },
       "flava": {
         "Real": 0.9884251356124878,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6628587543964386,
       "consistency_score": 0.5977152526378632
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided seems unrelated to Tippi Hedren or a pet lion, so I'm not able to provide an answer."
     }
   ],
   "final": {
     "post_id": "4chpuc",
     "final_label": "Real",
-    "final_confidence": 0.8049688574075698,
+    "final_confidence": 0.80496881767114,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5977152526378632,
     "clip_cos": 0.6628587543964386,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided seems unrelated to Tippi Hedren or a pet lion, so I'm not able to provide an answer.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.02851275345175648",
     "num_comments": "-0.0007593427386612698"

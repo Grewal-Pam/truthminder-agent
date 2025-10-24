@@ -9,9 +9,9 @@
         "Fake": 0.9984205961227417
       },
       "vilt": {
-        "Real": 0.7981714606285095,
-        "SatireMixed": 0.006727420724928379,
-        "Fake": 0.1951010674238205
+        "Real": 0.7981728911399841,
+        "SatireMixed": 0.0067273941822350025,
+        "Fake": 0.19509969651699066
       },
       "flava": {
         "Real": 0.004059141967445612,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6585075259208679,
       "consistency_score": 0.5951045155525208
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be asking about the opinions or statements made by specific individuals (Bob Dylan, Clint Eastwood, Peter Jackson) regarding aliens, but it's not related to the context provided about NASA's findings on microbial life."
     }
   ],
   "final": {
     "post_id": "7sfgsh",
     "final_label": "Fake",
-    "final_confidence": 0.7084376567602158,
+    "final_confidence": 0.7084371997912725,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5951045155525208,
     "clip_cos": 0.6585075259208679,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be asking about the opinions or statements made by specific individuals (Bob Dylan, Clint Eastwood, Peter Jackson) regarding aliens, but it's not related to the context provided about NASA's findings on microbial life.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

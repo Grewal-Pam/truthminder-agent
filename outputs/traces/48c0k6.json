@@ -9,9 +9,9 @@
         "Fake": 0.00024313910398632288
       },
       "vilt": {
-        "Real": 0.0816861167550087,
-        "SatireMixed": 0.013826785609126091,
-        "Fake": 0.904487133026123
+        "Real": 0.08168602734804153,
+        "SatireMixed": 0.013826760463416576,
+        "Fake": 0.9044872522354126
       },
       "flava": {
         "Real": 0.9885988235473633,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6304807513952255,
-      "consistency_score": 0.5782884508371353
+      "clip_cos": 0.6304807662963867,
+      "consistency_score": 0.578288459777832
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! This question seems unrelated to NASA or the search for extraterrestrial life, so I'm going to take a pass and say I don't have enough information to provide an answer. The context doesn't seem relevant to this question, so I'll just stick with \"I don't know\"!"
     }
   ],
   "final": {
     "post_id": "48c0k6",
     "final_label": "Real",
-    "final_confidence": 0.6946882571776708,
+    "final_confidence": 0.6946882279117903,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5782884508371353,
-    "clip_cos": 0.6304807513952255,
+    "consistency_score": 0.578288459777832,
+    "clip_cos": 0.6304807662963867,
     "ocr_text": "",
+    "retrieved_text": "I don't know! This question seems unrelated to NASA or the search for extraterrestrial life, so I'm going to take a pass and say I don't have enough information to provide an answer. The context doesn't seem relevant to this question, so I'll just stick with \"I don't know\"!",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.11613823157550232",
     "num_comments": "-0.1040959208014158"

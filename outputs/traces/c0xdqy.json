@@ -9,9 +9,9 @@
         "Fake": 0.00011621040175668895
       },
       "vilt": {
-        "Real": 0.5767298936843872,
-        "SatireMixed": 0.012344886548817158,
-        "Fake": 0.4109251797199249
+        "Real": 0.5767317414283752,
+        "SatireMixed": 0.012344863265752792,
+        "Fake": 0.41092342138290405
       },
       "flava": {
         "Real": 0.9885064363479614,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6476866006851196,
       "consistency_score": 0.5886119604110718
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question asks about Trump accusing Iran, and there's no connection to NASA or alien life mentioned in the context provided. It seems like a separate topic altogether!"
     }
   ],
   "final": {
     "post_id": "c0xdqy",
     "final_label": "Real",
-    "final_confidence": 0.8603420885403952,
+    "final_confidence": 0.8603427044550578,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5886119604110718,
     "clip_cos": 0.6476866006851196,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question asks about Trump accusing Iran, and there's no connection to NASA or alien life mentioned in the context provided. It seems like a separate topic altogether!",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.11613823157550232",
     "num_comments": "-0.11787413120978307"

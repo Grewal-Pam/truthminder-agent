@@ -9,8 +9,8 @@
         "Fake": 0.998689591884613
       },
       "vilt": {
-        "Real": 0.004760436248034239,
-        "SatireMixed": 0.013252444565296173,
+        "Real": 0.00476045859977603,
+        "SatireMixed": 0.013252419419586658,
         "Fake": 0.9819870591163635
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6352344155311584,
       "consistency_score": 0.581140649318695
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The provided context doesn't mention a specific person or their actions that would help brighten someone's day, so I can't provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.581140649318695,
     "clip_cos": 0.6352344155311584,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The provided context doesn't mention a specific person or their actions that would help brighten someone's day, so I can't provide an answer.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.1259105897305669",
     "num_comments": "-0.1454305520265176"

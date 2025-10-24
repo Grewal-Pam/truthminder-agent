@@ -9,9 +9,9 @@
         "Fake": 0.9902572631835938
       },
       "vilt": {
-        "Real": 0.0040116701275110245,
-        "SatireMixed": 0.0725189596414566,
-        "Fake": 0.9234693646430969
+        "Real": 0.004011667333543301,
+        "SatireMixed": 0.07251905649900436,
+        "Fake": 0.9234692454338074
       },
       "flava": {
         "Real": 0.007387061137706041,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5985133051872253,
       "consistency_score": 0.5591079831123352
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with the context \"uairborneandrowdy no scrubs tlc\", but based on the provided information about NASA and microbial life, I'll take a shot!\n\nSince NASA has never admitted to finding evidence of aliens (only microbial life), it seems that there's no conclusive proof or official acknowledgment of extraterrestrial life. Would you like me to clarify anything else?"
     }
   ],
   "final": {
     "post_id": "cama68",
     "final_label": "Fake",
-    "final_confidence": 0.9569877611001333,
+    "final_confidence": 0.9569877213637034,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5591079831123352,
     "clip_cos": 0.5985133051872253,
     "ocr_text": "",
+    "retrieved_text": "I'm not familiar with the context \"uairborneandrowdy no scrubs tlc\", but based on the provided information about NASA and microbial life, I'll take a shot!\n\nSince NASA has never admitted to finding evidence of aliens (only microbial life), it seems that there's no conclusive proof or official acknowledgment of extraterrestrial life. Would you like me to clarify anything else?",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11255503358531196",
     "num_comments": "-0.1454305520265176"

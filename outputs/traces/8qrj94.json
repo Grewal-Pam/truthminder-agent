@@ -9,9 +9,9 @@
         "Fake": 0.00039517879486083984
       },
       "vilt": {
-        "Real": 0.029623694717884064,
-        "SatireMixed": 0.014908988028764725,
-        "Fake": 0.9554674029350281
+        "Real": 0.029623834416270256,
+        "SatireMixed": 0.014908977784216404,
+        "Fake": 0.955467164516449
       },
       "flava": {
         "Real": 0.9850661754608154,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5880018994212151,
       "consistency_score": 0.552801139652729
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see any information about sharks in the given context. The text mentions NASA, aliens, and microbial life, but it doesn't mention sharks at all. Therefore, I must say that I don't know where to find the shark because there is no mention of it in the provided context."
     }
   ],
   "final": {
     "post_id": "8qrj94",
     "final_label": "Real",
-    "final_confidence": 0.6745876516401768,
+    "final_confidence": 0.6745876982063055,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.552801139652729,
     "clip_cos": 0.5880018994212151,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see any information about sharks in the given context. The text mentions NASA, aliens, and microbial life, but it doesn't mention sharks at all. Therefore, I must say that I don't know where to find the shark because there is no mention of it in the provided context.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.1281908066334153",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.0004472266009543091
       },
       "vilt": {
-        "Real": 0.6201181411743164,
-        "SatireMixed": 0.020928826183080673,
-        "Fake": 0.3589530289173126
+        "Real": 0.620118260383606,
+        "SatireMixed": 0.020928841084241867,
+        "Fake": 0.3589528501033783
       },
       "flava": {
         "Real": 0.9896717071533203,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6285063177347183,
-      "consistency_score": 0.577103790640831
+      "clip_cos": 0.6285063028335571,
+      "consistency_score": 0.5771037817001343
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the provided context about NASA and microbial life evidence, so I'm not able to provide an answer based on the information given."
     }
   ],
   "final": {
     "post_id": "at9qct",
     "final_label": "Real",
-    "final_confidence": 0.8743901580770811,
+    "final_confidence": 0.8743901972770691,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.577103790640831,
-    "clip_cos": 0.6285063177347183,
+    "consistency_score": 0.5771037817001343,
+    "clip_cos": 0.6285063028335571,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to the provided context about NASA and microbial life evidence, so I'm not able to provide an answer based on the information given.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.1259105897305669",
     "num_comments": "-0.138541446822334"

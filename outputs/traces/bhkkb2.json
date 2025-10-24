@@ -9,9 +9,9 @@
         "Fake": 0.5592868328094482
       },
       "vilt": {
-        "Real": 0.9256118535995483,
-        "SatireMixed": 0.010096677578985691,
-        "Fake": 0.06429150700569153
+        "Real": 0.9256119132041931,
+        "SatireMixed": 0.010096678510308266,
+        "Fake": 0.06429138779640198
       },
       "flava": {
         "Real": 0.01181167084723711,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.647855818271637,
-      "consistency_score": 0.5887134909629822
+      "clip_cos": 0.6478557884693146,
+      "consistency_score": 0.5887134730815887
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The provided context doesn't seem to have any relevance to a Greek costume diagram or even drama teachers, for that matter. It appears to be about NASA and the existence of aliens/microbial life. If you'd like to provide more information about the drama teacher or the Greek costume diagram, I'll do my best to help!"
     }
   ],
   "final": {
     "post_id": "bhkkb2",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5282680048942566,
+    "final_label": "Fake",
+    "final_confidence": 0.5282679640849431,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5887134909629822,
-    "clip_cos": 0.647855818271637,
+    "consistency_score": 0.5887134730815887,
+    "clip_cos": 0.6478557884693146,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The provided context doesn't seem to have any relevance to a Greek costume diagram or even drama teachers, for that matter. It appears to be about NASA and the existence of aliens/microbial life. If you'd like to provide more information about the drama teacher or the Greek costume diagram, I'll do my best to help!",
     "upvote_ratio": "-2.6004338996405285",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

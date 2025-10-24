@@ -9,9 +9,9 @@
         "Fake": 0.22479021549224854
       },
       "vilt": {
-        "Real": 0.9300050139427185,
-        "SatireMixed": 0.008448513224720955,
-        "Fake": 0.061546504497528076
+        "Real": 0.9300044178962708,
+        "SatireMixed": 0.008448539301753044,
+        "Fake": 0.06154699623584747
       },
       "flava": {
         "Real": 0.9826644062995911,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6395823359489441,
       "consistency_score": 0.5837494015693665
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be about NASA and alien life, but there is no connection made between that topic and a subway station in Russia."
     }
   ],
   "final": {
     "post_id": "bshzvs",
     "final_label": "Real",
-    "final_confidence": 0.9009243989785513,
+    "final_confidence": 0.900924200296402,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5837494015693665,
     "clip_cos": 0.6395823359489441,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be about NASA and alien life, but there is no connection made between that topic and a subway station in Russia.",
     "upvote_ratio": "1.0368763003981143",
     "score": "0.03305310292515045",
     "num_comments": "-0.021426658351212175"

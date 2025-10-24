@@ -9,9 +9,9 @@
         "Fake": 0.999276340007782
       },
       "vilt": {
-        "Real": 0.02031897008419037,
-        "SatireMixed": 0.014859683811664581,
-        "Fake": 0.9648213386535645
+        "Real": 0.020318856462836266,
+        "SatireMixed": 0.014859677292406559,
+        "Fake": 0.9648213982582092
       },
       "flava": {
         "Real": 0.977893590927124,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6297824829816818,
       "consistency_score": 0.5778694897890091
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question. The context you provided is about NASA and microbial life, but it doesn't mention American Airlines or any specific aircraft. If you have more information or a different context, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "c14nsp",
     "final_label": "Fake",
-    "final_confidence": 0.6640144630149006,
+    "final_confidence": 0.6640144828831156,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5778694897890091,
     "clip_cos": 0.6297824829816818,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question. The context you provided is about NASA and microbial life, but it doesn't mention American Airlines or any specific aircraft. If you have more information or a different context, I'd be happy to try and help!",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12265313701221205",
     "num_comments": "-0.138541446822334"

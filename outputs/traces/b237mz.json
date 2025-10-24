@@ -34,16 +34,21 @@
       },
       "clip_cos": "",
       "consistency_score": 0.5
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and alien life, which seems unrelated to your question about a watermelon you found at work. I'd be happy to help with the watermelon question if you provide more context or clarify what you're asking!"
     }
   ],
   "final": {
     "post_id": "b237mz",
-    "final_label": "Uncertain",
+    "final_label": "Fake",
     "final_confidence": 0.4702514521280925,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5,
     "clip_cos": "",
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and alien life, which seems unrelated to your question about a watermelon you found at work. I'd be happy to help with the watermelon question if you provide more context or clarify what you're asking!",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.09040435510049889",
     "num_comments": "-0.04898307916794672"

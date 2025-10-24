@@ -9,9 +9,9 @@
         "Fake": 0.000380776560632512
       },
       "vilt": {
-        "Real": 0.9750558137893677,
-        "SatireMixed": 0.001594001310877502,
-        "Fake": 0.02335009165108204
+        "Real": 0.9750559329986572,
+        "SatireMixed": 0.0015940022422000766,
+        "Fake": 0.023350033909082413
       },
       "flava": {
         "Real": 0.9877873063087463,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6708760261535645,
-      "consistency_score": 0.6025256156921387
+      "clip_cos": 0.6708760112524033,
+      "consistency_score": 0.602525606751442
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be about NASA and extraterrestrial life, which is unrelated to a DJ class for babies in Brooklyn. If you'd like, I can try to help with something else!"
     }
   ],
   "final": {
     "post_id": "1mbdac",
     "final_label": "Real",
-    "final_confidence": 0.9936079182624817,
+    "final_confidence": 0.9936079574624697,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.6025256156921387,
-    "clip_cos": 0.6708760261535645,
+    "consistency_score": 0.602525606751442,
+    "clip_cos": 0.6708760112524033,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be about NASA and extraterrestrial life, which is unrelated to a DJ class for babies in Brooklyn. If you'd like, I can try to help with something else!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.12656208027423788",
     "num_comments": "-0.13165234161815034"

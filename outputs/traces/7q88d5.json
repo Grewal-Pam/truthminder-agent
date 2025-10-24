@@ -9,9 +9,9 @@
         "Fake": 0.9994723200798035
       },
       "vilt": {
-        "Real": 0.0028706262819468975,
-        "SatireMixed": 0.021818356588482857,
-        "Fake": 0.9753109812736511
+        "Real": 0.002870624652132392,
+        "SatireMixed": 0.021818509325385094,
+        "Fake": 0.9753108620643616
       },
       "flava": {
         "Real": 0.0038837557658553123,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6849627941846848,
       "consistency_score": 0.9054888382554054
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
     "post_id": "7q88d5",
     "final_label": "Fake",
-    "final_confidence": 0.987638022273779,
+    "final_confidence": 0.9876379825373491,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.9054888382554054,
     "clip_cos": 0.6849627941846848,
     "ocr_text": "Russian Sleep Experimentcirca 1947, colorized",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.11060056195429906",
     "num_comments": "-0.13165234161815034"

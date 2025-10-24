@@ -9,9 +9,9 @@
         "Fake": 0.9661679267883301
       },
       "vilt": {
-        "Real": 0.004372821655124426,
-        "SatireMixed": 0.11542023718357086,
-        "Fake": 0.8802069425582886
+        "Real": 0.004372819326817989,
+        "SatireMixed": 0.11541987210512161,
+        "Fake": 0.8802073001861572
       },
       "flava": {
         "Real": 0.004215555731207132,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6039639562368393,
       "consistency_score": 0.5623783737421035
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context does not mention Michiharu Sugimoto or any connection between them and NASA's search for alien life, so I can't provide an answer to this question."
     }
   ],
   "final": {
     "post_id": "c0mg7c",
     "final_label": "Fake",
-    "final_confidence": 0.9301912462910017,
+    "final_confidence": 0.9301913655002912,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5623783737421035,
     "clip_cos": 0.6039639562368393,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context does not mention Michiharu Sugimoto or any connection between them and NASA's search for alien life, so I can't provide an answer to this question.",
     "upvote_ratio": "1.2187418104000465",
     "score": "0.522322501222051",
     "num_comments": "0.1094663405282769"

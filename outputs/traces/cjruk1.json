@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9840863347053528,
-        "SatireMixed": 0.0024541299790143967,
-        "Fake": 0.013459429144859314
+        "SatireMixed": 0.002454132540151477,
+        "Fake": 0.013459423556923866
       },
       "flava": {
         "Real": 0.9895011782646179,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6812254041433334,
       "consistency_score": 0.6087352424860001
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to table soccer or any kind of sports, but rather talks about NASA and alien life. Therefore, I can't provide an answer for the question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6087352424860001,
     "clip_cos": 0.6812254041433334,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to table soccer or any kind of sports, but rather talks about NASA and alien life. Therefore, I can't provide an answer for the question.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.12200164646854107",
     "num_comments": "-0.11098502600559944"

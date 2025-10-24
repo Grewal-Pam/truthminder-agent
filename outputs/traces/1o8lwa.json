@@ -9,8 +9,8 @@
         "Fake": 0.9989054203033447
       },
       "vilt": {
-        "Real": 0.007343905046582222,
-        "SatireMixed": 0.018128128722310066,
+        "Real": 0.007343887351453304,
+        "SatireMixed": 0.01812813989818096,
         "Fake": 0.9745279550552368
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6175230890512466,
       "consistency_score": 0.570513853430748
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about Pokémon Xy or its director, so I can't provide a helpful answer. The context provided appears to be unrelated to the topic of Pokémon."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.570513853430748,
     "clip_cos": 0.6175230890512466,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about Pokémon Xy or its director, so I can't provide a helpful answer. The context provided appears to be unrelated to the topic of Pokémon.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.1167897221191733",
     "num_comments": "-0.11787413120978307"

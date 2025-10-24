@@ -9,9 +9,9 @@
         "Fake": 0.006852440070360899
       },
       "vilt": {
-        "Real": 0.9613578915596008,
-        "SatireMixed": 0.0030962475575506687,
-        "Fake": 0.03554590418934822
+        "Real": 0.9613580107688904,
+        "SatireMixed": 0.003096243366599083,
+        "Fake": 0.03554577752947807
       },
       "flava": {
         "Real": 0.9892907738685608,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6415099799633026,
       "consistency_score": 0.5849059879779815
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The topic seems unrelated to NASA or alien life, which were mentioned in the provided context. I'd need more information about what kind of \"house\" and how it's \"sticking out of a building\" to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "btsq1x",
     "final_label": "Real",
-    "final_confidence": 0.986197859009107,
+    "final_confidence": 0.9861978987455368,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5849059879779815,
     "clip_cos": 0.6415099799633026,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The topic seems unrelated to NASA or alien life, which were mentioned in the provided context. I'd need more information about what kind of \"house\" and how it's \"sticking out of a building\" to provide a helpful answer.",
     "upvote_ratio": "1.1278090553990805",
     "score": "1.2493859479588567",
     "num_comments": "1.0808301743181694"

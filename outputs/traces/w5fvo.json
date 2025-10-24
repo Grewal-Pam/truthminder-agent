@@ -9,8 +9,8 @@
         "Fake": 0.5225762724876404
       },
       "vilt": {
-        "Real": 0.005864959210157394,
-        "SatireMixed": 0.014819015748798847,
+        "Real": 0.005864992737770081,
+        "SatireMixed": 0.014818965457379818,
         "Fake": 0.9793160557746887
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5939410030841827,
       "consistency_score": 0.5563646018505096
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion! The context provided appears to be about NASA and alien life, but your question is asking about a \"new buddy\" arriving with a smile. It seems like these are unrelated topics!\n\nTo answer your question directly: I don't know what the relevance of NASA or aliens has to do with someone arriving smiling. Could you please clarify or provide more context?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5563646018505096,
     "clip_cos": 0.5939410030841827,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion! The context provided appears to be about NASA and alien life, but your question is asking about a \"new buddy\" arriving with a smile. It seems like these are unrelated topics!\n\nTo answer your question directly: I don't know what the relevance of NASA or aliens has to do with someone arriving smiling. Could you please clarify or provide more context?",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

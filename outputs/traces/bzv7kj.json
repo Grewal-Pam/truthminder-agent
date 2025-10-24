@@ -9,9 +9,9 @@
         "Fake": 0.0027198665775358677
       },
       "vilt": {
-        "Real": 0.005968641955405474,
-        "SatireMixed": 0.5730688571929932,
-        "Fake": 0.42096248269081116
+        "Real": 0.00596862705424428,
+        "SatireMixed": 0.5730680227279663,
+        "Fake": 0.4209633767604828
       },
       "flava": {
         "Real": 0.004429016262292862,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6483978927135468,
-      "consistency_score": 0.544519367814064
+      "clip_cos": 0.6483979225158691,
+      "consistency_score": 0.5445193767547607
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The phrase appears to be a quote in Dutch and doesn't seem related to NASA or aliens, so I'm unable to provide any relevant information about the question."
     }
   ],
   "final": {
     "post_id": "bzv7kj",
-    "final_label": "Uncertain",
-    "final_confidence": 0.573860203007857,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5738599253892899,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.544519367814064,
-    "clip_cos": 0.6483978927135468,
+    "consistency_score": 0.5445193767547607,
+    "clip_cos": 0.6483979225158691,
     "ocr_text": "SDAPNAAR HET LICHT PROLETAREN KENT OW PLICHT!",
+    "retrieved_text": "I don't know. The phrase appears to be a quote in Dutch and doesn't seem related to NASA or aliens, so I'm unable to provide any relevant information about the question.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12363037282771851",
     "num_comments": "-0.13165234161815034"

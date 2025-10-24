@@ -9,9 +9,9 @@
         "Fake": 0.997763991355896
       },
       "vilt": {
-        "Real": 0.007273200899362564,
-        "SatireMixed": 0.03142281994223595,
-        "Fake": 0.9613040089607239
+        "Real": 0.007273208349943161,
+        "SatireMixed": 0.031422704458236694,
+        "Fake": 0.9613041281700134
       },
       "flava": {
         "Real": 0.004067178815603256,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6614309996366501,
       "consistency_score": 0.5968585997819901
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be about NASA, space exploration, and cryptocurrency, but it doesn't mention Yanis Varoufakis or Greece in relation to those topics. Yanis Varoufakis is a Greek economist who has been involved in international finance, particularly with the European Union."
     }
   ],
   "final": {
     "post_id": "3150xc",
     "final_label": "Fake",
-    "final_confidence": 0.9633119936188063,
+    "final_confidence": 0.9633120333552361,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5968585997819901,
     "clip_cos": 0.6614309996366501,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be about NASA, space exploration, and cryptocurrency, but it doesn't mention Yanis Varoufakis or Greece in relation to those topics. Yanis Varoufakis is a Greek economist who has been involved in international finance, particularly with the European Union.",
     "upvote_ratio": "-0.5999132896192743",
     "score": "-0.11874419375018622",
     "num_comments": "-0.09031771039304853"

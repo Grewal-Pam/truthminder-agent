@@ -9,8 +9,8 @@
         "Fake": 0.0035238980781286955
       },
       "vilt": {
-        "Real": 0.029416322708129883,
-        "SatireMixed": 0.5908913612365723,
+        "Real": 0.02941632643342018,
+        "SatireMixed": 0.5908913016319275,
         "Fake": 0.37969234585762024
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6061228439211845,
       "consistency_score": 0.8818368531763553
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. This appears to be a quote or phrase, but it doesn't seem related to the context about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "5oo2g6",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5732122547477484,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5732122348795334,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.8818368531763553,
     "clip_cos": 0.6061228439211845,
     "ocr_text": "Good Bye, Dad, Im OffTo Fight For Old Glory, Eat",
+    "retrieved_text": "I don't know. This appears to be a quote or phrase, but it doesn't seem related to the context about NASA and alien life.",
     "upvote_ratio": "0.9459435453971482",
     "score": "0.03826502727451823",
     "num_comments": "0.08879902491572599"

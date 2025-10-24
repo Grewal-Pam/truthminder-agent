@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9910480380058289,
         "SatireMixed": 0.0021048334892839193,
-        "Fake": 0.006847180426120758
+        "Fake": 0.006847183685749769
       },
       "flava": {
         "Real": 0.9892938137054443,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6443748027086258,
       "consistency_score": 0.5866248816251755
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! The provided context is about NASA and alien life, but the question is unrelated to that topic. It seems like a completely different scenario about an Akron police check.\n\nTo answer your question, I don't have enough information to provide a helpful response. Could you please clarify what happened or provide more context about this incident? Without further details, it's difficult for me to make sense of the situation and offer a relevant answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5866248816251755,
     "clip_cos": 0.6443748027086258,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here! The provided context is about NASA and alien life, but the question is unrelated to that topic. It seems like a completely different scenario about an Akron police check.\n\nTo answer your question, I don't have enough information to provide a helpful response. Could you please clarify what happened or provide more context about this incident? Without further details, it's difficult for me to make sense of the situation and offer a relevant answer.",
     "upvote_ratio": "0.5822125253932846",
     "score": "0.02197776368274391",
     "num_comments": "0.1852464977742969"

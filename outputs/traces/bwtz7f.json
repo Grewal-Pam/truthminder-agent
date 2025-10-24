@@ -9,9 +9,9 @@
         "Fake": 0.06482670456171036
       },
       "vilt": {
-        "Real": 0.05336781218647957,
-        "SatireMixed": 0.013495459221303463,
-        "Fake": 0.9331367015838623
+        "Real": 0.053368549793958664,
+        "SatireMixed": 0.013495467603206635,
+        "Fake": 0.933135986328125
       },
       "flava": {
         "Real": 0.9896273612976074,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.627543568611145,
       "consistency_score": 0.576526141166687
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have any relation to bicycles or sizes of bicycles, so I can't provide a helpful answer. Can you please clarify the question or provide more context?"
     }
   ],
   "final": {
     "post_id": "bwtz7f",
     "final_label": "Real",
-    "final_confidence": 0.6638895773986975,
+    "final_confidence": 0.6638898232678572,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.576526141166687,
     "clip_cos": 0.627543568611145,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have any relation to bicycles or sizes of bicycles, so I can't provide a helpful answer. Can you please clarify the question or provide more context?",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.07574581786790201",
     "num_comments": "-0.11098502600559944"

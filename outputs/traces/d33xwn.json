@@ -9,9 +9,9 @@
         "Fake": 0.9975196719169617
       },
       "vilt": {
-        "Real": 0.023187870159745216,
-        "SatireMixed": 0.015613081865012646,
-        "Fake": 0.9611990451812744
+        "Real": 0.023188142105937004,
+        "SatireMixed": 0.015613077208399773,
+        "Fake": 0.9611988067626953
       },
       "flava": {
         "Real": 0.02131165936589241,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6306115984916687,
       "consistency_score": 0.5783669590950012
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about whales or their sounds, so I can't determine if the question \"triggered angry whale noises\" has a valid answer based on this context."
     }
   ],
   "final": {
     "post_id": "d33xwn",
     "final_label": "Fake",
-    "final_confidence": 0.9693316279252371,
+    "final_confidence": 0.9693315484523773,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5783669590950012,
     "clip_cos": 0.6306115984916687,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about whales or their sounds, so I can't determine if the question \"triggered angry whale noises\" has a valid answer based on this context.",
     "upvote_ratio": "-1.8729718596327993",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

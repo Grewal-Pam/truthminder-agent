@@ -9,9 +9,9 @@
         "Fake": 0.0002494701184332371
       },
       "vilt": {
-        "Real": 0.3972722887992859,
-        "SatireMixed": 0.011391455307602882,
-        "Fake": 0.5913362503051758
+        "Real": 0.39727312326431274,
+        "SatireMixed": 0.011391443200409412,
+        "Fake": 0.5913353562355042
       },
       "flava": {
         "Real": 0.9894331097602844,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6538254916667938,
       "consistency_score": 0.5922952950000763
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question appears to be unrelated to NASA or alien life, and I don't have any information about a \"red devil parachutist\" or their alleged debt. It seems like a completely separate topic!"
     }
   ],
   "final": {
     "post_id": "3ajqf2",
     "final_label": "Real",
-    "final_confidence": 0.8009901137749353,
+    "final_confidence": 0.8009903919299444,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5922952950000763,
     "clip_cos": 0.6538254916667938,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question appears to be unrelated to NASA or alien life, and I don't have any information about a \"red devil parachutist\" or their alleged debt. It seems like a completely separate topic!",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

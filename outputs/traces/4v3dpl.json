@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.002566429553553462,
-        "SatireMixed": 0.05170130357146263,
+        "SatireMixed": 0.05170132592320442,
         "Fake": 0.9457322359085083
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5966596752405167,
       "consistency_score": 0.55799580514431
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA or extraterrestrial life, and I don't have any information about a Japanese tsunami that would require me to answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.55799580514431,
     "clip_cos": 0.5966596752405167,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA or extraterrestrial life, and I don't have any information about a Japanese tsunami that would require me to answer this question.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12656208027423788",
     "num_comments": "-0.1454305520265176"

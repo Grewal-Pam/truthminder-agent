@@ -9,9 +9,9 @@
         "Fake": 0.7803393006324768
       },
       "vilt": {
-        "Real": 0.877835214138031,
-        "SatireMixed": 0.005883701145648956,
-        "Fake": 0.11628109961748123
+        "Real": 0.8778350949287415,
+        "SatireMixed": 0.005883705802261829,
+        "Fake": 0.11628115922212601
       },
       "flava": {
         "Real": 0.9890457391738892,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6279662251472473,
       "consistency_score": 0.5767797350883483
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to whale poop or auctions, and is actually about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "3k9hmc",
     "final_label": "Real",
-    "final_confidence": 0.699884236574173,
+    "final_confidence": 0.6998841968377432,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5767797350883483,
     "clip_cos": 0.6279662251472473,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to whale poop or auctions, and is actually about NASA and alien life.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.13165234161815034"

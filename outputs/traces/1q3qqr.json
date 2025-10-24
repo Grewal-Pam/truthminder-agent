@@ -9,9 +9,9 @@
         "Fake": 0.9997592568397522
       },
       "vilt": {
-        "Real": 0.7079830765724182,
-        "SatireMixed": 0.0125422403216362,
-        "Fake": 0.27947476506233215
+        "Real": 0.7079733610153198,
+        "SatireMixed": 0.012542462907731533,
+        "Fake": 0.2794840931892395
       },
       "flava": {
         "Real": 0.0061272853054106236,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6236585229635239,
-      "consistency_score": 0.5741951137781143
+      "clip_cos": 0.6236585155129433,
+      "consistency_score": 0.574195109307766
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and alien life, but it doesn't mention tanks or mists."
     }
   ],
   "final": {
     "post_id": "1q3qqr",
     "final_label": "Fake",
-    "final_confidence": 0.7459889300862947,
+    "final_confidence": 0.7459920391937097,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5741951137781143,
-    "clip_cos": 0.6236585229635239,
+    "consistency_score": 0.574195109307766,
+    "clip_cos": 0.6236585155129433,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and alien life, but it doesn't mention tanks or mists.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.011248254044475702",
     "num_comments": "-0.0834286051888649"

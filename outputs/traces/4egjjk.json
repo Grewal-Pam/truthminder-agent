@@ -9,9 +9,9 @@
         "Fake": 0.0001484390813857317
       },
       "vilt": {
-        "Real": 0.9808701872825623,
-        "SatireMixed": 0.006387027446180582,
-        "Fake": 0.012742815539240837
+        "Real": 0.9808700680732727,
+        "SatireMixed": 0.006387026980519295,
+        "Fake": 0.012742849998176098
       },
       "flava": {
         "Real": 0.9896764159202576,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5962163507938385,
       "consistency_score": 0.5288649052381516
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and alien life, which doesn't seem related to the topic of a Minnesota brewery being barred from marketing an LSD-themed beer. Therefore, I'm unable to provide any information or insights on this topic based on the given context."
     }
   ],
   "final": {
     "post_id": "4egjjk",
     "final_label": "Real",
-    "final_confidence": 0.9918423512578011,
+    "final_confidence": 0.9918423115213713,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5288649052381516,
     "clip_cos": 0.5962163507938385,
     "ocr_text": "EYEWITNESSGC NEWS",
+    "retrieved_text": "I don't know. The provided context is about NASA and alien life, which doesn't seem related to the topic of a Minnesota brewery being barred from marketing an LSD-themed beer. Therefore, I'm unable to provide any information or insights on this topic based on the given context.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12558484445873141",
     "num_comments": "-0.11098502600559944"

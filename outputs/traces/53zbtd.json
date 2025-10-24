@@ -9,9 +9,9 @@
         "Fake": 0.5556051731109619
       },
       "vilt": {
-        "Real": 0.3853970766067505,
-        "SatireMixed": 0.023615222424268723,
-        "Fake": 0.5909877419471741
+        "Real": 0.38539785146713257,
+        "SatireMixed": 0.023615237325429916,
+        "Fake": 0.5909868478775024
       },
       "flava": {
         "Real": 0.9859302639961243,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6568809002637863,
       "consistency_score": 0.19706427007913588
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the provided context about NASA and aliens, so I'm unable to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "53zbtd",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5868864104847112,
+    "final_label": "ABSTAIN",
+    "final_confidence": 0.5868866687715053,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19706427007913588,
     "clip_cos": 0.6568809002637863,
     "ocr_text": "re ee ae ee Oe tee enealbum featuring them was found dumpedina bin in Holmfirth  wed like to give itback!",
+    "retrieved_text": "I don't know. The question seems unrelated to the provided context about NASA and aliens, so I'm unable to provide a helpful answer.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.12297888228404753",
     "num_comments": "-0.11787413120978307"

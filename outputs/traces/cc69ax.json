@@ -9,9 +9,9 @@
         "Fake": 4.59548864455428e-05
       },
       "vilt": {
-        "Real": 0.3218921422958374,
-        "SatireMixed": 0.011263493448495865,
-        "Fake": 0.666844367980957
+        "Real": 0.32189178466796875,
+        "SatireMixed": 0.011263499036431313,
+        "Fake": 0.6668446660041809
       },
       "flava": {
         "Real": 0.9898203611373901,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6281451731920242,
       "consistency_score": 0.5768871039152146
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know, as this question is unrelated to NASA or aliens, and I'm not a nutrition expert. It seems like you're asking about the packaging of udon noodles, but I'll let others with more expertise answer that one!"
     }
   ],
   "final": {
     "post_id": "cc69ax",
     "final_label": "Real",
-    "final_confidence": 0.7751353835860888,
+    "final_confidence": 0.7751352643767992,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5768871039152146,
     "clip_cos": 0.6281451731920242,
     "ocr_text": "",
+    "retrieved_text": "I don't know, as this question is unrelated to NASA or aliens, and I'm not a nutrition expert. It seems like you're asking about the packaging of udon noodles, but I'll let others with more expertise answer that one!",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.12688782554607336",
     "num_comments": "-0.13165234161815034"

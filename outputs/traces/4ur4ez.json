@@ -9,9 +9,9 @@
         "Fake": 7.795570127200335e-05
       },
       "vilt": {
-        "Real": 0.985824465751648,
-        "SatireMixed": 0.0022558525670319796,
-        "Fake": 0.011919589713215828
+        "Real": 0.9858243465423584,
+        "SatireMixed": 0.0022558479104191065,
+        "Fake": 0.011919752694666386
       },
       "flava": {
         "Real": 0.004496732726693153,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6505603641271591,
       "consistency_score": 0.5903362184762955
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between NASA's findings on alien life and the opinion of a lone superdelegate who might have voted for Martin O'Malley. Therefore, I don't know how to answer this question."
     }
   ],
   "final": {
     "post_id": "4ur4ez",
     "final_label": "Real",
-    "final_confidence": 0.6688172598928213,
+    "final_confidence": 0.6688172201563914,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5903362184762955,
     "clip_cos": 0.6505603641271591,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between NASA's findings on alien life and the opinion of a lone superdelegate who might have voted for Martin O'Malley. Therefore, I don't know how to answer this question.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12297888228404753",
     "num_comments": "-0.1454305520265176"

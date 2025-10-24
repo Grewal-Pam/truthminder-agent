@@ -9,9 +9,9 @@
         "Fake": 0.999290943145752
       },
       "vilt": {
-        "Real": 0.004503148142248392,
-        "SatireMixed": 0.018973015248775482,
-        "Fake": 0.9765238165855408
+        "Real": 0.004503159783780575,
+        "SatireMixed": 0.018972963094711304,
+        "Fake": 0.9765239357948303
       },
       "flava": {
         "Real": 0.005302946548908949,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6650526225566864,
       "consistency_score": 0.5990315735340118
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question because it appears to be unrelated to NASA or extraterrestrial life. The context provided seems to be about a person finding something unusual on their barbecue grill, but it doesn't provide any relevant information about aliens or NASA's findings."
     }
   ],
   "final": {
     "post_id": "cu2en3",
     "final_label": "Fake",
-    "final_confidence": 0.9785573549667994,
+    "final_confidence": 0.9785573947032293,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5990315735340118,
     "clip_cos": 0.6650526225566864,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question because it appears to be unrelated to NASA or extraterrestrial life. The context provided seems to be about a person finding something unusual on their barbecue grill, but it doesn't provide any relevant information about aliens or NASA's findings.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

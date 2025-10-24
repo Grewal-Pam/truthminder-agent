@@ -9,9 +9,9 @@
         "Fake": 0.9961010217666626
       },
       "vilt": {
-        "Real": 0.003936209250241518,
-        "SatireMixed": 0.34666845202445984,
-        "Fake": 0.6493953466415405
+        "Real": 0.003936207853257656,
+        "SatireMixed": 0.34666815400123596,
+        "Fake": 0.6493956446647644
       },
       "flava": {
         "Real": 0.0039603253826498985,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6308256685733795,
       "consistency_score": 0.18924770057201384
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA or extraterrestrial life, and I'm not aware of any information about when Reddit was founded or how it was started. If you're looking for information on that topic, I can try to help with a general internet search!"
     }
   ],
   "final": {
     "post_id": "c0d6sw",
     "final_label": "Fake",
-    "final_confidence": 0.8222267325520516,
+    "final_confidence": 0.8222268318931262,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.18924770057201384,
     "clip_cos": 0.6308256685733795,
     "ocr_text": "stole itn",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA or extraterrestrial life, and I'm not aware of any information about when Reddit was founded or how it was started. If you're looking for information on that topic, I can try to help with a general internet search!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.1167897221191733",
     "num_comments": "-0.12476323641396671"

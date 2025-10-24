@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.0028191704768687487,
-        "SatireMixed": 0.03060366027057171,
+        "SatireMixed": 0.030603624880313873,
         "Fake": 0.9665771722793579
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.5957508310675621,
-      "consistency_score": 0.5574504986405373
+      "clip_cos": 0.5957508385181427,
+      "consistency_score": 0.5574505031108856
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context seems unrelated to the question, which appears to be about NASA and aliens. I won't try to answer it or make something up - instead, I'll leave it blank!"
     }
   ],
   "final": {
     "post_id": "5b1ztk",
     "final_label": "Fake",
-    "final_confidence": 0.9728646019399166,
+    "final_confidence": 0.9728646022081375,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5574504986405373,
-    "clip_cos": 0.5957508310675621,
+    "consistency_score": 0.5574505031108856,
+    "clip_cos": 0.5957508385181427,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context seems unrelated to the question, which appears to be about NASA and aliens. I won't try to answer it or make something up - instead, I'll leave it blank!",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.11222928831347648",
     "num_comments": "-0.0076484479428449055"

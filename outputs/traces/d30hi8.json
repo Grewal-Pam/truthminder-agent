@@ -9,9 +9,9 @@
         "Fake": 0.0009502635220997036
       },
       "vilt": {
-        "Real": 0.019099125638604164,
-        "SatireMixed": 0.01189432479441166,
-        "Fake": 0.9690065383911133
+        "Real": 0.019099466502666473,
+        "SatireMixed": 0.01189428847283125,
+        "Fake": 0.9690062999725342
       },
       "flava": {
         "Real": 0.004670558497309685,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6378579884767532,
       "consistency_score": 0.5827147930860519
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The conversation appears to be about NASA and alien life, but then suddenly shifts to a hotel room. It's unclear what connection there is between the two topics, so I can't provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "d30hi8",
     "final_label": "Fake",
-    "final_confidence": 0.6412888584011235,
+    "final_confidence": 0.6412887789282637,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5827147930860519,
     "clip_cos": 0.6378579884767532,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The conversation appears to be about NASA and alien life, but then suddenly shifts to a hotel room. It's unclear what connection there is between the two topics, so I can't provide a helpful answer.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11255503358531196",
     "num_comments": "-0.138541446822334"

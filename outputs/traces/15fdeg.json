@@ -9,9 +9,9 @@
         "Fake": 0.9995192289352417
       },
       "vilt": {
-        "Real": 0.00967373512685299,
-        "SatireMixed": 0.00880342535674572,
-        "Fake": 0.9815229177474976
+        "Real": 0.009673899970948696,
+        "SatireMixed": 0.008803369477391243,
+        "Fake": 0.981522798538208
       },
       "flava": {
         "Real": 0.04112525284290314,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6193557679653168,
       "consistency_score": 0.5716134607791901
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about gift bags or presents being related to NASA, aliens, or microbial life evidence. It seems like a completely unrelated topic!"
     }
   ],
   "final": {
     "post_id": "15fdeg",
     "final_label": "Fake",
-    "final_confidence": 0.9691508096456528,
+    "final_confidence": 0.969150769909223,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5716134607791901,
     "clip_cos": 0.6193557679653168,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about gift bags or presents being related to NASA, aliens, or microbial life evidence. It seems like a completely unrelated topic!",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12428186337138948",
     "num_comments": "-0.13165234161815034"

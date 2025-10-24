@@ -9,8 +9,8 @@
         "Fake": 0.9018892645835876
       },
       "vilt": {
-        "Real": 0.008110841736197472,
-        "SatireMixed": 0.01928173191845417,
+        "Real": 0.008110856637358665,
+        "SatireMixed": 0.019281728193163872,
         "Fake": 0.972607433795929
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6396826207637787,
       "consistency_score": 0.5838095724582673
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question, as it appears to be a joke or a reference to pop culture (John Travolta and Benedict Cumberbatch are actors known for their roles in movies and TV shows). The context you provided about NASA and aliens is unrelated to the topic of seeing celebrities having fun at a beach or airport."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5838095724582673,
     "clip_cos": 0.6396826207637787,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question, as it appears to be a joke or a reference to pop culture (John Travolta and Benedict Cumberbatch are actors known for their roles in movies and TV shows). The context you provided about NASA and aliens is unrelated to the topic of seeing celebrities having fun at a beach or airport.",
     "upvote_ratio": "-1.600173594629901",
     "score": "-0.12656208027423788",
     "num_comments": "-0.062761289576314"

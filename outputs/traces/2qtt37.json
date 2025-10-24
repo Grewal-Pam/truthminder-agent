@@ -9,9 +9,9 @@
         "Fake": 0.0019450067775323987
       },
       "vilt": {
-        "Real": 0.8778293132781982,
-        "SatireMixed": 0.006056083366274834,
-        "Fake": 0.11611462384462357
+        "Real": 0.8778291940689087,
+        "SatireMixed": 0.006056085228919983,
+        "Fake": 0.11611476540565491
       },
       "flava": {
         "Real": 0.8921170830726624,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6667927503585815,
       "consistency_score": 0.600075650215149
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion! The context provided is about NASA and alien life, but the question is asking about Justin Bieber as a pro skateboarder. I don't know the answer to that question because Justin Bieber is not a professional skateboarder. He's actually a singer-songwriter and musician."
     }
   ],
   "final": {
     "post_id": "2qtt37",
     "final_label": "Real",
-    "final_confidence": 0.9285887150764466,
+    "final_confidence": 0.9285886753400168,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.600075650215149,
     "clip_cos": 0.6667927503585815,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion! The context provided is about NASA and alien life, but the question is asking about Justin Bieber as a pro skateboarder. I don't know the answer to that question because Justin Bieber is not a professional skateboarder. He's actually a singer-songwriter and musician.",
     "upvote_ratio": "-1.9639046146337655",
     "score": "-0.12884229717708628",
     "num_comments": "-0.0007593427386612698"

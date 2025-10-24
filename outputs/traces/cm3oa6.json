@@ -9,9 +9,9 @@
         "Fake": 0.00018403754802420735
       },
       "vilt": {
-        "Real": 0.9655188322067261,
-        "SatireMixed": 0.005259652156382799,
-        "Fake": 0.029221517965197563
+        "Real": 0.9655189514160156,
+        "SatireMixed": 0.005259637720882893,
+        "Fake": 0.029221387580037117
       },
       "flava": {
         "Real": 0.0038955057971179485,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6254798173904419,
       "consistency_score": 0.5752878904342651
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about China's anniversary of democracy and freedom, but it seems to be referencing Mao Zedong's assassination, which occurred on September 9, 1976. However, I'm not aware of any specific anniversary related to his death that is widely celebrated in China or recognized internationally."
     }
   ],
   "final": {
     "post_id": "cm3oa6",
     "final_label": "Real",
-    "final_confidence": 0.6609069219864905,
+    "final_confidence": 0.6609069617229203,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5752878904342651,
     "clip_cos": 0.6254798173904419,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about China's anniversary of democracy and freedom, but it seems to be referencing Mao Zedong's assassination, which occurred on September 9, 1976. However, I'm not aware of any specific anniversary related to his death that is widely celebrated in China or recognized internationally.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12460760864322497",
     "num_comments": "-0.1454305520265176"

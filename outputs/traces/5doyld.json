@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9873961806297302,
-        "SatireMixed": 0.0035571048501878977,
-        "Fake": 0.009046686813235283
+        "SatireMixed": 0.0035571029875427485,
+        "Fake": 0.0090467045083642
       },
       "flava": {
         "Real": 0.988269567489624,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6555339395999908,
       "consistency_score": 0.5933203637599945
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided is about NASA and alien life, but it doesn't seem to be related to the Blue Jays or a \"mystery woman\" behind home plate. I'm not aware of any connection between these topics that would help me solve the mystery. Can you provide more context or clarify what this question is asking?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5933203637599945,
     "clip_cos": 0.6555339395999908,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided is about NASA and alien life, but it doesn't seem to be related to the Blue Jays or a \"mystery woman\" behind home plate. I'm not aware of any connection between these topics that would help me solve the mystery. Can you provide more context or clarify what this question is asking?",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.1167897221191733",
     "num_comments": "-0.12476323641396671"

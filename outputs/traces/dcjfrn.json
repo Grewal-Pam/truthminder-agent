@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.970664381980896,
-        "SatireMixed": 0.0015986685175448656,
-        "Fake": 0.027736855670809746
+        "SatireMixed": 0.001598672359250486,
+        "Fake": 0.027736954391002655
       },
       "flava": {
         "Real": 0.9896180033683777,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6567683517932892,
       "consistency_score": 0.5940610110759735
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between spiders crawling into taillights and alien life or NASA's findings on extraterrestrial life. It seems like a completely unrelated topic! Can you clarify what you're trying to understand or connect with this context? I'll do my best to help if I can."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5940610110759735,
     "clip_cos": 0.6567683517932892,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between spiders crawling into taillights and alien life or NASA's findings on extraterrestrial life. It seems like a completely unrelated topic! Can you clarify what you're trying to understand or connect with this context? I'll do my best to help if I can.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.04898307916794672"

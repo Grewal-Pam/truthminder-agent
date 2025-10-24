@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9874305725097656,
-        "SatireMixed": 0.003048482583835721,
-        "Fake": 0.009520890191197395
+        "SatireMixed": 0.0030484898015856743,
+        "Fake": 0.00952087715268135
       },
       "flava": {
         "Real": 0.9890528321266174,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6556855589151382,
       "consistency_score": 0.5467056676745414
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and extraterrestrial life, and doesn't make sense in its current form. \"Hell Michigan\" likely refers to a specific location or real estate listing, but without more information, I can't provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5467056676745414,
     "clip_cos": 0.6556855589151382,
     "ocr_text": "ES RNY Paranacan  ",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and extraterrestrial life, and doesn't make sense in its current form. \"Hell Michigan\" likely refers to a specific location or real estate listing, but without more information, I can't provide an answer.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.11092630722613454",
     "num_comments": "-0.09031771039304853"

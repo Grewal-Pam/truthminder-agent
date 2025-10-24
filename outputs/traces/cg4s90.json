@@ -9,9 +9,9 @@
         "Fake": 0.9509682655334473
       },
       "vilt": {
-        "Real": 0.529033899307251,
-        "SatireMixed": 0.012409172020852566,
-        "Fake": 0.4585568904876709
+        "Real": 0.5290374159812927,
+        "SatireMixed": 0.01240917481482029,
+        "Fake": 0.4585534632205963
       },
       "flava": {
         "Real": 0.004365337081253529,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6115339696407318,
       "consistency_score": 0.566920381784439
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what's going on with this question! It seems like there might be some mistake or misdirection. The phrase \"dona elisa herva matte especial\" doesn't appear to be related to the context about NASA and aliens.\n\nSo, I'll just politely decline to answer and say that I don't know what this question is trying to ask."
     }
   ],
   "final": {
     "post_id": "cg4s90",
     "final_label": "Fake",
-    "final_confidence": 0.7852668322324753,
+    "final_confidence": 0.7852656898101171,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.566920381784439,
     "clip_cos": 0.6115339696407318,
     "ocr_text": "",
+    "retrieved_text": "I'm not sure what's going on with this question! It seems like there might be some mistake or misdirection. The phrase \"dona elisa herva matte especial\" doesn't appear to be related to the context about NASA and aliens.\n\nSo, I'll just politely decline to answer and say that I don't know what this question is trying to ask.",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12981953299259275",
     "num_comments": "-0.13165234161815034"

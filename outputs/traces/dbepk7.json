@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9843997955322266,
-        "SatireMixed": 0.002435895847156644,
-        "Fake": 0.013164304196834564
+        "SatireMixed": 0.0024358935188502073,
+        "Fake": 0.01316431537270546
       },
       "flava": {
         "Real": 0.9897177219390869,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6773681193590164,
       "consistency_score": 0.6064208716154098
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a specific cloud formation resembling an eagle near Zermatt, Switzerland. My expertise is in NASA's confirmation of microbial life, not weather patterns or unique natural formations. If you're interested in learning more about the clouds or Zermatt, I recommend searching for reliable sources like weather websites or local tourism boards."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6064208716154098,
     "clip_cos": 0.6773681193590164,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a specific cloud formation resembling an eagle near Zermatt, Switzerland. My expertise is in NASA's confirmation of microbial life, not weather patterns or unique natural formations. If you're interested in learning more about the clouds or Zermatt, I recommend searching for reliable sources like weather websites or local tourism boards.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.1281908066334153",
     "num_comments": "-0.12476323641396671"

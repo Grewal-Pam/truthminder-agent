@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9860456585884094,
         "SatireMixed": 0.0031066560186445713,
-        "Fake": 0.010847675614058971
+        "Fake": 0.01084773801267147
       },
       "flava": {
         "Real": 0.9894366264343262,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6595420390367508,
       "consistency_score": 0.5957252234220505
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA or the existence of aliens, and the context provided doesn't seem relevant. It appears to be a separate question about visibility and the Empire State Building."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5957252234220505,
     "clip_cos": 0.6595420390367508,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA or the existence of aliens, and the context provided doesn't seem relevant. It appears to be a separate question about visibility and the Empire State Building.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12102441065303461",
     "num_comments": "-0.13165234161815034"

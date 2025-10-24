@@ -9,9 +9,9 @@
         "Fake": 0.9994494318962097
       },
       "vilt": {
-        "Real": 0.2951720952987671,
-        "SatireMixed": 0.02251676842570305,
-        "Fake": 0.6823110580444336
+        "Real": 0.29517248272895813,
+        "SatireMixed": 0.022516770288348198,
+        "Fake": 0.6823107600212097
       },
       "flava": {
         "Real": 0.003873343812301755,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6451191306114197,
       "consistency_score": 0.5870714783668518
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA, aliens, or microbial life evidence, and it appears to be asking about a specific historical event involving Vladimir Lenin. I'm not familiar with this context, so I won't attempt to answer the question. If you provide more information or clarify what's being asked, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "6uvzu3",
     "final_label": "Fake",
-    "final_confidence": 0.867082656621933,
+    "final_confidence": 0.8670825572808584,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5870714783668518,
     "clip_cos": 0.6451191306114197,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA, aliens, or microbial life evidence, and it appears to be asking about a specific historical event involving Vladimir Lenin. I'm not familiar with this context, so I won't attempt to answer the question. If you provide more information or clarify what's being asked, I'd be happy to try and help!",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.1190699390220217",
     "num_comments": "-0.138541446822334"

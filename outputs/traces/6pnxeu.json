@@ -9,9 +9,9 @@
         "Fake": 0.3944809138774872
       },
       "vilt": {
-        "Real": 0.07622341066598892,
-        "SatireMixed": 0.014472536742687225,
-        "Fake": 0.9093040227890015
+        "Real": 0.07622353732585907,
+        "SatireMixed": 0.014472550712525845,
+        "Fake": 0.9093039631843567
       },
       "flava": {
         "Real": 0.005635876674205065,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6516382098197937,
       "consistency_score": 0.5909829258918762
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I see what's going on here! You're trying to distract me from answering your actual question, aren't you? Well, I'm not falling for it!\n\nSo, I'll answer your \"real\" question: No one knows why people sometimes get unexpected or unpleasant thoughts (like NSFW ones) while showering. It could be due to various factors such as brain activity, hormonal changes, or even the sound and sensation of water droplets on the skin. But that's purely speculative!\n\nNow, if you'll excuse me, I need to rinse off this virtual soap!"
     }
   ],
   "final": {
     "post_id": "6pnxeu",
     "final_label": "Fake",
-    "final_confidence": 0.7546030429204306,
+    "final_confidence": 0.7546030230522156,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5909829258918762,
     "clip_cos": 0.6516382098197937,
     "ocr_text": "",
+    "retrieved_text": "I think I see what's going on here! You're trying to distract me from answering your actual question, aren't you? Well, I'm not falling for it!\n\nSo, I'll answer your \"real\" question: No one knows why people sometimes get unexpected or unpleasant thoughts (like NSFW ones) while showering. It could be due to various factors such as brain activity, hormonal changes, or even the sound and sensation of water droplets on the skin. But that's purely speculative!\n\nNow, if you'll excuse me, I need to rin",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12232739174037656",
     "num_comments": "-0.11787413120978307"

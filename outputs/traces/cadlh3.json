@@ -9,9 +9,9 @@
         "Fake": 0.9910652041435242
       },
       "vilt": {
-        "Real": 0.3344856798648834,
-        "SatireMixed": 0.012424040585756302,
-        "Fake": 0.653090238571167
+        "Real": 0.33448705077171326,
+        "SatireMixed": 0.012424039654433727,
+        "Fake": 0.6530889272689819
       },
       "flava": {
         "Real": 0.010761700570583344,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6946633756160736,
       "consistency_score": 0.5583990126848221
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nIt seems like you've provided some irrelevant text, including a bunch of nonsensical characters. I'm not sure what you're trying to ask or relate to the original context about NASA and aliens.\n\nTo answer your question in the most polite way possible: I don't know what blue shirts have to do with protecting the neck, as there doesn't seem to be any connection between the two. If you could provide more context or clarify your question, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "cadlh3",
     "final_label": "Fake",
-    "final_confidence": 0.8663074794014295,
+    "final_confidence": 0.8663070423007011,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5583990126848221,
     "clip_cos": 0.6946633756160736,
     "ocr_text": "eaeScodPROTECT THE NECKTTA TTT  a",
+    "retrieved_text": "I think there may be some confusion here!\n\nIt seems like you've provided some irrelevant text, including a bunch of nonsensical characters. I'm not sure what you're trying to ask or relate to the original context about NASA and aliens.\n\nTo answer your question in the most polite way possible: I don't know what blue shirts have to do with protecting the neck, as there doesn't seem to be any connection between the two. If you could provide more context or clarify your question, I'd be happy to try",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.138541446822334"

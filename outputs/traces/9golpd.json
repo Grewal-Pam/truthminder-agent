@@ -9,9 +9,9 @@
         "Fake": 0.9625647068023682
       },
       "vilt": {
-        "Real": 0.021934818476438522,
-        "SatireMixed": 0.008780310861766338,
-        "Fake": 0.9692848920822144
+        "Real": 0.021935058757662773,
+        "SatireMixed": 0.008780295960605145,
+        "Fake": 0.9692846536636353
       },
       "flava": {
         "Real": 0.9900256395339966,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6263574212789536,
       "consistency_score": 0.5758144527673721
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm a large language model, I don't have enough context to help with that question! The text only talks about NASA and alien life, but it doesn't mention Oreos or anything related. So, I'll just say... I don't know!"
     }
   ],
   "final": {
     "post_id": "9golpd",
     "final_label": "Fake",
-    "final_confidence": 0.6497876178578784,
+    "final_confidence": 0.6497875383850187,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5758144527673721,
     "clip_cos": 0.6263574212789536,
     "ocr_text": "",
+    "retrieved_text": "I'm a large language model, I don't have enough context to help with that question! The text only talks about NASA and alien life, but it doesn't mention Oreos or anything related. So, I'll just say... I don't know!",
     "upvote_ratio": "-1.7820391046318331",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

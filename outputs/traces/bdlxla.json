@@ -9,9 +9,9 @@
         "Fake": 0.006015826016664505
       },
       "vilt": {
-        "Real": 0.33070433139801025,
-        "SatireMixed": 0.012323521077632904,
-        "Fake": 0.6569721698760986
+        "Real": 0.33069878816604614,
+        "SatireMixed": 0.01232354249805212,
+        "Fake": 0.656977653503418
       },
       "flava": {
         "Real": 0.9873842000961304,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6783353984355927,
       "consistency_score": 0.6070012390613556
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nAs a friendly AI, I'm not a professional in the field of art or photography, but based on the context you provided, I'd say that's quite possible! Bearded dragons have unique scales and textures that can create interesting patterns when photographed up close. It's also great to see you appreciating your pet's features!\n\nPlease let me know if there's anything else I can help with!"
     }
   ],
   "final": {
     "post_id": "bdlxla",
     "final_label": "Real",
-    "final_confidence": 0.776866136431694,
+    "final_confidence": 0.776864288687706,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6070012390613556,
     "clip_cos": 0.6783353984355927,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nAs a friendly AI, I'm not a professional in the field of art or photography, but based on the context you provided, I'd say that's quite possible! Bearded dragons have unique scales and textures that can create interesting patterns when photographed up close. It's also great to see you appreciating your pet's features!\n\nPlease let me know if there's anything else I can help with!",
     "upvote_ratio": "-2.1457701246356975",
     "score": "-0.1285165519052508",
     "num_comments": "-0.13165234161815034"

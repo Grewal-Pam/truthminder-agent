@@ -9,9 +9,9 @@
         "Fake": 0.013771762140095234
       },
       "vilt": {
-        "Real": 0.7164944410324097,
-        "SatireMixed": 0.011193981394171715,
-        "Fake": 0.27231159806251526
+        "Real": 0.7164946794509888,
+        "SatireMixed": 0.011193985119462013,
+        "Fake": 0.27231132984161377
       },
       "flava": {
         "Real": 0.9214702248573303,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5809586346149445,
       "consistency_score": 0.5242875903844832
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context seems unrelated to Jeb Bush's campaign or Mason jars, so I'm not aware of any information that would suggest a connection between the two. The question appears to be unrelated to NASA's admission of alien existence or microbial life evidence, which are also not relevant to this topic."
     }
   ],
   "final": {
     "post_id": "3oj6q5",
     "final_label": "Real",
-    "final_confidence": 0.8761612190206846,
+    "final_confidence": 0.8761612984935442,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5242875903844832,
     "clip_cos": 0.5809586346149445,
     "ocr_text": "sSaoa",
+    "retrieved_text": "I don't know. The context seems unrelated to Jeb Bush's campaign or Mason jars, so I'm not aware of any information that would suggest a connection between the two. The question appears to be unrelated to NASA's admission of alien existence or microbial life evidence, which are also not relevant to this topic.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

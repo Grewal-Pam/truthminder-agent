@@ -9,9 +9,9 @@
         "Fake": 0.0005289216642268002
       },
       "vilt": {
-        "Real": 0.9856163263320923,
-        "SatireMixed": 0.0028102491050958633,
-        "Fake": 0.011573489755392075
+        "Real": 0.9856162071228027,
+        "SatireMixed": 0.0028102435171604156,
+        "Fake": 0.011573615483939648
       },
       "flava": {
         "Real": 0.9895929098129272,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6104160696268082,
       "consistency_score": 0.5331248208880424
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be a problem here!\n\nThe provided context is about NASA and alien life, but the question seems unrelated to that topic. In fact, it appears to be a jumbled sequence of words that don't form a coherent sentence or question.\n\nAs I'm not able to decipher any meaningful question from this text, I'll take a safe route: I don't know."
     }
   ],
   "final": {
     "post_id": "53b5b5",
     "final_label": "Real",
-    "final_confidence": 0.9935171526571115,
+    "final_confidence": 0.9935171129206816,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5331248208880424,
     "clip_cos": 0.6104160696268082,
     "ocr_text": "mfelKerola",
+    "retrieved_text": "I think there may be a problem here!\n\nThe provided context is about NASA and alien life, but the question seems unrelated to that topic. In fact, it appears to be a jumbled sequence of words that don't form a coherent sentence or question.\n\nAs I'm not able to decipher any meaningful question from this text, I'll take a safe route: I don't know.",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.0005220665480010211
       },
       "vilt": {
-        "Real": 0.9695270657539368,
-        "SatireMixed": 0.003019765019416809,
-        "Fake": 0.02745320275425911
+        "Real": 0.9695269465446472,
+        "SatireMixed": 0.003019769210368395,
+        "Fake": 0.02745327726006508
       },
       "flava": {
         "Real": 0.986728847026825,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6691226959228516,
       "consistency_score": 0.601473617553711
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and alien life, but it doesn't seem to be related to a county arcade in Victoria, Leeds, or OCX (whatever that might refer to). If you'd like me to provide information on one of those topics, I'd be happy to try!"
     }
   ],
   "final": {
     "post_id": "2t1p6f",
     "final_label": "Real",
-    "final_confidence": 0.9913211080233255,
+    "final_confidence": 0.9913210682868957,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.601473617553711,
     "clip_cos": 0.6691226959228516,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and alien life, but it doesn't seem to be related to a county arcade in Victoria, Leeds, or OCX (whatever that might refer to). If you'd like me to provide information on one of those topics, I'd be happy to try!",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.1070173639641087",
     "num_comments": "-0.138541446822334"

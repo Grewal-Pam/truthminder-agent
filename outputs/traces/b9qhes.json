@@ -9,8 +9,8 @@
         "Fake": 0.013805994763970375
       },
       "vilt": {
-        "Real": 0.005921852774918079,
-        "SatireMixed": 0.017593633383512497,
+        "Real": 0.005921815987676382,
+        "SatireMixed": 0.017593681812286377,
         "Fake": 0.976484477519989
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6336511671543121,
       "consistency_score": 0.5801907002925872
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"Merkel sound\" seems unrelated to the provided context about NASA and alien life, so I'm unable to provide a helpful answer. If you meant something else by \"Merkel sound\", please clarify!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5801907002925872,
     "clip_cos": 0.6336511671543121,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"Merkel sound\" seems unrelated to the provided context about NASA and alien life, so I'm unable to provide a helpful answer. If you meant something else by \"Merkel sound\", please clarify!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

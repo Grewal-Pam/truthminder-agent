@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9382725358009338,
         "SatireMixed": 0.002534888219088316,
-        "Fake": 0.059192556887865067
+        "Fake": 0.05919259786605835
       },
       "flava": {
         "Real": 0.9895016551017761,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6481082141399384,
-      "consistency_score": 0.588864928483963
+      "clip_cos": 0.648108184337616,
+      "consistency_score": 0.5888649106025696
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be about NASA and alien life, but there's no mention of a Romanain town or a ladybug invasion, so I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "2lzdnk",
     "final_label": "Real",
-    "final_confidence": 0.9811938623189926,
+    "final_confidence": 0.981193861246109,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.588864928483963,
-    "clip_cos": 0.6481082141399384,
+    "consistency_score": 0.5888649106025696,
+    "clip_cos": 0.648108184337616,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be about NASA and alien life, but there's no mention of a Romanain town or a ladybug invasion, so I can't provide an answer.",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.00037478271406143904
       },
       "vilt": {
-        "Real": 0.15282565355300903,
-        "SatireMixed": 0.0059471530839800835,
-        "Fake": 0.8412271738052368
+        "Real": 0.15282219648361206,
+        "SatireMixed": 0.005947143770754337,
+        "Fake": 0.8412306308746338
       },
       "flava": {
         "Real": 0.8468871116638184,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6591382175683975,
       "consistency_score": 0.5954829305410385
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm assuming \"unamused\" is not part of the question! Based on the context you provided, I'll give it a shot:\n\nThe helpful answer would be:\n\nAccording to NASA's findings, there is no conclusive evidence of alien life beyond microbial life. The agency has never officially confirmed the existence of intelligent extraterrestrial life."
     }
   ],
   "final": {
     "post_id": "7b7mdn",
     "final_label": "Real",
-    "final_confidence": 0.6721117257078489,
+    "final_confidence": 0.6721105733513832,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5954829305410385,
     "clip_cos": 0.6591382175683975,
     "ocr_text": "",
+    "retrieved_text": "I'm assuming \"unamused\" is not part of the question! Based on the context you provided, I'll give it a shot:\n\nThe helpful answer would be:\n\nAccording to NASA's findings, there is no conclusive evidence of alien life beyond microbial life. The agency has never officially confirmed the existence of intelligent extraterrestrial life.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.1262363350024024",
     "num_comments": "-0.12476323641396671"

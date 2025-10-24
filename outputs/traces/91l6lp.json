@@ -9,8 +9,8 @@
         "Fake": 0.9323701858520508
       },
       "vilt": {
-        "Real": 0.004031112417578697,
-        "SatireMixed": 0.01831982098519802,
+        "Real": 0.0040311142802238464,
+        "SatireMixed": 0.018319811671972275,
         "Fake": 0.9776490330696106
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6240625604987144,
-      "consistency_score": 0.5744375362992287
+      "clip_cos": 0.624062567949295,
+      "consistency_score": 0.574437540769577
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not a biologist or an expert on extraterrestrial life, but based on the context you provided, it seems like you might be referring to an insect or an arthropod that you found in Romania. Since NASA has never admitted the existence of aliens and multiple independent missions have only confirmed microbial life evidence, it's unlikely that what you found is an alien. Could you please provide more information about the \"stressed little guy\" you found, such as its size, shape, or any distinctive features?"
     }
   ],
   "final": {
     "post_id": "91l6lp",
     "final_label": "Fake",
-    "final_confidence": 0.9559218651552995,
+    "final_confidence": 0.9559218654235204,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5744375362992287,
-    "clip_cos": 0.6240625604987144,
+    "consistency_score": 0.574437540769577,
+    "clip_cos": 0.624062567949295,
     "ocr_text": "",
+    "retrieved_text": "I'm not a biologist or an expert on extraterrestrial life, but based on the context you provided, it seems like you might be referring to an insect or an arthropod that you found in Romania. Since NASA has never admitted the existence of aliens and multiple independent missions have only confirmed microbial life evidence, it's unlikely that what you found is an alien. Could you please provide more information about the \"stressed little guy\" you found, such as its size, shape, or any distinctive ",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

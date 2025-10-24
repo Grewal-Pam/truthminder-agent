@@ -9,9 +9,9 @@
         "Fake": 0.9801310896873474
       },
       "vilt": {
-        "Real": 0.005703742150217295,
-        "SatireMixed": 0.2804649770259857,
-        "Fake": 0.7138312458992004
+        "Real": 0.0057037449441850185,
+        "SatireMixed": 0.28046464920043945,
+        "Fake": 0.7138316035270691
       },
       "flava": {
         "Real": 0.004122260957956314,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6487075686454773,
       "consistency_score": 0.5892245411872864
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question asks for \"kindred ties\" between two words, which means it's looking for a connection or relationship between them. In this case, the words are \"aliens\" and \"devils\". I'm not aware of any obvious connection or similarity between these two concepts, so I would say I don't know."
     }
   ],
   "final": {
     "post_id": "3i6q28",
     "final_label": "Fake",
-    "final_confidence": 0.8778576074441274,
+    "final_confidence": 0.877857726653417,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5892245411872864,
     "clip_cos": 0.6487075686454773,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question asks for \"kindred ties\" between two words, which means it's looking for a connection or relationship between them. In this case, the words are \"aliens\" and \"devils\". I'm not aware of any obvious connection or similarity between these two concepts, so I would say I don't know.",
     "upvote_ratio": "-2.418568389638596",
     "score": "-0.12981953299259275",
     "num_comments": "-0.138541446822334"

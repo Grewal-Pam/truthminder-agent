@@ -9,9 +9,9 @@
         "Fake": 0.0006748118321411312
       },
       "vilt": {
-        "Real": 0.6553006172180176,
-        "SatireMixed": 0.009500366635620594,
-        "Fake": 0.3351990282535553
+        "Real": 0.6552989482879639,
+        "SatireMixed": 0.009500392712652683,
+        "Fake": 0.335200697183609
       },
       "flava": {
         "Real": 0.046063534915447235,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6872999966144562,
-      "consistency_score": 0.6123799979686737
+      "clip_cos": 0.6873000264167786,
+      "consistency_score": 0.6123800158500672
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The given context is about NASA and alien life, but it doesn't mention anything about rubber ducks."
     }
   ],
   "final": {
     "post_id": "dahhyl",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5736329179008802,
+    "final_label": "Real",
+    "final_confidence": 0.5736323626637458,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.6123799979686737,
-    "clip_cos": 0.6872999966144562,
+    "consistency_score": 0.6123800158500672,
+    "clip_cos": 0.6873000264167786,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The given context is about NASA and alien life, but it doesn't mention anything about rubber ducks.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12721357081790885",
     "num_comments": "-0.13165234161815034"

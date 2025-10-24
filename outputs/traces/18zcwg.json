@@ -9,9 +9,9 @@
         "Fake": 0.9993895292282104
       },
       "vilt": {
-        "Real": 0.6855535507202148,
-        "SatireMixed": 0.010616384446620941,
-        "Fake": 0.3038300573825836
+        "Real": 0.6855547428131104,
+        "SatireMixed": 0.010616363026201725,
+        "Fake": 0.3038289248943329
       },
       "flava": {
         "Real": 0.9688671827316284,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6807387471199036,
       "consistency_score": 0.6084432482719422
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about astronauts taking pictures of themselves, so I can't determine if this is a true or false statement based on the provided text."
     }
   ],
   "final": {
     "post_id": "18zcwg",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5581639497241316,
+    "final_label": "Real",
+    "final_confidence": 0.6081643470884301,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6084432482719422,
     "clip_cos": 0.6807387471199036,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about astronauts taking pictures of themselves, so I can't determine if this is a true or false statement based on the provided text.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.12656208027423788",
     "num_comments": "-0.11787413120978307"

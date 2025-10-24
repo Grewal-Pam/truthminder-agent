@@ -9,9 +9,9 @@
         "Fake": 0.00015374383656308055
       },
       "vilt": {
-        "Real": 0.30456259846687317,
-        "SatireMixed": 0.0164372306317091,
-        "Fake": 0.6790001392364502
+        "Real": 0.3045625388622284,
+        "SatireMixed": 0.016437217593193054,
+        "Fake": 0.6790002584457397
       },
       "flava": {
         "Real": 0.965361475944519,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6574248522520065,
-      "consistency_score": 0.5944549113512039
+      "clip_cos": 0.6574248373508453,
+      "consistency_score": 0.5944549024105072
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't understand what you mean by \"macron pointing alongside theresa\". Could you please rephrase or provide more context so I can better assist you?"
     }
   ],
   "final": {
     "post_id": "94dnsg",
     "final_label": "Real",
-    "final_confidence": 0.7622193849285444,
+    "final_confidence": 0.7622193645238876,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5944549113512039,
-    "clip_cos": 0.6574248522520065,
+    "consistency_score": 0.5944549024105072,
+    "clip_cos": 0.6574248373508453,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't understand what you mean by \"macron pointing alongside theresa\". Could you please rephrase or provide more context so I can better assist you?",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12981953299259275",
     "num_comments": "-0.12476323641396671"

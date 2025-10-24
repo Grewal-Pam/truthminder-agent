@@ -9,9 +9,9 @@
         "Fake": 0.9991576671600342
       },
       "vilt": {
-        "Real": 0.7265744209289551,
-        "SatireMixed": 0.009049015119671822,
-        "Fake": 0.26437658071517944
+        "Real": 0.7265749573707581,
+        "SatireMixed": 0.0090490048751235,
+        "Fake": 0.26437607407569885
       },
       "flava": {
         "Real": 0.9876870512962341,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5989951714873314,
       "consistency_score": 0.5593971028923989
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't have any information about Germany's nuclear fusion machine or its functionality, so I can't provide an answer to this question."
     }
   ],
   "final": {
     "post_id": "5gudak",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5750345412063179,
+    "final_label": "Real",
+    "final_confidence": 0.5750347200202522,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5593971028923989,
     "clip_cos": 0.5989951714873314,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't have any information about Germany's nuclear fusion machine or its functionality, so I can't provide an answer to this question.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12004717483752816",
     "num_comments": "-0.13165234161815034"

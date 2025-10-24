@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9873083233833313,
-        "SatireMixed": 0.002638096222653985,
-        "Fake": 0.01005359273403883
+        "SatireMixed": 0.0026380911003798246,
+        "Fake": 0.010053645819425583
       },
       "flava": {
         "Real": 0.9894605278968811,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6672306805849075,
       "consistency_score": 0.6003384083509445
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I see what's going on here!\n\nSince you mentioned NASA and independent missions, I'm assuming we're talking about extraterrestrial life or the possibility of finding life elsewhere in the universe. Given that context, I'll take a stab at it:\n\nBased on available evidence and scientific consensus, there is currently no conclusive proof of alien life (i.e., intelligent life beyond Earth). While there have been intriguing discoveries like microbial life on Mars and exoplanets with conditions suitable for life, these findings don't necessarily imply the existence of complex extraterrestrial life. NASA has not officially acknowledged the discovery of aliens.\n\nSo, if you're looking to complete that puzzle piece, I'd say it's unlikely to be \"Aliens Exist\" or anything similar!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6003384083509445,
     "clip_cos": 0.6672306805849075,
     "ocr_text": "",
+    "retrieved_text": "I think I see what's going on here!\n\nSince you mentioned NASA and independent missions, I'm assuming we're talking about extraterrestrial life or the possibility of finding life elsewhere in the universe. Given that context, I'll take a stab at it:\n\nBased on available evidence and scientific consensus, there is currently no conclusive proof of alien life (i.e., intelligent life beyond Earth). While there have been intriguing discoveries like microbial life on Mars and exoplanets with conditions ",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.12476323641396671"

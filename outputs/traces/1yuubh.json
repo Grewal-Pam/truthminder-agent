@@ -9,9 +9,9 @@
         "Fake": 0.02038154937326908
       },
       "vilt": {
-        "Real": 0.5417964458465576,
-        "SatireMixed": 0.014575162902474403,
-        "Fake": 0.4436284303665161
+        "Real": 0.5417996048927307,
+        "SatireMixed": 0.014575115405023098,
+        "Fake": 0.4436253011226654
       },
       "flava": {
         "Real": 0.9810808300971985,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5748823285102844,
       "consistency_score": 0.5449293971061706
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context appears to be unrelated to the question about surfing a crocodile closing Broome's Cable Beach, which seems like a fictional or humorous scenario rather than a scientific fact. NASA's statements about alien life or microbial evidence are also not relevant to this question."
     }
   ],
   "final": {
     "post_id": "1yuubh",
     "final_label": "Real",
-    "final_confidence": 0.8367366638978323,
+    "final_confidence": 0.8367377169132233,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5449293971061706,
     "clip_cos": 0.5748823285102844,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context appears to be unrelated to the question about surfing a crocodile closing Broome's Cable Beach, which seems like a fictional or humorous scenario rather than a scientific fact. NASA's statements about alien life or microbial evidence are also not relevant to this question.",
     "upvote_ratio": "-2.0548373696347317",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

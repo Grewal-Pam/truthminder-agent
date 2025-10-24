@@ -9,9 +9,9 @@
         "Fake": 0.9996888637542725
       },
       "vilt": {
-        "Real": 0.9652332663536072,
-        "SatireMixed": 0.0019683835562318563,
-        "Fake": 0.03279826417565346
+        "Real": 0.9652337431907654,
+        "SatireMixed": 0.001968384487554431,
+        "Fake": 0.03279788792133331
       },
       "flava": {
         "Real": 0.0045802900567650795,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6348191797733307,
       "consistency_score": 0.5808915078639985
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"my dash is a hoot\" seems unrelated to the context about NASA and alien life, so I'm not aware of any connection that would allow me to provide a helpful answer. If you'd like to clarify or rephrase the question, I'd be happy to try and assist!"
     }
   ],
   "final": {
     "post_id": "1pquwf",
     "final_label": "Fake",
-    "final_confidence": 0.6621162441670895,
+    "final_confidence": 0.6621161187489828,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5808915078639985,
     "clip_cos": 0.6348191797733307,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"my dash is a hoot\" seems unrelated to the context about NASA and alien life, so I'm not aware of any connection that would allow me to provide a helpful answer. If you'd like to clarify or rephrase the question, I'd be happy to try and assist!",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

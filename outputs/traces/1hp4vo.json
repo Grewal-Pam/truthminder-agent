@@ -9,9 +9,9 @@
         "Fake": 0.0015809283358976245
       },
       "vilt": {
-        "Real": 0.9889652729034424,
-        "SatireMixed": 0.0034387146588414907,
-        "Fake": 0.007595973089337349
+        "Real": 0.9889653921127319,
+        "SatireMixed": 0.003438719781115651,
+        "Fake": 0.007595959585160017
       },
       "flava": {
         "Real": 0.9889441728591919,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6281461268663406,
       "consistency_score": 0.5768876761198044
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't have any information about Jack Meoff Mudd or his arrest in Broward County, so I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "1hp4vo",
     "final_label": "Real",
-    "final_confidence": 0.9966949225862821,
+    "final_confidence": 0.9966949623227119,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5768876761198044,
     "clip_cos": 0.6281461268663406,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't have any information about Jack Meoff Mudd or his arrest in Broward County, so I can't provide an answer.",
     "upvote_ratio": "-1.7820391046318331",
     "score": "-0.1285165519052508",
     "num_comments": "-0.138541446822334"

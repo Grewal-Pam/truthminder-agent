@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9233413934707642,
-        "SatireMixed": 0.0081586679443717,
+        "SatireMixed": 0.008158699609339237,
         "Fake": 0.06849995255470276
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6672283560037613,
       "consistency_score": 0.6003370136022568
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context does not provide any information about Greece or phone booths, so I'm unable to answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6003370136022568,
     "clip_cos": 0.6672283560037613,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context does not provide any information about Greece or phone booths, so I'm unable to answer this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.1281908066334153",
     "num_comments": "-0.1454305520265176"

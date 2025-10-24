@@ -9,9 +9,9 @@
         "Fake": 0.5509299635887146
       },
       "vilt": {
-        "Real": 0.7861106395721436,
-        "SatireMixed": 0.014842319302260876,
-        "Fake": 0.19904698431491852
+        "Real": 0.7861122488975525,
+        "SatireMixed": 0.01484224759042263,
+        "Fake": 0.19904544949531555
       },
       "flava": {
         "Real": 0.9896523356437683,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6349440664052963,
       "consistency_score": 0.5809664398431778
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and extraterrestrial life, which doesn't seem related to the topic \"Hamilton Police charge year-old woman with stunt driving\"."
     }
   ],
   "final": {
     "post_id": "4j2amp",
     "final_label": "Real",
-    "final_confidence": 0.7464348368048668,
+    "final_confidence": 0.7464353732466698,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5809664398431778,
     "clip_cos": 0.6349440664052963,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and extraterrestrial life, which doesn't seem related to the topic \"Hamilton Police charge year-old woman with stunt driving\".",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.123956118099554",
     "num_comments": "-0.13165234161815034"

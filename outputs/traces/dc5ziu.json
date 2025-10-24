@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9898674488067627,
-        "SatireMixed": 0.0026144415605813265,
-        "Fake": 0.007518157362937927
+        "SatireMixed": 0.0026144487783312798,
+        "Fake": 0.007518142927438021
       },
       "flava": {
         "Real": 0.9898589253425598,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6759458929300308,
       "consistency_score": 0.6055675357580185
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is asking about a mall parking garage, which seems unrelated to NASA or alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6055675357580185,
     "clip_cos": 0.6759458929300308,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is asking about a mall parking garage, which seems unrelated to NASA or alien life.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12688782554607336",
     "num_comments": "-0.062761289576314"

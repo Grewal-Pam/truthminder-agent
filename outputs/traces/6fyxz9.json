@@ -9,9 +9,9 @@
         "Fake": 0.023523682728409767
       },
       "vilt": {
-        "Real": 0.029906056821346283,
-        "SatireMixed": 0.016733385622501373,
-        "Fake": 0.9533605575561523
+        "Real": 0.02990623377263546,
+        "SatireMixed": 0.01673339121043682,
+        "Fake": 0.9533603191375732
       },
       "flava": {
         "Real": 0.011322854086756706,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6365332007408142,
       "consistency_score": 0.19095996022224426
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question appears to be unrelated to NASA, aliens, or microbial life, and seems to be referring to Eric Trump (Donald Trump's son) in a context that doesn't seem to match any of the provided context. I'm happy to help with questions related to the original text, but this one is beyond my expertise!"
     }
   ],
   "final": {
     "post_id": "6fyxz9",
     "final_label": "Fake",
-    "final_confidence": 0.622514491006732,
+    "final_confidence": 0.6225144115338722,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19095996022224426,
     "clip_cos": 0.6365332007408142,
     "ocr_text": "EeOM yung ae",
+    "retrieved_text": "I don't know! The question appears to be unrelated to NASA, aliens, or microbial life, and seems to be referring to Eric Trump (Donald Trump's son) in a context that doesn't seem to match any of the provided context. I'm happy to help with questions related to the original text, but this one is beyond my expertise!",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

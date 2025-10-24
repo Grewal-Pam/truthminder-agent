@@ -9,9 +9,9 @@
         "Fake": 8.466605504509062e-05
       },
       "vilt": {
-        "Real": 0.9812900424003601,
-        "SatireMixed": 0.0018713660538196564,
-        "Fake": 0.01683865860104561
+        "Real": 0.9812901616096497,
+        "SatireMixed": 0.0018713626777753234,
+        "Fake": 0.016838522627949715
       },
       "flava": {
         "Real": 0.9894006848335266,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6582209169864655,
       "consistency_score": 0.5474662750959396
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with the context you provided, so I don't know anything about Westport car dealership messing with a pizza delivery guy or the internet's response. The context seems unrelated to NASA and alien life, which was the topic of your original text."
     }
   ],
   "final": {
     "post_id": "2shpvg",
     "final_label": "Real",
-    "final_confidence": 0.9930435687502226,
+    "final_confidence": 0.9930436084866524,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5474662750959396,
     "clip_cos": 0.6582209169864655,
     "ocr_text": "ys cyage",
+    "retrieved_text": "I'm not familiar with the context you provided, so I don't know anything about Westport car dealership messing with a pizza delivery guy or the internet's response. The context seems unrelated to NASA and alien life, which was the topic of your original text.",
     "upvote_ratio": "-0.32711502461637687",
     "score": "-0.11125205249797003",
     "num_comments": "0.006129762465522366"

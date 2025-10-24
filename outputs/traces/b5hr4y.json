@@ -9,9 +9,9 @@
         "Fake": 0.00016629431047476828
       },
       "vilt": {
-        "Real": 0.4289182126522064,
-        "SatireMixed": 0.011532280594110489,
-        "Fake": 0.5595494508743286
+        "Real": 0.42891955375671387,
+        "SatireMixed": 0.011532273143529892,
+        "Fake": 0.5595481991767883
       },
       "flava": {
         "Real": 0.9890688061714172,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6254033595323563,
       "consistency_score": 0.5752420157194138
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not capable of answering questions outside of my training data or making assumptions about events I'm not aware of. The question appears to be unrelated to the provided context, which is about NASA and microbial life evidence.\n\nIf you're referring to specific individuals or events, such as Parkland shooting survivors or Sandy Hook father, I would need more information or a clear connection to the provided context to answer accurately. In that case, my response would be: \"I don't know.\""
     }
   ],
   "final": {
     "post_id": "b5hr4y",
     "final_label": "Real",
-    "final_confidence": 0.8104413107832273,
+    "final_confidence": 0.8104417578180632,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5752420157194138,
     "clip_cos": 0.6254033595323563,
     "ocr_text": "",
+    "retrieved_text": "I'm not capable of answering questions outside of my training data or making assumptions about events I'm not aware of. The question appears to be unrelated to the provided context, which is about NASA and microbial life evidence.\n\nIf you're referring to specific individuals or events, such as Parkland shooting survivors or Sandy Hook father, I would need more information or a clear connection to the provided context to answer accurately. In that case, my response would be: \"I don't know.\"",
     "upvote_ratio": "-1.054577064624105",
     "score": "-0.1259105897305669",
     "num_comments": "-0.138541446822334"

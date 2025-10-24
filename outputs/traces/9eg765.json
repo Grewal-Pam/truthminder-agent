@@ -9,9 +9,9 @@
         "Fake": 0.049689650535583496
       },
       "vilt": {
-        "Real": 0.9861136078834534,
-        "SatireMixed": 0.005524973850697279,
-        "Fake": 0.008361450396478176
+        "Real": 0.9861134886741638,
+        "SatireMixed": 0.0055249836295843124,
+        "Fake": 0.008361445739865303
       },
       "flava": {
         "Real": 0.9892957806587219,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6170034185051918,
       "consistency_score": 0.5702020511031151
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer the question about a specific ship turning hard. The provided context is about NASA and the possibility of alien life, but it doesn't mention any information about ships or turning movements."
     }
   ],
   "final": {
     "post_id": "9eg765",
     "final_label": "Real",
-    "final_confidence": 0.9793747483789921,
+    "final_confidence": 0.9793747086425623,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5702020511031151,
     "clip_cos": 0.6170034185051918,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer the question about a specific ship turning hard. The provided context is about NASA and the possibility of alien life, but it doesn't mention any information about ships or turning movements.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12558484445873141",
     "num_comments": "-0.11787413120978307"

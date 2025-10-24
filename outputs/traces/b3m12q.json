@@ -9,9 +9,9 @@
         "Fake": 0.0017656462732702494
       },
       "vilt": {
-        "Real": 0.9155359268188477,
-        "SatireMixed": 0.003138022730126977,
-        "Fake": 0.08132603764533997
+        "Real": 0.9155408143997192,
+        "SatireMixed": 0.003137910971418023,
+        "Fake": 0.08132127672433853
       },
       "flava": {
         "Real": 0.9903145432472229,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.645794689655304,
       "consistency_score": 0.5874768137931824
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about flavoring in corn nibbles, which seems unrelated to NASA or alien life."
     }
   ],
   "final": {
     "post_id": "b3m12q",
     "final_label": "Real",
-    "final_confidence": 0.973175409078598,
+    "final_confidence": 0.9731770382722219,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5874768137931824,
     "clip_cos": 0.645794689655304,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about flavoring in corn nibbles, which seems unrelated to NASA or alien life.",
     "upvote_ratio": "-2.6004338996405285",
     "score": "-0.13047102353626372",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.0008872745675034821
       },
       "vilt": {
-        "Real": 0.9878679513931274,
-        "SatireMixed": 0.003121398389339447,
-        "Fake": 0.009010582230985165
+        "Real": 0.987868070602417,
+        "SatireMixed": 0.00312140304595232,
+        "Fake": 0.00901057105511427
       },
       "flava": {
         "Real": 0.9879822134971619,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6374405771493912,
       "consistency_score": 0.5824643462896347
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nThe answer to your question seems to be \"Graveyard of the Pacific\". The term \"Graveyard of the Pacific\" refers to a notorious area off the coast of Oregon, where many ships have met their demise due to treacherous weather conditions and rocky shores."
     }
   ],
   "final": {
     "post_id": "951wxi",
     "final_label": "Real",
-    "final_confidence": 0.9964522319436073,
+    "final_confidence": 0.9964522716800371,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5824643462896347,
     "clip_cos": 0.6374405771493912,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nThe answer to your question seems to be \"Graveyard of the Pacific\". The term \"Graveyard of the Pacific\" refers to a notorious area off the coast of Oregon, where many ships have met their demise due to treacherous weather conditions and rocky shores.",
     "upvote_ratio": "-2.0548373696347317",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

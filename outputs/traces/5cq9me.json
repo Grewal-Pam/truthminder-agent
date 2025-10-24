@@ -9,9 +9,9 @@
         "Fake": 0.9996957778930664
       },
       "vilt": {
-        "Real": 0.004485576879233122,
-        "SatireMixed": 0.022197850048542023,
-        "Fake": 0.9733166098594666
+        "Real": 0.004485566169023514,
+        "SatireMixed": 0.0221979059278965,
+        "Fake": 0.973316490650177
       },
       "flava": {
         "Real": 0.9851953983306885,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6161582469940186,
       "consistency_score": 0.5696949481964111
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have anything to do with NASA or aliens, so I'm not able to provide an answer. But I can tell you that the picture of the baby elephant sounds adorable!"
     }
   ],
   "final": {
     "post_id": "5cq9me",
     "final_label": "Fake",
-    "final_confidence": 0.6645085797781746,
+    "final_confidence": 0.6645085400417448,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5696949481964111,
     "clip_cos": 0.6161582469940186,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have anything to do with NASA or aliens, so I'm not able to provide an answer. But I can tell you that the picture of the baby elephant sounds adorable!",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.11711546739100878",
     "num_comments": "-0.138541446822334"

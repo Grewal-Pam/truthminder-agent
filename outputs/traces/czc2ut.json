@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9862159490585327,
-        "SatireMixed": 0.00356234610080719,
-        "Fake": 0.010221707634627819
+        "SatireMixed": 0.0035623442381620407,
+        "Fake": 0.010221722535789013
       },
       "flava": {
         "Real": 0.9825039505958557,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6422638148069382,
       "consistency_score": 0.5853582888841629
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is unrelated to NASA or the topic of aliens, and I'm not aware of any information about a specific house being on fire."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5853582888841629,
     "clip_cos": 0.6422638148069382,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is unrelated to NASA or the topic of aliens, and I'm not aware of any information about a specific house being on fire.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12981953299259275",
     "num_comments": "-0.138541446822334"

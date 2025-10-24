@@ -10,7 +10,10 @@ os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 st.set_page_config(page_title="TruthMindr", layout="wide")
 st.title("📰 TruthMindr: Multimodal Disinformation Detector")
-st.markdown("🚀 *Please wait a moment while models initialize (first run may take 1–2 mins)*")
+st.markdown(
+    "🚀 *Please wait a moment while models initialize (first run may take 1–2 mins)*"
+)
+
 
 # -------------------------------------------------------------------
 # Cache heavy imports (run_row, rephrase_result)
@@ -18,12 +21,16 @@ st.markdown("🚀 *Please wait a moment while models initialize (first run may t
 @st.cache_resource
 def load_runner():
     from agent.runner import run_row
+
     return run_row
+
 
 @st.cache_resource
 def load_rephraser():
     from tools.rephraser import rephrase_result
+
     return rephrase_result
+
 
 run_row = load_runner()
 rephrase_result = load_rephraser()
@@ -70,13 +77,19 @@ with tab1:
             col1, col2 = st.columns([1, 2])
             with col1:
                 if row.get("image_url") and str(row["image_url"]).startswith("http"):
-                    st.image(row["image_url"], caption=row["clean_title"], use_container_width=True)
+                    st.image(
+                        row["image_url"],
+                        caption=row["clean_title"],
+                        use_container_width=True,
+                    )
 
             with col2:
                 st.write(f"### {row['clean_title']}")
                 st.markdown(f"**Final Label:** `{row['final_label']}`")
                 st.markdown(f"**Confidence:** {row['final_confidence']:.2f}")
-                st.caption(f"Consistency Score: {row['consistency_score']:.2f}, NLI: {row['nli_label']}")
+                st.caption(
+                    f"Consistency Score: {row['consistency_score']:.2f}, NLI: {row['nli_label']}"
+                )
 
             explanation = rephrase_result(row)
             st.info(explanation)
@@ -127,7 +140,7 @@ with tab2:
                 "score": score,
                 "upvote_ratio": upvote_ratio,
                 "2_way_label": 1,
-                "3_way_label": 0
+                "3_way_label": 0,
             }
 
             with st.spinner("Running CLIP, ViLT, FLAVA + Arbiter..."):
@@ -145,7 +158,11 @@ with tab2:
         col1, col2 = st.columns([1, 2])
         with col1:
             if uploaded_img:
-                st.image(Image.open("temp_upload.png"), caption="Uploaded Image", use_container_width=True)
+                st.image(
+                    Image.open("temp_upload.png"),
+                    caption="Uploaded Image",
+                    use_container_width=True,
+                )
             elif image_url:
                 st.image(image_url, caption="From URL", use_container_width=True)
 
@@ -153,7 +170,9 @@ with tab2:
             st.write(f"### {clean_title}")
             st.markdown(f"**Final Label:** `{result['final_label']}`")
             st.markdown(f"**Confidence:** {result['final_confidence']:.2f}")
-            st.caption(f"Consistency Score: {result['consistency_score']:.2f}, NLI: {result['nli_label']}")
+            st.caption(
+                f"Consistency Score: {result['consistency_score']:.2f}, NLI: {result['nli_label']}"
+            )
 
         explanation = rephrase_result(result)
         st.success("✅ Analysis Complete")
@@ -174,9 +193,23 @@ with tab2:
 
         # Add model comparison
         if "steps" in trace and len(trace["steps"]) > 0:
-            votes = pd.DataFrame([
-                {'Model': 'CLIP', 'Real': trace['steps'][0]['clip']['Real'], 'Fake': trace['steps'][0]['clip']['Fake']},
-                {'Model': 'ViLT', 'Real': trace['steps'][0]['vilt']['Real'], 'Fake': trace['steps'][0]['vilt']['Fake']},
-                {'Model': 'FLAVA', 'Real': trace['steps'][0]['flava']['Real'], 'Fake': trace['steps'][0]['flava']['Fake']}
-            ])
+            votes = pd.DataFrame(
+                [
+                    {
+                        "Model": "CLIP",
+                        "Real": trace["steps"][0]["clip"]["Real"],
+                        "Fake": trace["steps"][0]["clip"]["Fake"],
+                    },
+                    {
+                        "Model": "ViLT",
+                        "Real": trace["steps"][0]["vilt"]["Real"],
+                        "Fake": trace["steps"][0]["vilt"]["Fake"],
+                    },
+                    {
+                        "Model": "FLAVA",
+                        "Real": trace["steps"][0]["flava"]["Real"],
+                        "Fake": trace["steps"][0]["flava"]["Fake"],
+                    },
+                ]
+            )
             st.bar_chart(votes.set_index("Model"))

@@ -1,11 +1,19 @@
-import torch
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import numpy as np
-from tqdm import tqdm
 
-def lr_finder(model, dataloader, optimizer, device, 
-              start_lr=1e-7, end_lr=1, num_iter=100, beta=0.98, save_path="lr_finder_plot.png"):
+
+def lr_finder(
+    model,
+    dataloader,
+    optimizer,
+    device,
+    start_lr=1e-7,
+    end_lr=1,
+    num_iter=100,
+    beta=0.98,
+    save_path="lr_finder_plot.png",
+):
     """
     Gradually increases the learning rate between start_lr and end_lr over num_iter batches.
     Logs the loss and plots loss vs LR to find optimal LR.
@@ -14,10 +22,10 @@ def lr_finder(model, dataloader, optimizer, device,
     lr_mult = (end_lr / start_lr) ** (1 / num_iter)
     lr = start_lr
     for param_group in optimizer.param_groups:
-        param_group['lr'] = lr
+        param_group["lr"] = lr
 
     avg_loss = 0.0
-    best_loss = float('inf')
+    best_loss = float("inf")
     losses = []
     lrs = []
 
@@ -34,7 +42,9 @@ def lr_finder(model, dataloader, optimizer, device,
         attention_mask = batch["attention_mask"].to(device)
         pixel_values = batch["pixel_values"].to(device)
         labels = batch["labels"].to(device)
-        metadata = batch["metadata"].to(device) if batch["metadata"] is not None else None
+        metadata = (
+            batch["metadata"].to(device) if batch["metadata"] is not None else None
+        )
 
         # Forward pass
         optimizer.zero_grad()
@@ -56,7 +66,9 @@ def lr_finder(model, dataloader, optimizer, device,
 
         # Stop if the loss explodes
         if iteration > 10 and smoothed_loss > 4 * best_loss:
-            print(f"[LR Finder] Loss diverged at iteration {iteration}. Stopping early.")
+            print(
+                f"[LR Finder] Loss diverged at iteration {iteration}. Stopping early."
+            )
             break
 
         if smoothed_loss < best_loss or iteration == 0:
@@ -69,12 +81,12 @@ def lr_finder(model, dataloader, optimizer, device,
         # Update LR
         lr *= lr_mult
         for param_group in optimizer.param_groups:
-            param_group['lr'] = lr
+            param_group["lr"] = lr
 
     # Plot LR vs Loss
     plt.figure(figsize=(8, 5))
     plt.plot(lrs, losses)
-    plt.xscale('log')
+    plt.xscale("log")
     plt.xlabel("Learning Rate (log scale)")
     plt.ylabel("Smoothed Loss")
     plt.title("LR Finder: Loss vs Learning Rate")

@@ -1,15 +1,22 @@
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
-from sklearn.metrics import accuracy_score, classification_report, cohen_kappa_score, f1_score, recall_score, precision_score
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    cohen_kappa_score,
+    f1_score,
+    recall_score,
+    precision_score,
+)
 from utils.logger import setup_logger
-import config
 
 logger = setup_logger("vilt_evaluation", log_dir="runs/logs", sampled=False)
 
 
-#logger = setup_logger("vilt_evaluation_log")
-#logger = setup_logger("vilt_evaluation_log", log_dir=config.log_dir, sampled=False)
+# logger = setup_logger("vilt_evaluation_log")
+# logger = setup_logger("vilt_evaluation_log", log_dir=config.log_dir, sampled=False)
+
 
 def evaluate_vilt(model, dataloader, device, num_classes=3, average="weighted"):
     """
@@ -100,4 +107,3 @@ def evaluate_vilt(model, dataloader, device, num_classes=3, average="weighted"):
 
     logger.info(f"Evaluation complete. Metrics: {metrics}")
     return avg_loss, metrics, all_labels, all_preds, all_probs, all_indices
-

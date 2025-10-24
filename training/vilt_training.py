@@ -1,4 +1,3 @@
-import config
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
@@ -22,7 +21,9 @@ def train_vilt(model, dataloader, optimizer, device, class_weights=None):
         attention_mask = batch["attention_mask"].to(device)
         pixel_values = batch["pixel_values"].to(device)
         labels = batch["labels"].to(device)
-        metadata = batch["metadata"].to(device) if batch["metadata"] is not None else None
+        metadata = (
+            batch["metadata"].to(device) if batch["metadata"] is not None else None
+        )
 
         # Forward pass
         logits = model(
@@ -57,5 +58,7 @@ def train_vilt(model, dataloader, optimizer, device, class_weights=None):
     avg_loss = total_loss / len(dataloader)
     avg_accuracy = sum(train_accuracies) / len(train_accuracies)
 
-    logger.info(f"Training complete. Average Loss: {avg_loss:.4f}, Average Accuracy: {avg_accuracy:.4f}")
+    logger.info(
+        f"Training complete. Average Loss: {avg_loss:.4f}, Average Accuracy: {avg_accuracy:.4f}"
+    )
     return avg_loss, train_losses, avg_accuracy

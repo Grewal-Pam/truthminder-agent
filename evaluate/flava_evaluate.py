@@ -1,32 +1,22 @@
-import os
 import logging
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from PIL import Image
-import requests
-from io import BytesIO
-import config
 import torch
-from torch.utils.data import Dataset, DataLoader
-from transformers import FlavaProcessor, FlavaModel
-from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score, cohen_kappa_score, confusion_matrix, roc_curve, precision_recall_curve, auc, classification_report
-import torch.nn as nn
+from sklearn.metrics import (
+    f1_score,
+    recall_score,
+    precision_score,
+    cohen_kappa_score,
+    classification_report,
+)
 import torch.nn.functional as F
-from datetime import datetime
-import matplotlib.pyplot as plt
-import seaborn as sns
 import numpy as np
-from sklearn.preprocessing import StandardScaler, label_binarize
-import random
-import pickle
-import optuna
 from utils.logger import setup_logger
+
 logger = setup_logger("flava_evaluate", log_dir="runs/logs", sampled=False)
-#logger = setup_logger("flava_evaluate_log", log_dir=config.log_dir, sampled=False)
+# logger = setup_logger("flava_evaluate_log", log_dir=config.log_dir, sampled=False)
 
 
 # Evaluation function
-def evaluate_flava(model, dataloader, device, task_name = '2-way'):
+def evaluate_flava(model, dataloader, device, task_name="2-way"):
     model.eval()
     total_loss = 0
     correct_predictions = 0
@@ -39,36 +29,55 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
     logging.info("Starting evaluation loop for {task_name} classification...")
     with torch.no_grad():
         for batch_idx, batch in enumerate(dataloader):
-            #if batch is None or batch['labels'].nelement() == 0:
-            if batch is None or batch.get('labels') is None or len(batch['labels']) == 0:
+            # if batch is None or batch['labels'].nelement() == 0:
+            if (
+                batch is None
+                or batch.get("labels") is None
+                or len(batch["labels"]) == 0
+            ):
                 logger.warning(f"Skipping empty batch {batch_idx} during evaluation.")
                 continue
-            input_ids = batch['input_ids'].to(device)
-            attention_mask = batch['attention_mask'].to(device)
-            pixel_values = batch['pixel_values'].to(device)
-            labels = batch['labels'].to(device)
-            metadata = batch['metadata'].to(device) if batch['metadata'] is not None else None
-            ids = batch["row_index"].to(device) if isinstance(batch["row_index"], torch.Tensor) else batch["row_index"]
-
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
+            pixel_values = batch["pixel_values"].to(device)
+            labels = batch["labels"].to(device)
+            metadata = (
+                batch["metadata"].to(device) if batch["metadata"] is not None else None
+            )
+            ids = (
+                batch["row_index"].to(device)
+                if isinstance(batch["row_index"], torch.Tensor)
+                else batch["row_index"]
+            )
 
             if labels.nelement() == 0:  # Check if labels are empty
                 logger.error(f"Batch {batch_idx} has empty labels. Skipping...")
                 continue
 
             logits = model(
-                input_ids=input_ids, attention_mask=attention_mask,
-                pixel_values=pixel_values, metadata=metadata
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                pixel_values=pixel_values,
+                metadata=metadata,
             )
             # Debugging statement
-            print(f"Logits shape: {logits.shape}, Expected shape: (batch_size, num_classes)")
-            logger.info(f"Logits shape: {logits.shape}, Expected shape: (batch_size, num_classes)")
+            print(
+                f"Logits shape: {logits.shape}, Expected shape: (batch_size, num_classes)"
+            )
+            logger.info(
+                f"Logits shape: {logits.shape}, Expected shape: (batch_size, num_classes)"
+            )
 
             # Add probabilities for ROC/PR curves
             probs = F.softmax(logits, dim=1).cpu().numpy()
             all_probs.append(probs)
             # Debug: Print shapes of logits and labels
-            print(f"Eval batch {batch_idx}: logits shape: {logits.shape}, labels shape: {labels.shape}")
-            logger.info(f"Eval batch {batch_idx}: logits shape: {logits.shape}, labels shape: {labels.shape}")
+            print(
+                f"Eval batch {batch_idx}: logits shape: {logits.shape}, labels shape: {labels.shape}"
+            )
+            logger.info(
+                f"Eval batch {batch_idx}: logits shape: {logits.shape}, labels shape: {labels.shape}"
+            )
 
             loss = F.cross_entropy(logits, labels)
 
@@ -79,7 +88,9 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
             all_labels.append(labels.cpu().numpy())
             all_preds.append(preds.cpu().numpy())
 
-            all_indices.extend(ids.cpu().tolist() if isinstance(ids, torch.Tensor) else ids)
+            all_indices.extend(
+                ids.cpu().tolist() if isinstance(ids, torch.Tensor) else ids
+            )
 
             accuracy = torch.sum(preds == labels).item() / len(labels)
             val_losses.append(loss.item())
@@ -92,14 +103,14 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
     all_preds = np.concatenate(all_preds)
     all_probs = np.concatenate(all_probs)  # Concatenate probabilities
 
-
-
     all_probs = np.vstack(all_probs)
     accuracy = correct_predictions.double() / len(dataloader.dataset)
     kappa = cohen_kappa_score(all_labels, all_preds)
-    f1 = f1_score(all_labels, all_preds, average='weighted', zero_division=0)
-    recall = recall_score(all_labels, all_preds, average='weighted')
-    precision = precision_score(all_labels, all_preds, average='weighted' , zero_division=0)
+    f1 = f1_score(all_labels, all_preds, average="weighted", zero_division=0)
+    recall = recall_score(all_labels, all_preds, average="weighted")
+    precision = precision_score(
+        all_labels, all_preds, average="weighted", zero_division=0
+    )
     # Determine number of classes dynamically from predictions (safe fallback)
     num_classes = len(np.unique(all_labels))
 
@@ -113,16 +124,22 @@ def evaluate_flava(model, dataloader, device, task_name = '2-way'):
     )
 
     metrics = {
-    "loss": float(total_loss / len(dataloader)),
-    "accuracy": float(accuracy),
-    "kappa": float(kappa),
-    "f1": float(f1),
-    "recall": float(recall),
-    "precision": float(precision),
-    "class_report": class_report
+        "loss": float(total_loss / len(dataloader)),
+        "accuracy": float(accuracy),
+        "kappa": float(kappa),
+        "f1": float(f1),
+        "recall": float(recall),
+        "precision": float(precision),
+        "class_report": class_report,
     }
     print(f"→ Number of predicted classes: {len(np.unique(all_preds))}")
     print(f"→ Predicted classes: {np.unique(all_preds)}")
 
-    
-    return metrics, (all_labels, all_preds, all_probs, val_losses, val_accuracies, all_indices)
+    return metrics, (
+        all_labels,
+        all_preds,
+        all_probs,
+        val_losses,
+        val_accuracies,
+        all_indices,
+    )

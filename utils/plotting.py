@@ -1,16 +1,13 @@
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-import pandas as pd
+from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_recall_curve, auc
 from sklearn.metrics import classification_report
-from sklearn.metrics import roc_curve, roc_auc_score
+from sklearn.metrics import roc_curve
 import numpy as np
 from sklearn.preprocessing import label_binarize
 from sklearn.metrics import average_precision_score
-
-
 
 
 class Plotting:
@@ -63,13 +60,11 @@ class Plotting:
             title (str, optional): Title for the plot. Defaults to None.
         """
         fig, ax = plt.subplots(figsize=(8, 6))
-        data[label_column].value_counts().plot(kind='bar', ax=ax)
+        data[label_column].value_counts().plot(kind="bar", ax=ax)
         ax.set_title(title if title else f"Class Distribution for {label_column}")
         ax.set_xlabel("Class")
         ax.set_ylabel("Count")
         self.save_plot(fig, f"class_distribution_{label_column}.png")
-
-   
 
     def plot_confusion_matrix(self, y_true, y_pred, labels, save_as, title=None):
         """
@@ -83,7 +78,15 @@ class Plotting:
         """
         cm = confusion_matrix(y_true, y_pred, labels=labels)
         fig, ax = plt.subplots(figsize=(8, 6))
-        sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=labels, yticklabels=labels, ax=ax)
+        sns.heatmap(
+            cm,
+            annot=True,
+            fmt="d",
+            cmap="Blues",
+            xticklabels=labels,
+            yticklabels=labels,
+            ax=ax,
+        )
         ax.set_title("Confusion Matrix")
         ax.set_xlabel("Predicted")
         ax.set_ylabel("Actual")
@@ -114,7 +117,9 @@ class Plotting:
         ax.legend()
         self.save_plot(fig, save_as)
 
-    def plot_precision_recall_curve(self, y_true, y_scores, save_as, title=None, labels=None):
+    def plot_precision_recall_curve(
+        self, y_true, y_scores, save_as, title=None, labels=None
+    ):
         """
         Plot and save the precision-recall curve for multiclass or binary classification.
 
@@ -133,7 +138,9 @@ class Plotting:
 
             fig, ax = plt.subplots(figsize=(8, 6))
             for i, label in enumerate(labels):
-                precision, recall, _ = precision_recall_curve(y_true_bin[:, i], y_scores[:, i])
+                precision, recall, _ = precision_recall_curve(
+                    y_true_bin[:, i], y_scores[:, i]
+                )
                 ap_score = average_precision_score(y_true_bin[:, i], y_scores[:, i])
                 ax.plot(recall, precision, label=f"Class {label} (AP = {ap_score:.2f})")
 
@@ -153,7 +160,6 @@ class Plotting:
             ax.set_ylabel("Precision")
             ax.legend()
         self.save_plot(fig, save_as)
-
 
     def plot_roc_curve(self, y_true, y_scores, save_as, title=None, labels=None):
         """
@@ -202,4 +208,3 @@ class Plotting:
             ax.legend()
 
         self.save_plot(fig, save_as)
-

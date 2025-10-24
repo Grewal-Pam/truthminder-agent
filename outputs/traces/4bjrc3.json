@@ -9,9 +9,9 @@
         "Fake": 0.9983812570571899
       },
       "vilt": {
-        "Real": 0.018815496936440468,
-        "SatireMixed": 0.021558187901973724,
-        "Fake": 0.959626317024231
+        "Real": 0.01881559006869793,
+        "SatireMixed": 0.02155820094048977,
+        "Fake": 0.9596261978149414
       },
       "flava": {
         "Real": 0.9874544143676758,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6735827773809433,
       "consistency_score": 0.6041496664285659
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't see any connection between NASA's alien searches and rice fields in Yuanyang County, China. The context doesn't provide any information that would help answer this question. Therefore, I can only say that I don't know the answer."
     }
   ],
   "final": {
     "post_id": "4bjrc3",
     "final_label": "Fake",
-    "final_confidence": 0.6609933266118169,
+    "final_confidence": 0.660993286875387,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6041496664285659,
     "clip_cos": 0.6735827773809433,
     "ocr_text": "",
+    "retrieved_text": "I don't see any connection between NASA's alien searches and rice fields in Yuanyang County, China. The context doesn't provide any information that would help answer this question. Therefore, I can only say that I don't know the answer.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12558484445873141",
     "num_comments": "-0.13165234161815034"

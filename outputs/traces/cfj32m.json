@@ -9,9 +9,9 @@
         "Fake": 0.9989423155784607
       },
       "vilt": {
-        "Real": 0.025227371603250504,
-        "SatireMixed": 0.009806608781218529,
-        "Fake": 0.9649660587310791
+        "Real": 0.025227408856153488,
+        "SatireMixed": 0.009806611575186253,
+        "Fake": 0.9649659395217896
       },
       "flava": {
         "Real": 0.005109237506985664,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6482090651988983,
       "consistency_score": 0.588925439119339
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to relate to the question \"happy to be eaten.\" It appears to be discussing NASA and extraterrestrial life, which is unrelated to the concept of being eaten."
     }
   ],
   "final": {
     "post_id": "cfj32m",
     "final_label": "Fake",
-    "final_confidence": 0.973608490506808,
+    "final_confidence": 0.9736084507703782,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.588925439119339,
     "clip_cos": 0.6482090651988983,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to relate to the question \"happy to be eaten.\" It appears to be discussing NASA and extraterrestrial life, which is unrelated to the concept of being eaten.",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.1262363350024024",
     "num_comments": "-0.11787413120978307"

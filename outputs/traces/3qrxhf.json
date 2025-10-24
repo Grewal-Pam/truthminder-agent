@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9727014899253845,
-        "SatireMixed": 0.0030004545114934444,
-        "Fake": 0.024297988042235374
+        "SatireMixed": 0.003000458935275674,
+        "Fake": 0.024298040196299553
       },
       "flava": {
         "Real": 0.9896498918533325,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6617324352264404,
       "consistency_score": 0.5970394611358643
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA or aliens, so I'm not sure what the connection is supposed to be. It seems like a random and unrelated phrase (\"this miserable cat in a costume\"). Can you please provide more context or clarify what you're asking?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5970394611358643,
     "clip_cos": 0.6617324352264404,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA or aliens, so I'm not sure what the connection is supposed to be. It seems like a random and unrelated phrase (\"this miserable cat in a costume\"). Can you please provide more context or clarify what you're asking?",
     "upvote_ratio": "-1.145509819625071",
     "score": "-0.12916804244892177",
     "num_comments": "-0.138541446822334"

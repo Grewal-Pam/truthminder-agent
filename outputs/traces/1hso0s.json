@@ -9,9 +9,9 @@
         "Fake": 0.9994482398033142
       },
       "vilt": {
-        "Real": 0.7279843091964722,
-        "SatireMixed": 0.017374316230416298,
-        "Fake": 0.25464141368865967
+        "Real": 0.727986752986908,
+        "SatireMixed": 0.017374228686094284,
+        "Fake": 0.25463899970054626
       },
       "flava": {
         "Real": 0.9898478388786316,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5982323065400124,
       "consistency_score": 0.1794696919620037
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
     "post_id": "1hso0s",
-    "final_label": "Uncertain",
-    "final_confidence": 0.553487850234999,
+    "final_label": "ABSTAIN",
+    "final_confidence": 0.553488664831811,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.1794696919620037,
     "clip_cos": 0.5982323065400124,
     "ocr_text": "QO Howstoleontrol DesirelusingWineganNo, You!ten9t Supposed to Drink it",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "-1.145509819625071",
     "score": "-0.1285165519052508",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.9993429780006409
       },
       "vilt": {
-        "Real": 0.46178603172302246,
-        "SatireMixed": 0.016626715660095215,
-        "Fake": 0.5215871930122375
+        "Real": 0.46179044246673584,
+        "SatireMixed": 0.016626669093966484,
+        "Fake": 0.5215829610824585
       },
       "flava": {
         "Real": 0.004586473107337952,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6474055051803589,
       "consistency_score": 0.5442216515541076
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know."
     }
   ],
   "final": {
     "post_id": "824mmh",
     "final_label": "Fake",
-    "final_confidence": 0.8226496759255727,
+    "final_confidence": 0.8226482652823129,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5442216515541076,
     "clip_cos": 0.6474055051803589,
     "ocr_text": "opO cost ob",
+    "retrieved_text": "I don't know.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.1454305520265176"

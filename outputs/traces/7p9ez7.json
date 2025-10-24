@@ -9,9 +9,9 @@
         "Fake": 0.9978747367858887
       },
       "vilt": {
-        "Real": 0.045230522751808167,
-        "SatireMixed": 0.20026245713233948,
-        "Fake": 0.7545070052146912
+        "Real": 0.0452302061021328,
+        "SatireMixed": 0.2002626657485962,
+        "Fake": 0.7545071244239807
       },
       "flava": {
         "Real": 0.004647577181458473,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6504928022623062,
       "consistency_score": 0.19514784067869187
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nIt looks like the context you provided is about NASA and extraterrestrial life, but then suddenly we're talking about Brandenburg, megabytes, and... unclear characters?\n\nUnfortunately, I don't know what to make of this combination. It seems like a mix of unrelated topics!"
     }
   ],
   "final": {
     "post_id": "7p9ez7",
     "final_label": "Fake",
-    "final_confidence": 0.8790300151805083,
+    "final_confidence": 0.8790300549169382,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19514784067869187,
     "clip_cos": 0.6504928022623062,
     "ocr_text": "COO ee La CLUS",
+    "retrieved_text": "I think there may be some confusion here!\n\nIt looks like the context you provided is about NASA and extraterrestrial life, but then suddenly we're talking about Brandenburg, megabytes, and... unclear characters?\n\nUnfortunately, I don't know what to make of this combination. It seems like a mix of unrelated topics!",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.12069866538119912",
     "num_comments": "-0.13165234161815034"

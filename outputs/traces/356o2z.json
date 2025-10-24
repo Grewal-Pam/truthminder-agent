@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9613255858421326,
-        "SatireMixed": 0.004398774355649948,
-        "Fake": 0.03427558392286301
+        "SatireMixed": 0.004398772493004799,
+        "Fake": 0.0342756062746048
       },
       "flava": {
         "Real": 0.010003084316849709,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6730579882860184,
-      "consistency_score": 0.603834792971611
+      "clip_cos": 0.6730579733848572,
+      "consistency_score": 0.6038347840309143
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question. The context provided does not seem to be related to basketball or FC Barcelona, so I'm not aware of any information that would help me answer this question."
     }
   ],
   "final": {
     "post_id": "356o2z",
     "final_label": "Real",
-    "final_confidence": 0.6632662709802389,
+    "final_confidence": 0.6632662704437972,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.603834792971611,
-    "clip_cos": 0.6730579882860184,
+    "consistency_score": 0.6038347840309143,
+    "clip_cos": 0.6730579733848572,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question. The context provided does not seem to be related to basketball or FC Barcelona, so I'm not aware of any information that would help me answer this question.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12721357081790885",
     "num_comments": "-0.12476323641396671"

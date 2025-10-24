@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9898995757102966,
-        "SatireMixed": 0.004397904500365257,
-        "Fake": 0.005702435504645109
+        "SatireMixed": 0.004397912882268429,
+        "Fake": 0.005702432710677385
       },
       "flava": {
         "Real": 0.9897003173828125,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6214106380939484,
-      "consistency_score": 0.5364231914281845
+      "clip_cos": 0.6214106306433678,
+      "consistency_score": 0.5364231891930102
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The provided text is about NASA and microbial life, but it doesn't mention oranges or any warning related to an orange juice brand. Therefore, I cannot provide an informed answer."
     }
   ],
   "final": {
     "post_id": "3gzxbc",
     "final_label": "Real",
-    "final_confidence": 0.9953208040197691,
+    "final_confidence": 0.9953208038856586,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5364231914281845,
-    "clip_cos": 0.6214106380939484,
+    "consistency_score": 0.5364231891930102,
+    "clip_cos": 0.6214106306433678,
     "ocr_text": "cya f",
+    "retrieved_text": "I don't have enough context to answer this question. The provided text is about NASA and microbial life, but it doesn't mention oranges or any warning related to an orange juice brand. Therefore, I cannot provide an informed answer.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12558484445873141",
     "num_comments": "-0.1454305520265176"

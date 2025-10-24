@@ -9,9 +9,9 @@
         "Fake": 0.9996635913848877
       },
       "vilt": {
-        "Real": 0.9611986875534058,
-        "SatireMixed": 0.002526199910789728,
-        "Fake": 0.036275092512369156
+        "Real": 0.9611985087394714,
+        "SatireMixed": 0.0025262045674026012,
+        "Fake": 0.03627528250217438
       },
       "flava": {
         "Real": 0.9872516393661499,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6663319319486618,
       "consistency_score": 0.5997991591691971
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not indicate that there are any concerns or worries related to solar storms from the government official, nor does it provide any information about the official's position or views on solar storms."
     }
   ],
   "final": {
     "post_id": "5pmotg",
     "final_label": "Real",
-    "final_confidence": 0.6555249485605551,
+    "final_confidence": 0.6555248889559103,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5997991591691971,
     "clip_cos": 0.6663319319486618,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not indicate that there are any concerns or worries related to solar storms from the government official, nor does it provide any information about the official's position or views on solar storms.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

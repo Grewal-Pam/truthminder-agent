@@ -9,9 +9,9 @@
         "Fake": 0.00013291940558701754
       },
       "vilt": {
-        "Real": 0.7409085631370544,
-        "SatireMixed": 0.004800491966307163,
-        "Fake": 0.25429096817970276
+        "Real": 0.7409042119979858,
+        "SatireMixed": 0.004800532478839159,
+        "Fake": 0.2542952299118042
       },
       "flava": {
         "Real": 0.9885507225990295,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6418976187705994,
       "consistency_score": 0.5851385712623596
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I see where this is going!\n\nSince we're dealing with a context that mentions NASA and alien life, I'm going to take a guess that you're asking me to respond in a playful, imaginative way. Am I right?\n\nIn that case, my helpful answer would be:\n\n\"Whoa, dude! Wide-eyed guinea pig? That's like, the ultimate intergalactic space hamster! With powers of teleportation and a keen sense of cosmic curiosity, this furry friend is ready to explore the galaxy and discover new worlds. Buckle up, Earthlings, because our wide-eyed guinea pig pal is about to embark on the most epic adventure ever!\""
     }
   ],
   "final": {
     "post_id": "68k4jd",
     "final_label": "Real",
-    "final_confidence": 0.9148722465038299,
+    "final_confidence": 0.9148707961241404,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5851385712623596,
     "clip_cos": 0.6418976187705994,
     "ocr_text": "",
+    "retrieved_text": "I think I see where this is going!\n\nSince we're dealing with a context that mentions NASA and alien life, I'm going to take a guess that you're asking me to respond in a playful, imaginative way. Am I right?\n\nIn that case, my helpful answer would be:\n\n\"Whoa, dude! Wide-eyed guinea pig? That's like, the ultimate intergalactic space hamster! With powers of teleportation and a keen sense of cosmic curiosity, this furry friend is ready to explore the galaxy and discover new worlds. Buckle up, Earthl",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.123956118099554",
     "num_comments": "-0.09031771039304853"

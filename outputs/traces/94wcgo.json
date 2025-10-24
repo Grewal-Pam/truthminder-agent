@@ -9,9 +9,9 @@
         "Fake": 0.9892390966415405
       },
       "vilt": {
-        "Real": 0.38555586338043213,
-        "SatireMixed": 0.03025193326175213,
-        "Fake": 0.5841922163963318
+        "Real": 0.3855593204498291,
+        "SatireMixed": 0.030251849442720413,
+        "Fake": 0.5841888189315796
       },
       "flava": {
         "Real": 0.0898112878203392,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.644889697432518,
       "consistency_score": 0.5869338184595108
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any information about a \"skeptical bird lamp\" related to NASA or alien life, so I don't know!"
     }
   ],
   "final": {
     "post_id": "94wcgo",
     "final_label": "Fake",
-    "final_confidence": 0.8173337050477664,
+    "final_confidence": 0.8173325725595156,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5869338184595108,
     "clip_cos": 0.644889697432518,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any information about a \"skeptical bird lamp\" related to NASA or alien life, so I don't know!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

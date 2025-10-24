@@ -9,9 +9,9 @@
         "Fake": 0.0008133225492201746
       },
       "vilt": {
-        "Real": 0.6104474067687988,
-        "SatireMixed": 0.016267186030745506,
-        "Fake": 0.3732854723930359
+        "Real": 0.6104463934898376,
+        "SatireMixed": 0.016267210245132446,
+        "Fake": 0.37328633666038513
       },
       "flava": {
         "Real": 0.027339085936546326,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6089325025677681,
       "consistency_score": 0.5653595015406608
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what \"abstract grandma\" means in this context, but I'll do my best to provide a helpful answer!\n\nBased on the provided context, it seems that NASA has not found conclusive evidence of alien life, and any claims about extraterrestrial life have been based on microbial life forms only."
     }
   ],
   "final": {
     "post_id": "1nxm0e",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5495488412280878,
+    "final_label": "Real",
+    "final_confidence": 0.549548503468434,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5653595015406608,
     "clip_cos": 0.6089325025677681,
     "ocr_text": "",
+    "retrieved_text": "I'm not sure what \"abstract grandma\" means in this context, but I'll do my best to provide a helpful answer!\n\nBased on the provided context, it seems that NASA has not found conclusive evidence of alien life, and any claims about extraterrestrial life have been based on microbial life forms only.",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12949378772075726",
     "num_comments": "-0.12476323641396671"

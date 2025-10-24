@@ -9,9 +9,9 @@
         "Fake": 0.0008459658129140735
       },
       "vilt": {
-        "Real": 0.06209884211421013,
-        "SatireMixed": 0.010200908407568932,
-        "Fake": 0.9277002811431885
+        "Real": 0.06209899112582207,
+        "SatireMixed": 0.010200907476246357,
+        "Fake": 0.9277001619338989
       },
       "flava": {
         "Real": 0.9870556592941284,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6379930227994919,
       "consistency_score": 0.5827958136796951
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question as it appears to be unrelated to the provided context about NASA and extraterrestrial life. Peyton Manning is a former NFL quarterback, but I'm not aware of any information that suggests he was unhappy with a scoreboard operator. If you could provide more context or clarify what you're referring to, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "2k7hpr",
     "final_label": "Real",
-    "final_confidence": 0.6877182458341121,
+    "final_confidence": 0.6877182955046495,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5827958136796951,
     "clip_cos": 0.6379930227994919,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question as it appears to be unrelated to the provided context about NASA and extraterrestrial life. Peyton Manning is a former NFL quarterback, but I'm not aware of any information that suggests he was unhappy with a scoreboard operator. If you could provide more context or clarify what you're referring to, I'd be happy to try and help!",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.11776695793467976",
     "num_comments": "-0.1040959208014158"

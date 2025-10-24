@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9874146580696106,
         "SatireMixed": 0.002250140532851219,
-        "Fake": 0.010335194878280163
+        "Fake": 0.010335209779441357
       },
       "flava": {
         "Real": 0.989503026008606,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6421501934528351,
       "consistency_score": 0.585290116071701
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "It seems like your library has a Dewey Decimal classification system, which is used to organize books by topic and subject."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.585290116071701,
     "clip_cos": 0.6421501934528351,
     "ocr_text": "",
+    "retrieved_text": "It seems like your library has a Dewey Decimal classification system, which is used to organize books by topic and subject.",
     "upvote_ratio": "1.0368763003981143",
     "score": "3.7136489293943113",
     "num_comments": "1.5148438021817385"

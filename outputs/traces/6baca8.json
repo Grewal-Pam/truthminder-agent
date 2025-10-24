@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.969639778137207,
-        "SatireMixed": 0.0014201865997165442,
-        "Fake": 0.028940068557858467
+        "SatireMixed": 0.0014201878802850842,
+        "Fake": 0.028940048068761826
       },
       "flava": {
         "Real": 0.005212109070271254,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6038571521639824,
-      "consistency_score": 0.5623142912983894
+      "clip_cos": 0.6038571670651436,
+      "consistency_score": 0.5623143002390861
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about aliens or rape accusations, so I can't provide an answer that is relevant to your question. Can you please rephrase or provide more context about what you're referring to? I'll do my best to help once I understand the situation better."
     }
   ],
   "final": {
     "post_id": "6baca8",
     "final_label": "Real",
-    "final_confidence": 0.6093892363347113,
+    "final_confidence": 0.6093892368711531,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5623142912983894,
-    "clip_cos": 0.6038571521639824,
+    "consistency_score": 0.5623143002390861,
+    "clip_cos": 0.6038571670651436,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about aliens or rape accusations, so I can't provide an answer that is relevant to your question. Can you please rephrase or provide more context about what you're referring to? I'll do my best to help once I understand the situation better.",
     "upvote_ratio": "0.03661599538748772",
     "score": "8.71221012570985",
     "num_comments": "9.692211679547714"

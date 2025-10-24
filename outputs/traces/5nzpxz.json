@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9901638627052307,
-        "SatireMixed": 0.0033920742571353912,
-        "Fake": 0.00644409004598856
+        "SatireMixed": 0.0033920647110790014,
+        "Fake": 0.006444108206778765
       },
       "flava": {
         "Real": 0.9897181987762451,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6253021657466888,
       "consistency_score": 0.5751812994480133
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA, aliens, or microbial life evidence. It appears to be a question about the Chicago Police Department's use of force and treatment of individuals, which is not related to the given context."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5751812994480133,
     "clip_cos": 0.6253021657466888,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA, aliens, or microbial life evidence. It appears to be a question about the Chicago Police Department's use of force and treatment of individuals, which is not related to the given context.",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12786506136157982",
     "num_comments": "-0.11098502600559944"

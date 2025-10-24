@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9894262552261353,
-        "SatireMixed": 0.0031028774101287127,
-        "Fake": 0.007470916956663132
+        "SatireMixed": 0.003102886490523815,
+        "Fake": 0.0074709136970341206
       },
       "flava": {
         "Real": 0.9893161058425903,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6553201675415039,
       "consistency_score": 0.5931921005249023
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must point out that there is no relevant context provided about dogs or swimming. The question seems unrelated to the initial text about NASA and alien life. Therefore, I'll have to say that I don't know the answer to this question. If you'd like to provide more context or clarify what you mean by \"dog having a cold swim,\" I'd be happy to try and help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5931921005249023,
     "clip_cos": 0.6553201675415039,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I must point out that there is no relevant context provided about dogs or swimming. The question seems unrelated to the initial text about NASA and alien life. Therefore, I'll have to say that I don't know the answer to this question. If you'd like to provide more context or clarify what you mean by \"dog having a cold swim,\" I'd be happy to try and help!",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.1141837599444894",
     "num_comments": "-0.09720681559723217"

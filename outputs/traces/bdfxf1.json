@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.0026123507414013147,
-        "SatireMixed": 0.05008899047970772,
+        "SatireMixed": 0.05008906126022339,
         "Fake": 0.9472986459732056
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6090594902634621,
-      "consistency_score": 0.5327178470790386
+      "clip_cos": 0.6090595051646233,
+      "consistency_score": 0.5327178515493869
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, and instead seems to be asking for a review of a piece of wall art related to Italian fascism. I'm not equipped to answer this question without more information or relevant context."
     }
   ],
   "final": {
     "post_id": "bdfxf1",
     "final_label": "Fake",
-    "final_confidence": 0.9391178009857735,
+    "final_confidence": 0.9391178012539944,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5327178470790386,
-    "clip_cos": 0.6090594902634621,
+    "consistency_score": 0.5327178515493869,
+    "clip_cos": 0.6090595051646233,
     "ocr_text": "Benito Mussolini 1883194, Italian FascistDictator Framed Print Wall ArtWrite a review Size Choose an option12x15 12x18 1620dictation ChvemencdiionO Feedback",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, and instead seems to be asking for a review of a piece of wall art related to Italian fascism. I'm not equipped to answer this question without more information or relevant context.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.13165234161815034"

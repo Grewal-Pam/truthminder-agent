@@ -4,8 +4,13 @@ logs/
 outputs/
 results/
 data/
-datasets/
+local_datasets/
 __pycache__/
+
+# data & artifacts
+outputs/
+data/vector_index/
+data/corpus/*.cache
 
 # === Temporary & Local Files ===
 nohup.out
@@ -27,3 +32,9 @@ Thumbs.db
 # === VSCode / Env ===
 .vscode/
 .env
+
+
+# models & caches
+.cache/
+.huggingface/
+.ollama/

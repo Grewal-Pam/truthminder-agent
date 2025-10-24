@@ -9,9 +9,9 @@
         "Fake": 0.9994595646858215
       },
       "vilt": {
-        "Real": 0.046127479523420334,
-        "SatireMixed": 0.00817415677011013,
-        "Fake": 0.9456983208656311
+        "Real": 0.04612766206264496,
+        "SatireMixed": 0.00817417073994875,
+        "Fake": 0.9456982016563416
       },
       "flava": {
         "Real": 0.9852828979492188,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6629373729228973,
       "consistency_score": 0.5977624237537384
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question about a diced meat cutting machine looking like a pig appears to be unrelated to the context about NASA and alien life, so I'm not able to provide an answer based on the provided information."
     }
   ],
   "final": {
     "post_id": "1juyw0",
     "final_label": "Fake",
-    "final_confidence": 0.6568094992004335,
+    "final_confidence": 0.6568094594640037,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5977624237537384,
     "clip_cos": 0.6629373729228973,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question about a diced meat cutting machine looking like a pig appears to be unrelated to the context about NASA and alien life, so I'm not able to provide an answer based on the provided information.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

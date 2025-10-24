@@ -9,9 +9,9 @@
         "Fake": 0.9679803848266602
       },
       "vilt": {
-        "Real": 0.0030076266266405582,
-        "SatireMixed": 0.03056791052222252,
-        "Fake": 0.9664244651794434
+        "Real": 0.0030076310504227877,
+        "SatireMixed": 0.030567802488803864,
+        "Fake": 0.9664245843887329
       },
       "flava": {
         "Real": 0.011402116157114506,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6124386414885521,
       "consistency_score": 0.5674631848931313
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question \"one very happy pack\" doesn't seem related to NASA or aliens, so I'm not sure what's being asked. Can you provide more context or clarify the question?"
     }
   ],
   "final": {
     "post_id": "1mm9ez",
     "final_label": "Fake",
-    "final_confidence": 0.9645215470890204,
+    "final_confidence": 0.9645215868254503,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5674631848931313,
     "clip_cos": 0.6124386414885521,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question \"one very happy pack\" doesn't seem related to NASA or aliens, so I'm not sure what's being asked. Can you provide more context or clarify the question?",
     "upvote_ratio": "-1.9639046146337655",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

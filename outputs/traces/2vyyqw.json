@@ -9,9 +9,9 @@
         "Fake": 0.5731332898139954
       },
       "vilt": {
-        "Real": 0.919650137424469,
-        "SatireMixed": 0.006125220563262701,
-        "Fake": 0.07422472536563873
+        "Real": 0.9196507334709167,
+        "SatireMixed": 0.006125195417553186,
+        "Fake": 0.07422403246164322
       },
       "flava": {
         "Real": 0.005157182924449444,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6062971577048302,
       "consistency_score": 0.18188914731144903
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what this question is asking or what \"once you go black db hehehpeeer eyrenee\" means. It doesn't appear to be related to the context about NASA and aliens, so I'll just say that I don't know the answer."
     }
   ],
   "final": {
     "post_id": "2vyyqw",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5108674296190342,
+    "final_label": "Fake",
+    "final_confidence": 0.5108671986510357,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.18188914731144903,
     "clip_cos": 0.6062971577048302,
     "ocr_text": "db hehehpeeer eyrenee",
+    "retrieved_text": "I'm not sure what this question is asking or what \"once you go black db hehehpeeer eyrenee\" means. It doesn't appear to be related to the context about NASA and aliens, so I'll just say that I don't know the answer.",
     "upvote_ratio": "-0.6908460446202405",
     "score": "0.12458752431092213",
     "num_comments": "0.3023612862454187"

@@ -9,9 +9,9 @@
         "Fake": 0.9440919160842896
       },
       "vilt": {
-        "Real": 0.101552315056324,
-        "SatireMixed": 0.01263049803674221,
-        "Fake": 0.8858171701431274
+        "Real": 0.10155445337295532,
+        "SatireMixed": 0.01263044960796833,
+        "Fake": 0.8858150839805603
       },
       "flava": {
         "Real": 0.005361557472497225,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6152228638529778,
       "consistency_score": 0.5691337183117866
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough information to provide a helpful answer for your question about applying to grad school, as it seems unrelated to the context provided about NASA and alien life. If you'd like to share more details or start fresh with a new question, I'm here to help!"
     }
   ],
   "final": {
     "post_id": "5czcd8",
     "final_label": "Fake",
-    "final_confidence": 0.9288225340545178,
+    "final_confidence": 0.9288218386669954,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5691337183117866,
     "clip_cos": 0.6152228638529778,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough information to provide a helpful answer for your question about applying to grad school, as it seems unrelated to the context provided about NASA and alien life. If you'd like to share more details or start fresh with a new question, I'm here to help!",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12786506136157982",
     "num_comments": "-0.0076484479428449055"

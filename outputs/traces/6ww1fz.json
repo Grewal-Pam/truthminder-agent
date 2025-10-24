@@ -9,8 +9,8 @@
         "Fake": 0.17627006769180298
       },
       "vilt": {
-        "Real": 0.005503827705979347,
-        "SatireMixed": 0.012419957667589188,
+        "Real": 0.005503806751221418,
+        "SatireMixed": 0.012419981881976128,
         "Fake": 0.9820761680603027
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5963102877140045,
       "consistency_score": 0.5577861726284027
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see how the context provided relates to the question \"Frogs Fcking\". It seems like the question is unrelated to the topic of NASA and alien life."
     }
   ],
   "final": {
     "post_id": "6ww1fz",
     "final_label": "Real",
-    "final_confidence": 0.6085796217968067,
+    "final_confidence": 0.6085796148118874,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5577861726284027,
     "clip_cos": 0.5963102877140045,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see how the context provided relates to the question \"Frogs Fcking\". It seems like the question is unrelated to the topic of NASA and alien life.",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12884229717708628",
     "num_comments": "-0.13165234161815034"

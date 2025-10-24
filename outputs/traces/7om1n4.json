@@ -9,8 +9,8 @@
         "Fake": 0.9994113445281982
       },
       "vilt": {
-        "Real": 0.00933267455548048,
-        "SatireMixed": 0.014089626260101795,
+        "Real": 0.009332692250609398,
+        "SatireMixed": 0.014089606702327728,
         "Fake": 0.9765776991844177
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5975550413131714,
       "consistency_score": 0.5585330247879028
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there's been a misunderstanding! The provided context is about NASA and alien life, but the question asks about \"horror vs pleasant surprise\". Since I don't see any connection between these two topics, I'm going to take a guess that this might be a mistake or a misdirected question.\n\nIf you meant something else, please clarify the question, and I'll do my best to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5585330247879028,
     "clip_cos": 0.5975550413131714,
     "ocr_text": "",
+    "retrieved_text": "I think there's been a misunderstanding! The provided context is about NASA and alien life, but the question asks about \"horror vs pleasant surprise\". Since I don't see any connection between these two topics, I'm going to take a guess that this might be a mistake or a misdirected question.\n\nIf you meant something else, please clarify the question, and I'll do my best to help!",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

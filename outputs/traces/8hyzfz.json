@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9883788824081421,
         "SatireMixed": 0.0025512997526675463,
-        "Fake": 0.009069873951375484
+        "Fake": 0.009069899097084999
       },
       "flava": {
         "Real": 0.9742463827133179,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6047434061765671,
-      "consistency_score": 0.5628460437059403
+      "clip_cos": 0.6047434210777283,
+      "consistency_score": 0.562846052646637
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to have any relation to foxgloves, flying, or any other information that would help answer this question."
     }
   ],
   "final": {
     "post_id": "8hyzfz",
     "final_label": "Real",
-    "final_confidence": 0.6585202650114274,
+    "final_confidence": 0.6585202655478691,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5628460437059403,
-    "clip_cos": 0.6047434061765671,
+    "consistency_score": 0.562846052646637,
+    "clip_cos": 0.6047434210777283,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to have any relation to foxgloves, flying, or any other information that would help answer this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.1281908066334153",
     "num_comments": "-0.138541446822334"

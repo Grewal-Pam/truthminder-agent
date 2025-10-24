@@ -9,9 +9,9 @@
         "Fake": 0.9949405193328857
       },
       "vilt": {
-        "Real": 0.02029050514101982,
-        "SatireMixed": 0.012697136960923672,
-        "Fake": 0.967012345790863
+        "Real": 0.020290981978178024,
+        "SatireMixed": 0.012697153724730015,
+        "Fake": 0.9670118093490601
       },
       "flava": {
         "Real": 0.009112861938774586,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.665796771645546,
       "consistency_score": 0.5994780629873275
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I notice that the question is about Kaysersberg Haut-Rhin France, but there's no clear connection between this and the context about NASA and aliens. Could you please clarify or provide more information on how these topics are related? If not, I'll just say \"I don't know\" as it seems like a random combination of topics!"
     }
   ],
   "final": {
     "post_id": "6hsur1",
     "final_label": "Fake",
-    "final_confidence": 0.9752759077350298,
+    "final_confidence": 0.9752757289210955,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5994780629873275,
     "clip_cos": 0.665796771645546,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I notice that the question is about Kaysersberg Haut-Rhin France, but there's no clear connection between this and the context about NASA and aliens. Could you please clarify or provide more information on how these topics are related? If not, I'll just say \"I don't know\" as it seems like a random combination of topics!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.06336749753815353",
     "num_comments": "-0.11098502600559944"

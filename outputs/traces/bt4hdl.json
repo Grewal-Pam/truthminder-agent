@@ -9,9 +9,9 @@
         "Fake": 0.017343372106552124
       },
       "vilt": {
-        "Real": 0.13876977562904358,
-        "SatireMixed": 0.01059394795447588,
-        "Fake": 0.8506362438201904
+        "Real": 0.13876858353614807,
+        "SatireMixed": 0.010593927465379238,
+        "Fake": 0.8506374359130859
       },
       "flava": {
         "Real": 0.9880892634391785,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6446011513471603,
       "consistency_score": 0.5867606908082962
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between NASA's searches for extraterrestrial life and your question about an arc from a grill igniter hooked up to two screws arcing across chainmail rings. The two topics appear unrelated.\n\nBased on the context, it seems like you're asking about a DIY project or perhaps an experiment involving electricity and metal objects. Without more information, I don't know what the desired outcome is or how the ignition source from a grill is supposed to interact with the chainmail rings.\n\nIf you could provide more context or clarify your question, I'd be happy to try and help you further."
     }
   ],
   "final": {
     "post_id": "bt4hdl",
     "final_label": "Real",
-    "final_confidence": 0.7083680036266645,
+    "final_confidence": 0.708367606262366,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5867606908082962,
     "clip_cos": 0.6446011513471603,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between NASA's searches for extraterrestrial life and your question about an arc from a grill igniter hooked up to two screws arcing across chainmail rings. The two topics appear unrelated.\n\nBased on the context, it seems like you're asking about a DIY project or perhaps an experiment involving electricity and metal objects. Without more information, I don't know what the desired outcome is or how the ignition source from a grill is supposed to interact with the c",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12558484445873141",
     "num_comments": "-0.11098502600559944"

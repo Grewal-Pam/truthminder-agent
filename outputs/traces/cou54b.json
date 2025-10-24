@@ -9,9 +9,9 @@
         "Fake": 0.9969593286514282
       },
       "vilt": {
-        "Real": 0.5660639405250549,
-        "SatireMixed": 0.023382818326354027,
-        "Fake": 0.4105532467365265
+        "Real": 0.5660607814788818,
+        "SatireMixed": 0.023382877930998802,
+        "Fake": 0.4105563759803772
       },
       "flava": {
         "Real": 0.004148895852267742,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6325581520795822,
       "consistency_score": 0.5795348912477494
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"ctrlx come on down\" seems unrelated to the context about NASA and alien life, so I'm not able to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "cou54b",
     "final_label": "Fake",
-    "final_confidence": 0.7845246360500654,
+    "final_confidence": 0.784525679131349,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5795348912477494,
     "clip_cos": 0.6325581520795822,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"ctrlx come on down\" seems unrelated to the context about NASA and alien life, so I'm not able to provide a helpful answer.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12428186337138948",
     "num_comments": "-0.138541446822334"

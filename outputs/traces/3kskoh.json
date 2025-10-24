@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9864084720611572,
-        "SatireMixed": 0.0036278630141168833,
-        "Fake": 0.009963659569621086
+        "SatireMixed": 0.003627864643931389,
+        "Fake": 0.009963649325072765
       },
       "flava": {
         "Real": 0.98894202709198,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6509293168783188,
       "consistency_score": 0.5905575901269913
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA or extraterrestrial life, which is the context provided. I'd need more information about Georgia Tech players and their football activities to answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5905575901269913,
     "clip_cos": 0.6509293168783188,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA or extraterrestrial life, which is the context provided. I'd need more information about Georgia Tech players and their football activities to answer this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12949378772075726",
     "num_comments": "-0.11098502600559944"

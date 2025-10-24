@@ -9,8 +9,8 @@
         "Fake": 0.02795509248971939
       },
       "vilt": {
-        "Real": 0.005059095565229654,
-        "SatireMixed": 0.010720223188400269,
+        "Real": 0.005059093236923218,
+        "SatireMixed": 0.010720248334109783,
         "Fake": 0.9842206239700317
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6342657208442688,
       "consistency_score": 0.5805594325065613
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to help with this question. The provided information is about NASA and alien life, but it doesn't relate to your mother-in-law's car or your intentions towards it. I'm not aware of any logical connection between these topics. If you'd like to provide more context or clarify what you mean by \"terrified,\" I'll do my best to help."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5805594325065613,
     "clip_cos": 0.6342657208442688,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to help with this question. The provided information is about NASA and alien life, but it doesn't relate to your mother-in-law's car or your intentions towards it. I'm not aware of any logical connection between these topics. If you'd like to provide more context or clarify what you mean by \"terrified,\" I'll do my best to help.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

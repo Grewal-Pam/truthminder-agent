@@ -9,9 +9,9 @@
         "Fake": 0.628501296043396
       },
       "vilt": {
-        "Real": 0.021914726123213768,
-        "SatireMixed": 0.7239083051681519,
-        "Fake": 0.25417694449424744
+        "Real": 0.021914677694439888,
+        "SatireMixed": 0.7239082455635071,
+        "Fake": 0.25417715311050415
       },
       "flava": {
         "Real": 0.003928961232304573,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.659810021519661,
-      "consistency_score": 0.19794300645589827
+      "clip_cos": 0.6598100066184998,
+      "consistency_score": 0.19794300198554993
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm just a language model, I don't have any information about the Warsaw Pact or Soviet Union, and this question doesn't seem to be related to NASA or aliens. I'll take it as an unknown answer.\n\nAnswer: Don't know."
     }
   ],
   "final": {
     "post_id": "5wevty",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5709418837924799,
+    "final_label": "Fake",
+    "final_confidence": 0.5709419530630112,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.19794300645589827,
-    "clip_cos": 0.659810021519661,
+    "consistency_score": 0.19794300198554993,
+    "clip_cos": 0.6598100066184998,
     "ocr_text": "AUC e ELLCLO ray Lae",
+    "retrieved_text": "I'm just a language model, I don't have any information about the Warsaw Pact or Soviet Union, and this question doesn't seem to be related to NASA or aliens. I'll take it as an unknown answer.\n\nAnswer: Don't know.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12330462755588302",
     "num_comments": "-0.11098502600559944"

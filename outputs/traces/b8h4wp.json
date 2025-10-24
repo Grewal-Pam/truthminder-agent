@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9889634847640991,
-        "SatireMixed": 0.004433285444974899,
+        "SatireMixed": 0.004433291498571634,
         "Fake": 0.006603170186281204
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6525784730911255,
       "consistency_score": 0.5915470838546752
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context doesn't mention hail or its shape, so I'm unable to provide a helpful answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5915470838546752,
     "clip_cos": 0.6525784730911255,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context doesn't mention hail or its shape, so I'm unable to provide a helpful answer.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.10147969434290544",
     "num_comments": "-0.03520486875957945"

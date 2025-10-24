@@ -9,9 +9,9 @@
         "Fake": 0.0012298153014853597
       },
       "vilt": {
-        "Real": 0.08944498002529144,
-        "SatireMixed": 0.019151227548718452,
-        "Fake": 0.8914037942886353
+        "Real": 0.08944466710090637,
+        "SatireMixed": 0.01915120705962181,
+        "Fake": 0.8914040923118591
       },
       "flava": {
         "Real": 0.027669796720147133,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6064920946955681,
-      "consistency_score": 0.5319476284086704
+      "clip_cos": 0.6064921021461487,
+      "consistency_score": 0.5319476306438445
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided seems unrelated to the question, and I'm not aware of any information about Canadians fleeing prison by helicopter or Keane being relevant to the topic. If you could provide more context or clarify the question, I'd be happy to try and assist!"
     }
   ],
   "final": {
     "post_id": "1an921",
     "final_label": "Fake",
-    "final_confidence": 0.6092684961200381,
+    "final_confidence": 0.6092685955952233,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5319476284086704,
-    "clip_cos": 0.6064920946955681,
+    "consistency_score": 0.5319476306438445,
+    "clip_cos": 0.6064921021461487,
     "ocr_text": "oT keane",
+    "retrieved_text": "I don't know. The context provided seems unrelated to the question, and I'm not aware of any information about Canadians fleeing prison by helicopter or Keane being relevant to the topic. If you could provide more context or clarify the question, I'd be happy to try and assist!",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.1281908066334153",
     "num_comments": "-0.12476323641396671"

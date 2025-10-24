@@ -9,8 +9,8 @@
         "Fake": 0.997867226600647
       },
       "vilt": {
-        "Real": 0.009836318902671337,
-        "SatireMixed": 0.011701829731464386,
+        "Real": 0.009836286306381226,
+        "SatireMixed": 0.011701840907335281,
         "Fake": 0.9784618616104126
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6427137702703476,
       "consistency_score": 0.5856282621622085
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here!\n\nBased on the provided context about NASA and the search for extraterrestrial life, it seems that there is no scientific evidence or credible proof of alien life visiting Earth. So, in this case, I'd say that it's unlikely that lamps in your hotel room were watching you.\n\nIt's possible that you might have experienced some unusual or unexplained phenomenon, but without any concrete evidence, it's difficult to attribute it to aliens or any other extraordinary explanation.\n\nAs a neutral AI, I'll stick to the available data and avoid making unfounded claims. If you'd like to share more about your experience in Vegas, I'm here to listen!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5856282621622085,
     "clip_cos": 0.6427137702703476,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here!\n\nBased on the provided context about NASA and the search for extraterrestrial life, it seems that there is no scientific evidence or credible proof of alien life visiting Earth. So, in this case, I'd say that it's unlikely that lamps in your hotel room were watching you.\n\nIt's possible that you might have experienced some unusual or unexplained phenomenon, but without any concrete evidence, it's difficult to attribute it to aliens or any other extraord",
     "upvote_ratio": "1.2187418104000465",
     "score": "1.2285382505613855",
     "num_comments": "0.42636517992072415"

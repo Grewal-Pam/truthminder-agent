@@ -9,9 +9,9 @@
         "Fake": 0.990155816078186
       },
       "vilt": {
-        "Real": 0.016573583707213402,
-        "SatireMixed": 0.010812659747898579,
-        "Fake": 0.9726137518882751
+        "Real": 0.016573669388890266,
+        "SatireMixed": 0.01081265788525343,
+        "Fake": 0.9726136326789856
       },
       "flava": {
         "Real": 0.5541277527809143,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6589203178882599,
       "consistency_score": 0.595352190732956
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this one!\n\nThe question about the smiling alien on your recycling bin and the frowning one on your trash bin seems to be unrelated to NASA or the existence of aliens. It appears to be a humorous observation about the design or artwork on your recycling and trash containers.\n\nSo, based on the provided context, I'd say that's not an answerable question!"
     }
   ],
   "final": {
     "post_id": "bfwbjs",
     "final_label": "Fake",
-    "final_confidence": 0.7936746472915014,
+    "final_confidence": 0.7936746075550715,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.595352190732956,
     "clip_cos": 0.6589203178882599,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this one!\n\nThe question about the smiling alien on your recycling bin and the frowning one on your trash bin seems to be unrelated to NASA or the existence of aliens. It appears to be a humorous observation about the design or artwork on your recycling and trash containers.\n\nSo, based on the provided context, I'd say that's not an answerable question!",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12688782554607336",
     "num_comments": "-0.138541446822334"

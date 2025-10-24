@@ -9,8 +9,8 @@
         "Fake": 0.9892505407333374
       },
       "vilt": {
-        "Real": 0.0038713805843144655,
-        "SatireMixed": 0.02567005157470703,
+        "Real": 0.0038713733665645123,
+        "SatireMixed": 0.02567000314593315,
         "Fake": 0.9704585671424866
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6508913487195969,
       "consistency_score": 0.19526740461587905
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be unrelated to Patagonia or Mental Freedom, which seems to be a random combination of words and phrases. There is no connection between the NASA-related text and the other phrases, so I cannot provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.19526740461587905,
     "clip_cos": 0.6508913487195969,
     "ocr_text": "MENTAL FREEDOM2a,eCE",
+    "retrieved_text": "I don't know. The context appears to be unrelated to Patagonia or Mental Freedom, which seems to be a random combination of words and phrases. There is no connection between the NASA-related text and the other phrases, so I cannot provide an answer.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12949378772075726",
     "num_comments": "-0.138541446822334"

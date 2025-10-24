@@ -9,9 +9,9 @@
         "Fake": 0.9996009469032288
       },
       "vilt": {
-        "Real": 0.9759376049041748,
-        "SatireMixed": 0.002604169538244605,
-        "Fake": 0.021458206698298454
+        "Real": 0.9759374856948853,
+        "SatireMixed": 0.0026041679084300995,
+        "Fake": 0.02145833522081375
       },
       "flava": {
         "Real": 0.9893791079521179,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6481436491012573,
       "consistency_score": 0.5444430947303771
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question. The context appears to be unrelated to NASA or aliens, and seems more focused on social media posts and personal relationships. I'm not aware of any information that would allow me to provide a helpful answer to this question."
     }
   ],
   "final": {
     "post_id": "dblyiu",
     "final_label": "Real",
-    "final_confidence": 0.6578410266209394,
+    "final_confidence": 0.6578409868845095,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5444430947303771,
     "clip_cos": 0.6481436491012573,
     "ocr_text": " maddyherrinthings  V9aAaVv W Liked ya NN, 3 2,218 othersmaddyherrinthings chop it low girl fx",
+    "retrieved_text": "I don't know the answer to this question. The context appears to be unrelated to NASA or aliens, and seems more focused on social media posts and personal relationships. I'm not aware of any information that would allow me to provide a helpful answer to this question.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.11646397684733781",
     "num_comments": "-0.11098502600559944"

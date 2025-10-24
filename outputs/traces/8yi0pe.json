@@ -9,8 +9,8 @@
         "Fake": 0.9988952279090881
       },
       "vilt": {
-        "Real": 0.005625293590128422,
-        "SatireMixed": 0.014887353405356407,
+        "Real": 0.005625312216579914,
+        "SatireMixed": 0.014887325465679169,
         "Fake": 0.9794873595237732
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6208781003952026,
       "consistency_score": 0.5725268602371216
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see how the context provided is relevant to the question about the Eastern Front of World War II. Could you please provide more information or clarify the connection between the two? I'll do my best to answer your question based on my knowledge.\n\nIf not, I can simply say \"I don't know\" and move on!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5725268602371216,
     "clip_cos": 0.6208781003952026,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see how the context provided is relevant to the question about the Eastern Front of World War II. Could you please provide more information or clarify the connection between the two? I'll do my best to answer your question based on my knowledge.\n\nIf not, I can simply say \"I don't know\" and move on!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.12167590119670559",
     "num_comments": "-0.138541446822334"

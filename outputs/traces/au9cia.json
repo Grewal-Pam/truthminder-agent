@@ -9,9 +9,9 @@
         "Fake": 0.000145421625347808
       },
       "vilt": {
-        "Real": 0.9807648062705994,
-        "SatireMixed": 0.0020903225522488356,
-        "Fake": 0.017144853249192238
+        "Real": 0.9807650446891785,
+        "SatireMixed": 0.0020903311669826508,
+        "Fake": 0.017144635319709778
       },
       "flava": {
         "Real": 0.9896525740623474,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.64339679479599,
       "consistency_score": 0.586038076877594
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "That's cool! It sounds like you might have discovered some interesting geological formations and possibly even a fossilized remains of an ancient creature!\n\nAs for the \"tiny starfish fossil,\" I'd say that's likely a real find, considering the abundance of fossils on our planet. Starfish (or sea stars) are common marine animals whose remains can be preserved in sedimentary rocks over millions of years.\n\nThe presence of many small rocks within your main rock might indicate that it's an aggregate or conglomerate rock, which is formed when smaller particles like pebbles and gravel get cemented together by natural processes. It could also be a sign of tectonic activity or erosion, depending on the context in which you found these rocks.\n\nSo, while I'm excited for your discovery, I wouldn't speculate about alien life based solely on this find. Instead, it's probably just a fascinating geological feature that can teach us more about our planet's history and processes!"
     }
   ],
   "final": {
     "post_id": "au9cia",
     "final_label": "Real",
-    "final_confidence": 0.9952439922491709,
+    "final_confidence": 0.9952440717220307,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.586038076877594,
     "clip_cos": 0.64339679479599,
     "ocr_text": "",
+    "retrieved_text": "That's cool! It sounds like you might have discovered some interesting geological formations and possibly even a fossilized remains of an ancient creature!\n\nAs for the \"tiny starfish fossil,\" I'd say that's likely a real find, considering the abundance of fossils on our planet. Starfish (or sea stars) are common marine animals whose remains can be preserved in sedimentary rocks over millions of years.\n\nThe presence of many small rocks within your main rock might indicate that it's an aggregate o",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.1281908066334153",
     "num_comments": "-0.12476323641396671"

@@ -9,9 +9,9 @@
         "Fake": 0.0007129773148335516
       },
       "vilt": {
-        "Real": 0.9794496297836304,
-        "SatireMixed": 0.004096213728189468,
-        "Fake": 0.016454201191663742
+        "Real": 0.9794493913650513,
+        "SatireMixed": 0.0040962244383990765,
+        "Fake": 0.016454383730888367
       },
       "flava": {
         "Real": 0.3492250144481659,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6472469717264175,
       "consistency_score": 0.19417409151792525
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I apologize, but I don't know the answer to \"killer bridesmaid Che ghay 2\" as it seems unrelated to the provided context about NASA and extraterrestrial life. If you could provide more information or clarify what this question is referring to, I'd be happy to try and help further!"
     }
   ],
   "final": {
     "post_id": "2jqgc6",
     "final_label": "ABSTAIN",
-    "final_confidence": 0.7575720187326273,
+    "final_confidence": 0.7575719392597675,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19417409151792525,
     "clip_cos": 0.6472469717264175,
     "ocr_text": "Che ghay 2",
+    "retrieved_text": "I apologize, but I don't know the answer to \"killer bridesmaid Che ghay 2\" as it seems unrelated to the provided context about NASA and extraterrestrial life. If you could provide more information or clarify what this question is referring to, I'd be happy to try and help further!",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.13014527826442823",
     "num_comments": "-0.09031771039304853"

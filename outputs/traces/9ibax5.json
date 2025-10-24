@@ -9,9 +9,9 @@
         "Fake": 0.00025996085605584085
       },
       "vilt": {
-        "Real": 0.013712677173316479,
-        "SatireMixed": 0.013311299495398998,
-        "Fake": 0.97297602891922
+        "Real": 0.013712625950574875,
+        "SatireMixed": 0.0133112957701087,
+        "Fake": 0.9729761481285095
       },
       "flava": {
         "Real": 0.9889561533927917,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6432777494192123,
       "consistency_score": 0.5859666496515274
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context doesn't mention hardhats or construction workers, so I can't find any connection to answer this question."
     }
   ],
   "final": {
     "post_id": "9ibax5",
     "final_label": "Real",
-    "final_confidence": 0.6726143784498175,
+    "final_confidence": 0.6726143613755703,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5859666496515274,
     "clip_cos": 0.6432777494192123,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context doesn't mention hardhats or construction workers, so I can't find any connection to answer this question.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12525909918689593",
     "num_comments": "-0.13165234161815034"

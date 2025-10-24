@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9851935505867004,
         "SatireMixed": 0.002824638271704316,
-        "Fake": 0.011981739662587643
+        "Fake": 0.011981762014329433
       },
       "flava": {
         "Real": 0.9828879833221436,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6431788355112076,
       "consistency_score": 0.5859073013067245
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think any of this information is related to a worm ride in Jacksonville, Florida! The context appears to be about NASA and alien life, but there's no connection to the topic you're asking about. So, I'll just say that I don't know the answer to \"andventure landing jacksonville florida worm ride\"."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5859073013067245,
     "clip_cos": 0.6431788355112076,
     "ocr_text": "",
+    "retrieved_text": "I don't think any of this information is related to a worm ride in Jacksonville, Florida! The context appears to be about NASA and alien life, but there's no connection to the topic you're asking about. So, I'll just say that I don't know the answer to \"andventure landing jacksonville florida worm ride\".",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.11787413120978307"

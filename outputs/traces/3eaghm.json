@@ -9,9 +9,9 @@
         "Fake": 0.0006106826476752758
       },
       "vilt": {
-        "Real": 0.9728035926818848,
-        "SatireMixed": 0.0027367614675313234,
-        "Fake": 0.02445968985557556
+        "Real": 0.9728037118911743,
+        "SatireMixed": 0.002736765658482909,
+        "Fake": 0.024459611624479294
       },
       "flava": {
         "Real": 0.9864475727081299,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.653159886598587,
       "consistency_score": 0.5918959319591522
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide an answer about a New Hampshire barn being renovated into a livable home. My training data doesn't include information about this specific topic, and I'm not capable of providing answers outside of my training data without additional context or information. If you'd like to provide more details or clarify the question, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "3eaghm",
     "final_label": "Real",
-    "final_confidence": 0.9917129958073297,
+    "final_confidence": 0.9917130355437597,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5918959319591522,
     "clip_cos": 0.653159886598587,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide an answer about a New Hampshire barn being renovated into a livable home. My training data doesn't include information about this specific topic, and I'm not capable of providing answers outside of my training data without additional context or information. If you'd like to provide more details or clarify the question, I'd be happy to try and help!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.1167897221191733",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.7059312462806702
       },
       "vilt": {
-        "Real": 0.933143138885498,
-        "SatireMixed": 0.0027379856910556555,
-        "Fake": 0.06411894410848618
+        "Real": 0.9331425428390503,
+        "SatireMixed": 0.0027379957027733326,
+        "Fake": 0.06411943584680557
       },
       "flava": {
         "Real": 0.9791473746299744,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6546635925769806,
       "consistency_score": 0.5927981555461883
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to be related to NASA or aliens, so I can't provide a helpful answer. The question appears to be unrelated to the original text and is likely a humorous or absurd inquiry. If you'd like me to help with something else, feel free to ask!"
     }
   ],
   "final": {
     "post_id": "3ode6b",
     "final_label": "Real",
-    "final_confidence": 0.740249604900678,
+    "final_confidence": 0.7402494062185287,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5927981555461883,
     "clip_cos": 0.6546635925769806,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to be related to NASA or aliens, so I can't provide a helpful answer. The question appears to be unrelated to the original text and is likely a humorous or absurd inquiry. If you'd like me to help with something else, feel free to ask!",
     "upvote_ratio": "0.6731452803942507",
     "score": "1.6562417924813793",
     "num_comments": "1.5010655917733713"

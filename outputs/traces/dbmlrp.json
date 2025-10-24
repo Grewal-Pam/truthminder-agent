@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9788990616798401,
-        "SatireMixed": 0.0033491274807602167,
-        "Fake": 0.017751799896359444
+        "SatireMixed": 0.003349134000018239,
+        "Fake": 0.017751790583133698
       },
       "flava": {
         "Real": 0.9892017841339111,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6793757528066635,
       "consistency_score": 0.6076254516839981
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about pumpkins or watermelons, so I'm unable to answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6076254516839981,
     "clip_cos": 0.6793757528066635,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about pumpkins or watermelons, so I'm unable to answer this question.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11125205249797003",
     "num_comments": "-0.12476323641396671"

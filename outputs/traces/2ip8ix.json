@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9816646575927734,
         "SatireMixed": 0.001939613837748766,
-        "Fake": 0.016395682469010353
+        "Fake": 0.016395648941397667
       },
       "flava": {
         "Real": 0.989330530166626,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6284334808588028,
       "consistency_score": 0.5770600885152817
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see any relevance between the question \"crazy eyed dog\" and the context about NASA and alien life. It seems like a non-related topic.\n\nTo answer your question truthfully, since there's no connection between the two topics, I don't know."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5770600885152817,
     "clip_cos": 0.6284334808588028,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see any relevance between the question \"crazy eyed dog\" and the context about NASA and alien life. It seems like a non-related topic.\n\nTo answer your question truthfully, since there's no connection between the two topics, I don't know.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1040959208014158"

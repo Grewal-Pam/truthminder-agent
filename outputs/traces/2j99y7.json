@@ -9,9 +9,9 @@
         "Fake": 0.0009777969680726528
       },
       "vilt": {
-        "Real": 0.9357405304908752,
-        "SatireMixed": 0.006121254991739988,
-        "Fake": 0.0581381693482399
+        "Real": 0.9357406497001648,
+        "SatireMixed": 0.006121255923062563,
+        "Fake": 0.058138106018304825
       },
       "flava": {
         "Real": 0.989633321762085,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6579487472772598,
       "consistency_score": 0.5473846241831779
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the context about NASA and aliens, and it seems like a random combination of words. I'd need more information or clarification on what CDC, Ebolla, and the rest of the text refers to in order to provide an answer."
     }
   ],
   "final": {
     "post_id": "2j99y7",
     "final_label": "Real",
-    "final_confidence": 0.9776063317755858,
+    "final_confidence": 0.9776063715120157,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5473846241831779,
     "clip_cos": 0.6579487472772598,
     "ocr_text": "SoerrroinN RetrONTN",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the context about NASA and aliens, and it seems like a random combination of words. I'd need more information or clarification on what CDC, Ebolla, and the rest of the text refers to in order to provide an answer.",
     "upvote_ratio": "-1.5092408396289356",
     "score": "-0.1285165519052508",
     "num_comments": "-0.138541446822334"

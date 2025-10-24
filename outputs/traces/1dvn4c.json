@@ -9,8 +9,8 @@
         "Fake": 0.0009395753149874508
       },
       "vilt": {
-        "Real": 0.006717305164784193,
-        "SatireMixed": 0.00943178590387106,
+        "Real": 0.006717311218380928,
+        "SatireMixed": 0.009431790560483932,
         "Fake": 0.98385089635849
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6626148372888565,
       "consistency_score": 0.597568902373314
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, microbial life, or aliens, so I'm not able to provide an answer based on the provided context. Dennis Rodman is a former NBA player who did visit North Korea and meet with Kim Jong-un in 2013-2014, but his visits were not related to alien life or NASA's missions."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.597568902373314,
     "clip_cos": 0.6626148372888565,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, microbial life, or aliens, so I'm not able to provide an answer based on the provided context. Dennis Rodman is a former NBA player who did visit North Korea and meet with Kim Jong-un in 2013-2014, but his visits were not related to alien life or NASA's missions.",
     "upvote_ratio": "1.0368763003981143",
     "score": "0.8985582901920378",
     "num_comments": "2.1968652173959184"

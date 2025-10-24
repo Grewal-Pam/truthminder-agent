@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9875269532203674,
-        "SatireMixed": 0.0009075660491362214,
-        "Fake": 0.011565503664314747
+        "SatireMixed": 0.0009075664565898478,
+        "Fake": 0.011565509252250195
       },
       "flava": {
         "Real": 0.9858884215354919,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6584677696228027,
       "consistency_score": 0.5475403308868407
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is unrelated to the question about children's mental health and government plans for counseling."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5475403308868407,
     "clip_cos": 0.6584677696228027,
     "ocr_text": "WO oarau",
+    "retrieved_text": "I don't know. The provided context is unrelated to the question about children's mental health and government plans for counseling.",
     "upvote_ratio": "0.5822125253932846",
     "score": "7.551579722160012",
     "num_comments": "7.136353648795585"

@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.987210750579834,
         "SatireMixed": 0.0027355309575796127,
-        "Fake": 0.01005363930016756
+        "Fake": 0.010053633712232113
       },
       "flava": {
         "Real": 0.9897094368934631,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6611312329769135,
       "consistency_score": 0.596678739786148
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have any relevance to \"this limited edition Lion King banana\". It appears to be a completely unrelated topic."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.596678739786148,
     "clip_cos": 0.6611312329769135,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have any relevance to \"this limited edition Lion King banana\". It appears to be a completely unrelated topic.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.1281908066334153",
     "num_comments": "-0.13165234161815034"

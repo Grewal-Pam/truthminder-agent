@@ -9,9 +9,9 @@
         "Fake": 0.38531050086021423
       },
       "vilt": {
-        "Real": 0.7188132405281067,
-        "SatireMixed": 0.013365538790822029,
-        "Fake": 0.26782122254371643
+        "Real": 0.718811571598053,
+        "SatireMixed": 0.013365596532821655,
+        "Fake": 0.26782283186912537
       },
       "flava": {
         "Real": 0.9853443503379822,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6508421301841736,
       "consistency_score": 0.5905052781105041
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is unrelated to NFL genetics or ligament-free players, and I'm not aware of any information that would suggest the development of such a concept."
     }
   ],
   "final": {
     "post_id": "5ppvg2",
     "final_label": "Real",
-    "final_confidence": 0.7782467164198558,
+    "final_confidence": 0.7782461601098379,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5905052781105041,
     "clip_cos": 0.6508421301841736,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is unrelated to NFL genetics or ligament-free players, and I'm not aware of any information that would suggest the development of such a concept.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.11809270320651524",
     "num_comments": "-0.138541446822334"

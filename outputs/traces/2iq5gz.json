@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9812127947807312,
         "SatireMixed": 0.003514251671731472,
-        "Fake": 0.015273003838956356
+        "Fake": 0.015272988937795162
       },
       "flava": {
         "Real": 0.9896134734153748,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6464418917894363,
       "consistency_score": 0.5439325675368308
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context appears to be unrelated to the question being asked, which seems to be about a specific police incident or investigation. The text mentions NASA and aliens, but this information doesn't seem relevant to the issue of wrong number calls, texts, or an arrest in Bourne."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5439325675368308,
     "clip_cos": 0.6464418917894363,
     "ocr_text": "SMUT ANE Ee STON SteleCALLS MADE TOORLEANS COP",
+    "retrieved_text": "I don't know. The provided context appears to be unrelated to the question being asked, which seems to be about a specific police incident or investigation. The text mentions NASA and aliens, but this information doesn't seem relevant to the issue of wrong number calls, texts, or an arrest in Bourne.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

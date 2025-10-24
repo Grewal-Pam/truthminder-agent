@@ -9,9 +9,9 @@
         "Fake": 0.9998413324356079
       },
       "vilt": {
-        "Real": 0.006547541357576847,
-        "SatireMixed": 0.006707684602588415,
-        "Fake": 0.9867447018623352
+        "Real": 0.006547520402818918,
+        "SatireMixed": 0.006707692053169012,
+        "Fake": 0.9867448210716248
       },
       "flava": {
         "Real": 0.004982036538422108,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.610677182674408,
-      "consistency_score": 0.5664063096046448
+      "clip_cos": 0.6106771901249886,
+      "consistency_score": 0.5664063140749931
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see a question being asked. It seems like there is some context provided about NASA and alien life, but no actual question is posed. Could you please clarify what you would like me to answer?"
     }
   ],
   "final": {
     "post_id": "cuesdo",
     "final_label": "Fake",
-    "final_confidence": 0.9801464744408925,
+    "final_confidence": 0.9801465144455432,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5664063096046448,
-    "clip_cos": 0.610677182674408,
+    "consistency_score": 0.5664063140749931,
+    "clip_cos": 0.6106771901249886,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see a question being asked. It seems like there is some context provided about NASA and alien life, but no actual question is posed. Could you please clarify what you would like me to answer?",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

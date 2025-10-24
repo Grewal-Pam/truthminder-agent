@@ -9,9 +9,9 @@
         "Fake": 0.00916973315179348
       },
       "vilt": {
-        "Real": 0.04767255857586861,
-        "SatireMixed": 0.027481235563755035,
-        "Fake": 0.9248461723327637
+        "Real": 0.04767248034477234,
+        "SatireMixed": 0.027481256052851677,
+        "Fake": 0.9248462319374084
       },
       "flava": {
         "Real": 0.004724564496427774,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6441498547792435,
       "consistency_score": 0.19324495643377304
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA or extraterrestrial life, and I have no context about \"divnig\" or what happened last summer."
     }
   ],
   "final": {
     "post_id": "83tj44",
     "final_label": "Fake",
-    "final_confidence": 0.6060755328585704,
+    "final_confidence": 0.6060755527267853,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19324495643377304,
     "clip_cos": 0.6441498547792435,
     "ocr_text": "wre",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA or extraterrestrial life, and I have no context about \"divnig\" or what happened last summer.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12688782554607336",
     "num_comments": "-0.138541446822334"

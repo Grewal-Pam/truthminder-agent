@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9896230697631836,
-        "SatireMixed": 0.002671868773177266,
-        "Fake": 0.0077051338739693165
+        "SatireMixed": 0.0026718839071691036,
+        "Fake": 0.0077051264233887196
       },
       "flava": {
         "Real": 0.9495095014572144,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6612751930952072,
       "consistency_score": 0.5967651158571243
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context is about NASA and alien life, which doesn't seem to have any relevance to your personal experience of seeing someone ride a unicycle."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5967651158571243,
     "clip_cos": 0.6612751930952072,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context is about NASA and alien life, which doesn't seem to have any relevance to your personal experience of seeing someone ride a unicycle.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12363037282771851",
     "num_comments": "-0.09720681559723217"

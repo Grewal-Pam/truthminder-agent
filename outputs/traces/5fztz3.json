@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9750548005104065,
-        "SatireMixed": 0.002891170559450984,
-        "Fake": 0.022054102271795273
+        "SatireMixed": 0.00289116776548326,
+        "Fake": 0.02205408364534378
       },
       "flava": {
         "Real": 0.9894021153450012,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6366196870803833,
       "consistency_score": 0.5409859061241149
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to NASA or alien life, so I'm unable to provide an answer to the question. It appears to be a news article about a specific event or person (Michael's manager?) and is unrelated to the original text."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5409859061241149,
     "clip_cos": 0.6366196870803833,
     "ocr_text": "31,868",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to NASA or alien life, so I'm unable to provide an answer to the question. It appears to be a news article about a specific event or person (Michael's manager?) and is unrelated to the original text.",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

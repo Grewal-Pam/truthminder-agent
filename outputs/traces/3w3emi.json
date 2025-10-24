@@ -9,9 +9,9 @@
         "Fake": 0.001160493353381753
       },
       "vilt": {
-        "Real": 0.9607967734336853,
-        "SatireMixed": 0.0019079362973570824,
-        "Fake": 0.03729524463415146
+        "Real": 0.9607966542243958,
+        "SatireMixed": 0.001907937927171588,
+        "Fake": 0.037295348942279816
       },
       "flava": {
         "Real": 0.0038816865999251604,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.597492404282093,
       "consistency_score": 0.5584954425692559
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here!\n\nIt seems like you're trying to connect a book summary (\"the men who made us fat...\") with a statement about NASA not admitting to alien existence. However, it appears that this is an unrelated topic.\n\nAs for the actual question, I don't know what \"one of my favorite ending to of mice and men\" refers to, as it seems to be a jumbled collection of phrases without any clear context or connection to each other.\n\nIf you'd like to clarify or rephrase your question, I'm here to help!"
     }
   ],
   "final": {
     "post_id": "3w3emi",
     "final_label": "Real",
-    "final_confidence": 0.6579410079326481,
+    "final_confidence": 0.6579409681962183,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5584954425692559,
     "clip_cos": 0.597492404282093,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here!\n\nIt seems like you're trying to connect a book summary (\"the men who made us fat...\") with a statement about NASA not admitting to alien existence. However, it appears that this is an unrelated topic.\n\nAs for the actual question, I don't know what \"one of my favorite ending to of mice and men\" refers to, as it seems to be a jumbled collection of phrases without any clear context or connection to each other.\n\nIf you'd like to clarify or rephrase your qu",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12656208027423788",
     "num_comments": "-0.0007593427386612698"

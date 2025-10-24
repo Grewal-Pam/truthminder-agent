@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9883686304092407,
-        "SatireMixed": 0.002980120712891221,
-        "Fake": 0.00865122675895691
+        "SatireMixed": 0.002980124903842807,
+        "Fake": 0.008651222102344036
       },
       "flava": {
         "Real": 0.9895053505897522,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6369103789329529,
       "consistency_score": 0.5410731136798859
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5410731136798859,
     "clip_cos": 0.6369103789329529,
     "ocr_text": "Bega rouruse rurona. susts crook Pelon,",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.12558484445873141",
     "num_comments": "-0.13165234161815034"

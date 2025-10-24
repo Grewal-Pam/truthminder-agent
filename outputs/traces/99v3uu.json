@@ -9,9 +9,9 @@
         "Fake": 0.00039453996578231454
       },
       "vilt": {
-        "Real": 0.7902129888534546,
-        "SatireMixed": 0.010858208872377872,
-        "Fake": 0.19892877340316772
+        "Real": 0.7902133464813232,
+        "SatireMixed": 0.010858207941055298,
+        "Fake": 0.1989283561706543
       },
       "flava": {
         "Real": 0.007934910245239735,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6328964829444885,
       "consistency_score": 0.5797378897666932
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is \"dogtaur\", which doesn't seem related to the given context about NASA and alien life, so I'm not able to provide an answer."
     }
   ],
   "final": {
     "post_id": "99v3uu",
     "final_label": "Real",
-    "final_confidence": 0.6040141595825553,
+    "final_confidence": 0.6040142787918449,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5797378897666932,
     "clip_cos": 0.6328964829444885,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is \"dogtaur\", which doesn't seem related to the given context about NASA and alien life, so I'm not able to provide an answer.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.10082820379923446",
     "num_comments": "-0.09720681559723217"

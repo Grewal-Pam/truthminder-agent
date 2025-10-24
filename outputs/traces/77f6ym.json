@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9888080954551697,
-        "SatireMixed": 0.005194539204239845,
-        "Fake": 0.0059973495081067085
+        "SatireMixed": 0.005194531753659248,
+        "Fake": 0.005997346714138985
       },
       "flava": {
         "Real": 0.9881275296211243,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6580500155687332,
       "consistency_score": 0.59483000934124
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA's search for extraterrestrial life, so I'm not able to provide an answer based on the given context."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.59483000934124,
     "clip_cos": 0.6580500155687332,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA's search for extraterrestrial life, so I'm not able to provide an answer based on the given context.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.07639730841157298",
     "num_comments": "-0.0007593427386612698"

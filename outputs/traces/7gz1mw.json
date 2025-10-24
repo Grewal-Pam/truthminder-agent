@@ -9,9 +9,9 @@
         "Fake": 0.9689871668815613
       },
       "vilt": {
-        "Real": 0.0051931231282651424,
-        "SatireMixed": 0.025231637060642242,
-        "Fake": 0.9695752263069153
+        "Real": 0.005193105898797512,
+        "SatireMixed": 0.025231720879673958,
+        "Fake": 0.9695751667022705
       },
       "flava": {
         "Real": 0.004990431014448404,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6564723998308182,
       "consistency_score": 0.5469417199492455
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided doesn't seem related to NASA or aliens, but rather appears to be about Mitch McConnell and a meeting with telecom companies regarding his first Senate race in 1984."
     }
   ],
   "final": {
     "post_id": "7gz1mw",
     "final_label": "Fake",
-    "final_confidence": 0.9622034479677677,
+    "final_confidence": 0.9622034280995527,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5469417199492455,
     "clip_cos": 0.6564723998308182,
     "ocr_text": "Mitch McConnellprepares to meet withTelecom companies todiscuss financing for hisfirst Senate Race1984",
+    "retrieved_text": "I don't know. The context you provided doesn't seem related to NASA or aliens, but rather appears to be about Mitch McConnell and a meeting with telecom companies regarding his first Senate race in 1984.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12330462755588302",
     "num_comments": "-0.1454305520265176"

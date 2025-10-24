@@ -9,8 +9,8 @@
         "Fake": 0.9991658926010132
       },
       "vilt": {
-        "Real": 0.006725723389536142,
-        "SatireMixed": 0.014001992531120777,
+        "Real": 0.006725790910422802,
+        "SatireMixed": 0.014001972042024136,
         "Fake": 0.9792723059654236
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6170679703354836,
       "consistency_score": 0.5702407822012902
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The provided context doesn't seem to be related to grilled chicken or any personal preferences. It appears to be about NASA and alien life, which is a completely different topic."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5702407822012902,
     "clip_cos": 0.6170679703354836,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The provided context doesn't seem to be related to grilled chicken or any personal preferences. It appears to be about NASA and alien life, which is a completely different topic.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.12884229717708628",
     "num_comments": "-0.13165234161815034"

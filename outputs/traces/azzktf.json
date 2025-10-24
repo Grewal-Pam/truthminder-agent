@@ -9,9 +9,9 @@
         "Fake": 0.9988806843757629
       },
       "vilt": {
-        "Real": 0.2641393542289734,
+        "Real": 0.2641400694847107,
         "SatireMixed": 0.01945302076637745,
-        "Fake": 0.7164076566696167
+        "Fake": 0.7164069414138794
       },
       "flava": {
         "Real": 0.007545989006757736,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.632280245423317,
       "consistency_score": 0.539684073626995
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be a bit of confusion here!\n\nThe given context is about NASA and the possibility of alien life, but then suddenly we have a question about Australia implementing a new anthem with a long string of seemingly random characters. I'm not sure what's going on here, as these two topics don't seem to be related.\n\nSo, since I don't recognize this question or know anything about Australia implementing a new anthem, I'll just say that I don't know the answer."
     }
   ],
   "final": {
     "post_id": "azzktf",
     "final_label": "Fake",
-    "final_confidence": 0.8891789493858814,
+    "final_confidence": 0.8891787109673023,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.539684073626995,
     "clip_cos": 0.632280245423317,
     "ocr_text": "ohh dal OO Tk SeedCCC eTNS oeUnder Video uNenaPresa",
+    "retrieved_text": "I think there may be a bit of confusion here!\n\nThe given context is about NASA and the possibility of alien life, but then suddenly we have a question about Australia implementing a new anthem with a long string of seemingly random characters. I'm not sure what's going on here, as these two topics don't seem to be related.\n\nSo, since I don't recognize this question or know anything about Australia implementing a new anthem, I'll just say that I don't know the answer.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12069866538119912",
     "num_comments": "-0.13165234161815034"

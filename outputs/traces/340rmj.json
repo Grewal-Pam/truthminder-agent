@@ -9,9 +9,9 @@
         "Fake": 0.9994469285011292
       },
       "vilt": {
-        "Real": 0.09788616746664047,
-        "SatireMixed": 0.017299233004450798,
-        "Fake": 0.8848146200180054
+        "Real": 0.09788595139980316,
+        "SatireMixed": 0.017299216240644455,
+        "Fake": 0.8848147988319397
       },
       "flava": {
         "Real": 0.948727548122406,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6111937388777733,
       "consistency_score": 0.5667162433266639
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nTo answer your question directly: I don't know what \"smutley the cat\" or \"psa nsfw\" refers to, but it seems unrelated to NASA and aliens.\n\nIf you meant to ask a different question, please feel free to rephrase or provide more context. Otherwise, I'll just stick to not knowing this specific combination of words!"
     }
   ],
   "final": {
     "post_id": "340rmj",
     "final_label": "Fake",
-    "final_confidence": 0.6448050624827544,
+    "final_confidence": 0.6448051220873992,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5667162433266639,
     "clip_cos": 0.6111937388777733,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nTo answer your question directly: I don't know what \"smutley the cat\" or \"psa nsfw\" refers to, but it seems unrelated to NASA and aliens.\n\nIf you meant to ask a different question, please feel free to rephrase or provide more context. Otherwise, I'll just stick to not knowing this specific combination of words!",
     "upvote_ratio": "-0.32711502461637687",
     "score": "-0.12721357081790885",
     "num_comments": "-0.062761289576314"

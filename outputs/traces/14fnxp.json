@@ -9,9 +9,9 @@
         "Fake": 0.9991292357444763
       },
       "vilt": {
-        "Real": 0.07937075942754745,
-        "SatireMixed": 0.008284978568553925,
-        "Fake": 0.9123442769050598
+        "Real": 0.07936789840459824,
+        "SatireMixed": 0.008284954354166985,
+        "Fake": 0.9123471975326538
       },
       "flava": {
         "Real": 0.0047893887385725975,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6170969381928444,
-      "consistency_score": 0.5702581629157066
+      "clip_cos": 0.6170969530940056,
+      "consistency_score": 0.5702581718564034
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to play along with this one! The question is \"him\", which doesn't seem related to the context about NASA and alien life. So, I'll just say... I don't know!"
     }
   ],
   "final": {
     "post_id": "14fnxp",
     "final_label": "Fake",
-    "final_confidence": 0.9549082626402378,
+    "final_confidence": 0.954909236719211,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5702581629157066,
-    "clip_cos": 0.6170969381928444,
+    "consistency_score": 0.5702581718564034,
+    "clip_cos": 0.6170969530940056,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to play along with this one! The question is \"him\", which doesn't seem related to the context about NASA and alien life. So, I'll just say... I don't know!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

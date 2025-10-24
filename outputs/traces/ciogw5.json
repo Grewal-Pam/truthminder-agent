@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9879549741744995,
-        "SatireMixed": 0.005166494287550449,
+        "SatireMixed": 0.0051664989441633224,
         "Fake": 0.006878513377159834
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6693107932806015,
       "consistency_score": 0.6015864759683609
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion! The context you provided doesn't seem to have any relevance to washing machines or the amount of time left on them. It appears to be discussing NASA's search for extraterrestrial life and microbial findings.\n\nSo, I'll just say that I don't know the answer to your question about the washer and dryer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6015864759683609,
     "clip_cos": 0.6693107932806015,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion! The context you provided doesn't seem to have any relevance to washing machines or the amount of time left on them. It appears to be discussing NASA's search for extraterrestrial life and microbial findings.\n\nSo, I'll just say that I don't know the answer to your question about the washer and dryer.",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

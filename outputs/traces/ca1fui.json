@@ -9,9 +9,9 @@
         "Fake": 0.9986023306846619
       },
       "vilt": {
-        "Real": 0.01760426163673401,
-        "SatireMixed": 0.008717026561498642,
-        "Fake": 0.973678708076477
+        "Real": 0.01760442554950714,
+        "SatireMixed": 0.008717017248272896,
+        "Fake": 0.9736785888671875
       },
       "flava": {
         "Real": 0.007003767415881157,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6285646706819534,
       "consistency_score": 0.577138802409172
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The provided text does not mention a \"Pix Game Boy\" or any relevant information about it. Can you provide more context or clarify what you mean by \"Pix Game Boy\"?"
     }
   ],
   "final": {
     "post_id": "ca1fui",
     "final_label": "Fake",
-    "final_confidence": 0.9776163375973701,
+    "final_confidence": 0.9776162978609403,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.577138802409172,
     "clip_cos": 0.6285646706819534,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The provided text does not mention a \"Pix Game Boy\" or any relevant information about it. Can you provide more context or clarify what you mean by \"Pix Game Boy\"?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.11776695793467976",
     "num_comments": "-0.138541446822334"

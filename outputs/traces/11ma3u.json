@@ -9,9 +9,9 @@
         "Fake": 0.011943064630031586
       },
       "vilt": {
-        "Real": 0.9880338311195374,
-        "SatireMixed": 0.003336349269375205,
-        "Fake": 0.008629877120256424
+        "Real": 0.9880337119102478,
+        "SatireMixed": 0.0033363455440849066,
+        "Fake": 0.00862988829612732
       },
       "flava": {
         "Real": 0.9892242550849915,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6458682715892792,
       "consistency_score": 0.5875209629535675
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't mention JetBlue or upset voters, so I'm unable to make a connection between the two."
     }
   ],
   "final": {
     "post_id": "11ma3u",
     "final_label": "Real",
-    "final_confidence": 0.9936590683062871,
+    "final_confidence": 0.9936590285698572,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5875209629535675,
     "clip_cos": 0.6458682715892792,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't mention JetBlue or upset voters, so I'm unable to make a connection between the two.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12525909918689593",
     "num_comments": "-0.13165234161815034"

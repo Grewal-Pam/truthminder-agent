@@ -9,8 +9,8 @@
         "Fake": 0.9961116909980774
       },
       "vilt": {
-        "Real": 0.003415893530473113,
-        "SatireMixed": 0.018101675435900688,
+        "Real": 0.003415882121771574,
+        "SatireMixed": 0.018101662397384644,
         "Fake": 0.9784824252128601
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6030922532081604,
-      "consistency_score": 0.5618553519248962
+      "clip_cos": 0.6030922457575798,
+      "consistency_score": 0.5618553474545479
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'd be happy to help! Since I have no context or information related to \"oh heeeey\", I'll assume you're asking about something else. Based on the provided context, my answer would be:\n\nIt seems that there is no conclusive evidence of alien life from NASA or any other space agency. Multiple independent missions have only found microbial life, which is a type of simple life that is not considered to be intelligent or complex like humans or animals."
     }
   ],
   "final": {
     "post_id": "609pxh",
     "final_label": "Fake",
-    "final_confidence": 0.9746535799503326,
+    "final_confidence": 0.9746535796821117,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5618553519248962,
-    "clip_cos": 0.6030922532081604,
+    "consistency_score": 0.5618553474545479,
+    "clip_cos": 0.6030922457575798,
     "ocr_text": "",
+    "retrieved_text": "I'd be happy to help! Since I have no context or information related to \"oh heeeey\", I'll assume you're asking about something else. Based on the provided context, my answer would be:\n\nIt seems that there is no conclusive evidence of alien life from NASA or any other space agency. Multiple independent missions have only found microbial life, which is a type of simple life that is not considered to be intelligent or complex like humans or animals.",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

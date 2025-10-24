@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9875816106796265,
-        "SatireMixed": 0.002710276050493121,
-        "Fake": 0.009708181954920292
+        "SatireMixed": 0.0027102786116302013,
+        "Fake": 0.009708172641694546
       },
       "flava": {
         "Real": 0.9893501400947571,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6575257778167725,
       "consistency_score": 0.5945154666900635
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nThe context is about NASA and extraterrestrial life, but the question is about a crow stealing fur from a panda's rear end... That seems like an unrelated topic!\n\nIn any case, I don't know the answer to this question, as it appears to be a unique and unexpected scenario."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5945154666900635,
     "clip_cos": 0.6575257778167725,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nThe context is about NASA and extraterrestrial life, but the question is about a crow stealing fur from a panda's rear end... That seems like an unrelated topic!\n\nIn any case, I don't know the answer to this question, as it appears to be a unique and unexpected scenario.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12688782554607336",
     "num_comments": "-0.138541446822334"

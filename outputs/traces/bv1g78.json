@@ -9,9 +9,9 @@
         "Fake": 0.005233140662312508
       },
       "vilt": {
-        "Real": 0.13924264907836914,
-        "SatireMixed": 0.03563638776540756,
-        "Fake": 0.8251209855079651
+        "Real": 0.13924014568328857,
+        "SatireMixed": 0.03563624620437622,
+        "Fake": 0.82512366771698
       },
       "flava": {
         "Real": 0.8929199576377869,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6119571328163147,
       "consistency_score": 0.5671742796897888
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided appears to be about NASA and extraterrestrial life, which is unrelated to graffiti."
     }
   ],
   "final": {
     "post_id": "bv1g78",
     "final_label": "Real",
-    "final_confidence": 0.679634800195694,
+    "final_confidence": 0.6796339657306671,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5671742796897888,
     "clip_cos": 0.6119571328163147,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided appears to be about NASA and extraterrestrial life, which is unrelated to graffiti.",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.1259105897305669",
     "num_comments": "-0.11787413120978307"

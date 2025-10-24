@@ -9,9 +9,9 @@
         "Fake": 0.00010363869660068303
       },
       "vilt": {
-        "Real": 0.920853316783905,
-        "SatireMixed": 0.003450750606134534,
-        "Fake": 0.07569596916437149
+        "Real": 0.9208530783653259,
+        "SatireMixed": 0.0034507594536989927,
+        "Fake": 0.07569615542888641
       },
       "flava": {
         "Real": 0.9895450472831726,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6472853124141693,
       "consistency_score": 0.5883711874485016
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context about NASA and alien life doesn't seem related to your local cinema having to switch to manual trading after a power cut. I'd need more information specific to that scenario to provide an answer."
     }
   ],
   "final": {
     "post_id": "ci3d7g",
     "final_label": "Real",
-    "final_confidence": 0.9753812958796819,
+    "final_confidence": 0.9753812164068222,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5883711874485016,
     "clip_cos": 0.6472853124141693,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context about NASA and alien life doesn't seem related to your local cinema having to switch to manual trading after a power cut. I'd need more information specific to that scenario to provide an answer.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.1281908066334153",
     "num_comments": "-0.1454305520265176"

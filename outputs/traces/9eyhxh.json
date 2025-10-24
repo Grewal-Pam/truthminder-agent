@@ -9,9 +9,9 @@
         "Fake": 0.9949133396148682
       },
       "vilt": {
-        "Real": 0.9193341732025146,
-        "SatireMixed": 0.008334293961524963,
-        "Fake": 0.07233144342899323
+        "Real": 0.9193345904350281,
+        "SatireMixed": 0.008334261365234852,
+        "Fake": 0.07233119010925293
       },
       "flava": {
         "Real": 0.9891258478164673,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6708911210298538,
       "consistency_score": 0.6025346726179123
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention anything about Shanghai or tree roots, let alone a carving. It seems to be unrelated to the original text about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "9eyhxh",
     "final_label": "Real",
-    "final_confidence": 0.643875743402789,
+    "final_confidence": 0.6438758824802935,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6025346726179123,
     "clip_cos": 0.6708911210298538,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention anything about Shanghai or tree roots, let alone a carving. It seems to be unrelated to the original text about NASA and alien life.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11841844847835073",
     "num_comments": "-0.1040959208014158"

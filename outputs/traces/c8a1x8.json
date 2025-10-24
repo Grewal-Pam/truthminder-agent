@@ -9,9 +9,9 @@
         "Fake": 0.01417769305408001
       },
       "vilt": {
-        "Real": 0.5942615270614624,
-        "SatireMixed": 0.01163600105792284,
-        "Fake": 0.39410245418548584
+        "Real": 0.5942637920379639,
+        "SatireMixed": 0.0116359768435359,
+        "Fake": 0.39410024881362915
       },
       "flava": {
         "Real": 0.9895020127296448,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6654722988605499,
       "consistency_score": 0.5992833793163299
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer. The question appears to be about an old cork bottle being found during demolition work, but there is no connection to NASA or aliens mentioned. I'd need more information to provide a relevant response."
     }
   ],
   "final": {
     "post_id": "c8a1x8",
     "final_label": "Real",
-    "final_confidence": 0.8624700062672297,
+    "final_confidence": 0.8624707612593969,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5992833793163299,
     "clip_cos": 0.6654722988605499,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer. The question appears to be about an old cork bottle being found during demolition work, but there is no connection to NASA or aliens mentioned. I'd need more information to provide a relevant response.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.11776695793467976",
     "num_comments": "-0.09720681559723217"

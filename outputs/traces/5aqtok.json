@@ -9,9 +9,9 @@
         "Fake": 0.9996341466903687
       },
       "vilt": {
-        "Real": 0.0036266802344471216,
-        "SatireMixed": 0.10022434592247009,
-        "Fake": 0.8961489796638489
+        "Real": 0.0036266788374632597,
+        "SatireMixed": 0.10022377967834473,
+        "Fake": 0.8961494565010071
       },
       "flava": {
         "Real": 0.011023687198758125,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6305472254753113,
       "consistency_score": 0.5783283352851868
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "Based on the provided context, it seems that the \"stresses\" referred to are likely related to the scientific discovery process rather than physical or emotional stressors.\n\nIt appears that NASA has not found conclusive evidence of alien life, and instead, multiple independent missions have only confirmed the existence of microbial life. This could be seen as a \"stress\" on the scientific community's understanding of the possibility of extraterrestrial life, potentially leading to a re-evaluation of their search methods or hypotheses.\n\nHowever, without further information, it's difficult to pinpoint the exact nature of these \"stresses.\" Therefore, I'll refrain from making an educated guess and instead say that I don't know."
     }
   ],
   "final": {
     "post_id": "5aqtok",
     "final_label": "Fake",
-    "final_confidence": 0.9514279495080312,
+    "final_confidence": 0.9514281084537506,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5783283352851868,
     "clip_cos": 0.6305472254753113,
     "ocr_text": "",
+    "retrieved_text": "Based on the provided context, it seems that the \"stresses\" referred to are likely related to the scientific discovery process rather than physical or emotional stressors.\n\nIt appears that NASA has not found conclusive evidence of alien life, and instead, multiple independent missions have only confirmed the existence of microbial life. This could be seen as a \"stress\" on the scientific community's understanding of the possibility of extraterrestrial life, potentially leading to a re-evaluation ",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.07932901585809236",
     "num_comments": "-0.13165234161815034"

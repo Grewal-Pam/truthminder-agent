@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9888233542442322,
-        "SatireMixed": 0.002132259076461196,
-        "Fake": 0.009044383652508259
+        "SatireMixed": 0.0021322600077837706,
+        "Fake": 0.009044370613992214
       },
       "flava": {
         "Real": 0.9879680871963501,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6456851065158844,
       "consistency_score": 0.5874110639095307
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context does not mention anything about fearless koalas or South Australian women, so I'm unable to provide an answer to this question based on the given information."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5874110639095307,
     "clip_cos": 0.6456851065158844,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context does not mention anything about fearless koalas or South Australian women, so I'm unable to provide an answer to this question based on the given information.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.029815734539098426",
     "num_comments": "0.06813170930317508"

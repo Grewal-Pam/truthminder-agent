@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9910529255867004,
-        "SatireMixed": 0.002985760336741805,
-        "Fake": 0.005961406510323286
+        "SatireMixed": 0.0029857573099434376,
+        "Fake": 0.00596140930429101
       },
       "flava": {
         "Real": 0.9898507595062256,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6434354931116104,
       "consistency_score": 0.5430306479334831
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about a chart showing when and how a hotel room will be cleaned, but it's not related to NASA or aliens, so I'm unable to provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5430306479334831,
     "clip_cos": 0.6434354931116104,
     "ocr_text": "wanattgui",
+    "retrieved_text": "I don't know. The question is about a chart showing when and how a hotel room will be cleaned, but it's not related to NASA or aliens, so I'm unable to provide an answer.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12721357081790885",
     "num_comments": "-0.1454305520265176"

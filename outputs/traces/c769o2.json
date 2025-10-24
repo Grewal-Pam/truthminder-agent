@@ -9,9 +9,9 @@
         "Fake": 0.3697192668914795
       },
       "vilt": {
-        "Real": 0.9780282378196716,
-        "SatireMixed": 0.005982147995382547,
-        "Fake": 0.015989573672413826
+        "Real": 0.9780283570289612,
+        "SatireMixed": 0.005982142873108387,
+        "Fake": 0.015989476814866066
       },
       "flava": {
         "Real": 0.9899206161499023,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.634548544883728,
       "consistency_score": 0.5403645634651184
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA or alien life, so I'm not sure what you're referring to with \"WoPROFANITY\". Could you provide more information about what kind of sign you are talking about in a restaurant?"
     }
   ],
   "final": {
     "post_id": "c769o2",
     "final_label": "Real",
-    "final_confidence": 0.8670185585816702,
+    "final_confidence": 0.8670185983181,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5403645634651184,
     "clip_cos": 0.634548544883728,
     "ocr_text": "WoPROFANITY",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA or alien life, so I'm not sure what you're referring to with \"WoPROFANITY\". Could you provide more information about what kind of sign you are talking about in a restaurant?",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12688782554607336",
     "num_comments": "-0.04898307916794672"

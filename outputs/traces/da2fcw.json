@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9871740341186523,
-        "SatireMixed": 0.005930230487138033,
-        "Fake": 0.0068957204930484295
+        "SatireMixed": 0.005930208135396242,
+        "Fake": 0.006895736325532198
       },
       "flava": {
         "Real": 0.989359974861145,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6509564816951752,
-      "consistency_score": 0.5905738890171051
+      "clip_cos": 0.650956466794014,
+      "consistency_score": 0.5905738800764084
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't provide any information about swords or nails, so I'm not able to help with that question. The conversation seems to be about NASA and the search for extraterrestrial life, but there's no mention of swords or nails."
     }
   ],
   "final": {
     "post_id": "da2fcw",
     "final_label": "Real",
-    "final_confidence": 0.9971779780785243,
+    "final_confidence": 0.9971779775420825,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5905738890171051,
-    "clip_cos": 0.6509564816951752,
+    "consistency_score": 0.5905738800764084,
+    "clip_cos": 0.650956466794014,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't provide any information about swords or nails, so I'm not able to help with that question. The conversation seems to be about NASA and the search for extraterrestrial life, but there's no mention of swords or nails.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11385801467265391",
     "num_comments": "-0.11098502600559944"

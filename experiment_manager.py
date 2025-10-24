@@ -9,7 +9,7 @@ import torch
 import pandas as pd
 import numpy as np
 import pickle
-from datasets.pre_processing import compute_pixel_values, handle_missing_values, normalize_metadata, split_dataset, load_and_preprocess_datasets
+from local_datasets.pre_processing import compute_pixel_values, handle_missing_values, normalize_metadata, split_dataset, load_and_preprocess_datasets
 from models.clip_model import CLIPMultiTaskClassifier
 from models.vilt_model import ViltClassificationModel
 from models.flava_model import FlavaClassificationModel

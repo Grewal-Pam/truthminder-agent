@@ -9,9 +9,9 @@
         "Fake": 0.0002044682769337669
       },
       "vilt": {
-        "Real": 0.9716950058937073,
-        "SatireMixed": 0.004289406817406416,
-        "Fake": 0.02401556633412838
+        "Real": 0.9716951251029968,
+        "SatireMixed": 0.0042894030921161175,
+        "Fake": 0.02401554025709629
       },
       "flava": {
         "Real": 0.4169691801071167,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.682350367307663,
       "consistency_score": 0.6094102203845978
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem to be related to NASA or aliens, but rather a specific town in Washington state. I'd need more information about Leavenworth, WA to answer the question accurately."
     }
   ],
   "final": {
     "post_id": "cfv6on",
     "final_label": "Real",
-    "final_confidence": 0.8026907802025477,
+    "final_confidence": 0.8026908199389776,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6094102203845978,
     "clip_cos": 0.682350367307663,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem to be related to NASA or aliens, but rather a specific town in Washington state. I'd need more information about Leavenworth, WA to answer the question accurately.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12558484445873141",
     "num_comments": "-0.138541446822334"

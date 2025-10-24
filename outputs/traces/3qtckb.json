@@ -9,8 +9,8 @@
         "Fake": 0.0005659122252836823
       },
       "vilt": {
-        "Real": 0.005694401450455189,
-        "SatireMixed": 0.01538696326315403,
+        "Real": 0.005694368854165077,
+        "SatireMixed": 0.015387014485895634,
         "Fake": 0.9789186120033264
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5712396651506424,
       "consistency_score": 0.5427437990903854
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention anything about someone asking you out or being on a plane, so I'm unable to provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5427437990903854,
     "clip_cos": 0.5712396651506424,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention anything about someone asking you out or being on a plane, so I'm unable to provide an answer.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12363037282771851",
     "num_comments": "-0.0076484479428449055"

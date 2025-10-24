@@ -9,9 +9,9 @@
         "Fake": 0.9892176389694214
       },
       "vilt": {
-        "Real": 0.32688435912132263,
-        "SatireMixed": 0.01964947208762169,
-        "Fake": 0.6534661650657654
+        "Real": 0.32688072323799133,
+        "SatireMixed": 0.01964946649968624,
+        "Fake": 0.6534698605537415
       },
       "flava": {
         "Real": 0.013360384851694107,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6724346578121185,
       "consistency_score": 0.6034607946872711
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nThe question is \"mccain skinny repeal\" which seems unrelated to NASA, aliens, or microbial life. It appears to be a reference to a specific healthcare bill proposal in the United States Congress.\n\nAs I'm not familiar with this context or have any information about it, I'll just say: I don't know!"
     }
   ],
   "final": {
     "post_id": "6q3iih",
     "final_label": "Fake",
-    "final_confidence": 0.8681956954399744,
+    "final_confidence": 0.8681969272692999,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6034607946872711,
     "clip_cos": 0.6724346578121185,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nThe question is \"mccain skinny repeal\" which seems unrelated to NASA, aliens, or microbial life. It appears to be a reference to a specific healthcare bill proposal in the United States Congress.\n\nAs I'm not familiar with this context or have any information about it, I'll just say: I don't know!",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.07476858205239555",
     "num_comments": "-0.11787413120978307"

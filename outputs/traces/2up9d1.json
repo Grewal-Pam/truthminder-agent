@@ -9,9 +9,9 @@
         "Fake": 0.00020597921684384346
       },
       "vilt": {
-        "Real": 0.009164303541183472,
-        "SatireMixed": 0.009020717814564705,
-        "Fake": 0.9818150401115417
+        "Real": 0.009164351038634777,
+        "SatireMixed": 0.009020708501338959,
+        "Fake": 0.9818149209022522
       },
       "flava": {
         "Real": 0.9868023991584778,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6328997015953064,
       "consistency_score": 0.5797398209571838
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided seems unrelated to Cub Scouts or hiking to a nude beach, and I'm not familiar with any information that would suggest the likelihood of such an event."
     }
   ],
   "final": {
     "post_id": "2up9d1",
     "final_label": "Real",
-    "final_confidence": 0.67002605787913,
+    "final_confidence": 0.6700260737116138,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5797398209571838,
     "clip_cos": 0.6328997015953064,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided seems unrelated to Cub Scouts or hiking to a nude beach, and I'm not familiar with any information that would suggest the likelihood of such an event.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.11646397684733781",
     "num_comments": "-0.07653949998468126"

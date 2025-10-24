@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9899529814720154,
-        "SatireMixed": 0.0031327195465564728,
-        "Fake": 0.00691432086750865
+        "SatireMixed": 0.003132712095975876,
+        "Fake": 0.006914334371685982
       },
       "flava": {
         "Real": 0.9894260168075562,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6601793169975281,
       "consistency_score": 0.5961075901985169
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough information to provide a helpful answer about the can of East Cider. The context you provided is about NASA and alien life, which seems unrelated to the topic of an unopened can of East Cider. Can you please provide more context or clarify how this question is related to the previous one?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5961075901985169,
     "clip_cos": 0.6601793169975281,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough information to provide a helpful answer about the can of East Cider. The context you provided is about NASA and alien life, which seems unrelated to the topic of an unopened can of East Cider. Can you please provide more context or clarify how this question is related to the previous one?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.1262363350024024",
     "num_comments": "-0.12476323641396671"

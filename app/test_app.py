@@ -36,6 +36,19 @@ if "last_result" not in st.session_state:
 if "last_trace" not in st.session_state:
     st.session_state.last_trace = None
 
+
+def render_rag_section(rag_text: str):
+    """Pretty RAG section with basic cleanup & fallback."""
+    if not rag_text or not rag_text.strip():
+        st.info("📚 No relevant evidence found in the current corpus.")
+        return
+    bland = ["i don't know", "i cannot", "not a doctor", "does not relate"]
+    if any(b in rag_text.lower() for b in bland):
+        st.info("📚 No strong matches in the corpus for this claim. (Consider enriching the knowledge base.)")
+        return
+    with st.expander("📚 Evidence from Knowledge Corpus (RAG)", expanded=False):
+        st.markdown(rag_text)
+
 # -------------------------------------------------------------------
 # Tabs
 # -------------------------------------------------------------------
@@ -67,6 +80,9 @@ with tab1:
 
             explanation = rephrase_result(row)
             st.info(explanation)
+            # RAG for Tab 1 (row loaded from enriched.csv)
+            render_rag_section(row.get("retrieved_text", ""))
+
 
     except FileNotFoundError:
         st.error("⚠️ No enriched.csv found in outputs/. Run the agent first.")
@@ -142,6 +158,16 @@ with tab2:
         explanation = rephrase_result(result)
         st.success("✅ Analysis Complete")
         st.info(explanation)
+
+        # RAG for Tab 2 (fresh run result)
+        render_rag_section(result.get("retrieved_text", ""))
+
+        # (Optional) If you want to fall back to the trace step:
+        if (not result.get("retrieved_text")) and trace and "steps" in trace:
+            ret = [s for s in trace["steps"] if s.get("stage")=="retrieval"]
+            if ret:
+                render_rag_section(ret[-1].get("retrieved_evidence",""))
+
 
         with st.expander("🔬 Technical Trace"):
             st.json(trace)

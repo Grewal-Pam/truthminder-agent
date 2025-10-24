@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9902135729789734,
-        "SatireMixed": 0.0033164455089718103,
-        "Fake": 0.006470005959272385
+        "SatireMixed": 0.0033164550550282,
+        "Fake": 0.00646999990567565
       },
       "flava": {
         "Real": 0.989850640296936,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6556268930435181,
-      "consistency_score": 0.5933761358261108
+      "clip_cos": 0.6556269228458405,
+      "consistency_score": 0.5933761537075043
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context is about NASA and alien life, but it doesn't mention owls at all!"
     }
   ],
   "final": {
     "post_id": "8bgwwy",
     "final_label": "Real",
-    "final_confidence": 0.9921172755559285,
+    "final_confidence": 0.9921172766288122,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5933761358261108,
-    "clip_cos": 0.6556268930435181,
+    "consistency_score": 0.5933761537075043,
+    "clip_cos": 0.6556269228458405,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context is about NASA and alien life, but it doesn't mention owls at all!",
     "upvote_ratio": "0.855010790396182",
     "score": "5.050181779735312",
     "num_comments": "1.2186122784018423"

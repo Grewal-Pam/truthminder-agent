@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9885830879211426,
-        "SatireMixed": 0.0028417545836418867,
-        "Fake": 0.00857515912503004
+        "SatireMixed": 0.0028417506255209446,
+        "Fake": 0.008575167506933212
       },
       "flava": {
         "Real": 0.9898345470428467,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6607014685869217,
       "consistency_score": 0.596420881152153
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about USB charging cables or their design features, including bumps that indicate direction of insertion. The context provided earlier doesn't seem relevant to this question. So, I'll just say... I don't know!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.596420881152153,
     "clip_cos": 0.6607014685869217,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about USB charging cables or their design features, including bumps that indicate direction of insertion. The context provided earlier doesn't seem relevant to this question. So, I'll just say... I don't know!",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.1262363350024024",
     "num_comments": "-0.09031771039304853"

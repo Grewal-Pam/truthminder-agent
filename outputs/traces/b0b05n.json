@@ -9,9 +9,9 @@
         "Fake": 7.205322617664933e-05
       },
       "vilt": {
-        "Real": 0.989463210105896,
-        "SatireMixed": 0.0029715870041400194,
-        "Fake": 0.007565105799585581
+        "Real": 0.9894633293151855,
+        "SatireMixed": 0.0029716002754867077,
+        "Fake": 0.007565092295408249
       },
       "flava": {
         "Real": 0.9898188710212708,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6459016799926758,
-      "consistency_score": 0.5875410079956055
+      "clip_cos": 0.6459016650915146,
+      "consistency_score": 0.5875409990549088
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about NASA, alien life, or lotions with pumps. It seems like unrelated topics. To answer the question, I would need more information about the specific product, such as its brand and model, as well as the source of the quote."
     }
   ],
   "final": {
     "post_id": "b0b05n",
     "final_label": "Real",
-    "final_confidence": 0.9983081816037497,
+    "final_confidence": 0.9983082208037376,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5875410079956055,
-    "clip_cos": 0.6459016799926758,
+    "consistency_score": 0.5875409990549088,
+    "clip_cos": 0.6459016650915146,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about NASA, alien life, or lotions with pumps. It seems like unrelated topics. To answer the question, I would need more information about the specific product, such as its brand and model, as well as the source of the quote.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.1259105897305669",
     "num_comments": "-0.07653949998468126"

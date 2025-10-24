@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9819757342338562,
-        "SatireMixed": 0.0031330620404332876,
-        "Fake": 0.014891251921653748
+        "SatireMixed": 0.0031330608762800694,
+        "Fake": 0.014891279861330986
       },
       "flava": {
         "Real": 0.9818481206893921,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6145701333880424,
-      "consistency_score": 0.5687420800328254
+      "clip_cos": 0.6145701184868813,
+      "consistency_score": 0.5687420710921287
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm a large language model, I don't have any information about NASA admitting or denying the existence of aliens. The context you provided is unrelated to the topic of meme bans by moderators. Therefore, I don't know the answer to this question and cannot provide an example of a meme to ban."
     }
   ],
   "final": {
     "post_id": "aumsul",
     "final_label": "Real",
-    "final_confidence": 0.6623852387542526,
+    "final_confidence": 0.6623852382178107,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5687420800328254,
-    "clip_cos": 0.6145701333880424,
+    "consistency_score": 0.5687420710921287,
+    "clip_cos": 0.6145701184868813,
     "ocr_text": "",
+    "retrieved_text": "I'm a large language model, I don't have any information about NASA admitting or denying the existence of aliens. The context you provided is unrelated to the topic of meme bans by moderators. Therefore, I don't know the answer to this question and cannot provide an example of a meme to ban.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.099850967983728",
     "num_comments": "-0.12476323641396671"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9882943630218506,
-        "SatireMixed": 0.005730258766561747,
-        "Fake": 0.005975444335490465
+        "SatireMixed": 0.005730255972594023,
+        "Fake": 0.005975441075861454
       },
       "flava": {
         "Real": 0.989048421382904,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6559288948774338,
       "consistency_score": 0.5935573369264603
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA or extraterrestrial life, so I'm not in a position to answer it based on the provided context. If you'd like to provide more information about the topic, I'll do my best to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5935573369264603,
     "clip_cos": 0.6559288948774338,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA or extraterrestrial life, so I'm not in a position to answer it based on the provided context. If you'd like to provide more information about the topic, I'll do my best to help!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

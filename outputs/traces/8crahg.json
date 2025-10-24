@@ -9,9 +9,9 @@
         "Fake": 0.9935990571975708
       },
       "vilt": {
-        "Real": 0.7858042120933533,
-        "SatireMixed": 0.008731069974601269,
-        "Fake": 0.20546461641788483
+        "Real": 0.785807192325592,
+        "SatireMixed": 0.008731044828891754,
+        "Fake": 0.20546182990074158
       },
       "flava": {
         "Real": 0.0049089244566857815,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.6203717291355133,
-      "consistency_score": 0.186111518740654
+      "clip_cos": 0.6203717067837715,
+      "consistency_score": 0.18611151203513146
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I think there might be a slight issue with the question. It seems like it's a jumbled mess of words and doesn't form a coherent question.\n\nCould you please rephrase or provide more context about what you're trying to ask? I'd be more than happy to try and assist you once I understand the question better."
     }
   ],
   "final": {
     "post_id": "8crahg",
     "final_label": "Fake",
-    "final_confidence": 0.6917277728915214,
+    "final_confidence": 0.6917268436501424,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.186111518740654,
-    "clip_cos": 0.6203717291355133,
+    "consistency_score": 0.18611151203513146,
+    "clip_cos": 0.6203717067837715,
     "ocr_text": "rover Ausra S31eateitionAUSTRALIA",
+    "retrieved_text": "I'm happy to help! However, I think there might be a slight issue with the question. It seems like it's a jumbled mess of words and doesn't form a coherent question.\n\nCould you please rephrase or provide more context about what you're trying to ask? I'd be more than happy to try and assist you once I understand the question better.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.1262363350024024",
     "num_comments": "-0.1454305520265176"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9838919639587402,
-        "SatireMixed": 0.00405484763905406,
-        "Fake": 0.012053153477609158
+        "SatireMixed": 0.0040548634715378284,
+        "Fake": 0.012053119949996471
       },
       "flava": {
         "Real": 0.14298845827579498,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6449006944894791,
       "consistency_score": 0.5869404166936875
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem to be related to the context about NASA or space exploration, so I'm unable to provide a helpful answer. It appears to be a poetic or philosophical statement rather than a factual inquiry."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5869404166936875,
     "clip_cos": 0.6449006944894791,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem to be related to the context about NASA or space exploration, so I'm unable to provide a helpful answer. It appears to be a poetic or philosophical statement rather than a factual inquiry.",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

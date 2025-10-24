@@ -9,9 +9,9 @@
         "Fake": 0.1395435780286789
       },
       "vilt": {
-        "Real": 0.8886011242866516,
-        "SatireMixed": 0.0079145897179842,
-        "Fake": 0.10348428040742874
+        "Real": 0.8886017203330994,
+        "SatireMixed": 0.007914564572274685,
+        "Fake": 0.10348378866910934
       },
       "flava": {
         "Real": 0.9900218844413757,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6685760170221329,
       "consistency_score": 0.6011456102132797
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and extraterrestrial life, but there's no connection between snow melting and any of those topics. I'm not aware of any information that would help me answer this question."
     }
   ],
   "final": {
     "post_id": "atlmvh",
     "final_label": "Real",
-    "final_confidence": 0.9190283718705178,
+    "final_confidence": 0.9190285705526671,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6011456102132797,
     "clip_cos": 0.6685760170221329,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and extraterrestrial life, but there's no connection between snow melting and any of those topics. I'm not aware of any information that would help me answer this question.",
     "upvote_ratio": "-1.5092408396289356",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

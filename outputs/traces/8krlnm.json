@@ -9,8 +9,8 @@
         "Fake": 0.0001589692838024348
       },
       "vilt": {
-        "Real": 0.37554365396499634,
-        "SatireMixed": 0.0132526233792305,
+        "Real": 0.3755435645580292,
+        "SatireMixed": 0.013252613134682178,
         "Fake": 0.6112037897109985
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6376561373472214,
       "consistency_score": 0.5825936824083329
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer. The question is about pilots spending their savings on a plane to rescue migrants in the Mediterranean Sea, but it doesn't mention anything about aliens or NASA. Since I only have the initial context about microbial life evidence and NASA's lack of admission regarding alien existence, I won't be able to provide a relevant response."
     }
   ],
   "final": {
     "post_id": "8krlnm",
     "final_label": "Real",
-    "final_confidence": 0.7931895965139071,
+    "final_confidence": 0.7931895667115847,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5825936824083329,
     "clip_cos": 0.6376561373472214,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer. The question is about pilots spending their savings on a plane to rescue migrants in the Mediterranean Sea, but it doesn't mention anything about aliens or NASA. Since I only have the initial context about microbial life evidence and NASA's lack of admission regarding alien existence, I won't be able to provide a relevant response.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.010271018228969243",
     "num_comments": "0.10257723532409327"

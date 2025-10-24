@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9901143312454224,
-        "SatireMixed": 0.0031906780786812305,
+        "SatireMixed": 0.003190681105479598,
         "Fake": 0.006694913841784
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6492490619421005,
       "consistency_score": 0.5447747185826302
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and microbial life, which doesn't seem to be related to a kid doing parkour in SF (San Francisco). I'm not equipped with information about that specific topic, so I'll just say I don't know!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5447747185826302,
     "clip_cos": 0.6492490619421005,
     "ocr_text": "eR OE A",
+    "retrieved_text": "I don't know. The context provided is about NASA and microbial life, which doesn't seem to be related to a kid doing parkour in SF (San Francisco). I'm not equipped with information about that specific topic, so I'll just say I don't know!",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12916804244892177",
     "num_comments": "-0.11098502600559944"

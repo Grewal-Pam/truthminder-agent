@@ -9,9 +9,9 @@
         "Fake": 0.9982849955558777
       },
       "vilt": {
-        "Real": 0.938520073890686,
-        "SatireMixed": 0.0031991307623684406,
-        "Fake": 0.058280814439058304
+        "Real": 0.9385190606117249,
+        "SatireMixed": 0.003199142636731267,
+        "Fake": 0.058281850069761276
       },
       "flava": {
         "Real": 0.00479372963309288,
@@ -32,18 +32,23 @@
         "consistency_score": 1.0,
         "no_ocr": false
       },
-      "clip_cos": 0.664391040802002,
-      "consistency_score": 0.8993173122406005
+      "clip_cos": 0.6643910557031631,
+      "consistency_score": 0.8993173167109489
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer. The context appears to be about NASA and alien life, but there is no connection between that and \"Magic Mike\" (a movie). If you're asking a question related to the movie, please provide more context or clarify what you'd like to know."
     }
   ],
   "final": {
     "post_id": "7mzyg8",
     "final_label": "Fake",
-    "final_confidence": 0.6894705437918505,
+    "final_confidence": 0.6894708892703056,
     "nli_label": "ENTAILMENT",
-    "consistency_score": 0.8993173122406005,
-    "clip_cos": 0.664391040802002,
+    "consistency_score": 0.8993173167109489,
+    "clip_cos": 0.6643910557031631,
     "ocr_text": "Magic Mike 2012",
+    "retrieved_text": "I don't know the answer. The context appears to be about NASA and alien life, but there is no connection between that and \"Magic Mike\" (a movie). If you're asking a question related to the movie, please provide more context or clarify what you'd like to know.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.1262363350024024",
     "num_comments": "-0.1454305520265176"

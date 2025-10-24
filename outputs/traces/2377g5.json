@@ -9,9 +9,9 @@
         "Fake": 0.0002533011429477483
       },
       "vilt": {
-        "Real": 0.20757505297660828,
-        "SatireMixed": 0.01679110899567604,
-        "Fake": 0.7756337523460388
+        "Real": 0.20757797360420227,
+        "SatireMixed": 0.0167910885065794,
+        "Fake": 0.7756308913230896
       },
       "flava": {
         "Real": 0.008667617104947567,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6612951159477234,
       "consistency_score": 0.5967770695686341
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't mention Tyler the Creator or OutKast or Coachella, so I can't provide an answer to this question based on the given information."
     }
   ],
   "final": {
     "post_id": "2377g5",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5796421498455262,
+    "final_label": "Fake",
+    "final_confidence": 0.5796411961712098,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5967770695686341,
     "clip_cos": 0.6612951159477234,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't mention Tyler the Creator or OutKast or Coachella, so I can't provide an answer to this question based on the given information.",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

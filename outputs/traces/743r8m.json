@@ -9,9 +9,9 @@
         "Fake": 0.000675578776281327
       },
       "vilt": {
-        "Real": 0.9775788187980652,
-        "SatireMixed": 0.0024361966643482447,
-        "Fake": 0.01998499222099781
+        "Real": 0.9775789380073547,
+        "SatireMixed": 0.0024361968971788883,
+        "Fake": 0.01998486928641796
       },
       "flava": {
         "Real": 0.9675711989402771,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6656400412321091,
       "consistency_score": 0.5993840247392654
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem to be related to James May or Jeremy Clarkson, who are British TV presenters and former hosts of the show \"Top Gear.\""
     }
   ],
   "final": {
     "post_id": "743r8m",
     "final_label": "Real",
-    "final_confidence": 0.9874359111984571,
+    "final_confidence": 0.9874359509348869,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5993840247392654,
     "clip_cos": 0.6656400412321091,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem to be related to James May or Jeremy Clarkson, who are British TV presenters and former hosts of the show \"Top Gear.\"",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.13165234161815034"

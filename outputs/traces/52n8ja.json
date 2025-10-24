@@ -9,9 +9,9 @@
         "Fake": 0.00017131067579612136
       },
       "vilt": {
-        "Real": 0.05052582547068596,
-        "SatireMixed": 0.010802743025124073,
-        "Fake": 0.9386714100837708
+        "Real": 0.05052616074681282,
+        "SatireMixed": 0.01080276444554329,
+        "Fake": 0.9386711120605469
       },
       "flava": {
         "Real": 0.9886234998703003,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6748763024806976,
       "consistency_score": 0.6049257814884186
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about Kentucky Governor Matt Bevin's statement, which seems unrelated to NASA or the existence of aliens."
     }
   ],
   "final": {
     "post_id": "52n8ja",
     "final_label": "Real",
-    "final_confidence": 0.6859368272125721,
+    "final_confidence": 0.685936938971281,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6049257814884186,
     "clip_cos": 0.6748763024806976,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about Kentucky Governor Matt Bevin's statement, which seems unrelated to NASA or the existence of aliens.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.12265313701221205",
     "num_comments": "-0.11787413120978307"

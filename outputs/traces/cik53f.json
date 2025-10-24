@@ -9,9 +9,9 @@
         "Fake": 0.0030682364013046026
       },
       "vilt": {
-        "Real": 0.959618866443634,
-        "SatireMixed": 0.0023773375432938337,
-        "Fake": 0.03800378739833832
+        "Real": 0.9596189856529236,
+        "SatireMixed": 0.002377335447818041,
+        "Fake": 0.03800366446375847
       },
       "flava": {
         "Real": 0.0060484325513243675,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6631660312414169,
-      "consistency_score": 0.5978996187448502
+      "clip_cos": 0.6631660014390945,
+      "consistency_score": 0.5978996008634567
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there's been a mix-up!\n\nYou're asking about getting a replica of a naval cannon made out of brass and wood as a gift for your father, but the context you provided is actually about NASA searching for aliens.\n\nTo answer your question directly: Yes, it's definitely possible to find or commission a handmade replica of a naval cannon made of brass and wood. You can try searching online for artisans or craftspeople who specialize in creating replicas of historical items, such as cannons. Alternatively, you could check with local art schools, colleges, or universities that have programs in sculpture, woodworking, or metalworking to see if any students or professors might be interested in taking on a project like this.\n\nJust let me know if there's anything else I can help you with!"
     }
   ],
   "final": {
     "post_id": "cik53f",
     "final_label": "Real",
-    "final_confidence": 0.660058434970677,
+    "final_confidence": 0.6600584736342231,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5978996187448502,
-    "clip_cos": 0.6631660312414169,
+    "consistency_score": 0.5978996008634567,
+    "clip_cos": 0.6631660014390945,
     "ocr_text": "",
+    "retrieved_text": "I think there's been a mix-up!\n\nYou're asking about getting a replica of a naval cannon made out of brass and wood as a gift for your father, but the context you provided is actually about NASA searching for aliens.\n\nTo answer your question directly: Yes, it's definitely possible to find or commission a handmade replica of a naval cannon made of brass and wood. You can try searching online for artisans or craftspeople who specialize in creating replicas of historical items, such as cannons. Alte",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12460760864322497",
     "num_comments": "-0.09720681559723217"

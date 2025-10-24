@@ -9,8 +9,8 @@
         "Fake": 0.9996052384376526
       },
       "vilt": {
-        "Real": 0.003272139932960272,
-        "SatireMixed": 0.011744089424610138,
+        "Real": 0.0032721536699682474,
+        "SatireMixed": 0.011744079180061817,
         "Fake": 0.9849837422370911
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6525776237249374,
       "consistency_score": 0.5457732871174812
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I've been asked a completely unrelated question!\n\nAs there is no context provided about Willy Wonka or his factory, I must admit that I don't know the answer. The question seems to be a random query unrelated to NASA, aliens, or microbial life. If you'd like to provide more context or clarify what you're asking, I'll do my best to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5457732871174812,
     "clip_cos": 0.6525776237249374,
     "ocr_text": "Willy Wonka 5 minutes before openingthe gate of his factory",
+    "retrieved_text": "I think I've been asked a completely unrelated question!\n\nAs there is no context provided about Willy Wonka or his factory, I must admit that I don't know the answer. The question seems to be a random query unrelated to NASA, aliens, or microbial life. If you'd like to provide more context or clarify what you're asking, I'll do my best to help!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11222928831347648",
     "num_comments": "-0.1454305520265176"

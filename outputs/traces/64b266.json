@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9878849387168884,
-        "SatireMixed": 0.004407018888741732,
-        "Fake": 0.00770804937928915
+        "SatireMixed": 0.004407023079693317,
+        "Fake": 0.007708038203418255
       },
       "flava": {
         "Real": 0.9889081120491028,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6431612819433212,
       "consistency_score": 0.5858967691659928
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, and seems to be asking about a specific event or incident involving the Shadow Brokers hackers and President Trump. Since this information is not present in the provided context, I am unable to answer the question accurately."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5858967691659928,
     "clip_cos": 0.6431612819433212,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, and seems to be asking about a specific event or incident involving the Shadow Brokers hackers and President Trump. Since this information is not present in the provided context, I am unable to answer the question accurately.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

@@ -9,8 +9,8 @@
         "Fake": 0.0009429458295926452
       },
       "vilt": {
-        "Real": 0.008379029110074043,
-        "SatireMixed": 0.009523563086986542,
+        "Real": 0.008378889411687851,
+        "SatireMixed": 0.009523599408566952,
         "Fake": 0.9820974469184875
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6067919507622719,
       "consistency_score": 0.5640751704573631
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question \"dolphinana\" seems unrelated to the context about NASA and alien life, so I'm not sure what the answer would be. Can you provide more information or clarify what \"dolphinana\" refers to?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5640751704573631,
     "clip_cos": 0.6067919507622719,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question \"dolphinana\" seems unrelated to the context about NASA and alien life, so I'm not sure what the answer would be. Can you provide more information or clarify what \"dolphinana\" refers to?",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12265313701221205",
     "num_comments": "-0.1454305520265176"

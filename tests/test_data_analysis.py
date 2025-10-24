@@ -1,5 +1,5 @@
 import pandas as pd
-from datasets.data_analysis import DataAnalysis
+from local_datasets.data_analysis import DataAnalysis
 
 def test_real_dataset_analysis():
     # Load the real dataset

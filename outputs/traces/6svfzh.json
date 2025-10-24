@@ -9,9 +9,9 @@
         "Fake": 0.0004689111083280295
       },
       "vilt": {
-        "Real": 0.9869735240936279,
-        "SatireMixed": 0.0024449280463159084,
-        "Fake": 0.010581578128039837
+        "Real": 0.9869734644889832,
+        "SatireMixed": 0.002444920828565955,
+        "Fake": 0.01058160699903965
       },
       "flava": {
         "Real": 0.9889447093009949,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6469782590866089,
       "consistency_score": 0.5881869554519653
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be unrelated to NASA or alien life, and instead seems to be about a warning from Donald Trump regarding North Korea."
     }
   ],
   "final": {
     "post_id": "6svfzh",
     "final_label": "Real",
-    "final_confidence": 0.9970775383313497,
+    "final_confidence": 0.9970775184631347,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5881869554519653,
     "clip_cos": 0.6469782590866089,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be unrelated to NASA or alien life, and instead seems to be about a warning from Donald Trump regarding North Korea.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.10734310923594419",
     "num_comments": "-0.028315763555395813"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9801995754241943,
-        "SatireMixed": 0.0030359055381268263,
-        "Fake": 0.016764551401138306
+        "SatireMixed": 0.0030359027441591024,
+        "Fake": 0.016764583066105843
       },
       "flava": {
         "Real": 0.9883090257644653,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6643975973129272,
       "consistency_score": 0.5986385583877564
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't mention anything about an \"Alpine Goat Man\" or any Ig Nobel prize winner, let alone a connection between the two. It seems to be discussing NASA and microbial life evidence."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5986385583877564,
     "clip_cos": 0.6643975973129272,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't mention anything about an \"Alpine Goat Man\" or any Ig Nobel prize winner, let alone a connection between the two. It seems to be discussing NASA and microbial life evidence.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.11613823157550232",
     "num_comments": "-0.12476323641396671"

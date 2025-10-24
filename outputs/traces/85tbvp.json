@@ -9,9 +9,9 @@
         "Fake": 0.02016375958919525
       },
       "vilt": {
-        "Real": 0.01047671027481556,
-        "SatireMixed": 0.5016582608222961,
-        "Fake": 0.48786497116088867
+        "Real": 0.010476733557879925,
+        "SatireMixed": 0.5016581416130066,
+        "Fake": 0.4878650903701782
       },
       "flava": {
         "Real": 0.0039357650093734264,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6652379035949707,
       "consistency_score": 0.5495713710784912
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "It looks like you provided a Japanese leaflet from World War II, specifically a \"farewell\" message to American soldiers. The text is written in English and appears to be an attempt to persuade or demoralize the US troops.\n\nUnfortunately, I don't know the answer to your question as it seems unrelated to the context you provided. If you'd like to ask something else or clarify what you're looking for, I'm here to help!"
     }
   ],
   "final": {
     "post_id": "85tbvp",
-    "final_label": "Uncertain",
-    "final_confidence": 0.536143904487292,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5361438647508621,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5495713710784912,
     "clip_cos": 0.6652379035949707,
     "ocr_text": "Le AMERICAN SOLDIERS!i ig ",
+    "retrieved_text": "It looks like you provided a Japanese leaflet from World War II, specifically a \"farewell\" message to American soldiers. The text is written in English and appears to be an attempt to persuade or demoralize the US troops.\n\nUnfortunately, I don't know the answer to your question as it seems unrelated to the context you provided. If you'd like to ask something else or clarify what you're looking for, I'm here to help!",
     "upvote_ratio": "1.2187418104000465",
     "score": "0.0030845379162856997",
     "num_comments": "0.1508009717533787"

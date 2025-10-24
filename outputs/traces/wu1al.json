@@ -9,9 +9,9 @@
         "Fake": 0.9983250498771667
       },
       "vilt": {
-        "Real": 0.015585252083837986,
-        "SatireMixed": 0.015689097344875336,
-        "Fake": 0.9687256217002869
+        "Real": 0.015584170818328857,
+        "SatireMixed": 0.015688583254814148,
+        "Fake": 0.9687272310256958
       },
       "flava": {
         "Real": 0.9886521697044373,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.601773276925087,
-      "consistency_score": 0.5610639661550522
+      "clip_cos": 0.6017732694745064,
+      "consistency_score": 0.5610639616847038
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question because it doesn't seem related to NASA, aliens, or microbial life, which were provided as context. The question appears to be about an \"elk foundation\" and \"anti-wolf remarks\", which is a completely different topic."
     }
   ],
   "final": {
     "post_id": "wu1al",
     "final_label": "Fake",
-    "final_confidence": 0.6609938379662732,
+    "final_confidence": 0.6609943741398553,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5610639661550522,
-    "clip_cos": 0.601773276925087,
+    "consistency_score": 0.5610639616847038,
+    "clip_cos": 0.6017732694745064,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question because it doesn't seem related to NASA, aliens, or microbial life, which were provided as context. The question appears to be about an \"elk foundation\" and \"anti-wolf remarks\", which is a completely different topic.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.12525909918689593",
     "num_comments": "-0.1454305520265176"

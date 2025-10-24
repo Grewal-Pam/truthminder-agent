@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9911239147186279,
-        "SatireMixed": 0.003774657379835844,
-        "Fake": 0.005101396236568689
+        "SatireMixed": 0.0037746501620858908,
+        "Fake": 0.005101398564875126
       },
       "flava": {
         "Real": 0.9896681308746338,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6928883790969849,
       "consistency_score": 0.6157330274581909
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about a \"pigeon patrol\" taking flight to address London's air pollution crisis, which seems unrelated to the provided context about NASA and extraterrestrial life. I'm not aware of any connection between these two topics."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6157330274581909,
     "clip_cos": 0.6928883790969849,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about a \"pigeon patrol\" taking flight to address London's air pollution crisis, which seems unrelated to the provided context about NASA and extraterrestrial life. I'm not aware of any connection between these two topics.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.138541446822334"

@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.987307608127594,
-        "SatireMixed": 0.003937566187232733,
+        "SatireMixed": 0.003937560599297285,
         "Fake": 0.008754812180995941
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6283002942800522,
-      "consistency_score": 0.5769801765680314
+      "clip_cos": 0.6283003091812134,
+      "consistency_score": 0.576980185508728
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not appear to be related to a photo of a storm or Sahara dust, so I cannot provide an answer."
     }
   ],
   "final": {
     "post_id": "c6dwbq",
     "final_label": "Real",
-    "final_confidence": 0.6713069681500395,
+    "final_confidence": 0.6713069686864813,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5769801765680314,
-    "clip_cos": 0.6283002942800522,
+    "consistency_score": 0.576980185508728,
+    "clip_cos": 0.6283003091812134,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not appear to be related to a photo of a storm or Sahara dust, so I cannot provide an answer.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.1281908066334153",
     "num_comments": "-0.11787413120978307"

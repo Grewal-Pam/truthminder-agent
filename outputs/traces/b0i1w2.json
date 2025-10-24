@@ -9,9 +9,9 @@
         "Fake": 0.8495703339576721
       },
       "vilt": {
-        "Real": 0.0048874919302761555,
-        "SatireMixed": 0.15160991251468658,
-        "Fake": 0.8435025811195374
+        "Real": 0.004887494258582592,
+        "SatireMixed": 0.1516103446483612,
+        "Fake": 0.8435021638870239
       },
       "flava": {
         "Real": 0.004119968041777611,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6172586157917976,
-      "consistency_score": 0.5703551694750786
+      "clip_cos": 0.617258608341217,
+      "consistency_score": 0.5703551650047303
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The information provided is about NASA and the search for extraterrestrial life, but it doesn't mention Japanese training schools at all. I'd need more context or information specifically related to Japanese training schools to provide an accurate answer."
     }
   ],
   "final": {
     "post_id": "b0i1w2",
     "final_label": "Fake",
-    "final_confidence": 0.8698133527735868,
+    "final_confidence": 0.8698132134278616,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5703551694750786,
-    "clip_cos": 0.6172586157917976,
+    "consistency_score": 0.5703551650047303,
+    "clip_cos": 0.617258608341217,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The information provided is about NASA and the search for extraterrestrial life, but it doesn't mention Japanese training schools at all. I'd need more context or information specifically related to Japanese training schools to provide an accurate answer.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.12102441065303461",
     "num_comments": "-0.13165234161815034"

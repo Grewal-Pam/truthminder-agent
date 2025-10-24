@@ -9,9 +9,9 @@
         "Fake": 9.465902985539287e-05
       },
       "vilt": {
-        "Real": 0.9854822158813477,
-        "SatireMixed": 0.0019127102568745613,
-        "Fake": 0.01260513998568058
+        "Real": 0.9854820966720581,
+        "SatireMixed": 0.0019127073464915156,
+        "Fake": 0.012605209834873676
       },
       "flava": {
         "Real": 0.005478955805301666,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6583138108253479,
       "consistency_score": 0.5949882864952087
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "Interesting context!\n\nAs it seems we're talking about extraterrestrial life or the lack thereof, I'll take a closer look at your question. You mentioned finding a \"little Politoed\" on the ground. Politoed is actually a Pokémon species, not an alien! So, in this case, I'd say:\n\n\"No need to worry about aliens here; it's just a cute little Politoed you found!\""
     }
   ],
   "final": {
     "post_id": "cuxtn2",
     "final_label": "Real",
-    "final_confidence": 0.6692973900834719,
+    "final_confidence": 0.6692973503470421,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5949882864952087,
     "clip_cos": 0.6583138108253479,
     "ocr_text": "",
+    "retrieved_text": "Interesting context!\n\nAs it seems we're talking about extraterrestrial life or the lack thereof, I'll take a closer look at your question. You mentioned finding a \"little Politoed\" on the ground. Politoed is actually a Pokémon species, not an alien! So, in this case, I'd say:\n\n\"No need to worry about aliens here; it's just a cute little Politoed you found!\"",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

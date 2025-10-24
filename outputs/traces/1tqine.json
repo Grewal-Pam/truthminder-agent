@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9809850454330444,
-        "SatireMixed": 0.0023708546068519354,
-        "Fake": 0.016644084826111794
+        "SatireMixed": 0.002370856935158372,
+        "Fake": 0.016644077375531197
       },
       "flava": {
         "Real": 0.9892494678497314,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6642173379659653,
       "consistency_score": 0.5985304027795791
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help with this question!\n\nSince the context is about NASA and extraterrestrial life, I don't think it's related to the topic \"ill man helps homeless one sock at a time\". Therefore, I'll just say that I don't know the answer. Can you please provide more context or clarify what you're asking?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5985304027795791,
     "clip_cos": 0.6642173379659653,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help with this question!\n\nSince the context is about NASA and extraterrestrial life, I don't think it's related to the topic \"ill man helps homeless one sock at a time\". Therefore, I'll just say that I don't know the answer. Can you please provide more context or clarify what you're asking?",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12330462755588302",
     "num_comments": "-0.138541446822334"

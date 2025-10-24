@@ -9,9 +9,9 @@
         "Fake": 0.0005013709305785596
       },
       "vilt": {
-        "Real": 0.9162228107452393,
-        "SatireMixed": 0.005457300692796707,
-        "Fake": 0.07831987738609314
+        "Real": 0.9162235260009766,
+        "SatireMixed": 0.005457283928990364,
+        "Fake": 0.07831921428442001
       },
       "flava": {
         "Real": 0.9656732082366943,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6500588953495026,
-      "consistency_score": 0.5450176686048507
+      "clip_cos": 0.6500588804483414,
+      "consistency_score": 0.5450176641345024
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what's going on with this question! It looks like a jumbled mix of letters and words that don't form a coherent sentence. Could you please rephrase or provide more context so I can better understand your question?"
     }
   ],
   "final": {
     "post_id": "64qd2o",
     "final_label": "Real",
-    "final_confidence": 0.9631345035036405,
+    "final_confidence": 0.9631347416539987,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5450176686048507,
-    "clip_cos": 0.6500588953495026,
+    "consistency_score": 0.5450176641345024,
+    "clip_cos": 0.6500588804483414,
     "ocr_text": "! cs weaa ea in",
+    "retrieved_text": "I'm not sure what's going on with this question! It looks like a jumbled mix of letters and words that don't form a coherent sentence. Could you please rephrase or provide more context so I can better understand your question?",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.026558281820743563",
     "num_comments": "-0.04209397396376308"

@@ -9,9 +9,9 @@
         "Fake": 0.9968950748443604
       },
       "vilt": {
-        "Real": 0.016311608254909515,
-        "SatireMixed": 0.008666587062180042,
-        "Fake": 0.9750218391418457
+        "Real": 0.016311025246977806,
+        "SatireMixed": 0.008666673675179482,
+        "Fake": 0.9750222563743591
       },
       "flava": {
         "Real": 0.004520391579717398,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.5969801172614098,
-      "consistency_score": 0.5290940351784229
+      "clip_cos": 0.5969801247119904,
+      "consistency_score": 0.5290940374135971
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! It seems like you're asking a question about NASA and alien life, but then suddenly mentioning \"Ele\". Could you please clarify what you mean by \"soon I will attack Ele\"? Is this related to the context about NASA and aliens? If not, could you provide more information so I can better understand your question?\n\nTo answer your original question: Based on the provided context, it seems that there is no conclusive evidence of alien life beyond microbial organisms. Therefore, I don't know if NASA has admitted or confirmed the existence of intelligent alien life (like \"Ele\" perhaps?)."
     }
   ],
   "final": {
     "post_id": "6j305k",
     "final_label": "Fake",
-    "final_confidence": 0.9714109310358763,
+    "final_confidence": 0.9714110702474912,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5290940351784229,
-    "clip_cos": 0.5969801172614098,
+    "consistency_score": 0.5290940374135971,
+    "clip_cos": 0.5969801247119904,
     "ocr_text": "Ele",
+    "retrieved_text": "I think there might be some confusion here! It seems like you're asking a question about NASA and alien life, but then suddenly mentioning \"Ele\". Could you please clarify what you mean by \"soon I will attack Ele\"? Is this related to the context about NASA and aliens? If not, could you provide more information so I can better understand your question?\n\nTo answer your original question: Based on the provided context, it seems that there is no conclusive evidence of alien life beyond microbial orga",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

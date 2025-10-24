@@ -9,9 +9,9 @@
         "Fake": 0.0027121524326503277
       },
       "vilt": {
-        "Real": 0.987198531627655,
-        "SatireMixed": 0.0022226895671337843,
-        "Fake": 0.010578833520412445
+        "Real": 0.9871984124183655,
+        "SatireMixed": 0.0022226881701499224,
+        "Fake": 0.010578848421573639
       },
       "flava": {
         "Real": 0.9893472194671631,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6494599729776382,
-      "consistency_score": 0.5896759837865829
+      "clip_cos": 0.6494599431753159,
+      "consistency_score": 0.5896759659051896
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to have any relevance to a question about an annoyed turtle escaping from a diver."
     }
   ],
   "final": {
     "post_id": "1um552",
     "final_label": "Real",
-    "final_confidence": 0.9966252327561378,
+    "final_confidence": 0.9966251919468244,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5896759837865829,
-    "clip_cos": 0.6494599729776382,
+    "consistency_score": 0.5896759659051896,
+    "clip_cos": 0.6494599431753159,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to have any relevance to a question about an annoyed turtle escaping from a diver.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.026558281820743563",
     "num_comments": "-0.028315763555395813"

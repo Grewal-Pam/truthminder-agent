@@ -9,9 +9,9 @@
         "Fake": 0.00874422863125801
       },
       "vilt": {
-        "Real": 0.007392049301415682,
-        "SatireMixed": 0.013640658929944038,
-        "Fake": 0.9789672493934631
+        "Real": 0.007392025552690029,
+        "SatireMixed": 0.01364064123481512,
+        "Fake": 0.9789673686027527
       },
       "flava": {
         "Real": 0.004163407254964113,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6031961590051651,
       "consistency_score": 0.5619176954030991
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nIt seems like there are two completely unrelated things going on in this question:\n\n1. The context about NASA and alien life.\n2. A seemingly unrelated phrase \"sit on my face\".\n\nSince the first part is about science and the second part appears to be a... unique request, I'm going to take a wild guess that you didn't mean for me to provide an answer related to the context.\n\nSo, I'll politely decline to respond to the second part of the question."
     }
   ],
   "final": {
     "post_id": "6ucluz",
     "final_label": "Fake",
-    "final_confidence": 0.6438279348909854,
+    "final_confidence": 0.6438279746274153,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5619176954030991,
     "clip_cos": 0.6031961590051651,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nIt seems like there are two completely unrelated things going on in this question:\n\n1. The context about NASA and alien life.\n2. A seemingly unrelated phrase \"sit on my face\".\n\nSince the first part is about science and the second part appears to be a... unique request, I'm going to take a wild guess that you didn't mean for me to provide an answer related to the context.\n\nSo, I'll politely decline to respond to the second part of the question.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

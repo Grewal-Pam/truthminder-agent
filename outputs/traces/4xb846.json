@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9544338583946228,
-        "SatireMixed": 0.003610130399465561,
-        "Fake": 0.04195597767829895
+        "SatireMixed": 0.0036101285368204117,
+        "Fake": 0.04195592924952507
       },
       "flava": {
         "Real": 0.9890542030334473,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6099742949008942,
       "consistency_score": 0.5329922884702682
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer. The question appears to be unrelated to NASA, aliens, or microbial life. It seems to be about a court case involving a man being released from custody. Without more information, I'm not able to provide a relevant or accurate response."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5329922884702682,
     "clip_cos": 0.6099742949008942,
     "ocr_text": "mfelKerola",
+    "retrieved_text": "I don't have enough context to provide a helpful answer. The question appears to be unrelated to NASA, aliens, or microbial life. It seems to be about a court case involving a man being released from custody. Without more information, I'm not able to provide a relevant or accurate response.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12232739174037656",
     "num_comments": "-0.1454305520265176"

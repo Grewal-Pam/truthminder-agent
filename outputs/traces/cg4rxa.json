@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9803080558776855,
-        "SatireMixed": 0.002167297061532736,
-        "Fake": 0.01752454601228237
+        "SatireMixed": 0.0021672958973795176,
+        "Fake": 0.01752455346286297
       },
       "flava": {
         "Real": 0.9895450472831726,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6721372008323669,
       "consistency_score": 0.6032823204994202
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have any relevance to answering whether a peach ring looks like a moon or not. It appears to be about space and the existence of aliens, which is unrelated to the question about the peach ring's appearance."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6032823204994202,
     "clip_cos": 0.6721372008323669,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have any relevance to answering whether a peach ring looks like a moon or not. It appears to be about space and the existence of aliens, which is unrelated to the question about the peach ring's appearance.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.1259105897305669",
     "num_comments": "-0.12476323641396671"

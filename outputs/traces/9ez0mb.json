@@ -9,9 +9,9 @@
         "Fake": 0.0010652445489540696
       },
       "vilt": {
-        "Real": 0.9858615398406982,
-        "SatireMixed": 0.0016598773654550314,
-        "Fake": 0.012478535994887352
+        "Real": 0.9858614206314087,
+        "SatireMixed": 0.001659870846197009,
+        "Fake": 0.012478688731789589
       },
       "flava": {
         "Real": 0.9896742701530457,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6514132469892502,
       "consistency_score": 0.5908479481935501
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The provided text does not mention Wendy's or drive-thrus, so I don't know the answer."
     }
   ],
   "final": {
     "post_id": "9ez0mb",
     "final_label": "Real",
-    "final_confidence": 0.9969371878504754,
+    "final_confidence": 0.9969371481140455,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5908479481935501,
     "clip_cos": 0.6514132469892502,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The provided text does not mention Wendy's or drive-thrus, so I don't know the answer.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.1281908066334153",
     "num_comments": "-0.138541446822334"

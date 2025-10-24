@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.971575140953064,
-        "SatireMixed": 0.0016011286061257124,
-        "Fake": 0.026823746040463448
+        "SatireMixed": 0.001601130235940218,
+        "Fake": 0.026823796331882477
       },
       "flava": {
         "Real": 0.9898188710212708,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.663527712225914,
       "consistency_score": 0.5981166273355484
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this one!\n\nSince the context is about NASA and alien life, it seems you're asking for a humorous or creative interpretation rather than a scientific answer. In that case, I'd say:\n\n\"Hmm, that's an... interesting observation! While Jupiter is a gas giant planet known for its distinctive banded pattern, I'm not sure what your dentist's floor would have in common with the planet. Perhaps it has a similar swirling design or maybe there's a fun mural of Jupiter on the floor? Whatever the reason, it's certainly a unique and... astronomical observation!\""
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5981166273355484,
     "clip_cos": 0.663527712225914,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this one!\n\nSince the context is about NASA and alien life, it seems you're asking for a humorous or creative interpretation rather than a scientific answer. In that case, I'd say:\n\n\"Hmm, that's an... interesting observation! While Jupiter is a gas giant planet known for its distinctive banded pattern, I'm not sure what your dentist's floor would have in common with the planet. Perhaps it has a similar swirling design or maybe there's a fun mural of Jupiter on the floor? W",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

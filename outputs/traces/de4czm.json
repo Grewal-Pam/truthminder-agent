@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9880384206771851,
-        "SatireMixed": 0.0024366327561438084,
+        "SatireMixed": 0.002436633687466383,
         "Fake": 0.009524988941848278
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6335598528385162,
       "consistency_score": 0.5801359117031097
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and extraterrestrial life, which seems unrelated to a dog's experience or happiness. There isn't enough information to answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5801359117031097,
     "clip_cos": 0.6335598528385162,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and extraterrestrial life, which seems unrelated to a dog's experience or happiness. There isn't enough information to answer this question.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.1285165519052508",
     "num_comments": "-0.11787413120978307"

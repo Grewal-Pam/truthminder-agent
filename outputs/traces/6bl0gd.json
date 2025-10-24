@@ -9,9 +9,9 @@
         "Fake": 0.9981861710548401
       },
       "vilt": {
-        "Real": 0.0033892043866217136,
-        "SatireMixed": 0.049451906234025955,
-        "Fake": 0.9471588730812073
+        "Real": 0.0033892046194523573,
+        "SatireMixed": 0.0494517907500267,
+        "Fake": 0.947158932685852
       },
       "flava": {
         "Real": 0.989248514175415,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.587645523250103,
       "consistency_score": 0.5262936569750308
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, so I'm unable to provide an answer based on the given information."
     }
   ],
   "final": {
     "post_id": "6bl0gd",
     "final_label": "Fake",
-    "final_confidence": 0.6514880802656213,
+    "final_confidence": 0.6514881001338363,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5262936569750308,
     "clip_cos": 0.587645523250103,
     "ocr_text": "ENCE AVIATION POSTaes",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, so I'm unable to provide an answer based on the given information.",
     "upvote_ratio": "0.855010790396182",
     "score": "0.6135311773359872",
     "num_comments": "0.13702276134501143"

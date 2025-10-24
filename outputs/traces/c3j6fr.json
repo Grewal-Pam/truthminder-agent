@@ -9,9 +9,9 @@
         "Fake": 0.0005037561058998108
       },
       "vilt": {
-        "Real": 0.8480989933013916,
-        "SatireMixed": 0.01059555634856224,
-        "Fake": 0.14130555093288422
+        "Real": 0.8480986952781677,
+        "SatireMixed": 0.010595562867820263,
+        "Fake": 0.14130564033985138
       },
       "flava": {
         "Real": 0.00910985004156828,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6949489265680313,
       "consistency_score": 0.5584846779704093
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The text you provided doesn't seem to be related to the question about how to treat a prostitute in Amsterdam, and I'm not familiar with any specific \"ten commandments\" regarding this topic. Can you provide more context or clarify what you're looking for?"
     }
   ],
   "final": {
     "post_id": "c3j6fr",
     "final_label": "Real",
-    "final_confidence": 0.622311686185499,
+    "final_confidence": 0.6223115868444243,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5584846779704093,
     "clip_cos": 0.6949489265680313,
     "ocr_text": "EN COMMANDMENTSPrinciplesof behaviourtowardsprostitutes1 oven gto2 bomtuperetonne noe5 bameeadtetanonsesevenminrenySioeiande staan meearnerSaecoFhncten nnapec amano ning Wore,birle",
+    "retrieved_text": "I don't know. The text you provided doesn't seem to be related to the question about how to treat a prostitute in Amsterdam, and I'm not familiar with any specific \"ten commandments\" regarding this topic. Can you provide more context or clarify what you're looking for?",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.045451507587201775",
     "num_comments": "0.06813170930317508"

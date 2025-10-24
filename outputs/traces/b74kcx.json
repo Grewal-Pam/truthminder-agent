@@ -9,8 +9,8 @@
         "Fake": 0.9993528723716736
       },
       "vilt": {
-        "Real": 0.004014289937913418,
-        "SatireMixed": 0.024209046736359596,
+        "Real": 0.004014293663203716,
+        "SatireMixed": 0.024209054186940193,
         "Fake": 0.9717766046524048
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6200179681181908,
       "consistency_score": 0.5720107808709145
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA or aliens, and there's no information provided about the \"little fella\" being connected to any of those topics."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5720107808709145,
     "clip_cos": 0.6200179681181908,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA or aliens, and there's no information provided about the \"little fella\" being connected to any of those topics.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

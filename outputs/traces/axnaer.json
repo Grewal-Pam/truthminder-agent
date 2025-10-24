@@ -9,9 +9,9 @@
         "Fake": 0.000417316856328398
       },
       "vilt": {
-        "Real": 0.5136117339134216,
-        "SatireMixed": 0.022622905671596527,
-        "Fake": 0.46376535296440125
+        "Real": 0.5136097073554993,
+        "SatireMixed": 0.022622935473918915,
+        "Fake": 0.46376731991767883
       },
       "flava": {
         "Real": 0.9889089465141296,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6607429385185242,
-      "consistency_score": 0.5964457631111145
+      "clip_cos": 0.6607429087162018,
+      "consistency_score": 0.596445745229721
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about new drink driving lanes being proposed in Ireland. The context you provided is unrelated to this topic, and I'm not aware of any relevant information. If you'd like, I can try searching for more information or provide general guidelines on how to find the answer."
     }
   ],
   "final": {
     "post_id": "axnaer",
     "final_label": "Real",
-    "final_confidence": 0.8398106386661529,
+    "final_confidence": 0.8398099620739619,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5964457631111145,
-    "clip_cos": 0.6607429385185242,
+    "consistency_score": 0.596445745229721,
+    "clip_cos": 0.6607429087162018,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about new drink driving lanes being proposed in Ireland. The context you provided is unrelated to this topic, and I'm not aware of any relevant information. If you'd like, I can try searching for more information or provide general guidelines on how to find the answer.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.07084346562623978
       },
       "vilt": {
-        "Real": 0.9831318855285645,
-        "SatireMixed": 0.0016853715060278773,
-        "Fake": 0.015182845294475555
+        "Real": 0.9831317663192749,
+        "SatireMixed": 0.0016853713896125555,
+        "Fake": 0.01518289465457201
       },
       "flava": {
         "Real": 0.9892081618309021,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6349078267812729,
       "consistency_score": 0.5404723480343818
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and microbial life evidence, but it doesn't mention anything about a puppy mill or police rescues."
     }
   ],
   "final": {
     "post_id": "4shnlf",
     "final_label": "Real",
-    "final_confidence": 0.9694475213388601,
+    "final_confidence": 0.9694474816024303,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5404723480343818,
     "clip_cos": 0.6349078267812729,
     "ocr_text": "Py",
+    "retrieved_text": "I don't know. The context provided is about NASA and microbial life evidence, but it doesn't mention anything about a puppy mill or police rescues.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.08942711928499243",
     "num_comments": "-0.06965039478049763"

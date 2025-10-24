@@ -9,9 +9,9 @@
         "Fake": 0.0006625016685575247
       },
       "vilt": {
-        "Real": 0.6435917019844055,
-        "SatireMixed": 0.010346661321818829,
-        "Fake": 0.34606167674064636
+        "Real": 0.643596351146698,
+        "SatireMixed": 0.010346602648496628,
+        "Fake": 0.34605708718299866
       },
       "flava": {
         "Real": 0.9882432818412781,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6563699394464493,
       "consistency_score": 0.5938219636678695
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the context provided, which is about NASA and extraterrestrial life. Emus are large flightless birds native to Australia, and an \"Emu War\" refers to a conflict between Australian soldiers and emus in 1932. The question seems to be asking about genetically enhanced soldiers being introduced into this conflict, which doesn't match the context provided."
     }
   ],
   "final": {
     "post_id": "coly5k",
     "final_label": "Real",
-    "final_confidence": 0.8826548823316892,
+    "final_confidence": 0.8826564320524534,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5938219636678695,
     "clip_cos": 0.6563699394464493,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the context provided, which is about NASA and extraterrestrial life. Emus are large flightless birds native to Australia, and an \"Emu War\" refers to a conflict between Australian soldiers and emus in 1932. The question seems to be asking about genetically enhanced soldiers being introduced into this conflict, which doesn't match the context provided.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12167590119670559",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.9992372989654541
       },
       "vilt": {
-        "Real": 0.5619903802871704,
-        "SatireMixed": 0.010637191124260426,
-        "Fake": 0.42737239599227905
+        "Real": 0.5619876384735107,
+        "SatireMixed": 0.010637235827744007,
+        "Fake": 0.42737507820129395
       },
       "flava": {
         "Real": 0.01315664779394865,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6576210558414459,
       "consistency_score": 0.19728631675243377
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what you're trying to ask with that question! It seems like a jumbled mix of letters and words. Can you please rephrase or provide more context so I can better understand your question?"
     }
   ],
   "final": {
     "post_id": "awtdhy",
     "final_label": "Fake",
-    "final_confidence": 0.7716832416653633,
+    "final_confidence": 0.7716841357350349,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19728631675243377,
     "clip_cos": 0.6576210558414459,
     "ocr_text": "Bn ue eRRe ees unrDe eee Une eePM eae Rei",
+    "retrieved_text": "I'm not sure what you're trying to ask with that question! It seems like a jumbled mix of letters and words. Can you please rephrase or provide more context so I can better understand your question?",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11841844847835073",
     "num_comments": "-0.12476323641396671"

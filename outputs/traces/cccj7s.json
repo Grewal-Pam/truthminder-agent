@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9889096617698669,
-        "SatireMixed": 0.003533710725605488,
-        "Fake": 0.007556747179478407
+        "SatireMixed": 0.003533713985234499,
+        "Fake": 0.0075567360036075115
       },
       "flava": {
         "Real": 0.9891787767410278,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6124440804123878,
       "consistency_score": 0.5674664482474328
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I see what's going on here! This question seems like a play on words or a misdirection. The phrase \"this pup in a parcel\" doesn't seem related to NASA, aliens, or microbial life at all!\n\nSo, I'm going to take a wild guess and say that the answer might be something along the lines of: \"A wrapped dog treat?\" But honestly, I have no idea what this question is really getting at!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5674664482474328,
     "clip_cos": 0.6124440804123878,
     "ocr_text": "",
+    "retrieved_text": "I see what's going on here! This question seems like a play on words or a misdirection. The phrase \"this pup in a parcel\" doesn't seem related to NASA, aliens, or microbial life at all!\n\nSo, I'm going to take a wild guess and say that the answer might be something along the lines of: \"A wrapped dog treat?\" But honestly, I have no idea what this question is really getting at!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.12688782554607336",
     "num_comments": "-0.13165234161815034"

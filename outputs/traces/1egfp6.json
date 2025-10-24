@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.990321934223175,
-        "SatireMixed": 0.003890554653480649,
-        "Fake": 0.00578751927241683
+        "SatireMixed": 0.0038905658293515444,
+        "Fake": 0.0057875108905136585
       },
       "flava": {
         "Real": 0.9898397922515869,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6797693371772766,
-      "consistency_score": 0.607861602306366
+      "clip_cos": 0.679769292473793,
+      "consistency_score": 0.6078615754842758
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think I can help with this question as it seems unrelated to NASA, space exploration, or the context provided. The text appears to be about a news story involving a person stuck in a McDonald's baby high chair and being freed by the police, which doesn't seem to have any connection to aliens, microbial life, or NASA. I'm happy to try and help with any other questions you might have!"
     }
   ],
   "final": {
     "post_id": "1egfp6",
     "final_label": "Real",
-    "final_confidence": 0.9997558619976044,
+    "final_confidence": 0.9997558603882789,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.607861602306366,
-    "clip_cos": 0.6797693371772766,
+    "consistency_score": 0.6078615754842758,
+    "clip_cos": 0.679769292473793,
     "ocr_text": "",
+    "retrieved_text": "I don't think I can help with this question as it seems unrelated to NASA, space exploration, or the context provided. The text appears to be about a news story involving a person stuck in a McDonald's baby high chair and being freed by the police, which doesn't seem to have any connection to aliens, microbial life, or NASA. I'm happy to try and help with any other questions you might have!",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12558484445873141",
     "num_comments": "-0.11787413120978307"

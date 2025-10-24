@@ -9,8 +9,8 @@
         "Fake": 0.0011229265946894884
       },
       "vilt": {
-        "Real": 0.00567986536771059,
-        "SatireMixed": 0.0127958869561553,
+        "Real": 0.005679890047758818,
+        "SatireMixed": 0.01279585063457489,
         "Fake": 0.9815242886543274
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.5967353135347366,
-      "consistency_score": 0.558041188120842
+      "clip_cos": 0.5967353209853172,
+      "consistency_score": 0.5580411925911903
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and extraterrestrial life, which is unrelated to the topic of a rare orange prickly pear cactus."
     }
   ],
   "final": {
     "post_id": "5d9iip",
     "final_label": "Real",
-    "final_confidence": 0.6666749089385072,
+    "final_confidence": 0.6666749174334109,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.558041188120842,
-    "clip_cos": 0.5967353135347366,
+    "consistency_score": 0.5580411925911903,
+    "clip_cos": 0.5967353209853172,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and extraterrestrial life, which is unrelated to the topic of a rare orange prickly pear cactus.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.07151112933404069",
     "num_comments": "-0.138541446822334"

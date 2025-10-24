@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9778435826301575,
-        "SatireMixed": 0.0016022055642679334,
-        "Fake": 0.020554235205054283
+        "SatireMixed": 0.0016022033523768187,
+        "Fake": 0.02055423893034458
       },
       "flava": {
         "Real": 0.9887872338294983,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6282760947942734,
       "consistency_score": 0.576965656876564
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer for this question. The topic appears to be unrelated to NASA, space exploration, or the existence of aliens, which were mentioned in the provided context. If you'd like me to help with something else, feel free to ask!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.576965656876564,
     "clip_cos": 0.6282760947942734,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer for this question. The topic appears to be unrelated to NASA, space exploration, or the existence of aliens, which were mentioned in the provided context. If you'd like me to help with something else, feel free to ask!",
     "upvote_ratio": "0.6731452803942507",
     "score": "0.04999185706059574",
     "num_comments": "0.6605947568629676"

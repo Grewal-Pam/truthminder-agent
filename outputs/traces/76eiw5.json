@@ -9,7 +9,7 @@
         "Fake": 0.0003261597012169659
       },
       "vilt": {
-        "Real": 0.003628944046795368,
+        "Real": 0.0036289405543357134,
         "SatireMixed": 0.013581967912614346,
         "Fake": 0.9827890992164612
       },
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6442994177341461,
       "consistency_score": 0.5865796506404877
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't provide any information about rocks being happy or having emotions. Rocks are inanimate objects, and happiness is a subjective human emotion. This question seems unrelated to the provided NASA context."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5865796506404877,
     "clip_cos": 0.6442994177341461,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't provide any information about rocks being happy or having emotions. Rocks are inanimate objects, and happiness is a subjective human emotion. This question seems unrelated to the provided NASA context.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.0010201227851212025
       },
       "vilt": {
-        "Real": 0.011454129591584206,
-        "SatireMixed": 0.016041267663240433,
-        "Fake": 0.9725046157836914
+        "Real": 0.011454243212938309,
+        "SatireMixed": 0.01604125276207924,
+        "Fake": 0.9725044965744019
       },
       "flava": {
         "Real": 0.005160345230251551,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6313149780035019,
       "consistency_score": 0.5787889868021011
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"liberty burning\" doesn't seem to be related to the context provided about NASA and alien life, so I'm unable to provide an answer. If you could clarify what you mean by \"liberty burning\", I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "10ny1u",
     "final_label": "Fake",
-    "final_confidence": 0.6428989885908862,
+    "final_confidence": 0.6428989488544563,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5787889868021011,
     "clip_cos": 0.6313149780035019,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"liberty burning\" doesn't seem to be related to the context provided about NASA and alien life, so I'm unable to provide an answer. If you could clarify what you mean by \"liberty burning\", I'd be happy to try and help!",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.11776695793467976",
     "num_comments": "-0.1454305520265176"

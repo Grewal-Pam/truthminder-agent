@@ -9,9 +9,9 @@
         "Fake": 0.9348602890968323
       },
       "vilt": {
-        "Real": 0.8477559685707092,
-        "SatireMixed": 0.0065609910525381565,
-        "Fake": 0.14568305015563965
+        "Real": 0.8477553725242615,
+        "SatireMixed": 0.006561002228409052,
+        "Fake": 0.14568355679512024
       },
       "flava": {
         "Real": 0.9894746541976929,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.644231304526329,
       "consistency_score": 0.5865387827157974
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't mention anything about plants or sinks, so I can't provide an answer about the lima bean plant growing in your science room sink."
     }
   ],
   "final": {
     "post_id": "dglcys",
     "final_label": "Real",
-    "final_confidence": 0.6392511476675669,
+    "final_confidence": 0.6392509489854177,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5865387827157974,
     "clip_cos": 0.644231304526329,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and extraterrestrial life, but it doesn't mention anything about plants or sinks, so I can't provide an answer about the lima bean plant growing in your science room sink.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.1213501559248701",
     "num_comments": "-0.13165234161815034"

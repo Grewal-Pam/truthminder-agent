@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9874375462532043,
-        "SatireMixed": 0.0021099962759763002,
-        "Fake": 0.010452439077198505
+        "SatireMixed": 0.0021099974401295185,
+        "Fake": 0.010452424176037312
       },
       "flava": {
         "Real": 0.9897524118423462,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.7013863623142242,
       "consistency_score": 0.5604159086942673
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information that's relevant to the question. The text appears to be an Asda receipt promotion for breast cancer awareness and education, but it doesn't provide any answers or details related to NASA, aliens, or microbial life evidence. If you're looking for information on those topics, I'd recommend searching elsewhere or reaching out to a relevant source (e.g., NASA)."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5604159086942673,
     "clip_cos": 0.7013863623142242,
     "ocr_text": "erms and conditk you for shopping at Asda, ASDA Tickled Pinkyour proudly supportsKS 5 Breast Cancer Now Breast Cancer Care.DID YOU KNOW?Breast cancer is the mostcommon cancer in th",
+    "retrieved_text": "I don't have any information that's relevant to the question. The text appears to be an Asda receipt promotion for breast cancer awareness and education, but it doesn't provide any answers or details related to NASA, aliens, or microbial life evidence. If you're looking for information on those topics, I'd recommend searching elsewhere or reaching out to a relevant source (e.g., NASA).",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.138541446822334"

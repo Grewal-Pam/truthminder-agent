@@ -9,9 +9,9 @@
         "Fake": 0.9993816614151001
       },
       "vilt": {
-        "Real": 0.18372882902622223,
-        "SatireMixed": 0.024523379281163216,
-        "Fake": 0.7917478680610657
+        "Real": 0.1837294101715088,
+        "SatireMixed": 0.02452337183058262,
+        "Fake": 0.7917472720146179
       },
       "flava": {
         "Real": 0.004431982059031725,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6625839024782181,
       "consistency_score": 0.8987751707434654
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided appears to be unrelated to the question about a bookshelf and a brick collection, so I'm unable to provide an accurate answer."
     }
   ],
   "final": {
     "post_id": "at1mxt",
     "final_label": "Fake",
-    "final_confidence": 0.9336145061552524,
+    "final_confidence": 0.9336143074731031,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.8987751707434654,
     "clip_cos": 0.6625839024782181,
     "ocr_text": "Made  book shelf for my brick collection",
+    "retrieved_text": "I don't know. The context provided appears to be unrelated to the question about a bookshelf and a brick collection, so I'm unable to provide an accurate answer.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.11613823157550232",
     "num_comments": "-0.1454305520265176"

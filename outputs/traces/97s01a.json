@@ -9,8 +9,8 @@
         "Fake": 0.9949199557304382
       },
       "vilt": {
-        "Real": 0.012977288104593754,
-        "SatireMixed": 0.010438738390803337,
+        "Real": 0.01297731976956129,
+        "SatireMixed": 0.010438723489642143,
         "Fake": 0.9765839576721191
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6608313918113708,
       "consistency_score": 0.5964988350868226
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nSince your question doesn't have anything to do with NASA, alien life, or microbial evidence, I'm going to take a wild guess and say... \"Nope, headphones can't be happy because they're inanimate objects!\""
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5964988350868226,
     "clip_cos": 0.6608313918113708,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nSince your question doesn't have anything to do with NASA, alien life, or microbial evidence, I'm going to take a wild guess and say... \"Nope, headphones can't be happy because they're inanimate objects!\"",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

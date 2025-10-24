@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9840616583824158,
-        "SatireMixed": 0.0031406397465616465,
-        "Fake": 0.012797714211046696
+        "SatireMixed": 0.003140629269182682,
+        "Fake": 0.012797769159078598
       },
       "flava": {
         "Real": 0.004937417339533567,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6499448865652084,
       "consistency_score": 0.5899669319391251
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to help with this question. The information provided about NASA and microbial life seems unrelated to a \"little stain\" being happy or unhappy about cleaning day. Can you provide more context or clarify the connection between these seemingly disparate topics?"
     }
   ],
   "final": {
     "post_id": "85or80",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5954892049754659,
+    "final_label": "Fake",
+    "final_confidence": 0.5954892232914766,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5899669319391251,
     "clip_cos": 0.6499448865652084,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to help with this question. The information provided about NASA and microbial life seems unrelated to a \"little stain\" being happy or unhappy about cleaning day. Can you provide more context or clarify the connection between these seemingly disparate topics?",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

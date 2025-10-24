@@ -9,9 +9,9 @@
         "Fake": 0.0026348624378442764
       },
       "vilt": {
-        "Real": 0.9772148728370667,
-        "SatireMixed": 0.001310013816691935,
-        "Fake": 0.021475160494446754
+        "Real": 0.9772146344184875,
+        "SatireMixed": 0.0013100147480145097,
+        "Fake": 0.02147533930838108
       },
       "flava": {
         "Real": 0.9892216920852661,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6382709294557571,
       "consistency_score": 0.5829625576734543
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't have anything to do with NASA, aliens, or microbial life evidence. It's a completely unrelated topic. I'm not aware of any information about a flight attendant accidentally launching an inflatable slide before takeoff."
     }
   ],
   "final": {
     "post_id": "dahw93",
     "final_label": "Real",
-    "final_confidence": 0.9925390190879504,
+    "final_confidence": 0.9925389396150908,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5829625576734543,
     "clip_cos": 0.6382709294557571,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't have anything to do with NASA, aliens, or microbial life evidence. It's a completely unrelated topic. I'm not aware of any information about a flight attendant accidentally launching an inflatable slide before takeoff.",
     "upvote_ratio": "1.1278090553990805",
     "score": "1.8539691724855196",
     "num_comments": "2.0935286393331642"

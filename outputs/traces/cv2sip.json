@@ -9,9 +9,9 @@
         "Fake": 0.006115743890404701
       },
       "vilt": {
-        "Real": 0.11970420926809311,
-        "SatireMixed": 0.6997056603431702,
-        "Fake": 0.18059015274047852
+        "Real": 0.1197047084569931,
+        "SatireMixed": 0.6997056007385254,
+        "Fake": 0.1805896759033203
       },
       "flava": {
         "Real": 0.004016266670078039,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6490204036235809,
       "consistency_score": 0.5447061210870743
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA's search for extraterrestrial life or the context provided, and it seems to be asking me to take a stance on something that is not relevant to the original information."
     }
   ],
   "final": {
     "post_id": "cv2sip",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5970316249132156,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5970316050450006,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5447061210870743,
     "clip_cos": 0.6490204036235809,
     "ocr_text": "BACK THEM UP!",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA's search for extraterrestrial life or the context provided, and it seems to be asking me to take a stance on something that is not relevant to the original information.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.10473714706126029",
     "num_comments": "-0.11787413120978307"

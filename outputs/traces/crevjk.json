@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9891552329063416,
-        "SatireMixed": 0.002930783899500966,
-        "Fake": 0.007913943380117416
+        "SatireMixed": 0.002930782502517104,
+        "Fake": 0.007913950830698013
       },
       "flava": {
         "Real": 0.9896880984306335,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.6707310825586319,
-      "consistency_score": 0.20121932476758955
+      "clip_cos": 0.6707310676574707,
+      "consistency_score": 0.2012193202972412
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! The question \"this cat lying next to a bottle Nosunogarin\" doesn't seem to have any relevance to the context about NASA and alien life. I'm not sure what kind of information is being asked for or what Nosunogarin refers to. Could you please clarify or provide more context?"
     }
   ],
   "final": {
     "post_id": "crevjk",
     "final_label": "ABSTAIN",
-    "final_confidence": 0.9749726170996824,
+    "final_confidence": 0.9749726168314615,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.20121932476758955,
-    "clip_cos": 0.6707310825586319,
+    "consistency_score": 0.2012193202972412,
+    "clip_cos": 0.6707310676574707,
     "ocr_text": "Nosunogarin",
+    "retrieved_text": "I think there might be some confusion here! The question \"this cat lying next to a bottle Nosunogarin\" doesn't seem to have any relevance to the context about NASA and alien life. I'm not sure what kind of information is being asked for or what Nosunogarin refers to. Could you please clarify or provide more context?",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.1259105897305669",
     "num_comments": "-0.12476323641396671"

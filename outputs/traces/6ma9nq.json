@@ -9,8 +9,8 @@
         "Fake": 0.00010733912495197728
       },
       "vilt": {
-        "Real": 0.012589627876877785,
-        "SatireMixed": 0.019333435222506523,
+        "Real": 0.012589634396135807,
+        "SatireMixed": 0.019333453848958015,
         "Fake": 0.9680768847465515
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5805636569857597,
       "consistency_score": 0.5483381941914558
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, based on the provided context, I don't think the question \"golden retriever boye conquering the stairs for the us explained that the earth is round\" has any relevance to NASA or the existence of aliens. The context only mentions NASA's stance on alien life and microbial evidence from independent missions.\n\nSo, I'll have to say... I don't know!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5483381941914558,
     "clip_cos": 0.5805636569857597,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, based on the provided context, I don't think the question \"golden retriever boye conquering the stairs for the us explained that the earth is round\" has any relevance to NASA or the existence of aliens. The context only mentions NASA's stance on alien life and microbial evidence from independent missions.\n\nSo, I'll have to say... I don't know!",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12884229717708628",
     "num_comments": "-0.0076484479428449055"

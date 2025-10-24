@@ -9,9 +9,9 @@
         "Fake": 0.009429353289306164
       },
       "vilt": {
-        "Real": 0.7581707835197449,
-        "SatireMixed": 0.006835654843598604,
-        "Fake": 0.23499348759651184
+        "Real": 0.7581724524497986,
+        "SatireMixed": 0.006835624109953642,
+        "Fake": 0.23499193787574768
       },
       "flava": {
         "Real": 0.01114386972039938,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6989144682884216,
       "consistency_score": 0.619348680973053
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what this question is asking or how Eric Andre and AOC are related to NASA's admission of alien existence (since they aren't). Could you please provide more context or clarify the question? As it stands, I don't know the answer."
     }
   ],
   "final": {
     "post_id": "b1pm7q",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5932640643393,
+    "final_label": "Real",
+    "final_confidence": 0.5932646206493178,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.619348680973053,
     "clip_cos": 0.6989144682884216,
     "ocr_text": "",
+    "retrieved_text": "I'm not sure what this question is asking or how Eric Andre and AOC are related to NASA's admission of alien existence (since they aren't). Could you please provide more context or clarify the question? As it stands, I don't know the answer.",
     "upvote_ratio": "-2.6913666546414934",
     "score": "-0.12786506136157982",
     "num_comments": "-0.04898307916794672"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9724029302597046,
-        "SatireMixed": 0.002668292261660099,
-        "Fake": 0.0249288622289896
+        "SatireMixed": 0.0026682934258133173,
+        "Fake": 0.024928731843829155
       },
       "flava": {
         "Real": 0.9894940257072449,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.652533084154129,
-      "consistency_score": 0.5915198504924775
+      "clip_cos": 0.6525331139564514,
+      "consistency_score": 0.5915198683738708
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention a cup or its breaking."
     }
   ],
   "final": {
     "post_id": "9c8nlw",
     "final_label": "Real",
-    "final_confidence": 0.6599183960867425,
+    "final_confidence": 0.6599183971596261,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5915198504924775,
-    "clip_cos": 0.652533084154129,
+    "consistency_score": 0.5915198683738708,
+    "clip_cos": 0.6525331139564514,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention a cup or its breaking.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.06923091243119228",
     "num_comments": "-0.05587218437213035"

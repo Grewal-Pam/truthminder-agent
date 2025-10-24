@@ -9,9 +9,9 @@
         "Fake": 0.9950609803199768
       },
       "vilt": {
-        "Real": 0.020918505266308784,
-        "SatireMixed": 0.01226221676915884,
-        "Fake": 0.9668192267417908
+        "Real": 0.020918408408761024,
+        "SatireMixed": 0.012262229807674885,
+        "Fake": 0.9668193459510803
       },
       "flava": {
         "Real": 0.005140544846653938,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6724713742733002,
       "consistency_score": 0.6034828245639801
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! The question and context provided don't seem related at all. It looks like a joke or a play on words. \"Happy\" ice cream is quite an unusual concept!\n\nSo, I'll just politely respond with... I don't know?"
     }
   ],
   "final": {
     "post_id": "6gib83",
     "final_label": "Fake",
-    "final_confidence": 0.9740953180392583,
+    "final_confidence": 0.9740953577756881,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6034828245639801,
     "clip_cos": 0.6724713742733002,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here! The question and context provided don't seem related at all. It looks like a joke or a play on words. \"Happy\" ice cream is quite an unusual concept!\n\nSo, I'll just politely respond with... I don't know?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

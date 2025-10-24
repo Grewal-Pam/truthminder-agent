@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9841800928115845,
         "SatireMixed": 0.002147962339222431,
-        "Fake": 0.013671938329935074
+        "Fake": 0.01367191132158041
       },
       "flava": {
         "Real": 0.9892710447311401,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6552805751562119,
       "consistency_score": 0.5931683450937271
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a reporter rescuing two dolphins while covering Hurricane Irma, and I'm not aware of any connection between this event and the existence or non-existence of aliens. NASA's confirmation of microbial life evidence doesn't mention dolphins or hurricanes, so it seems unrelated to this specific question. If you'd like me to help with something else, feel free to ask!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5931683450937271,
     "clip_cos": 0.6552805751562119,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a reporter rescuing two dolphins while covering Hurricane Irma, and I'm not aware of any connection between this event and the existence or non-existence of aliens. NASA's confirmation of microbial life evidence doesn't mention dolphins or hurricanes, so it seems unrelated to this specific question. If you'd like me to help with something else, feel free to ask!",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.0037561127922595143",
     "num_comments": "-0.06965039478049763"

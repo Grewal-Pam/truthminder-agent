@@ -9,9 +9,9 @@
         "Fake": 0.3021533787250519
       },
       "vilt": {
-        "Real": 0.8252387642860413,
-        "SatireMixed": 0.007911751046776772,
-        "Fake": 0.1668495237827301
+        "Real": 0.825238823890686,
+        "SatireMixed": 0.007911743596196175,
+        "Fake": 0.16684946417808533
       },
       "flava": {
         "Real": 0.9708063006401062,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6848293244838715,
       "consistency_score": 0.6108975946903229
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about Jeff Bezos unveiling Blue Origin's vision for space and a moon lander, but there is no clear connection to the context about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "bo2j6p",
     "final_label": "Real",
-    "final_confidence": 0.8377910161415736,
+    "final_confidence": 0.8377910360097885,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6108975946903229,
     "clip_cos": 0.6848293244838715,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about Jeff Bezos unveiling Blue Origin's vision for space and a moon lander, but there is no clear connection to the context about NASA and alien life.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12981953299259275",
     "num_comments": "-0.13165234161815034"

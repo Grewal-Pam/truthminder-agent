@@ -9,9 +9,9 @@
         "Fake": 0.00015404964506160468
       },
       "vilt": {
-        "Real": 0.9840113520622253,
-        "SatireMixed": 0.0018569870153442025,
-        "Fake": 0.014131598174571991
+        "Real": 0.9840114712715149,
+        "SatireMixed": 0.0018569906242191792,
+        "Fake": 0.014131512492895126
       },
       "flava": {
         "Real": 0.007419917732477188,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6304632425308228,
       "consistency_score": 0.5782779455184937
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "That's quite an interesting sighting! However, I think it's important to consider that U-Haul trucks are typically driven by humans and don't have the capability to hover. It's possible that you might have seen a plane or drone flying overhead that resembled a hovering truck. Or, maybe there was some unusual atmospheric condition that made the sun or clouds appear to be moving in a way that looked like a hovering object.\n\nIt's also important to note that just because we haven't found evidence of aliens yet doesn't mean they don't exist. But in this case, I think it's more likely that what you saw was something explainable and not an extraterrestrial vehicle."
     }
   ],
   "final": {
     "post_id": "c8o101",
     "final_label": "Real",
-    "final_confidence": 0.6684444157779217,
+    "final_confidence": 0.6684444555143515,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5782779455184937,
     "clip_cos": 0.6304632425308228,
     "ocr_text": "",
+    "retrieved_text": "That's quite an interesting sighting! However, I think it's important to consider that U-Haul trucks are typically driven by humans and don't have the capability to hover. It's possible that you might have seen a plane or drone flying overhead that resembled a hovering truck. Or, maybe there was some unusual atmospheric condition that made the sun or clouds appear to be moving in a way that looked like a hovering object.\n\nIt's also important to note that just because we haven't found evidence of",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.11874419375018622",
     "num_comments": "-0.0834286051888649"

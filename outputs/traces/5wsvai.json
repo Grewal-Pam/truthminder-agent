@@ -9,9 +9,9 @@
         "Fake": 0.935413658618927
       },
       "vilt": {
-        "Real": 0.6907602548599243,
-        "SatireMixed": 0.01473713107407093,
-        "Fake": 0.2945025861263275
+        "Real": 0.6907617449760437,
+        "SatireMixed": 0.014737081713974476,
+        "Fake": 0.2945012152194977
       },
       "flava": {
         "Real": 0.987514078617096,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6430168002843857,
       "consistency_score": 0.5858100801706314
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not relate to Trump or mass protests, but rather NASA and extraterrestrial life. Therefore, I am unable to provide an answer to the question \"trump outlines bold vision for nations next mass protests\" as it is not relevant to the given context."
     }
   ],
   "final": {
     "post_id": "5wsvai",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5860828387737275,
+    "final_label": "Real",
+    "final_confidence": 0.5860833354791006,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5858100801706314,
     "clip_cos": 0.6430168002843857,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided does not relate to Trump or mass protests, but rather NASA and extraterrestrial life. Therefore, I am unable to provide an answer to the question \"trump outlines bold vision for nations next mass protests\" as it is not relevant to the given context.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.11450950521632489",
     "num_comments": "-0.1454305520265176"

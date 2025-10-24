@@ -9,9 +9,9 @@
         "Fake": 0.003261461155489087
       },
       "vilt": {
-        "Real": 0.9860653877258301,
-        "SatireMixed": 0.0024919500574469566,
-        "Fake": 0.011442752555012703
+        "Real": 0.9860652685165405,
+        "SatireMixed": 0.0024919460993260145,
+        "Fake": 0.011442800983786583
       },
       "flava": {
         "Real": 0.9893010258674622,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6545085608959198,
-      "consistency_score": 0.5927051365375519
+      "clip_cos": 0.654508575797081,
+      "consistency_score": 0.5927051454782486
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see how the context about NASA and alien life is related to an artist printing a toy bear onto paper. The question doesn't seem to be connected to the previous information. If you'd like, we can start fresh with a new question or provide more context for the original question. Let me know!"
     }
   ],
   "final": {
     "post_id": "2xg5ld",
     "final_label": "Real",
-    "final_confidence": 0.9962323335409164,
+    "final_confidence": 0.9962322943409284,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5927051365375519,
-    "clip_cos": 0.6545085608959198,
+    "consistency_score": 0.5927051454782486,
+    "clip_cos": 0.654508575797081,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see how the context about NASA and alien life is related to an artist printing a toy bear onto paper. The question doesn't seem to be connected to the previous information. If you'd like, we can start fresh with a new question or provide more context for the original question. Let me know!",
     "upvote_ratio": "0.7640780353952159",
     "score": "0.5360038026391415",
     "num_comments": "0.7983768609466404"

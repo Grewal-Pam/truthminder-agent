@@ -9,9 +9,9 @@
         "Fake": 0.9993948936462402
       },
       "vilt": {
-        "Real": 0.004729610402137041,
-        "SatireMixed": 0.026900121942162514,
-        "Fake": 0.968370258808136
+        "Real": 0.004729610867798328,
+        "SatireMixed": 0.026900023221969604,
+        "Fake": 0.9683703780174255
       },
       "flava": {
         "Real": 0.003920445218682289,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6284485459327698,
       "consistency_score": 0.18853456377983094
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nThe question appears to be referencing a song title by an Australian psychedelic rock band, King Gizzard & the Lizard Wizard, called \"Mars for the Rich\" (from their 2014 album \"I'm in Your Mind Fuzz\").\n\nHowever, I don't see any connection between this song and NASA or alien life. So, I'll just say that I don't know!"
     }
   ],
   "final": {
     "post_id": "dfpxek",
     "final_label": "Fake",
-    "final_confidence": 0.9425579881270727,
+    "final_confidence": 0.9425580278635025,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.18853456377983094,
     "clip_cos": 0.6284485459327698,
     "ocr_text": "ION Sd a",
+    "retrieved_text": "I think there may be some confusion here!\n\nThe question appears to be referencing a song title by an Australian psychedelic rock band, King Gizzard & the Lizard Wizard, called \"Mars for the Rich\" (from their 2014 album \"I'm in Your Mind Fuzz\").\n\nHowever, I don't see any connection between this song and NASA or alien life. So, I'll just say that I don't know!",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.11711546739100878",
     "num_comments": "-0.11098502600559944"

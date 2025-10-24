@@ -9,9 +9,9 @@
         "Fake": 0.001106388051994145
       },
       "vilt": {
-        "Real": 0.014829253777861595,
-        "SatireMixed": 0.015025700442492962,
-        "Fake": 0.9701451063156128
+        "Real": 0.014829427003860474,
+        "SatireMixed": 0.015025696717202663,
+        "Fake": 0.9701448678970337
       },
       "flava": {
         "Real": 0.0050476351752877235,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5859005749225616,
       "consistency_score": 0.551540344953537
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about James Mattis in relation to NASA or aliens. The context provided is unrelated to James Mattis, so I won't be able to provide a helpful answer on this topic. If you'd like to ask about something else, I'll do my best to help!"
     }
   ],
   "final": {
     "post_id": "5g579t",
     "final_label": "Fake",
-    "final_confidence": 0.6400998382037506,
+    "final_confidence": 0.6400997587308909,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.551540344953537,
     "clip_cos": 0.5859005749225616,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about James Mattis in relation to NASA or aliens. The context provided is unrelated to James Mattis, so I won't be able to provide a helpful answer on this topic. If you'd like to ask about something else, I'll do my best to help!",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9877694249153137,
-        "SatireMixed": 0.005895597394555807,
+        "SatireMixed": 0.005895619280636311,
         "Fake": 0.006335000973194838
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6322580575942993,
       "consistency_score": 0.5793548345565795
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't mention Germany or paying people to drink bottles, so I'm not aware of any information that would help answer this question."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5793548345565795,
     "clip_cos": 0.6322580575942993,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't mention Germany or paying people to drink bottles, so I'm not aware of any information that would help answer this question.",
     "upvote_ratio": "-1.8729718596327993",
     "score": "-0.12786506136157982",
     "num_comments": "-0.05587218437213035"

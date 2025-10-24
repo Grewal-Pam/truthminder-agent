@@ -9,9 +9,9 @@
         "Fake": 0.9995720982551575
       },
       "vilt": {
-        "Real": 0.04568009451031685,
-        "SatireMixed": 0.01738058589398861,
-        "Fake": 0.9369392991065979
+        "Real": 0.045678626745939255,
+        "SatireMixed": 0.017380520701408386,
+        "Fake": 0.9369409084320068
       },
       "flava": {
         "Real": 0.005002925172448158,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6404692381620407,
-      "consistency_score": 0.5421407714486122
+      "clip_cos": 0.6404692530632019,
+      "consistency_score": 0.5421407759189605
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
     "post_id": "c9piwl",
     "final_label": "Fake",
-    "final_confidence": 0.9609940621952215,
+    "final_confidence": 0.9609945989052454,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5421407714486122,
-    "clip_cos": 0.6404692381620407,
+    "consistency_score": 0.5421407759189605,
+    "clip_cos": 0.6404692530632019,
     "ocr_text": "HEED pies",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

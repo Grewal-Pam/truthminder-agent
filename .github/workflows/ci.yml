@@ -1,16 +1,15 @@
 name: CI
 on:
-  push:
-    branches: [develop, feature/**]
   pull_request:
     branches: [develop, main]
+  push:
+    branches: [feature/**, develop]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,11 +22,18 @@ jobs:
           pip install -r requirements.txt
           pip install pytest flake8 black
 
-      - name: Lint check (flake8)
+      - name: Lint (flake8)
         run: flake8 . --max-line-length=100
 
-      - name: Code format check (black)
+      - name: Format check (black)
         run: black --check .
 
       - name: Smoke tests
         run: pytest -q
+
+      - name: Upload enriched.csv (if present)
+        if: ${{ hashFiles('outputs/enriched.csv') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: enriched-csv
+          path: outputs/enriched.csv

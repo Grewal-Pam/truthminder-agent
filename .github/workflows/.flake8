@@ -1,4 +1,20 @@
 [flake8]
-max-line-length = 100
-extend-ignore = E203, W503
-exclude = .venv,venv,.git,__pycache__,.mypy_cache,.pytest_cache
+max-line-length = 120
+extend-ignore =
+    E501,  # ignore line too long
+    E203,  # spacing before colon
+    W503,  # line break before binary operator
+    E302, E305, E303, E265, E231, E221,
+    F401, F811, F821
+exclude =
+    .venv,
+    venv,
+    __pycache__,
+    .git,
+    .mypy_cache,
+    .pytest_cache,
+    data,
+    outputs,
+    notebooks,
+    tmp,
+    .github

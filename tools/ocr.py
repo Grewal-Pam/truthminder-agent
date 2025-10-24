@@ -2,6 +2,7 @@ import io, requests, re
 from PIL import Image
 import pytesseract
 
+
 def _open_local_or_url(path_or_url: str):
     if path_or_url.startswith("http"):
         try:
@@ -16,6 +17,7 @@ def _open_local_or_url(path_or_url: str):
         except Exception:
             return None
 
+
 def ocr(path_or_url: str) -> str:
     img = _open_local_or_url(path_or_url)
     if img is None:
@@ -23,8 +25,10 @@ def ocr(path_or_url: str) -> str:
     try:
         text = pytesseract.image_to_string(img)[:800].strip()
         # 🔹 clean after extraction
-        text = re.sub(r'[^A-Za-z0-9 .,!?]', '', text)
-        text = re.sub(r'\b(use_column_width|TruthMindr|Final Label)\b', '', text, flags=re.I)
+        text = re.sub(r"[^A-Za-z0-9 .,!?]", "", text)
+        text = re.sub(
+            r"\b(use_column_width|TruthMindr|Final Label)\b", "", text, flags=re.I
+        )
         return text
     except Exception as e:
         print(f"[OCR error] {e}")

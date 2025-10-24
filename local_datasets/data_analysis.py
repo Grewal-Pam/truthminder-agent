@@ -9,6 +9,7 @@ from utils.logger import setup_logger
 
 logger = setup_logger("data_analysis.log")
 
+
 class DataAnalysis:
     def __init__(self, output_dir="analysis_results", logger=None):
         self.output_dir = output_dir
@@ -54,8 +55,14 @@ class DataAnalysis:
             return None, None
 
         distribution = df[label_column].value_counts()
-        imbalance_ratio = distribution.max() / distribution.min() if distribution.min() > 0 else np.inf
-        logger.info(f"Class Distribution for {label_column}:\n{distribution.to_string()}")
+        imbalance_ratio = (
+            distribution.max() / distribution.min()
+            if distribution.min() > 0
+            else np.inf
+        )
+        logger.info(
+            f"Class Distribution for {label_column}:\n{distribution.to_string()}"
+        )
         logger.info(f"Imbalance Ratio for {label_column}: {imbalance_ratio:.2f}")
         return distribution, imbalance_ratio
 
@@ -82,7 +89,7 @@ class DataAnalysis:
         logger.info(f"Metadata columns normalized: {metadata_columns}")
 
         if scaler_path:
-            with open(scaler_path, 'wb') as f:
+            with open(scaler_path, "wb") as f:
                 pickle.dump(scaler, f)
             logger.info(f"Scaler saved to: {scaler_path}")
 
@@ -123,14 +130,18 @@ class DataAnalysis:
             return
 
         plt.figure(figsize=(8, 6))
-        df[label_column].value_counts().plot(kind='bar')
+        df[label_column].value_counts().plot(kind="bar")
         plt.title(f"Class Distribution for {label_column}")
         plt.xlabel("Class")
         plt.ylabel("Count")
-        output_path = os.path.join(self.output_dir, f"class_distribution_{label_column}.png")
+        output_path = os.path.join(
+            self.output_dir, f"class_distribution_{label_column}.png"
+        )
         plt.savefig(output_path)
         plt.close()
-        logger.info(f"Class distribution plot saved for column {label_column}: {output_path}")
+        logger.info(
+            f"Class distribution plot saved for column {label_column}: {output_path}"
+        )
 
     def check_outliers(self, df, columns):
         """
@@ -157,7 +168,7 @@ class DataAnalysis:
             outliers = df[(df[column] < lower_bound) | (df[column] > upper_bound)]
             outlier_info[column] = {
                 "count": outliers.shape[0],
-                "indices": outliers.index.tolist()
+                "indices": outliers.index.tolist(),
             }
             logger.info(f"Outliers in column {column}: {outlier_info[column]['count']}")
         return outlier_info
@@ -176,7 +187,7 @@ class DataAnalysis:
             logger.warning("Cannot generate summary report for an empty dataframe.")
             return pd.DataFrame()
 
-        summary = df.describe(include='all').transpose()
+        summary = df.describe(include="all").transpose()
         output_path = os.path.join(self.output_dir, "dataset_summary.csv")
         summary.to_csv(output_path)
         logger.info(f"Dataset summary saved to: {output_path}")

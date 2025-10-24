@@ -1,26 +1,9 @@
-import os
-import logging
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from PIL import Image
-import requests
-from io import BytesIO
-import config
 import torch
-from torch.utils.data import Dataset, DataLoader
-from transformers import FlavaProcessor, FlavaModel
-from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score, cohen_kappa_score, confusion_matrix, roc_curve, precision_recall_curve, auc
 import torch.nn as nn
-import torch.nn.functional as F
-from datetime import datetime
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.preprocessing import StandardScaler, label_binarize
-import random
-import pickle
 from utils.logger import setup_logger
+
 logger = setup_logger("flava_model", log_dir="runs/logs", sampled=False)
-#logger = setup_logger("flava_model_log", log_dir=config.log_dir, sampled=True)
+# logger = setup_logger("flava_model_log", log_dir=config.log_dir, sampled=True)
 
 
 class FlavaClassificationModel(nn.Module):
@@ -32,7 +15,9 @@ class FlavaClassificationModel(nn.Module):
         self.num_labels = num_labels
 
         if include_metadata:
-            self.classifier = nn.Linear(flava_model.config.hidden_size + metadata_dim, num_labels)
+            self.classifier = nn.Linear(
+                flava_model.config.hidden_size + metadata_dim, num_labels
+            )
         else:
             self.classifier = nn.Linear(flava_model.config.hidden_size, num_labels)
         logger.info(f"Number of labels used here={num_labels}")
@@ -41,14 +26,18 @@ class FlavaClassificationModel(nn.Module):
         """Update the classifier for a new number of labels."""
         self.num_labels = num_labels
         if self.include_metadata:
-            self.classifier = nn.Linear(self.flava_model.config.hidden_size + self.metadata_dim, num_labels)
+            self.classifier = nn.Linear(
+                self.flava_model.config.hidden_size + self.metadata_dim, num_labels
+            )
         else:
             self.classifier = nn.Linear(self.flava_model.config.hidden_size, num_labels)
         logger.info(f"Updated number of labels to: {num_labels}")
 
     def forward(self, input_ids, attention_mask, pixel_values, metadata=None):
-        logger.info(f"Inside forward: input_ids={input_ids.shape}, attention_mask={attention_mask.shape}, pixel_values={pixel_values.shape}, metadata={metadata.shape if metadata is not None else None}")
-    
+        logger.info(
+            f"Inside forward: input_ids={input_ids.shape}, attention_mask={attention_mask.shape}, pixel_values={pixel_values.shape}, metadata={metadata.shape if metadata is not None else None}"
+        )
+
         outputs = self.flava_model(
             input_ids=input_ids,
             attention_mask=attention_mask,
@@ -65,8 +54,9 @@ class FlavaClassificationModel(nn.Module):
         logits = self.classifier(combined_output)
         return logits
 
-
-    def predict_old(self, text=None, image=None, metadata=None, processor=None, device="cpu"):  
+    def predict_old(
+        self, text=None, image=None, metadata=None, processor=None, device="cpu"
+    ):
         """Perform inference using text, image, and metadata inputs."""
         self.eval()  # Set the model to evaluation mode
 
@@ -74,16 +64,22 @@ class FlavaClassificationModel(nn.Module):
             # Preprocess inputs
             inputs = {}
             if text:
-                text_inputs = processor(text=text, return_tensors="pt", padding=True, truncation=True)
+                text_inputs = processor(
+                    text=text, return_tensors="pt", padding=True, truncation=True
+                )
                 inputs["input_ids"] = text_inputs["input_ids"].to(device)
                 inputs["attention_mask"] = text_inputs["attention_mask"].to(device)
 
             if image:
-                image_tensor = processor(images=image, return_tensors="pt")["pixel_values"].to(device)
+                image_tensor = processor(images=image, return_tensors="pt")[
+                    "pixel_values"
+                ].to(device)
                 inputs["pixel_values"] = image_tensor
 
             if metadata:
-                metadata_tensor = torch.tensor(metadata, dtype=torch.float32).unsqueeze(0).to(device)
+                metadata_tensor = (
+                    torch.tensor(metadata, dtype=torch.float32).unsqueeze(0).to(device)
+                )
             else:
                 metadata_tensor = None
 
@@ -101,10 +97,12 @@ class FlavaClassificationModel(nn.Module):
 
             return {
                 "label": predicted_label,
-                "confidence": probabilities.max().item() * 100
+                "confidence": probabilities.max().item() * 100,
             }
-        
-    def predict(self, text=None, image=None, metadata=None, processor=None, device="cpu"):  
+
+    def predict(
+        self, text=None, image=None, metadata=None, processor=None, device="cpu"
+    ):
         """Perform inference using text, image, and optional metadata inputs."""
         self.eval()  # Set the model to evaluation mode
 
@@ -112,20 +110,30 @@ class FlavaClassificationModel(nn.Module):
             # Preprocess inputs
             inputs = {}
             if text:
-                text_inputs = processor(text=text, return_tensors="pt", padding=True, truncation=True)
+                text_inputs = processor(
+                    text=text, return_tensors="pt", padding=True, truncation=True
+                )
                 inputs["input_ids"] = text_inputs["input_ids"].to(device)
                 inputs["attention_mask"] = text_inputs["attention_mask"].to(device)
 
             if image:
-                image_tensor = processor(images=image, return_tensors="pt")["pixel_values"].to(device)
+                image_tensor = processor(images=image, return_tensors="pt")[
+                    "pixel_values"
+                ].to(device)
                 inputs["pixel_values"] = image_tensor
 
             # Handle metadata
             if self.include_metadata:  # Check if the model was trained with metadata
                 if metadata:
-                    metadata_tensor = torch.tensor(metadata, dtype=torch.float32).unsqueeze(0).to(device)
+                    metadata_tensor = (
+                        torch.tensor(metadata, dtype=torch.float32)
+                        .unsqueeze(0)
+                        .to(device)
+                    )
                 else:
-                    raise ValueError("Metadata is required for this model but was not provided.")
+                    raise ValueError(
+                        "Metadata is required for this model but was not provided."
+                    )
             else:
                 metadata_tensor = None
 
@@ -143,5 +151,5 @@ class FlavaClassificationModel(nn.Module):
 
             return {
                 "label": predicted_label,
-                "confidence": probabilities.max().item() * 100
+                "confidence": probabilities.max().item() * 100,
             }

@@ -1,6 +1,5 @@
 from models.flava_model import FlavaClassificationModel
 from transformers import FlavaModel
-import pandas as pd
 
 # Load the pretrained FLAVA model
 flava_model = FlavaModel.from_pretrained("facebook/flava-full")

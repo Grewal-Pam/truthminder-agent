@@ -5,7 +5,6 @@ from PIL import Image
 import requests
 from io import BytesIO
 import logging
-import pickle
 import os
 from local_datasets.pre_processing import compute_pixel_values
 from torch.utils.data import DataLoader
@@ -14,15 +13,17 @@ from utils.helpers import load_images
 
 # Constants
 SEED = 42
-DATA_DIR = 'data'
-FEATURE_DIR = 'features'
+DATA_DIR = "data"
+FEATURE_DIR = "features"
 
 
-def load_dataset(file_path="data/filtered_data.tsv", test_size=0.2, val_size=0.25, seed=SEED):
-    df = pd.read_csv(file_path, sep='\t')
-     # Compute pixel values
+def load_dataset(
+    file_path="data/filtered_data.tsv", test_size=0.2, val_size=0.25, seed=SEED
+):
+    df = pd.read_csv(file_path, sep="\t")
+    # Compute pixel values
     df = compute_pixel_values(df, image_column=image_url)
-    #logger.info(f"Loaded dataset with {len(df)} rows.")
+    # logger.info(f"Loaded dataset with {len(df)} rows.")
 
     train_df, test_df = train_test_split(df, test_size=test_size, random_state=seed)
     train_df, val_df = train_test_split(train_df, test_size=val_size, random_state=seed)
@@ -41,13 +42,15 @@ def normalize_metadata(df, metadata_columns, scaler_path=None):
             pickle.dump(scaler, f)
     return df
  """
+
+
 def preprocess_image(url, size=(224, 224)):
     """
     Loads an image from a URL, resizes it, and converts it to RGB.
     If loading fails, returns None.
     """
     try:
-        response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
         response.raise_for_status()  # Check for HTTP request errors
         img = Image.open(BytesIO(response.content)).convert("RGB")
         return img.resize(size)
@@ -57,18 +60,19 @@ def preprocess_image(url, size=(224, 224)):
         logging.error(f"Error processing image {url}: {e}")
     return None
 
+
 def load_images(df):
     """
     Applies `preprocess_image` to every image URL in the DataFrame.
     Drops rows where image processing fails.
     """
-    #df['image'] = df['image_url'].apply(preprocess_image)
-    df.loc[:, 'image'] = df['image_url'].apply(preprocess_image)
-    return df[df['image'].notnull()]  # Keep only rows with successfully loaded images  
+    # df['image'] = df['image_url'].apply(preprocess_image)
+    df.loc[:, "image"] = df["image_url"].apply(preprocess_image)
+    return df[df["image"].notnull()]  # Keep only rows with successfully loaded images
 
-#got to bring pixel_values here
-#then run the test of it to verify, eventuakky re run other files .. and then evaluator againa nd continue.
 
+# got to bring pixel_values here
+# then run the test of it to verify, eventuakky re run other files .. and then evaluator againa nd continue.
 
 
 def get_vilt_dataloader(data_path, batch_size, include_metadata=True):

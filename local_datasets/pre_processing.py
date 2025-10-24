@@ -2,13 +2,11 @@ import asyncio
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 import pickle
-import config
 from utils.logger import setup_logger
 from transformers import CLIPProcessor
 from PIL import Image
 import requests
 from io import BytesIO
-import logging
 import os
 from multiprocessing import Pool, cpu_count
 import psutil
@@ -18,11 +16,12 @@ import pickle
 import pytesseract
 
 
-logger = setup_logger("pre_processing_log") #, log_dir=config.log_dir, sampled=False
+logger = setup_logger("pre_processing_log")  # , log_dir=config.log_dir, sampled=False
 
 
 # Initialize the CLIPProcessor globally
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+
 
 async def validate_url(url, session, semaphore):
     """
@@ -39,7 +38,9 @@ async def validate_url(url, session, semaphore):
     async with semaphore:
         try:
             async with session.head(url, timeout=10, allow_redirects=True) as response:
-                if response.status == 200 and "image" in response.headers.get("Content-Type", ""):
+                if response.status == 200 and "image" in response.headers.get(
+                    "Content-Type", ""
+                ):
                     return url, True
                 else:
                     logger.warning(f"URL does not point to an image: {url}")
@@ -47,6 +48,7 @@ async def validate_url(url, session, semaphore):
         except Exception as e:
             logger.error(f"Error validating URL {url}: {e}")
             return url, False
+
 
 async def check_urls(urls, session, semaphore):
     """
@@ -63,6 +65,7 @@ async def check_urls(urls, session, semaphore):
     tasks = [validate_url(url, session, semaphore) for url in urls]
     return await asyncio.gather(*tasks)
 
+
 async def run_batches(urls, batch_size=50):
     """
     Process URLs in batches asynchronously.
@@ -78,11 +81,14 @@ async def run_batches(urls, batch_size=50):
     semaphore = asyncio.Semaphore(100)  # Limit concurrency to 100 requests
     async with ClientSession() as session:
         for i in range(0, len(urls), batch_size):
-            batch = urls[i:i + batch_size]
+            batch = urls[i : i + batch_size]
             results = await check_urls(batch, session, semaphore)
             valid_urls.extend([url for url, is_valid in results if is_valid])
-            logger.info(f"Processed {i + len(batch)} URLs. Valid URLs so far: {len(valid_urls)}")
+            logger.info(
+                f"Processed {i + len(batch)} URLs. Valid URLs so far: {len(valid_urls)}"
+            )
     return valid_urls
+
 
 def validate_urls_in_dataframe(df, image_column="image_url", batch_size=50):
     """
@@ -107,7 +113,15 @@ def validate_urls_in_dataframe(df, image_column="image_url", batch_size=50):
     logger.info(f"Validation complete. Remaining rows: {len(valid_df)}")
     return valid_df
 
-def preprocess_alt(df, dataset_name, metadata_columns, image_column="image_url", chunk_size=1000, batch_size=50):
+
+def preprocess_alt(
+    df,
+    dataset_name,
+    metadata_columns,
+    image_column="image_url",
+    chunk_size=1000,
+    batch_size=50,
+):
     log_dataset_stats(df, f"Before preprocessing - {dataset_name}")
 
     # Validate URLs
@@ -116,7 +130,9 @@ def preprocess_alt(df, dataset_name, metadata_columns, image_column="image_url",
         logger.info(f"Loading pre-validated dataset: {validated_file_path}")
         df = pd.read_csv(validated_file_path, sep="\t")
     else:
-        df = validate_urls_in_dataframe(df, image_column=image_column, batch_size=batch_size)
+        df = validate_urls_in_dataframe(
+            df, image_column=image_column, batch_size=batch_size
+        )
         df.to_csv(validated_file_path, sep="\t", index=False)
         logger.info(f"Validated dataset saved to: {validated_file_path}")
 
@@ -129,7 +145,7 @@ def preprocess_alt(df, dataset_name, metadata_columns, image_column="image_url",
     # save_intermediate_data(df, f"{dataset_name}_processed.tsv")
     # log_dataset_stats(df, f"After preprocessing - {dataset_name}")
     # return df
-     # Normalize metadata
+    # Normalize metadata
     normalized_file_path = f"data/{dataset_name}_normalized.tsv"
     if os.path.exists(normalized_file_path):
         logger.info(f"Loading normalized dataset: {normalized_file_path}")
@@ -145,7 +161,9 @@ def preprocess_alt(df, dataset_name, metadata_columns, image_column="image_url",
         logger.info(f"Loading cleaned dataset: {cleaned_file_path}")
         df = pd.read_csv(cleaned_file_path, sep="\t")
     else:
-        df = handle_missing_values(df, ["clean_title", image_column, "2_way_label", "3_way_label"])
+        df = handle_missing_values(
+            df, ["clean_title", image_column, "2_way_label", "3_way_label"]
+        )
         df.to_csv(cleaned_file_path, sep="\t", index=False)
         logger.info(f"Cleaned dataset saved to: {cleaned_file_path}")
 
@@ -162,19 +180,23 @@ def preprocess_alt(df, dataset_name, metadata_columns, image_column="image_url",
     log_dataset_stats(df, f"After preprocessing - {dataset_name}")
     return df
 
+
 ###execute this####
+
 
 # Preprocess image function
 def preprocess_image(url, size=(224, 224)):
     session = requests.Session()
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Connection': 'keep-alive',
-        'Referer': url,  # Simulate browser behavior
-    })
+    session.headers.update(
+        {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+            "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Referer": url,  # Simulate browser behavior
+        }
+    )
     try:
         response = session.get(url, timeout=10)
         response.raise_for_status()  # Raise for bad status codes
@@ -199,6 +221,7 @@ def preprocess_image(url, size=(224, 224)):
     except Exception as e:
         logger.error(f"Error processing image {url}: {e}")
     return None
+
 
 # Placeholder detection function
 def is_placeholder_image(img):
@@ -229,7 +252,7 @@ def is_placeholder_image(img):
         # OCR-based placeholder detection
         try:
             text = pytesseract.image_to_string(img)
-            #logger.debug(f"OCR extracted text: {text}")
+            # logger.debug(f"OCR extracted text: {text}")
             placeholder_keywords = [
                 "The image you are requesting does not exist",
                 "no longer available",
@@ -243,7 +266,7 @@ def is_placeholder_image(img):
             ]
             for keyword in placeholder_keywords:
                 if keyword.lower() in text.lower():
-                    #logger.warning(f"Detected placeholder keyword in image text: {keyword}")
+                    # logger.warning(f"Detected placeholder keyword in image text: {keyword}")
                     return True
         except Exception as e:
             logger.warning(f"OCR error while processing image: {e}")
@@ -252,7 +275,9 @@ def is_placeholder_image(img):
         # Example: Check for specific dominant colors (e.g., typical placeholder gray)
         dominant_color = img.resize((1, 1)).getpixel((0, 0))
         if dominant_color in [(128, 128, 128), (192, 192, 192), (240, 240, 240)]:
-            logger.warning(f"Detected placeholder image based on dominant color: {dominant_color}")
+            logger.warning(
+                f"Detected placeholder image based on dominant color: {dominant_color}"
+            )
             return True
 
         # Optional: Detect specific patterns/logos using more advanced methods (requires OpenCV)
@@ -266,7 +291,6 @@ def is_placeholder_image(img):
     return False
 
 
-
 # Handle missing values
 def handle_missing_values(df, columns, method="drop", fill_value=0.0):
     initial_len = len(df)
@@ -278,6 +302,7 @@ def handle_missing_values(df, columns, method="drop", fill_value=0.0):
             df[col] = df[col].fillna(fill_value)
         logger.info(f"Filled missing values in columns: {columns}.")
     return df
+
 
 # Normalize metadata
 def normalize_metadata(df, metadata_columns, scaler_path="scaler.pkl"):
@@ -293,6 +318,7 @@ def normalize_metadata(df, metadata_columns, scaler_path="scaler.pkl"):
         logger.info(f"Saved scaler for future use at {scaler_path}.")
     return df
 
+
 # Log dataset statistics
 def log_dataset_stats(df, name):
     logger.info(f"Dataset: {name}")
@@ -300,8 +326,16 @@ def log_dataset_stats(df, name):
     logger.info(f"Missing values:\n{df.isnull().sum()}")
     logger.info(f"Statistical Summary:\n{df.describe(include='all')}")
 
+
 # Preprocess function
-def preprocess(df, dataset_name, metadata_columns, image_column="image_url", scaler_path="scaler.pkl", batch_size=1000):
+def preprocess(
+    df,
+    dataset_name,
+    metadata_columns,
+    image_column="image_url",
+    scaler_path="scaler.pkl",
+    batch_size=1000,
+):
     log_dataset_stats(df, f"Before preprocessing - {dataset_name}")
     processed_batches = []
     df = df[df[image_column].notnull()]  # Drop rows with missing image URLs
@@ -311,12 +345,16 @@ def preprocess(df, dataset_name, metadata_columns, image_column="image_url", sca
             scaler = pickle.load(f)
         logger.info(f"Loaded scaler from {scaler_path}")
     else:
-        raise FileNotFoundError(f"Scaler file not found at {scaler_path}. Ensure it is computed before preprocessing.")
+        raise FileNotFoundError(
+            f"Scaler file not found at {scaler_path}. Ensure it is computed before preprocessing."
+        )
 
     for i in range(0, len(df), batch_size):
-        batch = df.iloc[i:i + batch_size].copy()
-        logger.info(f"Processing batch {i // batch_size + 1}/{(len(df) - 1) // batch_size + 1}")
-        
+        batch = df.iloc[i : i + batch_size].copy()
+        logger.info(
+            f"Processing batch {i // batch_size + 1}/{(len(df) - 1) // batch_size + 1}"
+        )
+
         try:
             # Validate URLs
             valid_urls = [url for url in batch[image_column] if preprocess_image(url)]
@@ -326,7 +364,16 @@ def preprocess(df, dataset_name, metadata_columns, image_column="image_url", sca
             batch[metadata_columns] = scaler.transform(batch[metadata_columns])
 
             # Handle Missing Values
-            batch = handle_missing_values(batch, columns=["clean_title", image_column, "2_way_label", "3_way_label", *metadata_columns])
+            batch = handle_missing_values(
+                batch,
+                columns=[
+                    "clean_title",
+                    image_column,
+                    "2_way_label",
+                    "3_way_label",
+                    *metadata_columns,
+                ],
+            )
 
             processed_batches.append(batch)
 
@@ -341,13 +388,24 @@ def preprocess(df, dataset_name, metadata_columns, image_column="image_url", sca
     processed_df = pd.concat(processed_batches, ignore_index=True)
     final_path = f"data/{dataset_name}_preprocessed.tsv"
     processed_df.to_csv(final_path, sep="\t", index=False)
-    logger.info(f"Final preprocessed dataset saved to {final_path}. Total rows: {len(processed_df)}")
+    logger.info(
+        f"Final preprocessed dataset saved to {final_path}. Total rows: {len(processed_df)}"
+    )
     return processed_df
 
-def load_and_preprocess_datasets(train_path, validate_path, test_path, metadata_columns, image_column="image_url"):
-    train_df = pd.read_csv(train_path, sep="\t")#.sample(n=10000, random_state=42)  # Sample 10,000 rows
-    val_df = pd.read_csv(validate_path, sep="\t")#.sample(n=1000, random_state=42)  # Sample 1,000 rows
-    test_df = pd.read_csv(test_path, sep="\t")#.sample(n=1000, random_state=42)  # Sample 1,000 rows
+
+def load_and_preprocess_datasets(
+    train_path, validate_path, test_path, metadata_columns, image_column="image_url"
+):
+    train_df = pd.read_csv(
+        train_path, sep="\t"
+    )  # .sample(n=10000, random_state=42)  # Sample 10,000 rows
+    val_df = pd.read_csv(
+        validate_path, sep="\t"
+    )  # .sample(n=1000, random_state=42)  # Sample 1,000 rows
+    test_df = pd.read_csv(
+        test_path, sep="\t"
+    )  # .sample(n=1000, random_state=42)  # Sample 1,000 rows
 
     # Step 1: Fit Scaler on Full Training Data
     scaler_path = "scaler.pkl"
@@ -359,12 +417,20 @@ def load_and_preprocess_datasets(train_path, validate_path, test_path, metadata_
             pickle.dump(scaler, f)
         logger.info(f"Scaler saved to {scaler_path}")
     else:
-        logger.warning(f"Scaler file {scaler_path} already exists. It will be reused for normalization.")
+        logger.warning(
+            f"Scaler file {scaler_path} already exists. It will be reused for normalization."
+        )
 
     # Preprocess datasets
-    train_df = preprocess(train_df, "train", metadata_columns, image_column, scaler_path, batch_size=1000)
-    val_df = preprocess(val_df, "validate", metadata_columns, image_column, scaler_path, batch_size=1000)
-    test_df = preprocess(test_df, "test", metadata_columns, image_column, scaler_path, batch_size=1000)
+    train_df = preprocess(
+        train_df, "train", metadata_columns, image_column, scaler_path, batch_size=1000
+    )
+    val_df = preprocess(
+        val_df, "validate", metadata_columns, image_column, scaler_path, batch_size=1000
+    )
+    test_df = preprocess(
+        test_df, "test", metadata_columns, image_column, scaler_path, batch_size=1000
+    )
 
     # Save preprocessed datasets
     train_df.to_csv("data/TRAIN DATA/train_preprocessed.tsv", sep="\t", index=False)
@@ -374,20 +440,21 @@ def load_and_preprocess_datasets(train_path, validate_path, test_path, metadata_
     logger.info("Sample datasets preprocessed and saved.")
     return train_df, val_df, test_df
 
+
 ###execute until this####
 
 
 # def preprocess(df, dataset_name, metadata_columns, image_column="image_url", chunk_size=1000):
 #     """
 #     Preprocess a dataset: normalize metadata, handle missing values, and compute pixel values.
-    
+
 #     Args:
 #         df (pd.DataFrame): The input dataset.
 #         dataset_name (str): Name of the dataset (e.g., "train", "validate", "test").
 #         metadata_columns (list): List of metadata column names.
 #         image_column (str): Column containing image URLs or paths.
 #         chunk_size (int): Size of chunks to process images in.
-        
+
 #     Returns:
 #         pd.DataFrame: Preprocessed dataset.
 #     """
@@ -414,6 +481,7 @@ def load_and_preprocess_datasets(train_path, validate_path, test_path, metadata_
 #     logger.info(f"Missing values: {df.isnull().sum().to_dict()}")
 #     logger.info(f"First 3 rows:\n{df.head(3)}")
 
+
 # Save and load intermediate data
 def save_intermediate_data(df, path):
     df.to_parquet(path, index=False)
@@ -428,10 +496,14 @@ def load_intermediate_data(path):
 # Log resource usage
 def log_resource_usage():
     logger.info(f"CPU Usage: {psutil.cpu_percent()}%")
-    logger.info(f"Memory Usage: {psutil.virtual_memory().percent}% of {psutil.virtual_memory().total // (1024 ** 2)} MB")
+    logger.info(
+        f"Memory Usage: {psutil.virtual_memory().percent}% of {psutil.virtual_memory().total // (1024 ** 2)} MB"
+    )
 
 
-def compute_pixel_values_in_chunks(df, chunk_size=500, batch_size=50, image_column="image_url", debug_rows=None):
+def compute_pixel_values_in_chunks(
+    df, chunk_size=500, batch_size=50, image_column="image_url", debug_rows=None
+):
     """
     Process pixel values in smaller batches within chunks to avoid memory overload.
     Includes debugging option to process only the first N rows.
@@ -441,10 +513,12 @@ def compute_pixel_values_in_chunks(df, chunk_size=500, batch_size=50, image_colu
         logger.info(f"Debugging enabled: Processing only the first {debug_rows} rows.")
         df = df.head(debug_rows)
 
-    logger.info(f"Processing pixel values in chunks of {chunk_size}, batch size: {batch_size}...")
+    logger.info(
+        f"Processing pixel values in chunks of {chunk_size}, batch size: {batch_size}..."
+    )
     processed_chunks = []
     for i in range(0, len(df), chunk_size):
-        chunk = df.iloc[i:i + chunk_size]
+        chunk = df.iloc[i : i + chunk_size]
 
         try:
             # Process in smaller batches
@@ -462,31 +536,40 @@ def compute_pixel_values_in_chunks(df, chunk_size=500, batch_size=50, image_colu
     return pd.concat(processed_chunks, ignore_index=True) if processed_chunks else df
 
 
-
 def process_batches(df, batch_size, image_column):
     """
     Process images in smaller batches to reduce memory load.
     """
     results = []
     for i in range(0, len(df), batch_size):
-        batch = df.iloc[i:i + batch_size]
+        batch = df.iloc[i : i + batch_size]
         batch_results = process_batch(batch[image_column].tolist())
-        
+
         # Debugging the results structure
-        logger.info(f"Batch {i // batch_size + 1}: Type of batch_results: {type(batch_results)}")
-        logger.info(f"Batch {i // batch_size + 1}: Length of batch_results: {len(batch_results)}")
-        logger.info(f"Batch {i // batch_size + 1}: Sample of batch_results: {batch_results[:3]}")
+        logger.info(
+            f"Batch {i // batch_size + 1}: Type of batch_results: {type(batch_results)}"
+        )
+        logger.info(
+            f"Batch {i // batch_size + 1}: Length of batch_results: {len(batch_results)}"
+        )
+        logger.info(
+            f"Batch {i // batch_size + 1}: Sample of batch_results: {batch_results[:3]}"
+        )
 
         # Extract pixel_values from results
         pixel_values = [r["pixel_values"] for r in batch_results if r is not None]
 
         # Validate batch size consistency
         if len(pixel_values) != len(batch):
-            logger.warning(f"Batch size mismatch: Expected {len(batch)}, got {len(pixel_values)}. Skipping this batch.")
+            logger.warning(
+                f"Batch size mismatch: Expected {len(batch)}, got {len(pixel_values)}. Skipping this batch."
+            )
             continue
 
         results.extend(pixel_values)
-        logger.info(f"Processed batch {i // batch_size + 1} of {len(df) // batch_size + 1}")
+        logger.info(
+            f"Processed batch {i // batch_size + 1} of {len(df) // batch_size + 1}"
+        )
         logger.debug(f"First few results from process_batch: {results[:3]}")
 
     # Convert results to a DataFrame
@@ -495,12 +578,13 @@ def process_batches(df, batch_size, image_column):
 
     # Validate final DataFrame size
     if len(batch_results_df) != len(df):
-        logger.error("Mismatch between results and DataFrame size after processing batches.")
+        logger.error(
+            "Mismatch between results and DataFrame size after processing batches."
+        )
         raise ValueError("Pixel values do not match the DataFrame size.")
 
     df["pixel_values"] = batch_results_df["pixel_values"]
     return df.dropna(subset=["pixel_values"]).reset_index(drop=True)
-
 
 
 def process_batch(urls):
@@ -516,17 +600,23 @@ def process_batch(urls):
     logger.info(f"Sample results: {results[:3]}")
 
     # Filter out invalid results
-    valid_results = [{"pixel_values": r["pixel_values"]} for r in results if r and "pixel_values" in r]
+    valid_results = [
+        {"pixel_values": r["pixel_values"]}
+        for r in results
+        if r and "pixel_values" in r
+    ]
 
     # Debugging: Log results for inspection
-    logger.debug(f"Batch processing complete. Total valid results: {len(valid_results)}")
+    logger.debug(
+        f"Batch processing complete. Total valid results: {len(valid_results)}"
+    )
     return valid_results
 
 
 # Image preprocessing
 def preprocess_image___(url, size=(224, 224)):
     session = requests.Session()
-    session.headers.update({'User-Agent': 'Mozilla/5.0'})
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
     try:
         response = session.get(url, timeout=10)
         response.raise_for_status()
@@ -538,6 +628,7 @@ def preprocess_image___(url, size=(224, 224)):
         logger.error(f"Error processing image {url}: {e}")
     return None
 
+
 # Compute pixel values with multiprocessing
 def compute_pixel_values(df, image_column="image_url"):
     logger.info("Starting pixel value computation using multiprocessing...")
@@ -548,7 +639,7 @@ def compute_pixel_values(df, image_column="image_url"):
         results = pool.map(process_image_parallel, df[image_column].tolist())
 
     # Extract results and update DataFrame
-    #df["image"] = [result["image"] for result in results]
+    # df["image"] = [result["image"] for result in results]
     df["pixel_values"] = [result["pixel_values"] for result in results]
 
     # Drop rows with invalid pixel values
@@ -563,14 +654,16 @@ def process_image_parallel(url):
     try:
         img = preprocess_image(url)
         if img is not None:
-            pixel_values = processor(images=img, return_tensors="pt")["pixel_values"][0].tolist()
-            logger.info(f"Processed image from {url}, sample pixel_values: {pixel_values[:5]}")
+            pixel_values = processor(images=img, return_tensors="pt")["pixel_values"][
+                0
+            ].tolist()
+            logger.info(
+                f"Processed image from {url}, sample pixel_values: {pixel_values[:5]}"
+            )
             return {"pixel_values": pixel_values}
     except Exception as e:
         logger.warning(f"Failed to process image {url}: {e}")
     return None
-
-
 
 
 # def validate_image_url(url):
@@ -609,6 +702,7 @@ def compute_pixel_values_alt(df, image_column="image_url", size=(224, 224)):
     Returns:
         pd.DataFrame: DataFrame with a new `pixel_values` column for valid images.
     """
+
     def process_image(url):
         """
         Preprocess and compute pixel values for a single image URL.
@@ -616,19 +710,23 @@ def compute_pixel_values_alt(df, image_column="image_url", size=(224, 224)):
         img = preprocess_image(url, size=size)
         if img is not None:
             try:
-                pixel_values = processor(images=img, return_tensors="pt")["pixel_values"][0].tolist()
+                pixel_values = processor(images=img, return_tensors="pt")[
+                    "pixel_values"
+                ][0].tolist()
                 return img, pixel_values
             except Exception as e:
                 logger.error(f"Error computing pixel values for image {url}: {e}")
         return None
 
     logger.info("Starting pixel value computation...")
-    #df['pixel_values'] = df[image_column].apply(process_image)
+    # df['pixel_values'] = df[image_column].apply(process_image)
     # Process each image and retain both the original image and pixel values
-    df[['image', 'pixel_values']] = df[image_column].apply(
+    df[["image", "pixel_values"]] = df[image_column].apply(
         lambda url: pd.Series(process_image(url))
     )
-    df = df[df['pixel_values'].notnull()].reset_index(drop=True)  # Drop rows with invalid images
+    df = df[df["pixel_values"].notnull()].reset_index(
+        drop=True
+    )  # Drop rows with invalid images
     logger.debug(f"Example pixel values: {df['pixel_values'].iloc[0]}")
     logger.info(f"Computed pixel values for {len(df)} valid rows.")
     return df
@@ -663,9 +761,12 @@ def compute_pixel_values_alt(df, image_column="image_url", size=(224, 224)):
 
 def split_dataset(df, test_size=0.2, val_size=0.25, seed=42):
     from sklearn.model_selection import train_test_split
+
     train_df, test_df = train_test_split(df, test_size=test_size, random_state=seed)
     train_df, val_df = train_test_split(train_df, test_size=val_size, random_state=seed)
-    logger.info(f"Split dataset into train ({len(train_df)}), val ({len(val_df)}), and test ({len(test_df)}) sets.")
+    logger.info(
+        f"Split dataset into train ({len(train_df)}), val ({len(val_df)}), and test ({len(test_df)}) sets."
+    )
     return train_df, val_df, test_df
 
 

@@ -1,4 +1,6 @@
-import os, json, glob
+import json
+import glob
+
 
 def test_retrieval_stage_exists_or_is_optional():
     # If traces exist (from a local quick run), verify the retrieval stage is present.

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9843894839286804,
-        "SatireMixed": 0.0025187598075717688,
-        "Fake": 0.013091782107949257
+        "SatireMixed": 0.0025187607388943434,
+        "Fake": 0.013091688975691795
       },
       "flava": {
         "Real": 0.9895288348197937,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6465822160243988,
       "consistency_score": 0.5879493296146393
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about the appearance of a shadow on your car, and it's not related to NASA or alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5879493296146393,
     "clip_cos": 0.6465822160243988,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is about the appearance of a shadow on your car, and it's not related to NASA or alien life.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.1141837599444894",
     "num_comments": "-0.09031771039304853"

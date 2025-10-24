@@ -9,9 +9,9 @@
         "Fake": 0.014784317463636398
       },
       "vilt": {
-        "Real": 0.03389125317335129,
-        "SatireMixed": 0.017192713916301727,
-        "Fake": 0.9489160776138306
+        "Real": 0.03389113023877144,
+        "SatireMixed": 0.017192715778946877,
+        "Fake": 0.9489161968231201
       },
       "flava": {
         "Real": 0.9901303648948669,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6596370190382004,
       "consistency_score": 0.5957822114229202
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question as it appears unrelated to the provided context about NASA and alien life. The question seems to be asking about a specific news event or incident involving a teacher in London, which is not related to the topic of aliens or space exploration."
     }
   ],
   "final": {
     "post_id": "2wipzq",
     "final_label": "Real",
-    "final_confidence": 0.6747655166784922,
+    "final_confidence": 0.6747654757002989,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5957822114229202,
     "clip_cos": 0.6596370190382004,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question as it appears unrelated to the provided context about NASA and alien life. The question seems to be asking about a specific news event or incident involving a teacher in London, which is not related to the topic of aliens or space exploration.",
     "upvote_ratio": "-2.7822994096424596",
     "score": "-0.13047102353626372",
     "num_comments": "-0.1040959208014158"

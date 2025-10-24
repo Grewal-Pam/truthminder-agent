@@ -9,9 +9,9 @@
         "Fake": 0.9670587778091431
       },
       "vilt": {
-        "Real": 0.9323320388793945,
-        "SatireMixed": 0.003271997207775712,
-        "Fake": 0.06439592689275742
+        "Real": 0.932331919670105,
+        "SatireMixed": 0.0032719967421144247,
+        "Fake": 0.06439600884914398
       },
       "flava": {
         "Real": 0.005791024770587683,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.649542972445488,
       "consistency_score": 0.5897257834672928
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! As a helpful AI, I'd like to clarify that NASA's findings on extraterrestrial life are relevant to the initial context you provided. However, regarding your question about the stapler, I must respectfully point out that it seems to be an inanimate object that can't actually cry or get its \"head punched.\" It might be a humorous or whimsical expression, but not something that requires a serious answer."
     }
   ],
   "final": {
     "post_id": "1gbyzn",
     "final_label": "Fake",
-    "final_confidence": 0.6639536453882853,
+    "final_confidence": 0.6639536727070808,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5897257834672928,
     "clip_cos": 0.649542972445488,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here! As a helpful AI, I'd like to clarify that NASA's findings on extraterrestrial life are relevant to the initial context you provided. However, regarding your question about the stapler, I must respectfully point out that it seems to be an inanimate object that can't actually cry or get its \"head punched.\" It might be a humorous or whimsical expression, but not something that requires a serious answer.",
     "upvote_ratio": "-2.5095011446395623",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

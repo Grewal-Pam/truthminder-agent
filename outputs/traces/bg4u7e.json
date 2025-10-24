@@ -9,9 +9,9 @@
         "Fake": 0.8378539681434631
       },
       "vilt": {
-        "Real": 0.9868890047073364,
-        "SatireMixed": 0.002707697218284011,
-        "Fake": 0.010403221473097801
+        "Real": 0.986889123916626,
+        "SatireMixed": 0.0027077067643404007,
+        "Fake": 0.010403168387711048
       },
       "flava": {
         "Real": 0.9893342852592468,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6661704927682877,
       "consistency_score": 0.5997022956609726
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a bottle with a cobra and scorpion, nor is it related to NASA or alien life. My answer is simply \"I don't know\" since the context doesn't provide any relevant details about this specific topic."
     }
   ],
   "final": {
     "post_id": "bg4u7e",
     "final_label": "Real",
-    "final_confidence": 0.7187528977990151,
+    "final_confidence": 0.7187529375354449,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5997022956609726,
     "clip_cos": 0.6661704927682877,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a bottle with a cobra and scorpion, nor is it related to NASA or alien life. My answer is simply \"I don't know\" since the context doesn't provide any relevant details about this specific topic.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12786506136157982",
     "num_comments": "-0.07653949998468126"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9784066081047058,
-        "SatireMixed": 0.00332009419798851,
-        "Fake": 0.018273252993822098
+        "SatireMixed": 0.0033200958278030157,
+        "Fake": 0.018273232504725456
       },
       "flava": {
         "Real": 0.9891842603683472,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6538539081811905,
       "consistency_score": 0.5923123449087143
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question doesn't seem related to NASA, aliens, or microbial life, so I'm not able to provide an answer. It seems like a random image description!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5923123449087143,
     "clip_cos": 0.6538539081811905,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question doesn't seem related to NASA, aliens, or microbial life, so I'm not able to provide an answer. It seems like a random image description!",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12265313701221205",
     "num_comments": "-0.11098502600559944"

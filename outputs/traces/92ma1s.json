@@ -9,8 +9,8 @@
         "Fake": 0.9997511506080627
       },
       "vilt": {
-        "Real": 0.006698296871036291,
-        "SatireMixed": 0.016429096460342407,
+        "Real": 0.006698322016745806,
+        "SatireMixed": 0.016429102048277855,
         "Fake": 0.9768725633621216
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6498961597681046,
       "consistency_score": 0.5899376958608628
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this one!\n\nIt seems you've had an unusual experience, to say the least. Your cocktail telling you you're a Ravenclaw? That's quite an interesting and unique claim! However, I'm not aware of any scientific evidence or credible sources that support the idea that cocktails can provide accurate personality assessments or determine someone's Hogwarts house (Ravenclaws are known for their wisdom and creativity, after all!).\n\nSo, taking into account my lack of expertise in the field of cocktail-based psychometry, I'll have to respectfully disagree with your drink's assessment. It might be fun to explore this further, but it seems more like a playful or creative interpretation rather than an objective fact. What do you think?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5899376958608628,
     "clip_cos": 0.6498961597681046,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this one!\n\nIt seems you've had an unusual experience, to say the least. Your cocktail telling you you're a Ravenclaw? That's quite an interesting and unique claim! However, I'm not aware of any scientific evidence or credible sources that support the idea that cocktails can provide accurate personality assessments or determine someone's Hogwarts house (Ravenclaws are known for their wisdom and creativity, after all!).\n\nSo, taking into account my lack of expertise in the f",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.10375991124575384",
     "num_comments": "-0.138541446822334"

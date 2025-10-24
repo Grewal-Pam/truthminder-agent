@@ -9,8 +9,8 @@
         "Fake": 0.9899284243583679
       },
       "vilt": {
-        "Real": 0.010192452929913998,
-        "SatireMixed": 0.00946126040071249,
+        "Real": 0.01019238866865635,
+        "SatireMixed": 0.009461251087486744,
         "Fake": 0.9803463220596313
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6257259994745255,
       "consistency_score": 0.5754355996847152
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can have some fun with this one!\n\nIf these walls could talk... they might say something like: \"Wow, we've seen so much! From the dawn of human exploration to the present day, we've been a silent witness to the pursuit of answers about the universe. We've felt the vibrations of rocket engines roaring to life, heard the whispers of scientists hypothesizing about extraterrestrial life... and yet, despite all the excitement, no definitive proof has ever been found.\n\nAs far as I know (and I'm just a wall, after all!), NASA has never officially confirmed the existence of aliens. But we've seen those fascinating microbial life forms, haven't we? It's like the universe is giving us clues, but keeping the really big secrets to itself.\n\nSo, what do these walls think about it all? Well, we're just happy to be a part of the story, silently bearing witness to human curiosity and exploration. And who knows? Maybe one day, someone will come along and uncover the truth... or maybe not. Either way, we'll still be here, standing tall (or at least, standing steady!)!\""
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5754355996847152,
     "clip_cos": 0.6257259994745255,
     "ocr_text": "",
+    "retrieved_text": "I think I can have some fun with this one!\n\nIf these walls could talk... they might say something like: \"Wow, we've seen so much! From the dawn of human exploration to the present day, we've been a silent witness to the pursuit of answers about the universe. We've felt the vibrations of rocket engines roaring to life, heard the whispers of scientists hypothesizing about extraterrestrial life... and yet, despite all the excitement, no definitive proof has ever been found.\n\nAs far as I know (and I",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12688782554607336",
     "num_comments": "-0.138541446822334"

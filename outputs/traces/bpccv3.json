@@ -9,9 +9,9 @@
         "Fake": 0.9989269375801086
       },
       "vilt": {
-        "Real": 0.04750514030456543,
-        "SatireMixed": 0.010132753290235996,
-        "Fake": 0.9423621296882629
+        "Real": 0.047504451125860214,
+        "SatireMixed": 0.010132726281881332,
+        "Fake": 0.9423628449440002
       },
       "flava": {
         "Real": 0.9385344982147217,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.639923095703125,
       "consistency_score": 0.583953857421875
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided doesn't seem to be related to a new type of red cauliflower, as it appears to be about NASA and alien life."
     }
   ],
   "final": {
     "post_id": "bpccv3",
     "final_label": "Fake",
-    "final_confidence": 0.6677049591640631,
+    "final_confidence": 0.6677051975826422,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.583953857421875,
     "clip_cos": 0.639923095703125,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided doesn't seem to be related to a new type of red cauliflower, as it appears to be about NASA and alien life.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12884229717708628",
     "num_comments": "-0.138541446822334"

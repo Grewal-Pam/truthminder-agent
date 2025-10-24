@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9850462079048157,
         "SatireMixed": 0.0031957875471562147,
-        "Fake": 0.011758002452552319
+        "Fake": 0.011757997795939445
       },
       "flava": {
         "Real": 0.989469051361084,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6887671649456024,
-      "consistency_score": 0.6132602989673615
+      "clip_cos": 0.6887671798467636,
+      "consistency_score": 0.6132603079080582
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with any context related to a Buick logo in a Buick's headlight, and I don't have information about NASA or aliens. The question seems unrelated to the initial context provided. Therefore, I'd say \"I don't know\"!"
     }
   ],
   "final": {
     "post_id": "cj31hv",
     "final_label": "Real",
-    "final_confidence": 0.6663736539892853,
+    "final_confidence": 0.666373654525727,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.6132602989673615,
-    "clip_cos": 0.6887671649456024,
+    "consistency_score": 0.6132603079080582,
+    "clip_cos": 0.6887671798467636,
     "ocr_text": "",
+    "retrieved_text": "I'm not familiar with any context related to a Buick logo in a Buick's headlight, and I don't have information about NASA or aliens. The question seems unrelated to the initial context provided. Therefore, I'd say \"I don't know\"!",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.1259105897305669",
     "num_comments": "-0.11787413120978307"

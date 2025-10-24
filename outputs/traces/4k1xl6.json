@@ -9,9 +9,9 @@
         "Fake": 0.0005428339936770499
       },
       "vilt": {
-        "Real": 0.9867373108863831,
-        "SatireMixed": 0.002169166225939989,
-        "Fake": 0.011093497276306152
+        "Real": 0.9867374300956726,
+        "SatireMixed": 0.0021691666916012764,
+        "Fake": 0.011093441396951675
       },
       "flava": {
         "Real": 0.9892936944961548,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6495646685361862,
       "consistency_score": 0.5897388011217117
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any information about a TV meteorologist running on a trail to rescue a baby screech owl, so I don't know."
     }
   ],
   "final": {
     "post_id": "4k1xl6",
     "final_label": "Real",
-    "final_confidence": 0.997209789454937,
+    "final_confidence": 0.9972098291913668,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5897388011217117,
     "clip_cos": 0.6495646685361862,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any information about a TV meteorologist running on a trail to rescue a baby screech owl, so I don't know.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.1262363350024024",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.0001172517440863885
       },
       "vilt": {
-        "Real": 0.4745897054672241,
-        "SatireMixed": 0.01384714711457491,
-        "Fake": 0.5115631818771362
+        "Real": 0.47459185123443604,
+        "SatireMixed": 0.01384711917489767,
+        "Fake": 0.5115609765052795
       },
       "flava": {
         "Real": 0.9898197054862976,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6537162214517593,
       "consistency_score": 0.5922297328710556
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA or extraterrestrial life, and I'm not aware of any credible sources that would suggest street cannabis contains a large amount of feces. If you have more context or information about this claim, I'd be happy to help you investigate further!"
     }
   ],
   "final": {
     "post_id": "b9dzwa",
     "final_label": "Real",
-    "final_confidence": 0.8269153131445249,
+    "final_confidence": 0.8269160284002622,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5922297328710556,
     "clip_cos": 0.6537162214517593,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA or extraterrestrial life, and I'm not aware of any credible sources that would suggest street cannabis contains a large amount of feces. If you have more context or information about this claim, I'd be happy to help you investigate further!",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1040959208014158"

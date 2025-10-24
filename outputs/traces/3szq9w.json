@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9789334535598755,
-        "SatireMixed": 0.002840405097231269,
-        "Fake": 0.01822608895599842
+        "SatireMixed": 0.0028404078911989927,
+        "Fake": 0.01822606287896633
       },
       "flava": {
         "Real": 0.2890181541442871,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6472498923540115,
       "consistency_score": 0.5883499354124069
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The given text doesn't mention anything about holding something above a coastline, so I can't provide an accurate answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5883499354124069,
     "clip_cos": 0.6472498923540115,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The given text doesn't mention anything about holding something above a coastline, so I can't provide an accurate answer.",
     "upvote_ratio": "-2.6004338996405285",
     "score": "-0.13014527826442823",
     "num_comments": "-0.12476323641396671"

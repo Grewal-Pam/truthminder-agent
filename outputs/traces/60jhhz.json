@@ -9,9 +9,9 @@
         "Fake": 0.9995092153549194
       },
       "vilt": {
-        "Real": 0.6817951202392578,
-        "SatireMixed": 0.007981710135936737,
-        "Fake": 0.3102231025695801
+        "Real": 0.6817952990531921,
+        "SatireMixed": 0.00798170454800129,
+        "Fake": 0.3102230131626129
       },
       "flava": {
         "Real": 0.9877839684486389,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6589484810829163,
       "consistency_score": 0.8976845443248749
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is about a farmer discovering kittens and realizing they're not house cats, which has no connection to NASA or the existence of aliens. I'm only here to provide information based on the given context, and this question falls outside of that scope."
     }
   ],
   "final": {
     "post_id": "60jhhz",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5804966801979268,
+    "final_label": "Real",
+    "final_confidence": 0.5804967398025715,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.8976845443248749,
     "clip_cos": 0.6589484810829163,
     "ocr_text": "Farmer Discovers 4 Kittens In Barn, But When TheyGrow He Realizes Theyre Not House Cats",
+    "retrieved_text": "I don't know. The question is about a farmer discovering kittens and realizing they're not house cats, which has no connection to NASA or the existence of aliens. I'm only here to provide information based on the given context, and this question falls outside of that scope.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.11027481668246357",
     "num_comments": "-0.12476323641396671"

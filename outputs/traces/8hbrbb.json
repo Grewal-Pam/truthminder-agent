@@ -9,9 +9,9 @@
         "Fake": 0.0041275774128735065
       },
       "vilt": {
-        "Real": 0.05830841138958931,
-        "SatireMixed": 0.7705225944519043,
-        "Fake": 0.1711689829826355
+        "Real": 0.058307863771915436,
+        "SatireMixed": 0.7705223560333252,
+        "Fake": 0.17116989195346832
       },
       "flava": {
         "Real": 0.0038624037988483906,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6674996167421341,
       "consistency_score": 0.6004997700452804
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"communist prints china\" seems unrelated to the context about NASA and alien life, so I'm unable to provide an answer."
     }
   ],
   "final": {
     "post_id": "8hbrbb",
     "final_label": "SatireMixed",
-    "final_confidence": 0.6263986680507659,
+    "final_confidence": 0.6263985885779062,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6004997700452804,
     "clip_cos": 0.6674996167421341,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"communist prints china\" seems unrelated to the context about NASA and alien life, so I'm unable to provide an answer.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11972142956569268",
     "num_comments": "-0.138541446822334"

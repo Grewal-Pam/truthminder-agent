@@ -9,9 +9,9 @@
         "Fake": 0.011799750849604607
       },
       "vilt": {
-        "Real": 0.9656912088394165,
-        "SatireMixed": 0.002777394838631153,
-        "Fake": 0.03153141587972641
+        "Real": 0.9656907916069031,
+        "SatireMixed": 0.002777393674477935,
+        "Fake": 0.031531818211078644
       },
       "flava": {
         "Real": 0.9014078974723816,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.649643063545227,
       "consistency_score": 0.5897858381271363
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer your question about a \"happy cactus\". Could you please provide more information or clarify what you mean by \"this happy cactus\"?"
     }
   ],
   "final": {
     "post_id": "cb3e4o",
     "final_label": "Real",
-    "final_confidence": 0.9571356604894002,
+    "final_confidence": 0.9571355214118957,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5897858381271363,
     "clip_cos": 0.649643063545227,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer your question about a \"happy cactus\". Could you please provide more information or clarify what you mean by \"this happy cactus\"?",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12428186337138948",
     "num_comments": "-0.12476323641396671"

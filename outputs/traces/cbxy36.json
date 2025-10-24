@@ -9,9 +9,9 @@
         "Fake": 0.9990033507347107
       },
       "vilt": {
-        "Real": 0.5704165101051331,
-        "SatireMixed": 0.014533130452036858,
-        "Fake": 0.41505032777786255
+        "Real": 0.5704149603843689,
+        "SatireMixed": 0.014533170498907566,
+        "Fake": 0.4150518774986267
       },
       "flava": {
         "Real": 0.00815271120518446,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6453465670347214,
       "consistency_score": 0.5872079402208328
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not mention Atlantis or NASA's search for it, but rather mentions NASA's lack of admission to the existence of aliens and the discovery of microbial life."
     }
   ],
   "final": {
     "post_id": "cbxy36",
     "final_label": "Fake",
-    "final_confidence": 0.7922826043963432,
+    "final_confidence": 0.7922831209699313,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5872079402208328,
     "clip_cos": 0.6453465670347214,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided does not mention Atlantis or NASA's search for it, but rather mentions NASA's lack of admission to the existence of aliens and the discovery of microbial life.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.10832034505145065",
     "num_comments": "-0.13165234161815034"

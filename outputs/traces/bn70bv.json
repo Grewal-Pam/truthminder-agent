@@ -9,9 +9,9 @@
         "Fake": 0.9666181206703186
       },
       "vilt": {
-        "Real": 0.7597053050994873,
-        "SatireMixed": 0.02080703340470791,
-        "Fake": 0.21948762238025665
+        "Real": 0.7597046494483948,
+        "SatireMixed": 0.02080712467432022,
+        "Fake": 0.21948818862438202
       },
       "flava": {
         "Real": 0.0041545783169567585,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6538585722446442,
       "consistency_score": 0.19615757167339323
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided is about NASA and alien life, but it seems unrelated to the question \"rising stars only dreams RIS ING\". I'm not familiar with this phrase or its meaning, so I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "bn70bv",
     "final_label": "Fake",
-    "final_confidence": 0.6867246794899305,
+    "final_confidence": 0.6867248682379723,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19615757167339323,
     "clip_cos": 0.6538585722446442,
     "ocr_text": "RIS ING",
+    "retrieved_text": "I don't know. The context you provided is about NASA and alien life, but it seems unrelated to the question \"rising stars only dreams RIS ING\". I'm not familiar with this phrase or its meaning, so I can't provide an answer.",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.12884229717708628",
     "num_comments": "-0.12476323641396671"

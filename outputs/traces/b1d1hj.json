@@ -9,9 +9,9 @@
         "Fake": 0.0003538857272360474
       },
       "vilt": {
-        "Real": 0.030597256496548653,
-        "SatireMixed": 0.009537515230476856,
-        "Fake": 0.9598652720451355
+        "Real": 0.03059748187661171,
+        "SatireMixed": 0.009537527337670326,
+        "Fake": 0.9598650336265564
       },
       "flava": {
         "Real": 0.00402621878311038,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6182301864027977,
-      "consistency_score": 0.5709381118416786
+      "clip_cos": 0.6182301938533783,
+      "consistency_score": 0.570938116312027
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem related to the Korean War or North Korea's air force, so I'm unable to answer this question accurately."
     }
   ],
   "final": {
     "post_id": "b1d1hj",
     "final_label": "Fake",
-    "final_confidence": 0.6238438713905247,
+    "final_confidence": 0.6238437921858858,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5709381118416786,
-    "clip_cos": 0.6182301864027977,
+    "consistency_score": 0.570938116312027,
+    "clip_cos": 0.6182301938533783,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem related to the Korean War or North Korea's air force, so I'm unable to answer this question accurately.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.12232739174037656",
     "num_comments": "-0.1454305520265176"

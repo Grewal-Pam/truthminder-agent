@@ -9,9 +9,9 @@
         "Fake": 0.00032628135522827506
       },
       "vilt": {
-        "Real": 0.257583886384964,
-        "SatireMixed": 0.009694799780845642,
-        "Fake": 0.7327212691307068
+        "Real": 0.25758397579193115,
+        "SatireMixed": 0.00969480350613594,
+        "Fake": 0.732721209526062
       },
       "flava": {
         "Real": 0.005536351818591356,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6446318477392197,
       "consistency_score": 0.5867791086435318
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion! The question you're asking doesn't seem related to NASA or the existence of aliens. It appears to be a humorous and imaginative scenario about jumping, bushes, and using a vacuum cleaner. Am I right? If so, I don't know what kind of answer would be helpful in this context!"
     }
   ],
   "final": {
     "post_id": "4t923q",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5639108861639784,
+    "final_label": "Fake",
+    "final_confidence": 0.5639108662957636,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5867791086435318,
     "clip_cos": 0.6446318477392197,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion! The question you're asking doesn't seem related to NASA or the existence of aliens. It appears to be a humorous and imaginative scenario about jumping, bushes, and using a vacuum cleaner. Am I right? If so, I don't know what kind of answer would be helpful in this context!",
     "upvote_ratio": "0.855010790396182",
     "score": "0.4509842866900795",
     "num_comments": "0.006129762465522366"

@@ -9,9 +9,9 @@
         "Fake": 0.15814505517482758
       },
       "vilt": {
-        "Real": 0.3563038110733032,
+        "Real": 0.3563041388988495,
         "SatireMixed": 0.01726728118956089,
-        "Fake": 0.6264288425445557
+        "Fake": 0.6264286041259766
       },
       "flava": {
         "Real": 0.007492915261536837,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6764769405126572,
-      "consistency_score": 0.6058861643075943
+      "clip_cos": 0.676476925611496,
+      "consistency_score": 0.6058861553668976
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life evidence, and seems to be a fictional scenario combining Dirk Nowitzki (a professional basketball player) with a powerful soprano singing voice. I'm not aware of any information that would allow me to answer this question accurately."
     }
   ],
   "final": {
     "post_id": "azzdft",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5834195665319761,
+    "final_label": "Fake",
+    "final_confidence": 0.5834194865226746,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.6058861643075943,
-    "clip_cos": 0.6764769405126572,
+    "consistency_score": 0.6058861553668976,
+    "clip_cos": 0.676476925611496,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life evidence, and seems to be a fictional scenario combining Dirk Nowitzki (a professional basketball player) with a powerful soprano singing voice. I'm not aware of any information that would allow me to answer this question accurately.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

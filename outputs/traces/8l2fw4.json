@@ -9,9 +9,9 @@
         "Fake": 0.9989394545555115
       },
       "vilt": {
-        "Real": 0.6390898823738098,
-        "SatireMixed": 0.00904841162264347,
-        "Fake": 0.35186174511909485
+        "Real": 0.6390885710716248,
+        "SatireMixed": 0.009048436768352985,
+        "Fake": 0.35186299681663513
       },
       "flava": {
         "Real": 0.006848535500466824,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6620646417140961,
       "consistency_score": 0.8986193925142287
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not seeing any connection between the context about NASA and alien life, and the question \"leon one eyed wonder\". It seems like a completely different topic. I don't know the answer to this question."
     }
   ],
   "final": {
     "post_id": "8l2fw4",
     "final_label": "Fake",
-    "final_confidence": 0.7896646808981895,
+    "final_confidence": 0.789665098130703,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.8986193925142287,
     "clip_cos": 0.6620646417140961,
     "ocr_text": "ONG EYED WONDER",
+    "retrieved_text": "I'm not seeing any connection between the context about NASA and alien life, and the question \"leon one eyed wonder\". It seems like a completely different topic. I don't know the answer to this question.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

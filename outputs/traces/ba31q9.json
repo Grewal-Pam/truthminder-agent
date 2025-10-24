@@ -9,9 +9,9 @@
         "Fake": 0.0011133011430501938
       },
       "vilt": {
-        "Real": 0.013288251124322414,
-        "SatireMixed": 0.016349054872989655,
-        "Fake": 0.9703627228736877
+        "Real": 0.013288101181387901,
+        "SatireMixed": 0.016349079087376595,
+        "Fake": 0.9703628420829773
       },
       "flava": {
         "Real": 0.9636116027832031,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6122723817825317,
       "consistency_score": 0.5673634290695191
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nIt looks like your friend is sharing a humorous anecdote about spending more time than they'd like to admit on Instagram. The phrase \"took me longer than id want to admit\" suggests that the post might be a self-deprecating joke or a lighthearted confession, rather than a serious statement.\n\nSo, my helpful answer would be: it seems your friend is just sharing a funny moment and trying to poke fun at themselves!"
     }
   ],
   "final": {
     "post_id": "ba31q9",
     "final_label": "Real",
-    "final_confidence": 0.66262266245236,
+    "final_confidence": 0.6626226124713818,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5673634290695191,
     "clip_cos": 0.6122723817825317,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nIt looks like your friend is sharing a humorous anecdote about spending more time than they'd like to admit on Instagram. The phrase \"took me longer than id want to admit\" suggests that the post might be a self-deprecating joke or a lighthearted confession, rather than a serious statement.\n\nSo, my helpful answer would be: it seems your friend is just sharing a funny moment and trying to poke fun at themselves!",
     "upvote_ratio": "1.0368763003981143",
     "score": "0.38778970395399515",
     "num_comments": "-0.01453755314702854"

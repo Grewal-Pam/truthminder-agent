@@ -9,9 +9,9 @@
         "Fake": 0.9992662072181702
       },
       "vilt": {
-        "Real": 0.016977448016405106,
-        "SatireMixed": 0.007929356768727303,
-        "Fake": 0.9750932455062866
+        "Real": 0.016977477818727493,
+        "SatireMixed": 0.007929367013275623,
+        "Fake": 0.9750931262969971
       },
       "flava": {
         "Real": 0.3380979597568512,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6526855677366257,
       "consistency_score": 0.5916113406419754
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question asks about Chancellor Merkel, but there is no clear connection between Chancellor Merkel and the topic of aliens or NASA's findings. Therefore, I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "1197qs",
     "final_label": "Fake",
-    "final_confidence": 0.8677997586131095,
+    "final_confidence": 0.8677997188766797,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5916113406419754,
     "clip_cos": 0.6526855677366257,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question asks about Chancellor Merkel, but there is no clear connection between Chancellor Merkel and the topic of aliens or NASA's findings. Therefore, I can't provide an answer.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.12476323641396671"

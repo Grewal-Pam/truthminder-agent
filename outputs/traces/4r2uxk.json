@@ -9,8 +9,8 @@
         "Fake": 0.55218106508255
       },
       "vilt": {
-        "Real": 0.012832573615014553,
-        "SatireMixed": 0.010098347440361977,
+        "Real": 0.01283249445259571,
+        "SatireMixed": 0.010098381899297237,
         "Fake": 0.977069079875946
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6174700856208801,
       "consistency_score": 0.570482051372528
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have any connection to the question about a giant boar and its tongue, so I'm unable to provide an answer."
     }
   ],
   "final": {
     "post_id": "4r2uxk",
-    "final_label": "Uncertain",
+    "final_label": "Fake",
     "final_confidence": 0.5157202419365445,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.570482051372528,
     "clip_cos": 0.6174700856208801,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have any connection to the question about a giant boar and its tongue, so I'm unable to provide an answer.",
     "upvote_ratio": "-2.964164919644392",
     "score": "-0.1285165519052508",
     "num_comments": "-0.138541446822334"

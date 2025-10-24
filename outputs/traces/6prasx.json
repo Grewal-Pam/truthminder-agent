@@ -9,9 +9,9 @@
         "Fake": 0.0011069244937971234
       },
       "vilt": {
-        "Real": 0.9877767562866211,
-        "SatireMixed": 0.002829104894772172,
-        "Fake": 0.009394094347953796
+        "Real": 0.9877768754959106,
+        "SatireMixed": 0.0028291079215705395,
+        "Fake": 0.009394059889018536
       },
       "flava": {
         "Real": 0.9895725846290588,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6345264911651611,
       "consistency_score": 0.5807158946990967
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and microbial life, which doesn't seem relevant to a Lyft driver accusation. I'm not equipped with information or expertise in this area."
     }
   ],
   "final": {
     "post_id": "6prasx",
     "final_label": "Real",
-    "final_confidence": 0.9968929855028787,
+    "final_confidence": 0.9968930252393087,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5807158946990967,
     "clip_cos": 0.6345264911651611,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and microbial life, which doesn't seem relevant to a Lyft driver accusation. I'm not equipped with information or expertise in this area.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

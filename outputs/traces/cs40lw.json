@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9857965111732483,
-        "SatireMixed": 0.0025859142187982798,
-        "Fake": 0.011617520824074745
+        "SatireMixed": 0.002585912821814418,
+        "Fake": 0.011617526412010193
       },
       "flava": {
         "Real": 0.9898210763931274,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6481923162937164,
       "consistency_score": 0.5889153897762298
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to have any information about cars making strings out of leaves, so I'm not able to answer this question based on the given information."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5889153897762298,
     "clip_cos": 0.6481923162937164,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to have any information about cars making strings out of leaves, so I'm not able to answer this question based on the given information.",
     "upvote_ratio": "-1.145509819625071",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

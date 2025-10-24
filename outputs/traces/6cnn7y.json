@@ -9,9 +9,9 @@
         "Fake": 0.9993987083435059
       },
       "vilt": {
-        "Real": 0.0060630375519394875,
-        "SatireMixed": 0.012805690988898277,
-        "Fake": 0.9811313152313232
+        "Real": 0.006063071545213461,
+        "SatireMixed": 0.01280570775270462,
+        "Fake": 0.9811311960220337
       },
       "flava": {
         "Real": 0.004292900674045086,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6067333668470383,
-      "consistency_score": 0.564040020108223
+      "clip_cos": 0.6067333519458771,
+      "consistency_score": 0.5640400111675262
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem related to the question \"darimu wrong turn\". It appears to be about NASA and alien life, but there's no connection between that information and the question being asked."
     }
   ],
   "final": {
     "post_id": "6cnn7y",
     "final_label": "Fake",
-    "final_confidence": 0.9742392775416374,
+    "final_confidence": 0.9742392372687658,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.564040020108223,
-    "clip_cos": 0.6067333668470383,
+    "consistency_score": 0.5640400111675262,
+    "clip_cos": 0.6067333519458771,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem related to the question \"darimu wrong turn\". It appears to be about NASA and alien life, but there's no connection between that information and the question being asked.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.06792793134385033",
     "num_comments": "-0.0834286051888649"

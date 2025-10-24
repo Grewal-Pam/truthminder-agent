@@ -9,9 +9,9 @@
         "Fake": 0.00012169226101832464
       },
       "vilt": {
-        "Real": 0.9799347519874573,
-        "SatireMixed": 0.002034178702160716,
-        "Fake": 0.018031150102615356
+        "Real": 0.9799348711967468,
+        "SatireMixed": 0.0020341789349913597,
+        "Fake": 0.01803101971745491
       },
       "flava": {
         "Real": 0.9845028519630432,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6671429872512817,
       "consistency_score": 0.6002857923507691
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention Fidel Castro or crocodiles."
     }
   ],
   "final": {
     "post_id": "ctfzng",
     "final_label": "Real",
-    "final_confidence": 0.9940740257898966,
+    "final_confidence": 0.9940740655263265,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6002857923507691,
     "clip_cos": 0.6671429872512817,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention Fidel Castro or crocodiles.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.10929758086695711",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.0001257768162759021
       },
       "vilt": {
-        "Real": 0.14165163040161133,
-        "SatireMixed": 0.009776041842997074,
-        "Fake": 0.848572313785553
+        "Real": 0.14165009558200836,
+        "SatireMixed": 0.00977606326341629,
+        "Fake": 0.8485738039016724
       },
       "flava": {
         "Real": 0.004488667473196983,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5976754873991013,
       "consistency_score": 0.5586052924394608
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA or space exploration, so I can't provide a helpful answer based on the information provided."
     }
   ],
   "final": {
     "post_id": "bh6qi6",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5985913126034429,
+    "final_label": "Fake",
+    "final_confidence": 0.5985918093088161,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5586052924394608,
     "clip_cos": 0.5976754873991013,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA or space exploration, so I can't provide a helpful answer based on the information provided.",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12753931608974434",
     "num_comments": "-0.1454305520265176"

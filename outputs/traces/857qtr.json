@@ -9,7 +9,7 @@
         "Fake": 0.9940599203109741
       },
       "vilt": {
-        "Real": 0.002412765985354781,
+        "Real": 0.0024127636570483446,
         "SatireMixed": 0.040434062480926514,
         "Fake": 0.9571531414985657
       },
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.584491141140461,
       "consistency_score": 0.5506946846842766
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between NASA's statements about alien life or microbial life evidence and the phrase \"purrs like a treasonous threat\". It appears to be a nonsensical combination. Therefore, I don't know."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5506946846842766,
     "clip_cos": 0.584491141140461,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any connection between NASA's statements about alien life or microbial life evidence and the phrase \"purrs like a treasonous threat\". It appears to be a nonsensical combination. Therefore, I don't know.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.12884229717708628",
     "num_comments": "-0.0076484479428449055"

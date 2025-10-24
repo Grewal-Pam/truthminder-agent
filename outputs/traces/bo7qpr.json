@@ -9,8 +9,8 @@
         "Fake": 0.0004937670310027897
       },
       "vilt": {
-        "Real": 0.0036189889069646597,
-        "SatireMixed": 0.025051943957805634,
+        "Real": 0.003618999384343624,
+        "SatireMixed": 0.0250519011169672,
         "Fake": 0.9713290929794312
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6416430026292801,
-      "consistency_score": 0.5849858015775681
+      "clip_cos": 0.6416430175304413,
+      "consistency_score": 0.5849858105182648
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to NASA's admission or confirmation of alien life, which is the context provided. I can't provide information about Coca-Cola's history or ingredients without more relevant context."
     }
   ],
   "final": {
     "post_id": "bo7qpr",
     "final_label": "Fake",
-    "final_confidence": 0.6363733522719703,
+    "final_confidence": 0.6363733528084121,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5849858015775681,
-    "clip_cos": 0.6416430026292801,
+    "consistency_score": 0.5849858105182648,
+    "clip_cos": 0.6416430175304413,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to NASA's admission or confirmation of alien life, which is the context provided. I can't provide information about Coca-Cola's history or ingredients without more relevant context.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.11841844847835073",
     "num_comments": "-0.12476323641396671"

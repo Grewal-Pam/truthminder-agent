@@ -9,9 +9,9 @@
         "Fake": 0.9997368454933167
       },
       "vilt": {
-        "Real": 0.7387779951095581,
-        "SatireMixed": 0.0857066884636879,
-        "Fake": 0.1755152940750122
+        "Real": 0.7387804388999939,
+        "SatireMixed": 0.08570611476898193,
+        "Fake": 0.17551346123218536
       },
       "flava": {
         "Real": 0.004573397804051638,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6028355434536934,
       "consistency_score": 0.561701326072216
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help with your question! However, I must say that the context provided seems unrelated to creating a hand-drawn map of Estonia, Latvia, and Lithuania. The context appears to be about NASA and alien life, which doesn't seem relevant to the topic at hand (no pun intended!).\n\nAs a result, I'll have to politely decline answering your question, as it appears to be a separate request that's not directly tied to the given context. If you'd like, I can try to help with something else or provide information on the topic of Estonia, Latvia, and Lithuania if that's what you're looking for!"
     }
   ],
   "final": {
     "post_id": "5vttm7",
     "final_label": "Fake",
-    "final_confidence": 0.7059516065418721,
+    "final_confidence": 0.7059509955942631,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.561701326072216,
     "clip_cos": 0.6028355434536934,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help with your question! However, I must say that the context provided seems unrelated to creating a hand-drawn map of Estonia, Latvia, and Lithuania. The context appears to be about NASA and alien life, which doesn't seem relevant to the topic at hand (no pun intended!).\n\nAs a result, I'll have to politely decline answering your question, as it appears to be a separate request that's not directly tied to the given context. If you'd like, I can try to help with something else or pro",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12721357081790885",
     "num_comments": "-0.1454305520265176"

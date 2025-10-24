@@ -9,9 +9,9 @@
         "Fake": 0.0023353751748800278
       },
       "vilt": {
-        "Real": 0.680976390838623,
-        "SatireMixed": 0.014751285314559937,
-        "Fake": 0.30427229404449463
+        "Real": 0.6809787154197693,
+        "SatireMixed": 0.014751212671399117,
+        "Fake": 0.30427008867263794
       },
       "flava": {
         "Real": 0.948788046836853,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6784195750951767,
       "consistency_score": 0.607051745057106
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context information to answer this question. The provided context is about NASA and alien life, but it doesn't mention anything about Indonesia or a robot arm. Can you provide more information or clarify the connection between these two seemingly unrelated topics?"
     }
   ],
   "final": {
     "post_id": "41td0b",
     "final_label": "Real",
-    "final_confidence": 0.8822225221991539,
+    "final_confidence": 0.882223297059536,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.607051745057106,
     "clip_cos": 0.6784195750951767,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context information to answer this question. The provided context is about NASA and alien life, but it doesn't mention anything about Indonesia or a robot arm. Can you provide more information or clarify the connection between these two seemingly unrelated topics?",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12656208027423788",
     "num_comments": "-0.138541446822334"

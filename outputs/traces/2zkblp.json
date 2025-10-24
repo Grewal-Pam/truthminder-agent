@@ -9,9 +9,9 @@
         "Fake": 0.05673297122120857
       },
       "vilt": {
-        "Real": 0.5573175549507141,
-        "SatireMixed": 0.017638208344578743,
-        "Fake": 0.4250442087650299
+        "Real": 0.5573170185089111,
+        "SatireMixed": 0.01763821206986904,
+        "Fake": 0.4250447750091553
       },
       "flava": {
         "Real": 0.9893755912780762,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6158541291952133,
       "consistency_score": 0.569512477517128
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is unrelated to the question about Serbians and grenade disposal, so I can't provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "2zkblp",
     "final_label": "Real",
-    "final_confidence": 0.8341329624851546,
+    "final_confidence": 0.8341327836712202,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.569512477517128,
     "clip_cos": 0.6158541291952133,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is unrelated to the question about Serbians and grenade disposal, so I can't provide a helpful answer.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

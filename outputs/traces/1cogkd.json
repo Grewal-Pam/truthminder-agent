@@ -9,9 +9,9 @@
         "Fake": 0.00037535367300733924
       },
       "vilt": {
-        "Real": 0.9833933711051941,
-        "SatireMixed": 0.0023263380862772465,
-        "Fake": 0.01428030151873827
+        "Real": 0.9833932518959045,
+        "SatireMixed": 0.0023263401817530394,
+        "Fake": 0.014280416071414948
       },
       "flava": {
         "Real": 0.9766544103622437,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6142816469073296,
-      "consistency_score": 0.5342844940721988
+      "clip_cos": 0.6142816543579102,
+      "consistency_score": 0.534284496307373
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any connection between West Texas, NASA, and Czech bakeries that would provide insight into this question. The context provided seems unrelated to the topic at hand, which appears to be completely random.\n\nSo, I'll have to say... I don't know!"
     }
   ],
   "final": {
     "post_id": "1cogkd",
     "final_label": "Real",
-    "final_confidence": 0.9885907909323772,
+    "final_confidence": 0.9885907513300577,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5342844940721988,
-    "clip_cos": 0.6142816469073296,
+    "consistency_score": 0.534284496307373,
+    "clip_cos": 0.6142816543579102,
     "ocr_text": "ee be",
+    "retrieved_text": "I'm not aware of any connection between West Texas, NASA, and Czech bakeries that would provide insight into this question. The context provided seems unrelated to the topic at hand, which appears to be completely random.\n\nSo, I'll have to say... I don't know!",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.09854798689638605",
     "num_comments": "-0.11098502600559944"

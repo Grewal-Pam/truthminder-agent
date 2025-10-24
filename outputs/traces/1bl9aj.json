@@ -9,9 +9,9 @@
         "Fake": 0.00012790696928277612
       },
       "vilt": {
-        "Real": 0.9809384346008301,
-        "SatireMixed": 0.0027547376230359077,
-        "Fake": 0.01630682870745659
+        "Real": 0.9809383153915405,
+        "SatireMixed": 0.0027547336649149656,
+        "Fake": 0.01630697399377823
       },
       "flava": {
         "Real": 0.9856956601142883,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6528028249740601,
       "consistency_score": 0.591681694984436
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about karate or a \"flying technique\", so I'm unable to answer this question."
     }
   ],
   "final": {
     "post_id": "1bl9aj",
     "final_label": "Real",
-    "final_confidence": 0.9943208584785461,
+    "final_confidence": 0.9943208187421163,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.591681694984436,
     "clip_cos": 0.6528028249740601,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about karate or a \"flying technique\", so I'm unable to answer this question.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.1259105897305669",
     "num_comments": "-0.04209397396376308"

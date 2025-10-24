@@ -9,9 +9,9 @@
         "Fake": 0.0037162830121815205
       },
       "vilt": {
-        "Real": 0.8485292792320251,
-        "SatireMixed": 0.006800989154726267,
-        "Fake": 0.14466972649097443
+        "Real": 0.8485286235809326,
+        "SatireMixed": 0.006801013369113207,
+        "Fake": 0.14467044174671173
       },
       "flava": {
         "Real": 0.9671858549118042,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6830216199159622,
       "consistency_score": 0.6098129719495773
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be unrelated to the question about the Bayern Munich football team, which is a topic in the sports domain, whereas the provided context is about NASA and extraterrestrial life."
     }
   ],
   "final": {
     "post_id": "3do1r4",
     "final_label": "Real",
-    "final_confidence": 0.9430896653930346,
+    "final_confidence": 0.9430894468426705,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6098129719495773,
     "clip_cos": 0.6830216199159622,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be unrelated to the question about the Bayern Munich football team, which is a topic in the sports domain, whereas the provided context is about NASA and extraterrestrial life.",
     "upvote_ratio": "0.30941426039038616",
     "score": "1.8959903125522972",
     "num_comments": "2.9339994742435676"

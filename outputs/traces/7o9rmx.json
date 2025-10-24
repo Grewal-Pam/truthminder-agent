@@ -9,8 +9,8 @@
         "Fake": 0.9996126294136047
       },
       "vilt": {
-        "Real": 0.005910547450184822,
-        "SatireMixed": 0.01836017146706581,
+        "Real": 0.005910507868975401,
+        "SatireMixed": 0.018360180780291557,
         "Fake": 0.9757292866706848
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.637108325958252,
       "consistency_score": 0.5822649955749511
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide an answer to this question. The original text does not mention Hezbollah or any beliefs related to that organization. It appears to be discussing NASA and the search for extraterrestrial life. If you could provide more context or clarify what you mean by \"believers hezbollah\", I'd be happy to try and help further."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5822649955749511,
     "clip_cos": 0.637108325958252,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide an answer to this question. The original text does not mention Hezbollah or any beliefs related to that organization. It appears to be discussing NASA and the search for extraterrestrial life. If you could provide more context or clarify what you mean by \"believers hezbollah\", I'd be happy to try and help further.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.03795936633498559",
     "num_comments": "0.1301336561408278"

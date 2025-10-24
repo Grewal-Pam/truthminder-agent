@@ -9,9 +9,9 @@
         "Fake": 0.9996628761291504
       },
       "vilt": {
-        "Real": 0.01208831649273634,
-        "SatireMixed": 0.009034316055476665,
-        "Fake": 0.9788773655891418
+        "Real": 0.012088482268154621,
+        "SatireMixed": 0.009034262970089912,
+        "Fake": 0.9788772463798523
       },
       "flava": {
         "Real": 0.005645380355417728,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6499938368797302,
       "consistency_score": 0.5899963021278382
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"happy heater\" seems unrelated to the provided context about NASA and alien life, so I'm unable to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "6f5dtg",
     "final_label": "Fake",
-    "final_confidence": 0.9800475583871207,
+    "final_confidence": 0.9800475186506907,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5899963021278382,
     "clip_cos": 0.6499938368797302,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"happy heater\" seems unrelated to the provided context about NASA and alien life, so I'm unable to provide a helpful answer.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

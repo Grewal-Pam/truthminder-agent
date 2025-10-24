@@ -9,9 +9,9 @@
         "Fake": 0.9997887015342712
       },
       "vilt": {
-        "Real": 0.9672924876213074,
-        "SatireMixed": 0.00355355953797698,
-        "Fake": 0.029154015704989433
+        "Real": 0.9672923684120178,
+        "SatireMixed": 0.0035535572096705437,
+        "Fake": 0.029154067859053612
       },
       "flava": {
         "Real": 0.9847317934036255,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6407969743013382,
       "consistency_score": 0.5844781845808029
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to provide an answer because there is no connection between the context provided about NASA and the topic of someone drinking Baileys Irish Cream or being jailed for their sexual orientation. The two topics are unrelated, so I don't have any information to provide in this case."
     }
   ],
   "final": {
     "post_id": "2ghbgs",
     "final_label": "Real",
-    "final_confidence": 0.655769634025152,
+    "final_confidence": 0.6557695942887222,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5844781845808029,
     "clip_cos": 0.6407969743013382,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to provide an answer because there is no connection between the context provided about NASA and the topic of someone drinking Baileys Irish Cream or being jailed for their sexual orientation. The two topics are unrelated, so I don't have any information to provide in this case.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.07509432732423103",
     "num_comments": "-0.06965039478049763"

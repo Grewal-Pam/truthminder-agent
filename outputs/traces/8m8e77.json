@@ -9,9 +9,9 @@
         "Fake": 0.9981099367141724
       },
       "vilt": {
-        "Real": 0.974658727645874,
-        "SatireMixed": 0.0028706646990031004,
-        "Fake": 0.022470640018582344
+        "Real": 0.9746586084365845,
+        "SatireMixed": 0.0028706740122288465,
+        "Fake": 0.02247067354619503
       },
       "flava": {
         "Real": 0.005032992456108332,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6578668802976608,
       "consistency_score": 0.5947201281785965
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be a small typo in the question - I assume it's supposed to say \"earthquake\" instead of \"equarthack\"?\n\nIf that's correct, and considering the provided context about NASA not admitting alien existence and only finding microbial life evidence, my answer would be:\n\nI don't know."
     }
   ],
   "final": {
     "post_id": "8m8e77",
     "final_label": "Fake",
-    "final_confidence": 0.6596807438184819,
+    "final_confidence": 0.6596807549943527,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5947201281785965,
     "clip_cos": 0.6578668802976608,
     "ocr_text": "",
+    "retrieved_text": "I think there might be a small typo in the question - I assume it's supposed to say \"earthquake\" instead of \"equarthack\"?\n\nIf that's correct, and considering the provided context about NASA not admitting alien existence and only finding microbial life evidence, my answer would be:\n\nI don't know.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.11787413120978307"

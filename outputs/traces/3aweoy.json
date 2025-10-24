@@ -9,9 +9,9 @@
         "Fake": 0.0012945192866027355
       },
       "vilt": {
-        "Real": 0.00911091547459364,
-        "SatireMixed": 0.475446879863739,
-        "Fake": 0.5154422521591187
+        "Real": 0.009110908955335617,
+        "SatireMixed": 0.47544699907302856,
+        "Fake": 0.5154420733451843
       },
       "flava": {
         "Real": 0.0038679728750139475,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6580484211444855,
       "consistency_score": 0.5948290526866913
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a \"napoleon meeting satan and death russian circa\" that is related to NASA or aliens. It seems like a fictional scenario, so I'm not going to try to answer it based on the given context. The context only talks about NASA's findings regarding alien life, but it doesn't mention Napoleon, Satan, or any Russian-related information."
     }
   ],
   "final": {
     "post_id": "3aweoy",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5310512388745944,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5310512786110243,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5948290526866913,
     "clip_cos": 0.6580484211444855,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a \"napoleon meeting satan and death russian circa\" that is related to NASA or aliens. It seems like a fictional scenario, so I'm not going to try to answer it based on the given context. The context only talks about NASA's findings regarding alien life, but it doesn't mention Napoleon, Satan, or any Russian-related information.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.11222928831347648",
     "num_comments": "-0.11787413120978307"

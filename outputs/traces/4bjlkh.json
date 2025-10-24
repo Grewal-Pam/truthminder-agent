@@ -9,9 +9,9 @@
         "Fake": 0.897726833820343
       },
       "vilt": {
-        "Real": 0.9843587875366211,
-        "SatireMixed": 0.0013210272882133722,
-        "Fake": 0.014320150017738342
+        "Real": 0.9843586683273315,
+        "SatireMixed": 0.0013210253091529012,
+        "Fake": 0.014320222660899162
       },
       "flava": {
         "Real": 0.9889761209487915,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6808762401342392,
       "consistency_score": 0.6085257440805435
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is unrelated to NASA, aliens, or microbial life evidence, so I'm not in a position to provide an answer."
     }
   ],
   "final": {
     "post_id": "4bjlkh",
     "final_label": "Real",
-    "final_confidence": 0.6943658371369044,
+    "final_confidence": 0.6943657974004745,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6085257440805435,
     "clip_cos": 0.6808762401342392,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is unrelated to NASA, aliens, or microbial life evidence, so I'm not in a position to provide an answer.",
     "upvote_ratio": "0.4003470153913523",
     "score": "3.155647278740123",
     "num_comments": "1.9833029560662259"

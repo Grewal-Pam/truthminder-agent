@@ -9,9 +9,9 @@
         "Fake": 0.0003680604859255254
       },
       "vilt": {
-        "Real": 0.9146483540534973,
-        "SatireMixed": 0.0030013008508831263,
-        "Fake": 0.08235034346580505
+        "Real": 0.9146493673324585,
+        "SatireMixed": 0.0030012812931090593,
+        "Fake": 0.08234930038452148
       },
       "flava": {
         "Real": 0.013235115446150303,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6508635580539703,
-      "consistency_score": 0.5905181348323822
+      "clip_cos": 0.6508635431528091,
+      "consistency_score": 0.5905181258916855
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what this question is about or how it's related to NASA or aliens. Could you please provide more context or clarify the question? As it stands, I don't know the answer."
     }
   ],
   "final": {
     "post_id": "1w75wa",
     "final_label": "Real",
-    "final_confidence": 0.6479106745049358,
+    "final_confidence": 0.6479110117281476,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5905181348323822,
-    "clip_cos": 0.6508635580539703,
+    "consistency_score": 0.5905181258916855,
+    "clip_cos": 0.6508635431528091,
     "ocr_text": "",
+    "retrieved_text": "I'm not sure what this question is about or how it's related to NASA or aliens. Could you please provide more context or clarify the question? As it stands, I don't know the answer.",
     "upvote_ratio": "0.855010790396182",
     "score": "0.28452845278214595",
     "num_comments": "0.5090344423709278"

@@ -9,9 +9,9 @@
         "Fake": 0.9217491149902344
       },
       "vilt": {
-        "Real": 0.01560487225651741,
-        "SatireMixed": 0.1267072558403015,
-        "Fake": 0.8576878905296326
+        "Real": 0.01560464221984148,
+        "SatireMixed": 0.12670660018920898,
+        "Fake": 0.8576887845993042
       },
       "flava": {
         "Real": 0.0038540023379027843,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.7021620720624924,
       "consistency_score": 0.5606486216187476
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem to have anything to do with Pacific Kings, Hawaii, or \"Love Letters From Haw.\" It appears to be about NASA and the search for extraterrestrial life."
     }
   ],
   "final": {
     "post_id": "7ckru0",
     "final_label": "Fake",
-    "final_confidence": 0.9002386272847652,
+    "final_confidence": 0.9002389253079891,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5606486216187476,
     "clip_cos": 0.7021620720624924,
     "ocr_text": "Love Letters From Haw.",
+    "retrieved_text": "I don't know. The context doesn't seem to have anything to do with Pacific Kings, Hawaii, or \"Love Letters From Haw.\" It appears to be about NASA and the search for extraterrestrial life.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.12688782554607336",
     "num_comments": "-0.12476323641396671"

@@ -9,9 +9,9 @@
         "Fake": 0.00030954094836488366
       },
       "vilt": {
-        "Real": 0.4441913366317749,
-        "SatireMixed": 0.015614756383001804,
-        "Fake": 0.5401938557624817
+        "Real": 0.4441867172718048,
+        "SatireMixed": 0.015614817850291729,
+        "Fake": 0.540198564529419
       },
       "flava": {
         "Real": 0.004300462082028389,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6422749310731888,
-      "consistency_score": 0.5853649586439132
+      "clip_cos": 0.6422749608755112,
+      "consistency_score": 0.5853649765253067
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I apologize, but I don't have any relevant information or context to help with building a gaming setup for an audio production rig. It seems like this question is unrelated to the provided context about NASA and aliens. If you could provide more information about what kind of build your friend is looking for (e.g., computer hardware, software recommendations), I'd be happy to try and assist."
     }
   ],
   "final": {
     "post_id": "4o19ib",
-    "final_label": "Uncertain",
-    "final_confidence": 0.4942884599834991,
+    "final_label": "Fake",
+    "final_confidence": 0.4942900306453618,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5853649586439132,
-    "clip_cos": 0.6422749310731888,
+    "consistency_score": 0.5853649765253067,
+    "clip_cos": 0.6422749608755112,
     "ocr_text": "",
+    "retrieved_text": "I apologize, but I don't have any relevant information or context to help with building a gaming setup for an audio production rig. It seems like this question is unrelated to the provided context about NASA and aliens. If you could provide more information about what kind of build your friend is looking for (e.g., computer hardware, software recommendations), I'd be happy to try and assist.",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12981953299259275",
     "num_comments": "-0.0076484479428449055"

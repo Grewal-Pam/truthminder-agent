@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9895049333572388,
-        "SatireMixed": 0.005141562782227993,
-        "Fake": 0.005353542976081371
+        "SatireMixed": 0.0051415651105344296,
+        "Fake": 0.0053535401821136475
       },
       "flava": {
         "Real": 0.9884089231491089,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6070054620504379,
-      "consistency_score": 0.5642032772302628
+      "clip_cos": 0.6070054471492767,
+      "consistency_score": 0.564203268289566
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life. It seems to be about a lawsuit between Chubby Checker (a musician) and HP (Hewlett-Packard) regarding a pen- measuring app, which is not mentioned in the provided context."
     }
   ],
   "final": {
     "post_id": "1kik26",
     "final_label": "Real",
-    "final_confidence": 0.8827083787322044,
+    "final_confidence": 0.8827083781957626,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5642032772302628,
-    "clip_cos": 0.6070054620504379,
+    "consistency_score": 0.564203268289566,
+    "clip_cos": 0.6070054471492767,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life. It seems to be about a lawsuit between Chubby Checker (a musician) and HP (Hewlett-Packard) regarding a pen- measuring app, which is not mentioned in the provided context.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12460760864322497",
     "num_comments": "-0.138541446822334"

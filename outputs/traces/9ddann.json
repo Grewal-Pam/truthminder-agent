@@ -9,9 +9,9 @@
         "Fake": 0.021014602854847908
       },
       "vilt": {
-        "Real": 0.01235915906727314,
-        "SatireMixed": 0.01276542991399765,
-        "Fake": 0.9748753905296326
+        "Real": 0.01235934067517519,
+        "SatireMixed": 0.012765404768288136,
+        "Fake": 0.9748753309249878
       },
       "flava": {
         "Real": 0.9583183526992798,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6093304380774498,
       "consistency_score": 0.5327991314232349
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is asking about a specific word from an NYT op-ed, but I'm not provided with the text of the op-ed or any other relevant information. Without that context, I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "9ddann",
     "final_label": "Real",
-    "final_confidence": 0.6518034208118916,
+    "final_confidence": 0.6518034813478589,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5327991314232349,
     "clip_cos": 0.6093304380774498,
     "ocr_text": "v4DeCePsnS",
+    "retrieved_text": "I don't know. The question is asking about a specific word from an NYT op-ed, but I'm not provided with the text of the op-ed or any other relevant information. Without that context, I can't provide an answer.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11744121266284427",
     "num_comments": "-0.13165234161815034"

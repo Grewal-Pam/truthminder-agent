@@ -9,9 +9,9 @@
         "Fake": 0.017358535900712013
       },
       "vilt": {
-        "Real": 0.8930781483650208,
-        "SatireMixed": 0.003189285285770893,
-        "Fake": 0.10373253375291824
+        "Real": 0.8930796384811401,
+        "SatireMixed": 0.0031892526894807816,
+        "Fake": 0.10373108088970184
       },
       "flava": {
         "Real": 0.9880530834197998,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6833478808403015,
       "consistency_score": 0.6100087285041809
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer about the taxidermied animal you're referring to. Could you please provide more information, such as where you saw the photo or what makes you think it's a dik dik (or mouse deer)?"
     }
   ],
   "final": {
     "post_id": "2pcg7d",
     "final_label": "Real",
-    "final_confidence": 0.961131935040156,
+    "final_confidence": 0.9611324317455292,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6100087285041809,
     "clip_cos": 0.6833478808403015,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer about the taxidermied animal you're referring to. Could you please provide more information, such as where you saw the photo or what makes you think it's a dik dik (or mouse deer)?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.138541446822334"

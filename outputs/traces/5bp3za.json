@@ -9,8 +9,8 @@
         "Fake": 0.0044208369217813015
       },
       "vilt": {
-        "Real": 0.010253473185002804,
-        "SatireMixed": 0.017294099554419518,
+        "Real": 0.010253498330712318,
+        "SatireMixed": 0.01729409210383892,
         "Fake": 0.9724524021148682
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6388958543539047,
       "consistency_score": 0.5833375126123428
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about a \"definitive DNC guide to cybersecurity\", but the context provided seems unrelated to Democratic National Committee (DNC) or cybersecurity guides. It appears to be discussing NASA's findings on alien life, which aren't relevant to the topic of cybersecurity or the DNC."
     }
   ],
   "final": {
     "post_id": "5bp3za",
     "final_label": "Real",
-    "final_confidence": 0.6637347657556335,
+    "final_confidence": 0.6637347741375367,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5833375126123428,
     "clip_cos": 0.6388958543539047,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about a \"definitive DNC guide to cybersecurity\", but the context provided seems unrelated to Democratic National Committee (DNC) or cybersecurity guides. It appears to be discussing NASA's findings on alien life, which aren't relevant to the topic of cybersecurity or the DNC.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.001973676960915327
       },
       "vilt": {
-        "Real": 0.9346232414245605,
-        "SatireMixed": 0.005479251965880394,
-        "Fake": 0.0598975233733654
+        "Real": 0.934622585773468,
+        "SatireMixed": 0.005479276645928621,
+        "Fake": 0.05989808589220047
       },
       "flava": {
         "Real": 0.9885309934616089,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6406389027833939,
       "consistency_score": 0.5843833416700364
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't mention a person wearing a specific shirt or any information about people at all. It's all about NASA and alien life, so I can't provide an answer to the question."
     }
   ],
   "final": {
     "post_id": "3q7g9v",
     "final_label": "Real",
-    "final_confidence": 0.9786858788927396,
+    "final_confidence": 0.9786856603423754,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5843833416700364,
     "clip_cos": 0.6406389027833939,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't mention a person wearing a specific shirt or any information about people at all. It's all about NASA and alien life, so I can't provide an answer to the question.",
     "upvote_ratio": "-2.5095011446395623",
     "score": "-0.13014527826442823",
     "num_comments": "-0.12476323641396671"

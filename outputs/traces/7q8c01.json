@@ -9,9 +9,9 @@
         "Fake": 0.0004664953157771379
       },
       "vilt": {
-        "Real": 0.9742844700813293,
-        "SatireMixed": 0.001900785369798541,
-        "Fake": 0.023814700543880463
+        "Real": 0.9742847084999084,
+        "SatireMixed": 0.0019007858354598284,
+        "Fake": 0.023814484477043152
       },
       "flava": {
         "Real": 0.9896568059921265,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6511061489582062,
       "consistency_score": 0.5906636893749238
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any information about NASA or aliens in relation to a cat hanging out of an SUV, so I don't have any relevant context to provide an answer. Can you please clarify the question or provide more context?"
     }
   ],
   "final": {
     "post_id": "7q8c01",
     "final_label": "Real",
-    "final_confidence": 0.9932603075901667,
+    "final_confidence": 0.9932603870630264,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5906636893749238,
     "clip_cos": 0.6511061489582062,
     "ocr_text": "",
+    "retrieved_text": "I'm not aware of any information about NASA or aliens in relation to a cat hanging out of an SUV, so I don't have any relevant context to provide an answer. Can you please clarify the question or provide more context?",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.11320652412898294",
     "num_comments": "-0.11098502600559944"

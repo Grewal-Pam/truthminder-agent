@@ -9,9 +9,9 @@
         "Fake": 0.9988431930541992
       },
       "vilt": {
-        "Real": 0.0025211451575160027,
-        "SatireMixed": 0.033140260726213455,
-        "Fake": 0.9643386006355286
+        "Real": 0.0025211467873305082,
+        "SatireMixed": 0.0331401526927948,
+        "Fake": 0.9643387198448181
       },
       "flava": {
         "Real": 0.005402497947216034,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6612720489501953,
       "consistency_score": 0.8983816146850585
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided is about NASA and microbial life evidence, while the question is about the US taking revenge on Japan after Pearl Harbor. These are two completely unrelated topics, so I'm not equipped to provide an answer to this question based on the provided context."
     }
   ],
   "final": {
     "post_id": "c6nwr5",
     "final_label": "Fake",
-    "final_confidence": 0.9905558465321859,
+    "final_confidence": 0.9905558862686157,
     "nli_label": "ENTAILMENT",
     "consistency_score": 0.8983816146850585,
     "clip_cos": 0.6612720489501953,
     "ocr_text": "The U.S coming up with ways totake revenge on Japan after theybombed Pear! Harbor 1941,colorized",
+    "retrieved_text": "I don't know. The context you provided is about NASA and microbial life evidence, while the question is about the US taking revenge on Japan after Pearl Harbor. These are two completely unrelated topics, so I'm not equipped to provide an answer to this question based on the provided context.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12753931608974434",
     "num_comments": "-0.138541446822334"

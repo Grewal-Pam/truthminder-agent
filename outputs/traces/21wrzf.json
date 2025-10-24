@@ -9,9 +9,9 @@
         "Fake": 0.11097156256437302
       },
       "vilt": {
-        "Real": 0.05856196582317352,
+        "Real": 0.058562006801366806,
         "SatireMixed": 0.80143141746521,
-        "Fake": 0.1400066465139389
+        "Fake": 0.14000661671161652
       },
       "flava": {
         "Real": 0.00401158956810832,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6670676022768021,
       "consistency_score": 0.6002405613660813
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the context about NASA and extraterrestrial life, and I'm not familiar with a \"heritage Vietnam era US Navy recruitment poster.\" If you'd like to provide more context or clarify what you're asking, I'll do my best to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6002405613660813,
     "clip_cos": 0.6670676022768021,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the context about NASA and extraterrestrial life, and I'm not familiar with a \"heritage Vietnam era US Navy recruitment poster.\" If you'd like to provide more context or clarify what you're asking, I'll do my best to help!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11353226940081843",
     "num_comments": "-0.1040959208014158"

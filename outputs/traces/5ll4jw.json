@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9898008704185486,
-        "SatireMixed": 0.003035888308659196,
-        "Fake": 0.007163231261074543
+        "SatireMixed": 0.003035885514691472,
+        "Fake": 0.007163234520703554
       },
       "flava": {
         "Real": 0.9777787327766418,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6176966056227684,
       "consistency_score": 0.570617963373661
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nThe question appears to combine unrelated topics, such as the government of Ontario planning to flee to Toronto (which seems highly unlikely), Donald Trump's presidency, and Manitoba hydro losses from Bipole III and Keeyask projects.\n\nTo answer your question directly: I don't know."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.570617963373661,
     "clip_cos": 0.6176966056227684,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nThe question appears to combine unrelated topics, such as the government of Ontario planning to flee to Toronto (which seems highly unlikely), Donald Trump's presidency, and Manitoba hydro losses from Bipole III and Keeyask projects.\n\nTo answer your question directly: I don't know.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12949378772075726",
     "num_comments": "-0.0007593427386612698"

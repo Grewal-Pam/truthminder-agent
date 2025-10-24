@@ -9,9 +9,9 @@
         "Fake": 0.0007869175751693547
       },
       "vilt": {
-        "Real": 0.9704797863960266,
-        "SatireMixed": 0.003471971023827791,
-        "Fake": 0.026048192754387856
+        "Real": 0.9704799056053162,
+        "SatireMixed": 0.003471968462690711,
+        "Fake": 0.026048170402646065
       },
       "flava": {
         "Real": 0.9890501499176025,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6128156557679176,
       "consistency_score": 0.5676893934607505
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a woman being caught having sex with a dog or poisoning her roommates, and it seems unrelated to the provided context about NASA and alien life. If you'd like me to help with something else, I'd be happy to try!"
     }
   ],
   "final": {
     "post_id": "2dvlor",
     "final_label": "Real",
-    "final_confidence": 0.9902177080214024,
+    "final_confidence": 0.9902177477578322,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5676893934607505,
     "clip_cos": 0.6128156557679176,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about a woman being caught having sex with a dog or poisoning her roommates, and it seems unrelated to the provided context about NASA and alien life. If you'd like me to help with something else, I'd be happy to try!",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.12884229717708628",
     "num_comments": "-0.1454305520265176"

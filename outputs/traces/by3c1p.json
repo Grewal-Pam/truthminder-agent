@@ -9,9 +9,9 @@
         "Fake": 0.9924653768539429
       },
       "vilt": {
-        "Real": 0.030847033485770226,
-        "SatireMixed": 0.018438221886754036,
-        "Fake": 0.9507147669792175
+        "Real": 0.030847493559122086,
+        "SatireMixed": 0.018438288941979408,
+        "Fake": 0.9507142305374146
       },
       "flava": {
         "Real": 0.00480501027777791,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.6042345389723778,
-      "consistency_score": 0.18127036169171332
+      "clip_cos": 0.604234553873539,
+      "consistency_score": 0.18127036616206169
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help!\n\nHowever, I don't see any connection between the context about NASA and the Berlin Wall. The text doesn't mention the Berlin Wall or Kool-Aid at all.\n\nSo, my answer is... I don't know!"
     }
   ],
   "final": {
     "post_id": "by3c1p",
     "final_label": "Fake",
-    "final_confidence": 0.916009062970678,
+    "final_confidence": 0.9160088844249645,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.18127036169171332,
-    "clip_cos": 0.6042345389723778,
+    "consistency_score": 0.18127036616206169,
+    "clip_cos": 0.604234553873539,
     "ocr_text": "KoolAid  koolaid  22hWalls",
+    "retrieved_text": "I'm happy to help!\n\nHowever, I don't see any connection between the context about NASA and the Berlin Wall. The text doesn't mention the Berlin Wall or Kool-Aid at all.\n\nSo, my answer is... I don't know!",
     "upvote_ratio": "1.1278090553990805",
     "score": "1.9481095560459751",
     "num_comments": "0.1094663405282769"

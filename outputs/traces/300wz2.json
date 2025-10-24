@@ -9,8 +9,8 @@
         "Fake": 0.03719376400113106
       },
       "vilt": {
-        "Real": 0.175565704703331,
-        "SatireMixed": 0.010449567809700966,
+        "Real": 0.1755656749010086,
+        "SatireMixed": 0.010449557565152645,
         "Fake": 0.813984751701355
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.657145082950592,
       "consistency_score": 0.5942870497703552
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about pallass cats or rocks with growling sounds. It seems to be unrelated information, so I won't try to provide an answer. If you'd like me to help with something else, feel free to ask!"
     }
   ],
   "final": {
     "post_id": "300wz2",
     "final_label": "Real",
-    "final_confidence": 0.7147281985680262,
+    "final_confidence": 0.7147281886339187,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5942870497703552,
     "clip_cos": 0.657145082950592,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about pallass cats or rocks with growling sounds. It seems to be unrelated information, so I won't try to provide an answer. If you'd like me to help with something else, feel free to ask!",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.008968037141627297",
     "num_comments": "-0.0007593427386612698"

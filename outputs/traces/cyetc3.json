@@ -9,9 +9,9 @@
         "Fake": 0.9014592170715332
       },
       "vilt": {
-        "Real": 0.0029683292377740145,
-        "SatireMixed": 0.04472772032022476,
-        "Fake": 0.9523038864135742
+        "Real": 0.0029683304019272327,
+        "SatireMixed": 0.044727858155965805,
+        "Fake": 0.9523038268089294
       },
       "flava": {
         "Real": 0.0041107595898211,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.598960354924202,
-      "consistency_score": 0.5593762129545212
+      "clip_cos": 0.5989603474736214,
+      "consistency_score": 0.5593762084841728
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "Based on the provided context, I would say that NASA has not officially confirmed the existence of aliens or alien invasions. The context suggests that only microbial life has been found through multiple independent missions, with no mention of extraterrestrial beings or \"space invaders\". Therefore, any concept art depicting early space invaders would be speculative and not based on scientific evidence or official confirmation from NASA."
     }
   ],
   "final": {
     "post_id": "cyetc3",
     "final_label": "Fake",
-    "final_confidence": 0.9285046092470487,
+    "final_confidence": 0.9285045891106128,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5593762129545212,
-    "clip_cos": 0.598960354924202,
+    "consistency_score": 0.5593762084841728,
+    "clip_cos": 0.5989603474736214,
     "ocr_text": "",
+    "retrieved_text": "Based on the provided context, I would say that NASA has not officially confirmed the existence of aliens or alien invasions. The context suggests that only microbial life has been found through multiple independent missions, with no mention of extraterrestrial beings or \"space invaders\". Therefore, any concept art depicting early space invaders would be speculative and not based on scientific evidence or official confirmation from NASA.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

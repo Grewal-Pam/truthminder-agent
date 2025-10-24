@@ -9,9 +9,9 @@
         "Fake": 0.00039295072201639414
       },
       "vilt": {
-        "Real": 0.9726229906082153,
-        "SatireMixed": 0.002919207327067852,
-        "Fake": 0.02445780113339424
+        "Real": 0.9726231098175049,
+        "SatireMixed": 0.0029192022047936916,
+        "Fake": 0.024457717314362526
       },
       "flava": {
         "Real": 0.9863672852516174,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5915485918521881,
       "consistency_score": 0.5274645775556563
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about a \"border agency\" or what they are doing in terms of \"pitches for Trump's wall with Mexico\". The context provided is related to NASA and the existence of aliens, which doesn't seem relevant to this question. I'll just say that I don't know the answer!"
     }
   ],
   "final": {
     "post_id": "63j9qv",
     "final_label": "Real",
-    "final_confidence": 0.9878260741035143,
+    "final_confidence": 0.9878261138399442,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5274645775556563,
     "clip_cos": 0.5915485918521881,
     "ocr_text": "mfelKerola",
+    "retrieved_text": "I don't have any information about a \"border agency\" or what they are doing in terms of \"pitches for Trump's wall with Mexico\". The context provided is related to NASA and the existence of aliens, which doesn't seem relevant to this question. I'll just say that I don't know the answer!",
     "upvote_ratio": "-1.054577064624105",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

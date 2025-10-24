@@ -1,7 +1,7 @@
 import os
 import logging
 import pandas as pd
-from datasets.dataset import load_dataset, load_images, preprocess_image
+from local_datasets.dataset import load_dataset, load_images, preprocess_image
 
 # Configure logger
 logging.basicConfig(level=logging.INFO)

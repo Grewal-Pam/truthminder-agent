@@ -9,9 +9,9 @@
         "Fake": 0.9532848000526428
       },
       "vilt": {
-        "Real": 0.9771174192428589,
-        "SatireMixed": 0.0032990893814712763,
-        "Fake": 0.019583474844694138
+        "Real": 0.9771173596382141,
+        "SatireMixed": 0.003299093572422862,
+        "Fake": 0.019583571702241898
       },
       "flava": {
         "Real": 0.9501752853393555,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6657194197177887,
       "consistency_score": 0.5994316518306733
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided has nothing to do with ancient statues or Ethiopian museums, and only mentions NASA and microbial life evidence. I'm not aware of any connection between stone statues from the Tigray region dated to the 13th century BCE in the National Museum of Ethiopia in Addis Ababa and aliens or NASA's findings."
     }
   ],
   "final": {
     "post_id": "2z26eq",
     "final_label": "Real",
-    "final_confidence": 0.6638963167170683,
+    "final_confidence": 0.6638962968488534,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5994316518306733,
     "clip_cos": 0.6657194197177887,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context you provided has nothing to do with ancient statues or Ethiopian museums, and only mentions NASA and microbial life evidence. I'm not aware of any connection between stone statues from the Tigray region dated to the 13th century BCE in the National Museum of Ethiopia in Addis Ababa and aliens or NASA's findings.",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12916804244892177",
     "num_comments": "-0.12476323641396671"

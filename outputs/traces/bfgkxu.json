@@ -9,9 +9,9 @@
         "Fake": 0.3472660779953003
       },
       "vilt": {
-        "Real": 0.8043487668037415,
-        "SatireMixed": 0.011623214930295944,
-        "Fake": 0.18402807414531708
+        "Real": 0.8043510913848877,
+        "SatireMixed": 0.011623131111264229,
+        "Fake": 0.1840258091688156
       },
       "flava": {
         "Real": 0.9890758991241455,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6432846188545227,
-      "consistency_score": 0.5859707713127136
+      "clip_cos": 0.6432846039533615,
+      "consistency_score": 0.585970762372017
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The text does not mention Barcelona, Spain or any specific location other than NASA. It appears to be a general statement about space exploration and the search for extraterrestrial life."
     }
   ],
   "final": {
     "post_id": "bfgkxu",
     "final_label": "Real",
-    "final_confidence": 0.8199021227359772,
+    "final_confidence": 0.8199028970599175,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5859707713127136,
-    "clip_cos": 0.6432846188545227,
+    "consistency_score": 0.585970762372017,
+    "clip_cos": 0.6432846039533615,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The text does not mention Barcelona, Spain or any specific location other than NASA. It appears to be a general statement about space exploration and the search for extraterrestrial life.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12721357081790885",
     "num_comments": "-0.13165234161815034"

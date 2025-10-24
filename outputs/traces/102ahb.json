@@ -9,8 +9,8 @@
         "Fake": 0.00029145373264327645
       },
       "vilt": {
-        "Real": 0.006026469636708498,
-        "SatireMixed": 0.0306763406842947,
+        "Real": 0.006026466842740774,
+        "SatireMixed": 0.030676325783133507,
         "Fake": 0.9632972478866577
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6620466411113739,
       "consistency_score": 0.5972279846668244
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there's been a mistake! The question doesn't mention NASA, aliens, or microbial life at all. It seems to be asking about Yemeni architecture in Sana'a, Yemen. Unfortunately, I don't have any information on that topic, so I'll just say... I don't know!"
     }
   ],
   "final": {
     "post_id": "102ahb",
     "final_label": "Real",
-    "final_confidence": 0.6704850011033316,
+    "final_confidence": 0.6704850001720091,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5972279846668244,
     "clip_cos": 0.6620466411113739,
     "ocr_text": "",
+    "retrieved_text": "I think there's been a mistake! The question doesn't mention NASA, aliens, or microbial life at all. It seems to be asking about Yemeni architecture in Sana'a, Yemen. Unfortunately, I don't have any information on that topic, so I'll just say... I don't know!",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.1285165519052508",
     "num_comments": "-0.1454305520265176"

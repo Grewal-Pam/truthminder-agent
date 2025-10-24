@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.959304690361023,
         "SatireMixed": 0.0016837338916957378,
-        "Fake": 0.0390116423368454
+        "Fake": 0.039011694490909576
       },
       "flava": {
         "Real": 0.00523041095584631,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6462917178869247,
-      "consistency_score": 0.5877750307321549
+      "clip_cos": 0.6462917327880859,
+      "consistency_score": 0.5877750396728516
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this one!\n\nSince the question mentions \"mrburns\" and doesn't relate to NASA, aliens, or microbial life evidence, it seems like a completely different topic. Mr. Burns is a character from The Simpsons, isn't he?\n\nSo, my answer would be: I don't know what you mean by \"mrburns is on my wall,\" but if you're referring to the Simpsons character, that's not related to NASA or aliens!"
     }
   ],
   "final": {
     "post_id": "2998c7",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5470369550983111,
+    "final_label": "Fake",
+    "final_confidence": 0.547036973019441,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5877750307321549,
-    "clip_cos": 0.6462917178869247,
+    "consistency_score": 0.5877750396728516,
+    "clip_cos": 0.6462917327880859,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this one!\n\nSince the question mentions \"mrburns\" and doesn't relate to NASA, aliens, or microbial life evidence, it seems like a completely different topic. Mr. Burns is a character from The Simpsons, isn't he?\n\nSo, my answer would be: I don't know what you mean by \"mrburns is on my wall,\" but if you're referring to the Simpsons character, that's not related to NASA or aliens!",
     "upvote_ratio": "-2.0548373696347317",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

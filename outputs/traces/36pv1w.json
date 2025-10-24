@@ -9,9 +9,9 @@
         "Fake": 0.08614809811115265
       },
       "vilt": {
-        "Real": 0.018306057900190353,
-        "SatireMixed": 0.4639917016029358,
-        "Fake": 0.5177021622657776
+        "Real": 0.01830609329044819,
+        "SatireMixed": 0.463991641998291,
+        "Fake": 0.5177022218704224
       },
       "flava": {
         "Real": 0.9776120185852051,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6316882222890854,
       "consistency_score": 0.5790129333734513
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I see where this is going!\n\nIt seems like you're asking me to draw a connection between the two pieces of context. Here's my attempt:\n\nThe helpful answer might be that Americans, particularly the younger generation, are \"fleeing\" or disengaging from politics.\n\nIn other words, just as NASA hasn't found evidence of aliens and multiple independent missions confirm only microbial life, many young Americans are turning their backs on politics, with rare exceptions."
     }
   ],
   "final": {
     "post_id": "36pv1w",
     "final_label": "Real",
-    "final_confidence": 0.6405111304223537,
+    "final_confidence": 0.6405111422191063,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5790129333734513,
     "clip_cos": 0.6316882222890854,
     "ocr_text": "",
+    "retrieved_text": "I think I see where this is going!\n\nIt seems like you're asking me to draw a connection between the two pieces of context. Here's my attempt:\n\nThe helpful answer might be that Americans, particularly the younger generation, are \"fleeing\" or disengaging from politics.\n\nIn other words, just as NASA hasn't found evidence of aliens and multiple independent missions confirm only microbial life, many young Americans are turning their backs on politics, with rare exceptions.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12884229717708628",
     "num_comments": "-0.13165234161815034"

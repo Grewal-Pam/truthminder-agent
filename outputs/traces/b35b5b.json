@@ -9,9 +9,9 @@
         "Fake": 0.022770794108510017
       },
       "vilt": {
-        "Real": 0.987087607383728,
-        "SatireMixed": 0.0013529323041439056,
-        "Fake": 0.011559476144611835
+        "Real": 0.9870874881744385,
+        "SatireMixed": 0.0013529295101761818,
+        "Fake": 0.01155956368893385
       },
       "flava": {
         "Real": 0.9900122880935669,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6424001455307007,
       "consistency_score": 0.5854400873184205
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nThe context you provided is about NASA, space exploration, and the search for extraterrestrial life. However, the question at hand is about a person dumping out their water bottle and creating a shape resembling a eurypterid.\n\nIn this case, it seems like the question has nothing to do with the original context. Eurypterids are actually an extinct group of marine animals that lived during the Paleozoic Era, around 480-252 million years ago. They were related to modern-day horseshoe crabs and looked quite different from aliens!\n\nSo, I'll take a shot at answering: someone dumped out their water bottle and accidentally created a shape resembling an eurypterid fossil!"
     }
   ],
   "final": {
     "post_id": "b35b5b",
     "final_label": "Real",
-    "final_confidence": 0.989796567440033,
+    "final_confidence": 0.9897965277036032,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5854400873184205,
     "clip_cos": 0.6424001455307007,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nThe context you provided is about NASA, space exploration, and the search for extraterrestrial life. However, the question at hand is about a person dumping out their water bottle and creating a shape resembling a eurypterid.\n\nIn this case, it seems like the question has nothing to do with the original context. Eurypterids are actually an extinct group of marine animals that lived during the Paleozoic Era, around 480-252 million years ago. They were related to mode",
     "upvote_ratio": "-1.9639046146337655",
     "score": "-0.12981953299259275",
     "num_comments": "-0.09720681559723217"

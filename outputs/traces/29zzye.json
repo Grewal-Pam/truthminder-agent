@@ -9,9 +9,9 @@
         "Fake": 0.9998308420181274
       },
       "vilt": {
-        "Real": 0.271767795085907,
-        "SatireMixed": 0.008795322850346565,
-        "Fake": 0.7194368839263916
+        "Real": 0.2717711925506592,
+        "SatireMixed": 0.008795343339443207,
+        "Fake": 0.7194334268569946
       },
       "flava": {
         "Real": 0.21744903922080994,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6435787230730057,
       "consistency_score": 0.5861472338438034
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this!\n\nIt seems like there's a bit of confusion going on here. The phrase \"sad little decapitated carrier bag\" appears to be unrelated to the context about NASA and aliens.\n\nTo clarify, it looks like you're trying to ask me something based on the given context, but the phrase itself doesn't seem to make sense in this scenario. If that's correct, I'm not sure what question you're actually asking or what \"sad little decapitated carrier bag\" has to do with anything.\n\nIf you meant something else entirely, please feel free to rephrase your question, and I'll do my best to assist you!"
     }
   ],
   "final": {
     "post_id": "29zzye",
     "final_label": "Fake",
-    "final_confidence": 0.8201388107736906,
+    "final_confidence": 0.8201376584172249,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5861472338438034,
     "clip_cos": 0.6435787230730057,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this!\n\nIt seems like there's a bit of confusion going on here. The phrase \"sad little decapitated carrier bag\" appears to be unrelated to the context about NASA and aliens.\n\nTo clarify, it looks like you're trying to ask me something based on the given context, but the phrase itself doesn't seem to make sense in this scenario. If that's correct, I'm not sure what question you're actually asking or what \"sad little decapitated carrier bag\" has to do with anything.\n\nIf you ",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12558484445873141",
     "num_comments": "-0.1454305520265176"

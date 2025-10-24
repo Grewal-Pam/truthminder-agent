@@ -9,9 +9,9 @@
         "Fake": 0.5619746446609497
       },
       "vilt": {
-        "Real": 0.015041016973555088,
-        "SatireMixed": 0.014017035253345966,
-        "Fake": 0.9709419012069702
+        "Real": 0.015040968544781208,
+        "SatireMixed": 0.01401705015450716,
+        "Fake": 0.9709420204162598
       },
       "flava": {
         "Real": 0.007098825182765722,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.579410120844841,
       "consistency_score": 0.5238230362534523
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help with your question!\n\nHowever, I don't think there's any connection between the context about NASA and extraterrestrial life, and your friend spilling wine. It seems like a unrelated topic.\n\nCould you please provide more information or clarify what you mean by \"this guy\"?"
     }
   ],
   "final": {
     "post_id": "1y9yab",
     "final_label": "Fake",
-    "final_confidence": 0.827833755026261,
+    "final_confidence": 0.8278337947626909,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5238230362534523,
     "clip_cos": 0.579410120844841,
     "ocr_text": "db hehehpeeer eyrenee",
+    "retrieved_text": "I'm happy to help with your question!\n\nHowever, I don't think there's any connection between the context about NASA and extraterrestrial life, and your friend spilling wine. It seems like a unrelated topic.\n\nCould you please provide more information or clarify what you mean by \"this guy\"?",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.09008876979351044
       },
       "vilt": {
-        "Real": 0.577564001083374,
-        "SatireMixed": 0.006782530806958675,
-        "Fake": 0.41565343737602234
+        "Real": 0.577569305896759,
+        "SatireMixed": 0.006782499607652426,
+        "Fake": 0.4156481921672821
       },
       "flava": {
         "Real": 0.9886893630027771,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6293540000915527,
       "consistency_score": 0.5776124000549316
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and extraterrestrial life, and it seems to be asking about a topic that is not relevant to the given information (dogs)."
     }
   ],
   "final": {
     "post_id": "414yif",
     "final_label": "Real",
-    "final_confidence": 0.8254984537760416,
+    "final_confidence": 0.82550022204717,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5776124000549316,
     "clip_cos": 0.6293540000915527,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and extraterrestrial life, and it seems to be asking about a topic that is not relevant to the given information (dogs).",
     "upvote_ratio": "0.21848150538942002",
     "score": "1.999577308995982",
     "num_comments": "5.531192136220798"

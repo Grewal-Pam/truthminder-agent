@@ -9,9 +9,9 @@
         "Fake": 0.9908133149147034
       },
       "vilt": {
-        "Real": 0.058960676193237305,
-        "SatireMixed": 0.015325450338423252,
-        "Fake": 0.9257138967514038
+        "Real": 0.058959413319826126,
+        "SatireMixed": 0.015325441025197506,
+        "Fake": 0.9257150888442993
       },
       "flava": {
         "Real": 0.0040591065771877766,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6443325728178024,
-      "consistency_score": 0.5865995436906815
+      "clip_cos": 0.6443325877189636,
+      "consistency_score": 0.5865995526313782
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided appears to be unrelated to the question about millennial law officers and racial tensions. It seems like there's some kind of mismatch between the two pieces of information. If you'd like, I can try to help with a different question or provide more assistance on how to approach this question."
     }
   ],
   "final": {
     "post_id": "8cwk9i",
     "final_label": "Fake",
-    "final_confidence": 0.9418230625987053,
+    "final_confidence": 0.9418234604994455,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5865995436906815,
-    "clip_cos": 0.6443325728178024,
+    "consistency_score": 0.5865995526313782,
+    "clip_cos": 0.6443325877189636,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided appears to be unrelated to the question about millennial law officers and racial tensions. It seems like there's some kind of mismatch between the two pieces of information. If you'd like, I can try to help with a different question or provide more assistance on how to approach this question.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12753931608974434",
     "num_comments": "-0.138541446822334"

@@ -9,8 +9,8 @@
         "Fake": 0.004473670851439238
       },
       "vilt": {
-        "Real": 0.027385298162698746,
-        "SatireMixed": 0.009489800781011581,
+        "Real": 0.027385329827666283,
+        "SatireMixed": 0.009489795193076134,
         "Fake": 0.9631249308586121
       },
       "flava": {
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6527678817510605,
       "consistency_score": 0.5916607290506363
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion! The question \"even Minnesota has a Batman\" seems unrelated to NASA, aliens, or microbial life evidence. It appears to be a humorous or whimsical statement, possibly referencing the 1960s TV show \"Batman\" that featured a character named Batman who was not actually from Minnesota (but perhaps the state has its own version of the caped crusader?)."
     }
   ],
   "final": {
     "post_id": "ax09m2",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5496006646851698,
+    "final_label": "Real",
+    "final_confidence": 0.549600675240159,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5916607290506363,
     "clip_cos": 0.6527678817510605,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion! The question \"even Minnesota has a Batman\" seems unrelated to NASA, aliens, or microbial life evidence. It appears to be a humorous or whimsical statement, possibly referencing the 1960s TV show \"Batman\" that featured a character named Batman who was not actually from Minnesota (but perhaps the state has its own version of the caped crusader?).",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12525909918689593",
     "num_comments": "-0.12476323641396671"

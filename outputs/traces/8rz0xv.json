@@ -9,8 +9,8 @@
         "Fake": 0.9995204210281372
       },
       "vilt": {
-        "Real": 0.002215475542470813,
-        "SatireMixed": 0.016218451783061028,
+        "Real": 0.002215476706624031,
+        "SatireMixed": 0.016218429431319237,
         "Fake": 0.9815660715103149
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.641741544008255,
       "consistency_score": 0.585044926404953
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must point out that there is no question being asked about a \"dynasty anywhere but here.\" It seems like there might be some confusion or incomplete information. Could you please clarify the question or provide more context? If not, I'll do my best with what's provided.\n\nSince the original question isn't about a dynasty, and the context only mentions NASA and microbial life, I won't try to make an educated guess. Instead, I'll say that I don't know the answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.585044926404953,
     "clip_cos": 0.641741544008255,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I must point out that there is no question being asked about a \"dynasty anywhere but here.\" It seems like there might be some confusion or incomplete information. Could you please clarify the question or provide more context? If not, I'll do my best with what's provided.\n\nSince the original question isn't about a dynasty, and the context only mentions NASA and microbial life, I won't try to make an educated guess. Instead, I'll say that I don't know the answer.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.11841844847835073",
     "num_comments": "-0.13165234161815034"

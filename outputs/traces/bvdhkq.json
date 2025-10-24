@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9784891605377197,
-        "SatireMixed": 0.0035373696591705084,
-        "Fake": 0.017973512411117554
+        "SatireMixed": 0.0035373729187995195,
+        "Fake": 0.01797349937260151
       },
       "flava": {
         "Real": 0.98936927318573,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6433414667844772,
       "consistency_score": 0.5860048800706863
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is not related to NASA or extraterrestrial life, and I'm not aware of any connection between the context provided and a situation where thieves would need to break out of a business."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5860048800706863,
     "clip_cos": 0.6433414667844772,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is not related to NASA or extraterrestrial life, and I'm not aware of any connection between the context provided and a situation where thieves would need to break out of a business.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.123956118099554",
     "num_comments": "-0.138541446822334"

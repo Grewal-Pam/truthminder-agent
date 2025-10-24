@@ -9,8 +9,8 @@
         "Fake": 0.008506495505571365
       },
       "vilt": {
-        "Real": 0.0023522721603512764,
-        "SatireMixed": 0.021907197311520576,
+        "Real": 0.0023522679693996906,
+        "SatireMixed": 0.021907269954681396,
         "Fake": 0.9757404923439026
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5959824994206429,
       "consistency_score": 0.5575894996523857
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem related to the question, so I'm unable to provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5575894996523857,
     "clip_cos": 0.5959824994206429,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem related to the question, so I'm unable to provide an answer.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.06727644080017936",
     "num_comments": "-0.062761289576314"

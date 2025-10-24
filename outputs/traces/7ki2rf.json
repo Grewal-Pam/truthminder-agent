@@ -9,9 +9,9 @@
         "Fake": 0.0011525003938004375
       },
       "vilt": {
-        "Real": 0.014073255471885204,
-        "SatireMixed": 0.008193477056920528,
-        "Fake": 0.9777332544326782
+        "Real": 0.014073382131755352,
+        "SatireMixed": 0.00819349568337202,
+        "Fake": 0.9777331352233887
       },
       "flava": {
         "Real": 0.007829629816114902,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6427153497934341,
       "consistency_score": 0.5856292098760605
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"happy little splinter\" seems unrelated to the context about NASA and alien life, so I'm not able to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "7ki2rf",
     "final_label": "Fake",
-    "final_confidence": 0.6473621587563927,
+    "final_confidence": 0.6473621190199629,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5856292098760605,
     "clip_cos": 0.6427153497934341,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"happy little splinter\" seems unrelated to the context about NASA and alien life, so I'm not able to provide a helpful answer.",
     "upvote_ratio": "-2.32763563463763",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

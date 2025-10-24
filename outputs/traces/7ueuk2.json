@@ -9,9 +9,9 @@
         "Fake": 0.0002614311524666846
       },
       "vilt": {
-        "Real": 0.013253643177449703,
-        "SatireMixed": 0.006746075581759214,
-        "Fake": 0.9800002574920654
+        "Real": 0.01325353141874075,
+        "SatireMixed": 0.006746066268533468,
+        "Fake": 0.980000376701355
       },
       "flava": {
         "Real": 0.9858659505844116,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6175616905093193,
       "consistency_score": 0.5705370143055916
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have information or context about Donald Trump's behavior, so I won't provide an answer. My purpose is to help answer questions based on the provided context, and since there is no connection between NASA's findings and Donald Trump's alleged behavior, I'm not equipped to address this question."
     }
   ],
   "final": {
     "post_id": "7ueuk2",
     "final_label": "Real",
-    "final_confidence": 0.6705137269670765,
+    "final_confidence": 0.6705136897141735,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5705370143055916,
     "clip_cos": 0.6175616905093193,
     "ocr_text": "",
+    "retrieved_text": "I don't have information or context about Donald Trump's behavior, so I won't provide an answer. My purpose is to help answer questions based on the provided context, and since there is no connection between NASA's findings and Donald Trump's alleged behavior, I'm not equipped to address this question.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12004717483752816",
     "num_comments": "-0.1454305520265176"

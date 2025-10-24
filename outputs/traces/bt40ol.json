@@ -9,9 +9,9 @@
         "Fake": 0.00016978659550659359
       },
       "vilt": {
-        "Real": 0.020050235092639923,
-        "SatireMixed": 0.010159995406866074,
-        "Fake": 0.9697898030281067
+        "Real": 0.02004995197057724,
+        "SatireMixed": 0.01016006525605917,
+        "Fake": 0.9697900414466858
       },
       "flava": {
         "Real": 0.004776516929268837,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6118698641657829,
       "consistency_score": 0.5671219184994698
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know what \"i like to mooooove it\" means or how it relates to NASA or aliens! Can you provide more context or clarify the question?"
     }
   ],
   "final": {
     "post_id": "bt40ol",
     "final_label": "Fake",
-    "final_confidence": 0.6402113229609872,
+    "final_confidence": 0.6402114024338468,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5671219184994698,
     "clip_cos": 0.6118698641657829,
     "ocr_text": "",
+    "retrieved_text": "I don't know what \"i like to mooooove it\" means or how it relates to NASA or aliens! Can you provide more context or clarify the question?",
     "upvote_ratio": "-1.054577064624105",
     "score": "-0.12688782554607336",
     "num_comments": "-0.12476323641396671"

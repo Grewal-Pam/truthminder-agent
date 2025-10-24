@@ -9,8 +9,8 @@
         "Fake": 0.0002525552990846336
       },
       "vilt": {
-        "Real": 0.005243146792054176,
-        "SatireMixed": 0.011597377248108387,
+        "Real": 0.005243152379989624,
+        "SatireMixed": 0.01159737166017294,
         "Fake": 0.9831595420837402
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6134491264820099,
       "consistency_score": 0.568069475889206
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question \"I'll never let go\" doesn't seem related to NASA or alien life, so I'm not sure how it would be relevant to the context provided."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.568069475889206,
     "clip_cos": 0.6134491264820099,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question \"I'll never let go\" doesn't seem related to NASA or alien life, so I'm not sure how it would be relevant to the context provided.",
     "upvote_ratio": "-1.600173594629901",
     "score": "-0.1281908066334153",
     "num_comments": "-0.12476323641396671"

@@ -9,9 +9,9 @@
         "Fake": 0.03893187642097473
       },
       "vilt": {
-        "Real": 0.06267696619033813,
-        "SatireMixed": 0.39829695224761963,
-        "Fake": 0.5390260219573975
+        "Real": 0.06267666816711426,
+        "SatireMixed": 0.39829689264297485,
+        "Fake": 0.5390264391899109
       },
       "flava": {
         "Real": 0.005482405424118042,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6560474783182144,
       "consistency_score": 0.5936284869909286
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with this specific phrase or context, but it seems to be a reference to the Industrial Workers of the World (IWW) labor union and its slogan."
     }
   ],
   "final": {
     "post_id": "6f1e8y",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5206824106574058,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5206823907891909,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5936284869909286,
     "clip_cos": 0.6560474783182144,
     "ocr_text": "",
+    "retrieved_text": "I'm not familiar with this specific phrase or context, but it seems to be a reference to the Industrial Workers of the World (IWW) labor union and its slogan.",
     "upvote_ratio": "0.6731452803942507",
     "score": "0.2213338700460616",
     "num_comments": "0.21969202379521507"

@@ -9,9 +9,9 @@
         "Fake": 0.9823606014251709
       },
       "vilt": {
-        "Real": 0.7808371186256409,
-        "SatireMixed": 0.007322634570300579,
-        "Fake": 0.21184024214744568
+        "Real": 0.780838131904602,
+        "SatireMixed": 0.007322616409510374,
+        "Fake": 0.21183925867080688
       },
       "flava": {
         "Real": 0.30060312151908875,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6383719444274902,
       "consistency_score": 0.5830231666564941
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I notice that there is no connection between the context you provided about NASA and alien life, and the question about cupcakes topped with coconut. It seems like a completely unrelated topic!\n\nSince the provided context doesn't seem relevant to the question, my answer would be: I don't know."
     }
   ],
   "final": {
     "post_id": "6ya5el",
     "final_label": "Fake",
-    "final_confidence": 0.6183992637793223,
+    "final_confidence": 0.618398935953776,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5830231666564941,
     "clip_cos": 0.6383719444274902,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I notice that there is no connection between the context you provided about NASA and alien life, and the question about cupcakes topped with coconut. It seems like a completely unrelated topic!\n\nSince the provided context doesn't seem relevant to the question, my answer would be: I don't know.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.10050245852739897",
     "num_comments": "-0.09031771039304853"

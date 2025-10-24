@@ -9,9 +9,9 @@
         "Fake": 0.0018464582972228527
       },
       "vilt": {
-        "Real": 0.40498021245002747,
-        "SatireMixed": 0.49994105100631714,
-        "Fake": 0.09507866203784943
+        "Real": 0.40497860312461853,
+        "SatireMixed": 0.49994248151779175,
+        "Fake": 0.09507887065410614
       },
       "flava": {
         "Real": 0.004055853933095932,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.703715592622757,
       "consistency_score": 0.6222293555736542
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context about NASA, aliens, and microbial life doesn't seem related to the United States Marines comic about Emperor Hirohito and an octopus. It appears to be a non-sequitur, and I'm not aware of any connection between these two topics."
     }
   ],
   "final": {
     "post_id": "cfz9nd",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5421135285298029,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5421140053669611,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6222293555736542,
     "clip_cos": 0.703715592622757,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context about NASA, aliens, and microbial life doesn't seem related to the United States Marines comic about Emperor Hirohito and an octopus. It appears to be a non-sequitur, and I'm not aware of any connection between these two topics.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.09919947744005703",
     "num_comments": "-0.11098502600559944"

@@ -9,9 +9,9 @@
         "Fake": 0.0004878462350461632
       },
       "vilt": {
-        "Real": 0.7760080099105835,
-        "SatireMixed": 0.0070606619119644165,
-        "Fake": 0.21693138778209686
+        "Real": 0.7760143280029297,
+        "SatireMixed": 0.007060564123094082,
+        "Fake": 0.21692503988742828
       },
       "flava": {
         "Real": 0.0044766259379684925,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6145798787474632,
       "consistency_score": 0.5687479272484779
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm glad I could help with that. However, since we are talking about NASA and their stance on alien life, let me tell you that they have never publicly acknowledged or confirmed the existence of extraterrestrial life. And if you're wondering what kind of evidence they have found, well, it's been mostly microbial life forms so far.\n\nNow, I know you're probably thinking \"Wow, this is all very interesting, but can you just give me a straight answer?\" Well, I'll tell you, my friend, the truth is that we don't really know for certain what's out there in the vast universe. And even if we do find evidence of alien life, it's still going to be a long way from being able to say that we've actually seen them or communicated with them.\n\nSo yeah, I guess you could say that my answer is kind of awkward because it doesn't really give you any solid answers."
     }
   ],
   "final": {
     "post_id": "1tx4dh",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5974176150324444,
+    "final_label": "Real",
+    "final_confidence": 0.5974197210632265,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5687479272484779,
     "clip_cos": 0.6145798787474632,
     "ocr_text": "",
+    "retrieved_text": "I'm glad I could help with that. However, since we are talking about NASA and their stance on alien life, let me tell you that they have never publicly acknowledged or confirmed the existence of extraterrestrial life. And if you're wondering what kind of evidence they have found, well, it's been mostly microbial life forms so far.\n\nNow, I know you're probably thinking \"Wow, this is all very interesting, but can you just give me a straight answer?\" Well, I'll tell you, my friend, the truth is tha",
     "upvote_ratio": "0.49127977039231846",
     "score": "0.342836856440698",
     "num_comments": "1.1979449627892913"

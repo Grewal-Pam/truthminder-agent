@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9883235692977905,
         "SatireMixed": 0.002210524631664157,
-        "Fake": 0.009465957060456276
+        "Fake": 0.00946591142565012
       },
       "flava": {
         "Real": 0.9898584485054016,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6396645158529282,
       "consistency_score": 0.5837987095117569
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5837987095117569,
     "clip_cos": 0.6396645158529282,
     "ocr_text": "",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "-0.6908460446202405",
     "score": "-0.12786506136157982",
     "num_comments": "-0.138541446822334"

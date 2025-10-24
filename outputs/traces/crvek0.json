@@ -9,9 +9,9 @@
         "Fake": 0.19767071306705475
       },
       "vilt": {
-        "Real": 0.9275916218757629,
-        "SatireMixed": 0.004089520778506994,
-        "Fake": 0.06831888109445572
+        "Real": 0.9275907874107361,
+        "SatireMixed": 0.004089548252522945,
+        "Fake": 0.06831955164670944
       },
       "flava": {
         "Real": 0.989283561706543,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6417099237442017,
       "consistency_score": 0.585025954246521
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information related to the sun hitting your orange soda just right. The provided context is about NASA and alien life, which doesn't seem relevant to this question. If you'd like to know more about how to perfectly hit the sunlight on your orange soda, I'd be happy to try and help with that!"
     }
   ],
   "final": {
     "post_id": "crvek0",
     "final_label": "Real",
-    "final_confidence": 0.9114547924995422,
+    "final_confidence": 0.9114545143445333,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.585025954246521,
     "clip_cos": 0.6417099237442017,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information related to the sun hitting your orange soda just right. The provided context is about NASA and alien life, which doesn't seem relevant to this question. If you'd like to know more about how to perfectly hit the sunlight on your orange soda, I'd be happy to try and help with that!",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11450950521632489",
     "num_comments": "-0.09031771039304853"

@@ -9,9 +9,9 @@
         "Fake": 0.005269714631140232
       },
       "vilt": {
-        "Real": 0.022586610168218613,
+        "Real": 0.02258657105267048,
         "SatireMixed": 0.8390757441520691,
-        "Fake": 0.1383376270532608
+        "Fake": 0.13833768665790558
       },
       "flava": {
         "Real": 0.004117998760193586,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6444753855466843,
       "consistency_score": 0.19334261566400526
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't know what the question is, as it appears to be a jumbled sequence of characters that doesn't form a coherent question. Could you please provide more context or clarify what you're trying to ask?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.19334261566400526,
     "clip_cos": 0.6444753855466843,
     "ocr_text": "ea UMTAATE KYBHAN 3zaRde OA MN Za",
+    "retrieved_text": "I'm happy to help! However, I don't know what the question is, as it appears to be a jumbled sequence of characters that doesn't form a coherent question. Could you please provide more context or clarify what you're trying to ask?",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.12525909918689593",
     "num_comments": "-0.11787413120978307"

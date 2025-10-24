@@ -9,9 +9,9 @@
         "Fake": 0.009607309475541115
       },
       "vilt": {
-        "Real": 0.03024754673242569,
-        "SatireMixed": 0.7340890169143677,
-        "Fake": 0.23566338419914246
+        "Real": 0.03024766780436039,
+        "SatireMixed": 0.7340889573097229,
+        "Fake": 0.23566332459449768
       },
       "flava": {
         "Real": 0.004840939771384001,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6370738446712494,
       "consistency_score": 0.5822443068027496
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not relate to buying domestic Japan advertising, and I'm unable to provide an informed answer. If you're looking for help with that topic, I suggest seeking guidance from a marketing or advertising expert or searching online resources specific to Japan's advertising industry."
     }
   ],
   "final": {
     "post_id": "1h3n0o",
     "final_label": "SatireMixed",
-    "final_confidence": 0.6002808757623037,
+    "final_confidence": 0.6002808558940887,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5822443068027496,
     "clip_cos": 0.6370738446712494,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not relate to buying domestic Japan advertising, and I'm unable to provide an informed answer. If you're looking for help with that topic, I suggest seeking guidance from a marketing or advertising expert or searching online resources specific to Japan's advertising industry.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.0855181760229666",
     "num_comments": "-0.11787413120978307"

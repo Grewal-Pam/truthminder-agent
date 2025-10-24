@@ -34,16 +34,21 @@
       },
       "clip_cos": "",
       "consistency_score": 0.5
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know"
     }
   ],
   "final": {
     "post_id": "3iadro",
-    "final_label": "Uncertain",
+    "final_label": "Real",
     "final_confidence": 0.5490752768516541,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5,
     "clip_cos": "",
     "ocr_text": "",
+    "retrieved_text": "I don't know",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.02134635747137578",
     "num_comments": "0.19213560297848054"

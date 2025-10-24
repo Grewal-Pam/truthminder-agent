@@ -9,9 +9,9 @@
         "Fake": 0.9882314801216125
       },
       "vilt": {
-        "Real": 0.04155822470784187,
-        "SatireMixed": 0.009110989049077034,
-        "Fake": 0.9493308067321777
+        "Real": 0.04155905172228813,
+        "SatireMixed": 0.009111042134463787,
+        "Fake": 0.9493299722671509
       },
       "flava": {
         "Real": 0.0038651213981211185,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.6522025913000107,
-      "consistency_score": 0.1956607773900032
+      "clip_cos": 0.6522026062011719,
+      "consistency_score": 0.19566078186035155
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must point out that the question seems to be a jumbled collection of random words and phrases. It's not clear what you're asking about or trying to communicate.\n\nAs far as I can tell, there is no meaningful connection between infinity mirrors, the atmosphere of Pluto, and NASA (which has nothing to do with the other two topics). Additionally, \"aN aN INA colt\" doesn't seem to make sense in any context.\n\nIf you could rephrase your question or provide more context, I'd be happy to try and help."
     }
   ],
   "final": {
     "post_id": "8c9qzv",
     "final_label": "Fake",
-    "final_confidence": 0.9339273437360922,
+    "final_confidence": 0.9339270658493042,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.1956607773900032,
-    "clip_cos": 0.6522025913000107,
+    "consistency_score": 0.19566078186035155,
+    "clip_cos": 0.6522026062011719,
     "ocr_text": "aN aN INA colt",
+    "retrieved_text": "I'm happy to help! However, I must point out that the question seems to be a jumbled collection of random words and phrases. It's not clear what you're asking about or trying to communicate.\n\nAs far as I can tell, there is no meaningful connection between infinity mirrors, the atmosphere of Pluto, and NASA (which has nothing to do with the other two topics). Additionally, \"aN aN INA colt\" doesn't seem to make sense in any context.\n\nIf you could rephrase your question or provide more context, I'd",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.12363037282771851",
     "num_comments": "-0.11787413120978307"

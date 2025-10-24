@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9898905754089355,
-        "SatireMixed": 0.00385842751711607,
+        "SatireMixed": 0.0038584221620112658,
         "Fake": 0.006251075770705938
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6609250009059906,
       "consistency_score": 0.5965550005435943
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have any information about your specific experience or what you might have seen during a flight over the Arctic. As I'm not privy to personal experiences, I can't provide an answer. Additionally, since NASA has never admitted the existence of aliens and we only have evidence of microbial life, it's unlikely that you would have seen alien-related phenomena during your flight. If you're interested in sharing more about what you saw, I'd be happy to help interpret or provide general information on the Arctic region!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5965550005435943,
     "clip_cos": 0.6609250009059906,
     "ocr_text": "",
+    "retrieved_text": "I don't have any information about your specific experience or what you might have seen during a flight over the Arctic. As I'm not privy to personal experiences, I can't provide an answer. Additionally, since NASA has never admitted the existence of aliens and we only have evidence of microbial life, it's unlikely that you would have seen alien-related phenomena during your flight. If you're interested in sharing more about what you saw, I'd be happy to help interpret or provide general informa",
     "upvote_ratio": "-1.691106349630867",
     "score": "-0.12916804244892177",
     "num_comments": "-0.09031771039304853"

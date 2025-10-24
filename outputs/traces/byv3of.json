@@ -9,9 +9,9 @@
         "Fake": 0.04820120334625244
       },
       "vilt": {
-        "Real": 0.6956889033317566,
-        "SatireMixed": 0.018930813297629356,
-        "Fake": 0.28538018465042114
+        "Real": 0.6956887245178223,
+        "SatireMixed": 0.0189308263361454,
+        "Fake": 0.28538036346435547
       },
       "flava": {
         "Real": 0.9878007173538208,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6405489146709442,
       "consistency_score": 0.19216467440128326
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, which seems to be asking if Google's news tab has an ideological bias towards left- or right-wing sources."
     }
   ],
   "final": {
     "post_id": "byv3of",
     "final_label": "ABSTAIN",
-    "final_confidence": 0.8598504154880842,
+    "final_confidence": 0.8598503558834394,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19216467440128326,
     "clip_cos": 0.6405489146709442,
     "ocr_text": "a leftwing Ororine rightwing Ton",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, which seems to be asking if Google's news tab has an ideological bias towards left- or right-wing sources.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.011573999316311189",
     "num_comments": "0.17835739257011327"

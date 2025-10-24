@@ -9,9 +9,9 @@
         "Fake": 0.00014429839211516082
       },
       "vilt": {
-        "Real": 0.9741016626358032,
-        "SatireMixed": 0.0021256976760923862,
-        "Fake": 0.023772647604346275
+        "Real": 0.9741014242172241,
+        "SatireMixed": 0.0021257009357213974,
+        "Fake": 0.023772839456796646
       },
       "flava": {
         "Real": 0.004340217914432287,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6323132067918777,
-      "consistency_score": 0.5793879240751266
+      "clip_cos": 0.6323132365942001,
+      "consistency_score": 0.5793879419565201
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nIt looks like you're asking a question about Virgin Atlantic Upper Class, but your introduction seems unrelated. You mention Richard Branson's name, which is the founder of Virgin Group, but that doesn't seem to have anything to do with the experience you had on Virgin Atlantic.\n\nCan you please clarify or rephrase your question? What specifically was wrong with your experience in Upper Class that made you want to scream?"
     }
   ],
   "final": {
     "post_id": "805zep",
     "final_label": "Real",
-    "final_confidence": 0.6641875560370585,
+    "final_confidence": 0.6641874776370823,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5793879240751266,
-    "clip_cos": 0.6323132067918777,
+    "consistency_score": 0.5793879419565201,
+    "clip_cos": 0.6323132365942001,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nIt looks like you're asking a question about Virgin Atlantic Upper Class, but your introduction seems unrelated. You mention Richard Branson's name, which is the founder of Virgin Group, but that doesn't seem to have anything to do with the experience you had on Virgin Atlantic.\n\nCan you please clarify or rephrase your question? What specifically was wrong with your experience in Upper Class that made you want to scream?",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12265313701221205",
     "num_comments": "-0.138541446822334"

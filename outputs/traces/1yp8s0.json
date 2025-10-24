@@ -9,9 +9,9 @@
         "Fake": 0.009698988869786263
       },
       "vilt": {
-        "Real": 0.9826029539108276,
-        "SatireMixed": 0.004205886274576187,
-        "Fake": 0.013191182166337967
+        "Real": 0.9826030731201172,
+        "SatireMixed": 0.00420589093118906,
+        "Fake": 0.013191120699048042
       },
       "flava": {
         "Real": 0.989124059677124,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.633851021528244,
       "consistency_score": 0.5803106129169464
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context or information to provide a helpful answer about cats looking down. The question seems unrelated to NASA, space exploration, or alien life, which are the main topics mentioned in the provided context. Can you please clarify or provide more context about what you mean by \"cat looking down\"?"
     }
   ],
   "final": {
     "post_id": "1yp8s0",
     "final_label": "Real",
-    "final_confidence": 0.9920926080147425,
+    "final_confidence": 0.9920926477511725,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5803106129169464,
     "clip_cos": 0.633851021528244,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context or information to provide a helpful answer about cats looking down. The question seems unrelated to NASA, space exploration, or alien life, which are the main topics mentioned in the provided context. Can you please clarify or provide more context about what you mean by \"cat looking down\"?",
     "upvote_ratio": "-2.32763563463763",
     "score": "-0.12753931608974434",
     "num_comments": "-0.11787413120978307"

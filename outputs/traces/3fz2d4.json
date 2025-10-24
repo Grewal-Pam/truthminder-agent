@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9700793623924255,
         "SatireMixed": 0.003228825982660055,
-        "Fake": 0.0266917385160923
+        "Fake": 0.026691731065511703
       },
       "flava": {
         "Real": 0.9896652102470398,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6275430470705032,
-      "consistency_score": 0.5765258282423019
+      "clip_cos": 0.627543032169342,
+      "consistency_score": 0.5765258193016052
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to be related to Leicestershire Police or attempted burglaries, and the question is unrelated to NASA, aliens, or microbial life evidence."
     }
   ],
   "final": {
     "post_id": "3fz2d4",
     "final_label": "Real",
-    "final_confidence": 0.9910014920035998,
+    "final_confidence": 0.991001491467158,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5765258282423019,
-    "clip_cos": 0.6275430470705032,
+    "consistency_score": 0.5765258193016052,
+    "clip_cos": 0.627543032169342,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to be related to Leicestershire Police or attempted burglaries, and the question is unrelated to NASA, aliens, or microbial life evidence.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

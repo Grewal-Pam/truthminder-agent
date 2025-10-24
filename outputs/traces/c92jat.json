@@ -9,9 +9,9 @@
         "Fake": 0.9991313815116882
       },
       "vilt": {
-        "Real": 0.4639224112033844,
-        "SatireMixed": 0.021695919334888458,
-        "Fake": 0.5143816471099854
+        "Real": 0.46391740441322327,
+        "SatireMixed": 0.02169579081237316,
+        "Fake": 0.5143868327140808
       },
       "flava": {
         "Real": 0.003929341211915016,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6358670294284821,
       "consistency_score": 0.5815202176570893
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question because it appears to be unrelated to NASA, aliens, or microbial life evidence. The name \"Stefan Karl Stefansson\" seems to be someone from a different context altogether!"
     }
   ],
   "final": {
     "post_id": "c92jat",
     "final_label": "Fake",
-    "final_confidence": 0.814475135286649,
+    "final_confidence": 0.8144768638213475,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5815202176570893,
     "clip_cos": 0.6358670294284821,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question because it appears to be unrelated to NASA, aliens, or microbial life evidence. The name \"Stefan Karl Stefansson\" seems to be someone from a different context altogether!",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.1213501559248701",
     "num_comments": "-0.138541446822334"

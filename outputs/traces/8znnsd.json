@@ -9,8 +9,8 @@
         "Fake": 0.00013647900777868927
       },
       "vilt": {
-        "Real": 0.00981173850595951,
-        "SatireMixed": 0.013370714150369167,
+        "Real": 0.009811688214540482,
+        "SatireMixed": 0.013370753265917301,
         "Fake": 0.9768175482749939
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.608367033302784,
       "consistency_score": 0.5650202199816704
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this one!\n\nIt seems like you're having a bit of an emotional response, which is understandable! However, since there's no specific question being asked, I'll just acknowledge your reaction and say that I don't know what to answer about crushing or aliens. If you'd like to rephrase the question or provide more context, I'm here to help!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5650202199816704,
     "clip_cos": 0.608367033302784,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this one!\n\nIt seems like you're having a bit of an emotional response, which is understandable! However, since there's no specific question being asked, I'll just acknowledge your reaction and say that I don't know what to answer about crushing or aliens. If you'd like to rephrase the question or provide more context, I'm here to help!",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

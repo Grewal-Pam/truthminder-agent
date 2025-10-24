@@ -23,3 +23,11 @@ requests==2.31.0
 loguru==0.6.0
 
 pytest
+
+langchain==0.1.16
+langchain-community==0.0.33
+langchain-core==0.1.43
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+huggingface_hub==0.23.0
+ollama==0.2.0

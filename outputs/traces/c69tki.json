@@ -9,9 +9,9 @@
         "Fake": 0.0006507791113108397
       },
       "vilt": {
-        "Real": 0.8691861629486084,
-        "SatireMixed": 0.00614814180880785,
-        "Fake": 0.12466565519571304
+        "Real": 0.869186282157898,
+        "SatireMixed": 0.006148131098598242,
+        "Fake": 0.12466561049222946
       },
       "flava": {
         "Real": 0.9893440008163452,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6641248315572739,
       "consistency_score": 0.5984748989343643
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, and seems to be asking about a specific historical event involving Dutch construction workers, British phosphor bombs, and a college evacuation. I'm not aware of any information that would allow me to answer this question based on the given context."
     }
   ],
   "final": {
     "post_id": "c69tki",
     "final_label": "Real",
-    "final_confidence": 0.9585310466488203,
+    "final_confidence": 0.9585310863852501,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5984748989343643,
     "clip_cos": 0.6641248315572739,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and alien life, and seems to be asking about a specific historical event involving Dutch construction workers, British phosphor bombs, and a college evacuation. I'm not aware of any information that would allow me to answer this question based on the given context.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12786506136157982",
     "num_comments": "-0.12476323641396671"

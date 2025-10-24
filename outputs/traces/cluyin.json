@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9883052110671997,
         "SatireMixed": 0.002998458920046687,
-        "Fake": 0.008696314878761768
+        "Fake": 0.00869632139801979
       },
       "flava": {
         "Real": 0.9894708395004272,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6491907238960266,
       "consistency_score": 0.589514434337616
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide an answer for this question. The context provided is about NASA and microbial life, but it doesn't mention a gorilla or a caretaker. Could you please provide more information or clarify the relationship between the gorilla, its caretaker, and the topic of aliens or microbial life?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.589514434337616,
     "clip_cos": 0.6491907238960266,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide an answer for this question. The context provided is about NASA and microbial life, but it doesn't mention a gorilla or a caretaker. Could you please provide more information or clarify the relationship between the gorilla, its caretaker, and the topic of aliens or microbial life?",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.10929758086695711",
     "num_comments": "-0.062761289576314"

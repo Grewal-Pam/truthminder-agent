@@ -1,13 +1,13 @@
 import pytest
 import pandas as pd
 import torch
-from datasets.dataset import load_images
+from local_datasets.dataset import load_images
 from transformers import CLIPProcessor
 from torch.utils.data import DataLoader
 from unittest.mock import patch
 from main import run_experiment
-from datasets.data_analysis import DataAnalysis
-from datasets.pre_processing import normalize_metadata
+from local_datasets.data_analysis import DataAnalysis
+from local_datasets.pre_processing import normalize_metadata
 from models.clip_model import CLIPMultiTaskClassifier
 from training.trainer import train_model
 from training.evaluator import evaluate_model

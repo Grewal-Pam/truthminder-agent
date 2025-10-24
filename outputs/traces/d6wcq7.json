@@ -9,9 +9,9 @@
         "Fake": 0.7138733267784119
       },
       "vilt": {
-        "Real": 0.4072224795818329,
-        "SatireMixed": 0.00941955391317606,
-        "Fake": 0.5833579301834106
+        "Real": 0.4072205722332001,
+        "SatireMixed": 0.009419566951692104,
+        "Fake": 0.5833598971366882
       },
       "flava": {
         "Real": 0.00476986076682806,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6207296028733253,
       "consistency_score": 0.5724377617239952
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion here!\n\nThe question \"nsfw nipples of iron no really\" doesn't seem to have any relation to the context about NASA, aliens, or microbial life. It looks like a phrase that might not even make sense.\n\nSince I don't recognize this phrase as having any relevance to the original context, my answer would be: I don't know!"
     }
   ],
   "final": {
     "post_id": "d6wcq7",
     "final_label": "Fake",
-    "final_confidence": 0.7496967060466608,
+    "final_confidence": 0.7496973616977534,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5724377617239952,
     "clip_cos": 0.6207296028733253,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion here!\n\nThe question \"nsfw nipples of iron no really\" doesn't seem to have any relation to the context about NASA, aliens, or microbial life. It looks like a phrase that might not even make sense.\n\nSince I don't recognize this phrase as having any relevance to the original context, my answer would be: I don't know!",
     "upvote_ratio": "-2.418568389638596",
     "score": "-0.12981953299259275",
     "num_comments": "-0.12476323641396671"

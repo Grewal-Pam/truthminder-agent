@@ -9,9 +9,9 @@
         "Fake": 0.12386545538902283
       },
       "vilt": {
-        "Real": 0.8925110697746277,
-        "SatireMixed": 0.008028238080441952,
-        "Fake": 0.09946077316999435
+        "Real": 0.8925109505653381,
+        "SatireMixed": 0.008028239943087101,
+        "Fake": 0.09946071356534958
       },
       "flava": {
         "Real": 0.9893004298210144,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.65755395591259,
       "consistency_score": 0.5945323735475541
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA, alien life, or microbial life evidence, so I'm not sure how I could provide a helpful answer. Can you please clarify what you're asking about the clouds?"
     }
   ],
   "final": {
     "post_id": "ckgzc5",
     "final_label": "Real",
-    "final_confidence": 0.9249014895955722,
+    "final_confidence": 0.9249014498591424,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5945323735475541,
     "clip_cos": 0.65755395591259,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA, alien life, or microbial life evidence, so I'm not sure how I could provide a helpful answer. Can you please clarify what you're asking about the clouds?",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.07737454422707944",
     "num_comments": "0.026797078078073272"

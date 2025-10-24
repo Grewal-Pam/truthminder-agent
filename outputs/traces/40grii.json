@@ -9,9 +9,9 @@
         "Fake": 0.5980326533317566
       },
       "vilt": {
-        "Real": 0.16515855491161346,
-        "SatireMixed": 0.030339833348989487,
-        "Fake": 0.8045016527175903
+        "Real": 0.1651594042778015,
+        "SatireMixed": 0.030339814722537994,
+        "Fake": 0.8045007586479187
       },
       "flava": {
         "Real": 0.8511304259300232,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6318795382976532,
       "consistency_score": 0.5791277229785919
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question \"railway tunnel norway\" seems unrelated to the context about NASA and aliens, so I'm not sure what this is referring to. Could you please provide more information or clarify the connection?"
     }
   ],
   "final": {
     "post_id": "40grii",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5138206799228986,
+    "final_label": "Fake",
+    "final_confidence": 0.5138203818996747,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5791277229785919,
     "clip_cos": 0.6318795382976532,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question \"railway tunnel norway\" seems unrelated to the context about NASA and aliens, so I'm not sure what this is referring to. Could you please provide more information or clarify the connection?",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.1096233261387926",
     "num_comments": "-0.138541446822334"

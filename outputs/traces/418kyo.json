@@ -9,9 +9,9 @@
         "Fake": 0.000866471033077687
       },
       "vilt": {
-        "Real": 0.8514078259468079,
-        "SatireMixed": 0.008763709105551243,
-        "Fake": 0.13982844352722168
+        "Real": 0.8514068126678467,
+        "SatireMixed": 0.008763724006712437,
+        "Fake": 0.13982950150966644
       },
       "flava": {
         "Real": 0.5137999653816223,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6552982479333878,
       "consistency_score": 0.5931789487600326
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't seem to have any relevance to Prague."
     }
   ],
   "final": {
     "post_id": "418kyo",
     "final_label": "Real",
-    "final_confidence": 0.7936656674345335,
+    "final_confidence": 0.7936653296748797,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5931789487600326,
     "clip_cos": 0.6552982479333878,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't seem to have any relevance to Prague.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.05522386574226636",
     "num_comments": "-0.11787413120978307"

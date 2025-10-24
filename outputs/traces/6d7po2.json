@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9893524646759033,
-        "SatireMixed": 0.005154292564839125,
-        "Fake": 0.00549316918477416
+        "SatireMixed": 0.005154282785952091,
+        "Fake": 0.005493174772709608
       },
       "flava": {
         "Real": 0.9891355037689209,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6432124078273773,
-      "consistency_score": 0.5859274446964264
+      "clip_cos": 0.6432124227285385,
+      "consistency_score": 0.5859274536371231
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life, so I'm not equipped to answer this question based on the provided information."
     }
   ],
   "final": {
     "post_id": "6d7po2",
     "final_label": "Real",
-    "final_confidence": 0.9972138840754827,
+    "final_confidence": 0.9972138846119245,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5859274446964264,
-    "clip_cos": 0.6432124078273773,
+    "consistency_score": 0.5859274536371231,
+    "clip_cos": 0.6432124227285385,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life, so I'm not equipped to answer this question based on the provided information.",
     "upvote_ratio": "-0.9636443096231389",
     "score": "-0.12786506136157982",
     "num_comments": "-0.1454305520265176"

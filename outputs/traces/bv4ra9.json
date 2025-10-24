@@ -9,9 +9,9 @@
         "Fake": 0.998953104019165
       },
       "vilt": {
-        "Real": 0.011455257423222065,
-        "SatireMixed": 0.012642405927181244,
-        "Fake": 0.9759023785591125
+        "Real": 0.011455493047833443,
+        "SatireMixed": 0.012642424553632736,
+        "Fake": 0.9759020209312439
       },
       "flava": {
         "Real": 0.004862049128860235,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6225714683532715,
       "consistency_score": 0.5735428810119629
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA or aliens, and it appears to be asking about something called \"Rush of Election GIFs\" which I'm not familiar with. Can you provide more information or clarify what this has to do with the original context?"
     }
   ],
   "final": {
     "post_id": "bv4ra9",
     "final_label": "Fake",
-    "final_confidence": 0.9758290263811746,
+    "final_confidence": 0.9758289071718851,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5735428810119629,
     "clip_cos": 0.6225714683532715,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA or aliens, and it appears to be asking about something called \"Rush of Election GIFs\" which I'm not familiar with. Can you provide more information or clarify what this has to do with the original context?",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.12265313701221205",
     "num_comments": "-0.0076484479428449055"

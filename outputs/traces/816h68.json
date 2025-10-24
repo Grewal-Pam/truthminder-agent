@@ -9,9 +9,9 @@
         "Fake": 0.09774203598499298
       },
       "vilt": {
-        "Real": 0.06253401190042496,
-        "SatireMixed": 0.018412740901112556,
-        "Fake": 0.9190532565116882
+        "Real": 0.06253410875797272,
+        "SatireMixed": 0.018412752076983452,
+        "Fake": 0.9190531373023987
       },
       "flava": {
         "Real": 0.020766843110322952,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5822508186101913,
       "consistency_score": 0.5246752455830573
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life evidence, and seems to be asking about a specific book series and its content. I'm not aware of any information that would allow me to answer this question accurately."
     }
   ],
   "final": {
     "post_id": "816h68",
     "final_label": "Fake",
-    "final_confidence": 0.6509832341770331,
+    "final_confidence": 0.6509831944406033,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5246752455830573,
     "clip_cos": 0.5822508186101913,
     "ocr_text": "ll",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life evidence, and seems to be asking about a specific book series and its content. I'm not aware of any information that would allow me to answer this question accurately.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.11483525048816037",
     "num_comments": "-0.1454305520265176"

@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9757804870605469,
         "SatireMixed": 0.0039993831887841225,
-        "Fake": 0.020220207050442696
+        "Fake": 0.020220136269927025
       },
       "flava": {
         "Real": 0.9883595705032349,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6666415929794312,
       "consistency_score": 0.5999849557876586
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA's findings on alien life or microbial life, so I won't attempt to answer it. If you'd like me to help with a different question, feel free to ask!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5999849557876586,
     "clip_cos": 0.6666415929794312,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA's findings on alien life or microbial life, so I won't attempt to answer it. If you'd like me to help with a different question, feel free to ask!",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12102441065303461",
     "num_comments": "-0.11787413120978307"

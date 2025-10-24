@@ -9,9 +9,9 @@
         "Fake": 0.013594269752502441
       },
       "vilt": {
-        "Real": 0.04029040038585663,
-        "SatireMixed": 0.008706347085535526,
-        "Fake": 0.9510033130645752
+        "Real": 0.040290653705596924,
+        "SatireMixed": 0.008706344291567802,
+        "Fake": 0.9510029554367065
       },
       "flava": {
         "Real": 0.005096149165183306,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6024757027626038,
-      "consistency_score": 0.5614854216575622
+      "clip_cos": 0.6024756878614426,
+      "consistency_score": 0.5614854127168656
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention FAFSA (Federal Student Aid) or any information related to financial aid. I'm not able to answer this question as it appears unrelated to the original text."
     }
   ],
   "final": {
     "post_id": "8xmsnm",
     "final_label": "Fake",
-    "final_confidence": 0.6395065735975901,
+    "final_confidence": 0.6395064538518588,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5614854216575622,
-    "clip_cos": 0.6024757027626038,
+    "consistency_score": 0.5614854127168656,
+    "clip_cos": 0.6024756878614426,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention FAFSA (Federal Student Aid) or any information related to financial aid. I'm not able to answer this question as it appears unrelated to the original text.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12004717483752816",
     "num_comments": "0.1301336561408278"

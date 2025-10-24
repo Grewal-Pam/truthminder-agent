@@ -9,8 +9,8 @@
         "Fake": 0.9983034133911133
       },
       "vilt": {
-        "Real": 0.005080496892333031,
-        "SatireMixed": 0.01218554936349392,
+        "Real": 0.005080514121800661,
+        "SatireMixed": 0.012185531668365002,
         "Fake": 0.9827339053153992
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6345455646514893,
-      "consistency_score": 0.5807273387908936
+      "clip_cos": 0.6345455497503281,
+      "consistency_score": 0.5807273298501968
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question is about Raphael's School of Athens, which appears to be a topic unrelated to NASA or alien life. I can provide information on the painting if you'd like, but it won't help answer your original question about aliens."
     }
   ],
   "final": {
     "post_id": "6zn370",
     "final_label": "Fake",
-    "final_confidence": 0.9598653793334961,
+    "final_confidence": 0.9598653787970542,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5807273387908936,
-    "clip_cos": 0.6345455646514893,
+    "consistency_score": 0.5807273298501968,
+    "clip_cos": 0.6345455497503281,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question is about Raphael's School of Athens, which appears to be a topic unrelated to NASA or alien life. I can provide information on the painting if you'd like, but it won't help answer your original question about aliens.",
     "upvote_ratio": "0.30941426039038616",
     "score": "-0.12656208027423788",
     "num_comments": "-0.1454305520265176"

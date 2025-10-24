@@ -9,9 +9,9 @@
         "Fake": 0.0012994991848245263
       },
       "vilt": {
-        "Real": 0.981004536151886,
-        "SatireMixed": 0.0019847748335450888,
-        "Fake": 0.017010672017931938
+        "Real": 0.9810046553611755,
+        "SatireMixed": 0.0019847750663757324,
+        "Fake": 0.017010610550642014
       },
       "flava": {
         "Real": 0.9893414378166199,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6548952162265778,
       "consistency_score": 0.5929371297359467
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about moths or insects in general. Therefore, I'm unable to provide an answer about the moth you found on your way to work."
     }
   ],
   "final": {
     "post_id": "cjxtjp",
     "final_label": "Real",
-    "final_confidence": 0.9952491667668024,
+    "final_confidence": 0.9952492065032323,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5929371297359467,
     "clip_cos": 0.6548952162265778,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about moths or insects in general. Therefore, I'm unable to provide an answer about the moth you found on your way to work.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.11787413120978307"

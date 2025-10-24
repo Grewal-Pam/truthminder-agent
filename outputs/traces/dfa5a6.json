@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9772517681121826,
-        "SatireMixed": 0.005825705826282501,
-        "Fake": 0.016922570765018463
+        "SatireMixed": 0.005825699772685766,
+        "Fake": 0.016922488808631897
       },
       "flava": {
         "Real": 0.005519662983715534,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6258838623762131,
-      "consistency_score": 0.5755303174257278
+      "clip_cos": 0.6258838772773743,
+      "consistency_score": 0.5755303263664245
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about nickel or its relation to NASA, aliens, or microbial life. If you'd like to provide more context or clarify what you're asking about nickel, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "dfa5a6",
     "final_label": "Real",
-    "final_confidence": 0.665133486174047,
+    "final_confidence": 0.6651334867104888,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5755303174257278,
-    "clip_cos": 0.6258838623762131,
+    "consistency_score": 0.5755303263664245,
+    "clip_cos": 0.6258838772773743,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about nickel or its relation to NASA, aliens, or microbial life. If you'd like to provide more context or clarify what you're asking about nickel, I'd be happy to try and help!",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.08356370439195368",
     "num_comments": "-0.07653949998468126"

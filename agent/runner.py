@@ -1,19 +1,36 @@
-# truthmindr_agent/agent/runner.py
 import os, csv, json
 from models.clip_infer import run_clip
 from models.vilt_infer import run_vilt
 from models.flava_infer import run_flava
 from tools.ocr import ocr
 from tools.consistency import build_consistency_features
+from tools.retrieval import retrieve_evidence
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 
 TASK = os.environ.get("TRUTHMINDR_TASK", "3way")  # "2way" or "3way"
 ABSTAIN_T = float(os.environ.get("TRUTHMINDR_ABSTAIN_T", "0.45"))
 
-def arbiter(clip_p, vilt_p, flava_p, cons_feat, meta):
+def arbiter(clip_p, vilt_p, flava_p, cons_feat, meta, retrieval_text=None):
     labels = list(clip_p.keys())  # ["Real","SatireMixed","Fake"]
     avg = {L:(clip_p[L]+vilt_p[L]+flava_p[L])/3 for L in labels}
+
+    # Adjust with consistency score
     delta = 0.06*(cons_feat["consistency_score"] - 0.5)
-    for L in avg: avg[L] += delta
+    for L in avg: 
+        avg[L] += delta
+
+    # Adjust based on retrieval evidence if available
+    if retrieval_text:
+        lower_text = retrieval_text.lower()
+        if "refuted" in lower_text or "false" in lower_text:
+            avg["Fake"] += 0.05
+        if "supported" in lower_text or "true" in lower_text:
+            avg["Real"] += 0.05
+
+    # Final decision
     final = max(avg, key=avg.get)
     conf  = float(avg[final])
     abstain = (conf < ABSTAIN_T) or (cons_feat["nli"]["label"]=="CONTRADICTION" and final=="Real")
@@ -22,22 +39,28 @@ def arbiter(clip_p, vilt_p, flava_p, cons_feat, meta):
 def run_row(row: dict):
     trace = {"post_id": row["id"], "steps": []}
 
-    # 1) Perception (uses your dataloaders & metadata)
+    # 1) Perception
     clip_p  = run_clip(row["image_url"], row["clean_title"], task=TASK, metadata=row)
     vilt_p  = run_vilt(row["image_url"], row["clean_title"], task=TASK, metadata=row)
     flava_p = run_flava(row["image_url"], row["clean_title"], task=TASK, metadata=row)
     trace["steps"].append({"stage":"perception","clip":clip_p,"vilt":vilt_p,"flava":flava_p})
 
-    # 2) Evidence (OCR; safe if no text)
+    # 2) Evidence (OCR)
     ocr_text = ocr(row["image_url"])
     trace["steps"].append({"stage":"evidence","ocr_text": ocr_text, "no_ocr": (ocr_text=="")})
 
-    # 3) Consistency (NLI + clip cosine; clip may skip if URL not reachable)
+    # 3) Consistency (NLI + CLIP cosine)
     cons_feat = build_consistency_features(row["image_url"], row["clean_title"], ocr_text)
     trace["steps"].append({"stage":"consistency", **cons_feat})
 
-    # 4) Arbiter
-    final_label, final_conf = arbiter(clip_p, vilt_p, flava_p, cons_feat, row)
+    # 4) Retrieval (RAG)
+    query_text = f"{row['clean_title']} {ocr_text}"
+    retrieved_text = retrieve_evidence(query_text)
+    trace["steps"].append({"stage":"retrieval", "retrieved_evidence": retrieved_text})
+
+    # 5) Arbiter (includes retrieval influence)
+    final_label, final_conf = arbiter(clip_p, vilt_p, flava_p, cons_feat, row, retrieval_text=retrieved_text)
+
     result = {
         "post_id": row["id"],
         "final_label": final_label,
@@ -46,14 +69,13 @@ def run_row(row: dict):
         "consistency_score": cons_feat["consistency_score"],
         "clip_cos": cons_feat["clip_cos"],
         "ocr_text": (ocr_text or "")[:180],
-        # Keep raw metadata in enriched output
+        "retrieved_text": (retrieved_text or "")[:500],
+        # Keep raw metadata
         "upvote_ratio": row.get("upvote_ratio",""),
         "score": row.get("score",""),
         "num_comments": row.get("num_comments",""),
     }
     trace["final"] = result
-    # if result["final_confidence"]<0.6:
-    #     result["final_label"] = "Uncertain"
     return result, trace
 
 def _detect_sep(path):

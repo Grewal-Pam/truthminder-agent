@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9876936078071594,
-        "SatireMixed": 0.0033943711314350367,
+        "SatireMixed": 0.00339436624199152,
         "Fake": 0.00891205482184887
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6584472507238388,
-      "consistency_score": 0.5950683504343033
+      "clip_cos": 0.6584472358226776,
+      "consistency_score": 0.5950683414936065
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion! The provided context is about NASA and the possibility of alien life, but your question is about taking off your watch after a day's work in the sun!\n\nAs I don't have any relevant information about watches or skin care, I'll take a step back and say... I don't know!"
     }
   ],
   "final": {
     "post_id": "cfgb3i",
     "final_label": "Real",
-    "final_confidence": 0.9974018495281538,
+    "final_confidence": 0.997401848991712,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5950683504343033,
-    "clip_cos": 0.6584472507238388,
+    "consistency_score": 0.5950683414936065,
+    "clip_cos": 0.6584472358226776,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion! The provided context is about NASA and the possibility of alien life, but your question is about taking off your watch after a day's work in the sun!\n\nAs I don't have any relevant information about watches or skin care, I'll take a step back and say... I don't know!",
     "upvote_ratio": "-2.1457701246356975",
     "score": "-0.12916804244892177",
     "num_comments": "-0.138541446822334"

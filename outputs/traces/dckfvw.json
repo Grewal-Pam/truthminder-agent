@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.638660341501236,
-      "consistency_score": 0.5831962049007415
+      "clip_cos": 0.6386603116989136,
+      "consistency_score": 0.5831961870193482
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context does not mention Mike Pence, Rick Perry, Trump's Ukraine scheme, or Democrats. It seems to be a completely unrelated topic about NASA and alien life. If you have any additional context related to the question, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "dckfvw",
     "final_label": "Real",
-    "final_confidence": 0.9970895673036575,
+    "final_confidence": 0.9970895662307739,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5831962049007415,
-    "clip_cos": 0.638660341501236,
+    "consistency_score": 0.5831961870193482,
+    "clip_cos": 0.6386603116989136,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context does not mention Mike Pence, Rick Perry, Trump's Ukraine scheme, or Democrats. It seems to be a completely unrelated topic about NASA and alien life. If you have any additional context related to the question, I'd be happy to try and help!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11255503358531196",
     "num_comments": "-0.11098502600559944"

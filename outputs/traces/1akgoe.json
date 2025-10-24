@@ -9,8 +9,8 @@
         "Fake": 0.0075105237774550915
       },
       "vilt": {
-        "Real": 0.0024459415581077337,
-        "SatireMixed": 0.015854697674512863,
+        "Real": 0.002445942722260952,
+        "SatireMixed": 0.015854690223932266,
         "Fake": 0.9816993474960327
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6126820668578148,
-      "consistency_score": 0.5676092401146888
+      "clip_cos": 0.6126820519566536,
+      "consistency_score": 0.5676092311739922
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must say that I don't know what \"boonowa tweepi ha ha jabba the hutt\" means or refers to. It appears to be a nonsensical phrase with no apparent connection to NASA or aliens. If you could provide more context or clarify what you're asking, I'd be happy to try and help. Otherwise, my answer is simply \"I don't know.\""
     }
   ],
   "final": {
     "post_id": "1akgoe",
     "final_label": "Fake",
-    "final_confidence": 0.6450923631228507,
+    "final_confidence": 0.6450923625864089,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5676092401146888,
-    "clip_cos": 0.6126820668578148,
+    "consistency_score": 0.5676092311739922,
+    "clip_cos": 0.6126820519566536,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I must say that I don't know what \"boonowa tweepi ha ha jabba the hutt\" means or refers to. It appears to be a nonsensical phrase with no apparent connection to NASA or aliens. If you could provide more context or clarify what you're asking, I'd be happy to try and help. Otherwise, my answer is simply \"I don't know.\"",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

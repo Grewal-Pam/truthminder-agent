@@ -9,9 +9,9 @@
         "Fake": 0.9997461438179016
       },
       "vilt": {
-        "Real": 0.8162577152252197,
-        "SatireMixed": 0.007683923467993736,
-        "Fake": 0.17605836689472198
+        "Real": 0.8162562251091003,
+        "SatireMixed": 0.007683961186558008,
+        "Fake": 0.17605972290039062
       },
       "flava": {
         "Real": 0.9894647598266602,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6446666270494461,
       "consistency_score": 0.5867999762296676
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion! It seems like you're asking about something unrelated to NASA or aliens, which is okay! However, I'll do my best to help you with your question.\n\nIt looks like you're asking about your welding jacket after using it for a certain number of weeks. Based on what I can see, the context doesn't mention anything specific about TIG welding or the condition of the jacket. But if you'd like some general advice on how to take care of your welding gear or any tips for extending its lifespan, I'd be happy to help!\n\nPlease feel free to provide more details or clarify your question, and I'll do my best to assist you!"
     }
   ],
   "final": {
     "post_id": "d72s39",
     "final_label": "Real",
-    "final_confidence": 0.607152952982365,
+    "final_confidence": 0.6071524562769919,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5867999762296676,
     "clip_cos": 0.6446666270494461,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion! It seems like you're asking about something unrelated to NASA or aliens, which is okay! However, I'll do my best to help you with your question.\n\nIt looks like you're asking about your welding jacket after using it for a certain number of weeks. Based on what I can see, the context doesn't mention anything specific about TIG welding or the condition of the jacket. But if you'd like some general advice on how to take care of your welding gear or any tips for",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12753931608974434",
     "num_comments": "-0.138541446822334"

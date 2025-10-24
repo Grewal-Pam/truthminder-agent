@@ -9,9 +9,9 @@
         "Fake": 0.16364219784736633
       },
       "vilt": {
-        "Real": 0.023809025064110756,
-        "SatireMixed": 0.009898276068270206,
-        "Fake": 0.966292679309845
+        "Real": 0.023809224367141724,
+        "SatireMixed": 0.009898291900753975,
+        "Fake": 0.9662924408912659
       },
       "flava": {
         "Real": 0.9887370467185974,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5864677131175995,
       "consistency_score": 0.5518806278705597
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't provide any information about a Hong Kong billionaire or their offer, so I can't answer the question."
     }
   ],
   "final": {
     "post_id": "4nmc0z",
     "final_label": "Real",
-    "final_confidence": 0.6193574946373701,
+    "final_confidence": 0.6193575610717138,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5518806278705597,
     "clip_cos": 0.5864677131175995,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't provide any information about a Hong Kong billionaire or their offer, so I can't answer the question.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.0011501506175756234",
     "num_comments": "0.06813170930317508"

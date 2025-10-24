@@ -9,9 +9,9 @@
         "Fake": 0.002586028538644314
       },
       "vilt": {
-        "Real": 0.011692284606397152,
-        "SatireMixed": 0.628318190574646,
-        "Fake": 0.3599895238876343
+        "Real": 0.01169226597994566,
+        "SatireMixed": 0.6283180713653564,
+        "Fake": 0.3599897027015686
       },
       "flava": {
         "Real": 0.0038997079245746136,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6460867822170258,
       "consistency_score": 0.19382603466510773
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know, as this appears to be a random combination of text that doesn't seem related to aliens or NASA. It looks like it might be an old advertisement or a piece of historical information about a specific event or location (Canadian WWII). Can you please provide more context or clarify the question?"
     }
   ],
   "final": {
     "post_id": "4frghj",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5612261759241423,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5612261361877123,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19382603466510773,
     "clip_cos": 0.6460867822170258,
     "ocr_text": "The Happy Manilais the Man at the     Apply at the Armoury ofa9 Bleury Street .MONTREAL",
+    "retrieved_text": "I don't know, as this appears to be a random combination of text that doesn't seem related to aliens or NASA. It looks like it might be an old advertisement or a piece of historical information about a specific event or location (Canadian WWII). Can you please provide more context or clarify the question?",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.02948998926726294",
     "num_comments": "0.10257723532409327"

@@ -34,16 +34,21 @@
       },
       "clip_cos": "",
       "consistency_score": 0.5
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question appears to be about whether an odometer (a device that measures distance traveled) is a palindrome, which refers to a word, phrase, or sequence that reads the same backward as forward. This seems unrelated to NASA's existence of aliens or microbial life evidence."
     }
   ],
   "final": {
     "post_id": "d14cnz",
-    "final_label": "Uncertain",
+    "final_label": "Real",
     "final_confidence": 0.549792598883311,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5,
     "clip_cos": "",
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question appears to be about whether an odometer (a device that measures distance traveled) is a palindrome, which refers to a word, phrase, or sequence that reads the same backward as forward. This seems unrelated to NASA's existence of aliens or microbial life evidence.",
     "upvote_ratio": "-1.9639046146337655",
     "score": "-0.12884229717708628",
     "num_comments": "-0.12476323641396671"

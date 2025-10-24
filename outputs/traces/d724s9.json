@@ -9,9 +9,9 @@
         "Fake": 0.9880997538566589
       },
       "vilt": {
-        "Real": 0.757941722869873,
-        "SatireMixed": 0.011162365786731243,
-        "Fake": 0.23089593648910522
+        "Real": 0.7579452991485596,
+        "SatireMixed": 0.01116227451711893,
+        "Fake": 0.23089240491390228
       },
       "flava": {
         "Real": 0.0075943428091704845,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6142556592822075,
       "consistency_score": 0.5685533955693245
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't mention Easter Sunday or a church at all, so I'm unable to provide an answer to this question."
     }
   ],
   "final": {
     "post_id": "d724s9",
     "final_label": "Fake",
-    "final_confidence": 0.7255682015915712,
+    "final_confidence": 0.7255670243998369,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5685533955693245,
     "clip_cos": 0.6142556592822075,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't mention Easter Sunday or a church at all, so I'm unable to provide an answer to this question.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

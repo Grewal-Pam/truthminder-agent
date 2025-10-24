@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9882468581199646,
-        "SatireMixed": 0.0025234357453882694,
-        "Fake": 0.009229639545083046
+        "SatireMixed": 0.0025234392378479242,
+        "Fake": 0.009229648858308792
       },
       "flava": {
         "Real": 0.005249443929642439,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6487032771110535,
       "consistency_score": 0.589221966266632
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to provide a helpful answer for \"meanwhile at the presidents cup nsfw\". It seems like this is unrelated to the original topic about NASA and aliens. If you meant something else, please clarify!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.589221966266632,
     "clip_cos": 0.6487032771110535,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to provide a helpful answer for \"meanwhile at the presidents cup nsfw\". It seems like this is unrelated to the original topic about NASA and aliens. If you meant something else, please clarify!",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12753931608974434",
     "num_comments": "-0.12476323641396671"

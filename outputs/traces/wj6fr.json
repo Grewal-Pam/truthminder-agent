@@ -9,9 +9,9 @@
         "Fake": 9.678475180407986e-05
       },
       "vilt": {
-        "Real": 0.780751645565033,
-        "SatireMixed": 0.007574061863124371,
-        "Fake": 0.2116742730140686
+        "Real": 0.7807510495185852,
+        "SatireMixed": 0.007574085146188736,
+        "Fake": 0.21167485415935516
       },
       "flava": {
         "Real": 0.004102061502635479,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6134525090456009,
-      "consistency_score": 0.5680715054273605
+      "clip_cos": 0.6134525164961815,
+      "consistency_score": 0.5680715098977089
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "Based on the provided context, it seems that the person is talking about their sudden improvement in running speed after a specific event. However, since there's no explicit connection made to aliens or extraterrestrial life, I don't think the context suggests any direct relation between alien existence and the person's improved running ability.\n\nSo, without more information, I don't know what you're referring to with your statement, but it sounds like you might be hinting at some unusual experience that led to a significant change in your running abilities?"
     }
   ],
   "final": {
     "post_id": "wj6fr",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5989731994246443,
+    "final_label": "Real",
+    "final_confidence": 0.5989730010107159,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5680715054273605,
-    "clip_cos": 0.6134525090456009,
+    "consistency_score": 0.5680715098977089,
+    "clip_cos": 0.6134525164961815,
     "ocr_text": "",
+    "retrieved_text": "Based on the provided context, it seems that the person is talking about their sudden improvement in running speed after a specific event. However, since there's no explicit connection made to aliens or extraterrestrial life, I don't think the context suggests any direct relation between alien existence and the person's improved running ability.\n\nSo, without more information, I don't know what you're referring to with your statement, but it sounds like you might be hinting at some unusual experi",
     "upvote_ratio": "-0.8727115546221728",
     "score": "-0.12721357081790885",
     "num_comments": "-0.04898307916794672"

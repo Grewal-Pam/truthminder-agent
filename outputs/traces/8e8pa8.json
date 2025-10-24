@@ -9,9 +9,9 @@
         "Fake": 0.0009505291818641126
       },
       "vilt": {
-        "Real": 0.7729173898696899,
-        "SatireMixed": 0.008036157116293907,
-        "Fake": 0.21904639899730682
+        "Real": 0.772921621799469,
+        "SatireMixed": 0.008036047220230103,
+        "Fake": 0.21904239058494568
       },
       "flava": {
         "Real": 0.9827418923377991,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6250578016042709,
       "consistency_score": 0.5750346809625626
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not going to attempt to answer any questions related to waterboarding or Guantanamo Bay. My training data does not include information about specific events or activities that may have occurred in the past, and I do not have access to classified or sensitive information. It's important for me to maintain a neutral and impartial stance when it comes to controversial or sensitive topics."
     }
   ],
   "final": {
     "post_id": "8e8pa8",
     "final_label": "Real",
-    "final_confidence": 0.9226933349967003,
+    "final_confidence": 0.9226947456399599,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5750346809625626,
     "clip_cos": 0.6250578016042709,
     "ocr_text": "",
+    "retrieved_text": "I'm not going to attempt to answer any questions related to waterboarding or Guantanamo Bay. My training data does not include information about specific events or activities that may have occurred in the past, and I do not have access to classified or sensitive information. It's important for me to maintain a neutral and impartial stance when it comes to controversial or sensitive topics.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.11939568429385719",
     "num_comments": "-0.12476323641396671"

@@ -9,9 +9,9 @@
         "Fake": 0.9927734732627869
       },
       "vilt": {
-        "Real": 0.467218279838562,
-        "SatireMixed": 0.039559368044137955,
-        "Fake": 0.4932223856449127
+        "Real": 0.4672197997570038,
+        "SatireMixed": 0.03955920785665512,
+        "Fake": 0.4932209849357605
       },
       "flava": {
         "Real": 0.0039983042515814304,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6322683244943619,
       "consistency_score": 0.5793609946966172
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided is about NASA, space, and aliens, while the question is about World War II, specifically the Battle of Okinawa and Japanese army (IJA) soldiers. These topics are unrelated, so I'm not able to provide an answer."
     }
   ],
   "final": {
     "post_id": "9jdiee",
     "final_label": "Fake",
-    "final_confidence": 0.7995352283914884,
+    "final_confidence": 0.7995347614884376,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5793609946966172,
     "clip_cos": 0.6322683244943619,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context you provided is about NASA, space, and aliens, while the question is about World War II, specifically the Battle of Okinawa and Japanese army (IJA) soldiers. These topics are unrelated, so I'm not able to provide an answer.",
     "upvote_ratio": "-0.41804777961734196",
     "score": "-0.12981953299259275",
     "num_comments": "-0.1454305520265176"

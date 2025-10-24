@@ -9,9 +9,9 @@
         "Fake": 0.000507168413605541
       },
       "vilt": {
-        "Real": 0.445575088262558,
-        "SatireMixed": 0.009669984690845013,
-        "Fake": 0.5447548627853394
+        "Real": 0.44557762145996094,
+        "SatireMixed": 0.009669959545135498,
+        "Fake": 0.5447523593902588
       },
       "flava": {
         "Real": 0.24211132526397705,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6240693256258965,
-      "consistency_score": 0.5744415953755379
+      "clip_cos": 0.6240693107247353,
+      "consistency_score": 0.5744415864348411
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think there is a connection between the Norwegian Marhound (which doesn't seem to be a real breed of dog) and NASA or alien life. The context seems to be about NASA and space missions, whereas the Norwegian Marhound appears to be unrelated. Can you please provide more information or clarify what you're asking?"
     }
   ],
   "final": {
     "post_id": "2nks0g",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5668146330217521,
+    "final_label": "Real",
+    "final_confidence": 0.5668154768844446,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5744415953755379,
-    "clip_cos": 0.6240693256258965,
+    "consistency_score": 0.5744415864348411,
+    "clip_cos": 0.6240693107247353,
     "ocr_text": "",
+    "retrieved_text": "I don't think there is a connection between the Norwegian Marhound (which doesn't seem to be a real breed of dog) and NASA or alien life. The context seems to be about NASA and space missions, whereas the Norwegian Marhound appears to be unrelated. Can you please provide more information or clarify what you're asking?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.138541446822334"

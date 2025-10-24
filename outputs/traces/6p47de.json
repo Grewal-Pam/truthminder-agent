@@ -9,9 +9,9 @@
         "Fake": 0.9470922350883484
       },
       "vilt": {
-        "Real": 0.9835273623466492,
-        "SatireMixed": 0.0024763736873865128,
-        "Fake": 0.01399628259241581
+        "Real": 0.9835272431373596,
+        "SatireMixed": 0.002476375550031662,
+        "Fake": 0.013996387831866741
       },
       "flava": {
         "Real": 0.9892086386680603,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6278248429298401,
       "consistency_score": 0.576694905757904
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with this!\n\nThe question is likely referring to a Christian group called Westboro Baptist Church, which is known for its controversial picketing activities and vocal opposition to LGBTQ+ individuals. In 2006, the church's founder, Fred Phelps Sr., sued the government to challenge laws that prohibited lying.\n\nSpecifically, the church claimed that freedom of speech protected their right to spread misinformation and falsehoods about people they considered \"sinners.\" The lawsuit was eventually dismissed by a court, which ruled that the First Amendment did not grant individuals the right to lie or make false statements."
     }
   ],
   "final": {
     "post_id": "6p47de",
     "final_label": "Real",
-    "final_confidence": 0.67852778951327,
+    "final_confidence": 0.6785277497768402,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.576694905757904,
     "clip_cos": 0.6278248429298401,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with this!\n\nThe question is likely referring to a Christian group called Westboro Baptist Church, which is known for its controversial picketing activities and vocal opposition to LGBTQ+ individuals. In 2006, the church's founder, Fred Phelps Sr., sued the government to challenge laws that prohibited lying.\n\nSpecifically, the church claimed that freedom of speech protected their right to spread misinformation and falsehoods about people they considered \"sinners.\" The lawsuit w",
     "upvote_ratio": "-2.964164919644392",
     "score": "-0.1285165519052508",
     "num_comments": "-0.0834286051888649"

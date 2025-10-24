@@ -11,7 +11,7 @@
       "vilt": {
         "Real": 0.9905367493629456,
         "SatireMixed": 0.003649625461548567,
-        "Fake": 0.005813618190586567
+        "Fake": 0.005813615396618843
       },
       "flava": {
         "Real": 0.9897837042808533,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6565579921007156,
-      "consistency_score": 0.5939347952604294
+      "clip_cos": 0.656558021903038,
+      "consistency_score": 0.5939348131418228
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer your question about the cable adapter, but I can tell you that NASA has not admitted to finding alien life (only microbial life evidence) and multiple independent missions confirm only microbial life existence."
     }
   ],
   "final": {
     "post_id": "d2s66e",
     "final_label": "Real",
-    "final_confidence": 0.6708486627514163,
+    "final_confidence": 0.6708486638243,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5939347952604294,
-    "clip_cos": 0.6565579921007156,
+    "consistency_score": 0.5939348131418228,
+    "clip_cos": 0.656558021903038,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer your question about the cable adapter, but I can tell you that NASA has not admitted to finding alien life (only microbial life evidence) and multiple independent missions confirm only microbial life existence.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.1259105897305669",
     "num_comments": "-0.11098502600559944"

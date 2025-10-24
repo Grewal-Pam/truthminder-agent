@@ -9,9 +9,9 @@
         "Fake": 0.0026179561391472816
       },
       "vilt": {
-        "Real": 0.6267661452293396,
-        "SatireMixed": 0.007394765038043261,
-        "Fake": 0.3658390939235687
+        "Real": 0.6267616748809814,
+        "SatireMixed": 0.007394818123430014,
+        "Fake": 0.36584344506263733
       },
       "flava": {
         "Real": 0.007673501502722502,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6741324365139008,
       "consistency_score": 0.6044794619083405
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA's stance on alien life and microbial life, but it doesn't mention anything about evil monkey orchids."
     }
   ],
   "final": {
     "post_id": "57rhj6",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5501798272567491,
+    "final_label": "Real",
+    "final_confidence": 0.5501783371406297,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6044794619083405,
     "clip_cos": 0.6741324365139008,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA's stance on alien life and microbial life, but it doesn't mention anything about evil monkey orchids.",
     "upvote_ratio": "0.6731452803942507",
     "score": "0.9470943356955253",
     "num_comments": "0.03368618328225691"

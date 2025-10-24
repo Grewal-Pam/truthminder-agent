@@ -9,9 +9,9 @@
         "Fake": 0.9990494847297668
       },
       "vilt": {
-        "Real": 0.023624317720532417,
-        "SatireMixed": 0.022509271278977394,
-        "Fake": 0.9538663625717163
+        "Real": 0.023624416440725327,
+        "SatireMixed": 0.022509310394525528,
+        "Fake": 0.9538662433624268
       },
       "flava": {
         "Real": 0.0038378764875233173,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6272622048854828,
       "consistency_score": 0.5763573229312897
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided is about NASA and alien life, but it doesn't mention anything about Adolf Hitler or the Nuremberg Rally."
     }
   ],
   "final": {
     "post_id": "5aaegh",
     "final_label": "Fake",
-    "final_confidence": 0.9561992961963018,
+    "final_confidence": 0.9561992564598719,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5763573229312897,
     "clip_cos": 0.6272622048854828,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context you provided is about NASA and alien life, but it doesn't mention anything about Adolf Hitler or the Nuremberg Rally.",
     "upvote_ratio": "0.7640780353952159",
     "score": "-0.12037292010936364",
     "num_comments": "-0.138541446822334"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9906410574913025,
-        "SatireMixed": 0.0021917608100920916,
-        "Fake": 0.007167083211243153
+        "SatireMixed": 0.0021917587146162987,
+        "Fake": 0.007167100440710783
       },
       "flava": {
         "Real": 0.9870094060897827,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6603195071220398,
       "consistency_score": 0.5961917042732239
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "No answer, this question appears to be unrelated to the provided context about NASA and microbial life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5961917042732239,
     "clip_cos": 0.6603195071220398,
     "ocr_text": "",
+    "retrieved_text": "No answer, this question appears to be unrelated to the provided context about NASA and microbial life.",
     "upvote_ratio": "0.9459435453971482",
     "score": "-0.1044114017894248",
     "num_comments": "-0.12476323641396671"

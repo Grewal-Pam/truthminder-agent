@@ -9,9 +9,9 @@
         "Fake": 0.003519859630614519
       },
       "vilt": {
-        "Real": 0.07504867762327194,
-        "SatireMixed": 0.7089002132415771,
-        "Fake": 0.21605117619037628
+        "Real": 0.07504866272211075,
+        "SatireMixed": 0.708899736404419,
+        "Fake": 0.21605148911476135
       },
       "flava": {
         "Real": 0.004291777964681387,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6539145410060883,
       "consistency_score": 0.19617436230182647
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not aware of any information about \"moscow ussr date unknown eeMOSKVA\" that would be relevant to answering the question. The context you provided seems unrelated to this string of characters.\n\nSince I don't have enough information to answer your question, my response is: I don't know."
     }
   ],
   "final": {
     "post_id": "d9erpc",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5927308062116304,
+    "final_label": "SatireMixed",
+    "final_confidence": 0.5927306472659111,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.19617436230182647,
     "clip_cos": 0.6539145410060883,
     "ocr_text": "eeMOSKVA .,",
+    "retrieved_text": "I'm not aware of any information about \"moscow ussr date unknown eeMOSKVA\" that would be relevant to answering the question. The context you provided seems unrelated to this string of characters.\n\nSince I don't have enough information to answer your question, my response is: I don't know.",
     "upvote_ratio": "1.1278090553990805",
     "score": "-0.027209772364414533",
     "num_comments": "-0.03520486875957945"

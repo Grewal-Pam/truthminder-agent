@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9776453971862793,
-        "SatireMixed": 0.0039386688731610775,
-        "Fake": 0.018416009843349457
+        "SatireMixed": 0.003938665147870779,
+        "Fake": 0.018416013568639755
       },
       "flava": {
         "Real": 0.9887429475784302,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6482027918100357,
       "consistency_score": 0.5889216750860214
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm confused! There's no connection between NASA's findings on alien life and a fluffy cat with a paw out. Can you please clarify or provide more context?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5889216750860214,
     "clip_cos": 0.6482027918100357,
     "ocr_text": "",
+    "retrieved_text": "I'm confused! There's no connection between NASA's findings on alien life and a fluffy cat with a paw out. Can you please clarify or provide more context?",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.1262363350024024",
     "num_comments": "-0.138541446822334"

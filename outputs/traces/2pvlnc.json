@@ -9,9 +9,9 @@
         "Fake": 0.00040857287240214646
       },
       "vilt": {
-        "Real": 0.7655148506164551,
-        "SatireMixed": 0.006292438600212336,
-        "Fake": 0.22819271683692932
+        "Real": 0.7655124664306641,
+        "SatireMixed": 0.006292479112744331,
+        "Fake": 0.22819501161575317
       },
       "flava": {
         "Real": 0.9853691458702087,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6842180788516998,
       "consistency_score": 0.6105308473110199
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I see what's going on here! Since you're asking a seemingly unrelated question, I'll try to connect the dots. However, please keep in mind that this is just an educated guess based on the provided context.\n\nThe question seems to be poking fun at the idea of NASA admitting to extraterrestrial life, and then contrasts it with a scenario where a Texas plumber has no idea how their truck ended up with Syrian jihadists. This might be a humorous way to highlight the absurdity of claiming to have evidence of alien life without concrete proof.\n\nIn this case, I'd take a wild guess that the helpful answer would be something like:\n\n\"Whoa, dude! That's like trying to explain how microbial life on Mars got to your truck in Syria! It's a cosmic mystery, man!\""
     }
   ],
   "final": {
     "post_id": "2pvlnc",
     "final_label": "Real",
-    "final_confidence": 0.9234212434689204,
+    "final_confidence": 0.9234204487403235,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6105308473110199,
     "clip_cos": 0.6842180788516998,
     "ocr_text": "",
+    "retrieved_text": "I see what's going on here! Since you're asking a seemingly unrelated question, I'll try to connect the dots. However, please keep in mind that this is just an educated guess based on the provided context.\n\nThe question seems to be poking fun at the idea of NASA admitting to extraterrestrial life, and then contrasts it with a scenario where a Texas plumber has no idea how their truck ended up with Syrian jihadists. This might be a humorous way to highlight the absurdity of claiming to have evide",
     "upvote_ratio": "0.5822125253932846",
     "score": "0.1727978245425741",
     "num_comments": "0.4883671267583768"

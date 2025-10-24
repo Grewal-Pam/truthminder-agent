@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9706361293792725,
-        "SatireMixed": 0.0039236582815647125,
-        "Fake": 0.025440234690904617
+        "SatireMixed": 0.003923660144209862,
+        "Fake": 0.025440188124775887
       },
       "flava": {
         "Real": 0.9891050457954407,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6433051526546478,
       "consistency_score": 0.5859830915927887
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about a woman being arrested for racist and antisemitic graffiti targeting Democrats in Oklahoma."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5859830915927887,
     "clip_cos": 0.6433051526546478,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided is about NASA and alien life, but it doesn't mention anything about a woman being arrested for racist and antisemitic graffiti targeting Democrats in Oklahoma.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12232739174037656",
     "num_comments": "-0.138541446822334"

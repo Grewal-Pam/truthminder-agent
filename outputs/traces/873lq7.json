@@ -9,9 +9,9 @@
         "Fake": 0.9993140697479248
       },
       "vilt": {
-        "Real": 0.008771107532083988,
-        "SatireMixed": 0.01789211854338646,
-        "Fake": 0.9733368158340454
+        "Real": 0.008771127089858055,
+        "SatireMixed": 0.017892122268676758,
+        "Fake": 0.9733366966247559
       },
       "flava": {
         "Real": 0.005261939950287342,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6129513755440712,
-      "consistency_score": 0.5677708253264427
+      "clip_cos": 0.6129513680934906,
+      "consistency_score": 0.5677708208560943
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not sure what this question is referring to or what \"the report of the week crystal balls\" means, so I don't know the answer!"
     }
   ],
   "final": {
     "post_id": "873lq7",
     "final_label": "Fake",
-    "final_confidence": 0.9757400361597538,
+    "final_confidence": 0.9757399961551031,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5677708253264427,
-    "clip_cos": 0.6129513755440712,
+    "consistency_score": 0.5677708208560943,
+    "clip_cos": 0.6129513680934906,
     "ocr_text": "",
+    "retrieved_text": "I'm not sure what this question is referring to or what \"the report of the week crystal balls\" means, so I don't know the answer!",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.1141837599444894",
     "num_comments": "-0.138541446822334"

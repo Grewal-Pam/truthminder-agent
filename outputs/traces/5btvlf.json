@@ -9,9 +9,9 @@
         "Fake": 0.0007424004725180566
       },
       "vilt": {
-        "Real": 0.38302668929100037,
-        "SatireMixed": 0.014931835234165192,
-        "Fake": 0.6020414233207703
+        "Real": 0.3830259442329407,
+        "SatireMixed": 0.014931841753423214,
+        "Fake": 0.6020422577857971
       },
       "flava": {
         "Real": 0.9878011345863342,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6296129822731018,
       "consistency_score": 0.5777677893638611
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question because the provided context does not mention anything about American politics, voting, or public opinion polls. The context is actually about NASA and the search for extraterrestrial life. Therefore, I cannot provide an informed answer to this question."
     }
   ],
   "final": {
     "post_id": "5btvlf",
     "final_label": "Real",
-    "final_confidence": 0.7946380647023519,
+    "final_confidence": 0.7946378163496652,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5777677893638611,
     "clip_cos": 0.6296129822731018,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question because the provided context does not mention anything about American politics, voting, or public opinion polls. The context is actually about NASA and the search for extraterrestrial life. Therefore, I cannot provide an informed answer to this question.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.13014527826442823",
     "num_comments": "-0.1454305520265176"

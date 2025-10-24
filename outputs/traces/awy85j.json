@@ -9,9 +9,9 @@
         "Fake": 0.7132338881492615
       },
       "vilt": {
-        "Real": 0.5476230382919312,
-        "SatireMixed": 0.03219451755285263,
-        "Fake": 0.4201824367046356
+        "Real": 0.5476222038269043,
+        "SatireMixed": 0.03219453617930412,
+        "Fake": 0.42018330097198486
       },
       "flava": {
         "Real": 0.9840371608734131,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6419811993837357,
-      "consistency_score": 0.5851887196302414
+      "clip_cos": 0.6419811695814133,
+      "consistency_score": 0.585188701748848
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The provided context is about NASA and alien life, but it seems unrelated to the specific places mentioned (Ice Wall, Irish Vale, Cape Breton). Can you provide more information or clarify what these places have to do with the original question?"
     }
   ],
   "final": {
     "post_id": "awy85j",
     "final_label": "Real",
-    "final_confidence": 0.6112303995887438,
+    "final_confidence": 0.6112301203608513,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5851887196302414,
-    "clip_cos": 0.6419811993837357,
+    "consistency_score": 0.585188701748848,
+    "clip_cos": 0.6419811695814133,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The provided context is about NASA and alien life, but it seems unrelated to the specific places mentioned (Ice Wall, Irish Vale, Cape Breton). Can you provide more information or clarify what these places have to do with the original question?",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.1281908066334153",
     "num_comments": "-0.11787413120978307"

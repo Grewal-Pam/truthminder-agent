@@ -9,8 +9,8 @@
         "Fake": 0.9908369779586792
       },
       "vilt": {
-        "Real": 0.004678781144320965,
-        "SatireMixed": 0.021136855706572533,
+        "Real": 0.004678803030401468,
+        "SatireMixed": 0.021136779338121414,
         "Fake": 0.9741843342781067
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6315381675958633,
-      "consistency_score": 0.578922900557518
+      "clip_cos": 0.6315381824970245,
+      "consistency_score": 0.5789229094982147
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know what relevance the iPhone case has to NASA's confirmation of microbial life or the existence of aliens, so I'll pass on commenting about it."
     }
   ],
   "final": {
     "post_id": "2s0xuj",
     "final_label": "Fake",
-    "final_confidence": 0.9742709632515907,
+    "final_confidence": 0.9742709637880326,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.578922900557518,
-    "clip_cos": 0.6315381675958633,
+    "consistency_score": 0.5789229094982147,
+    "clip_cos": 0.6315381824970245,
     "ocr_text": "",
+    "retrieved_text": "I don't know what relevance the iPhone case has to NASA's confirmation of microbial life or the existence of aliens, so I'll pass on commenting about it.",
     "upvote_ratio": "-0.5999132896192743",
     "score": "-0.11288077885714745",
     "num_comments": "-0.11787413120978307"

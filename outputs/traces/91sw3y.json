@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9860349893569946,
-        "SatireMixed": 0.002021526452153921,
-        "Fake": 0.011943443678319454
+        "SatireMixed": 0.0020215276163071394,
+        "Fake": 0.011943449266254902
       },
       "flava": {
         "Real": 0.9890466332435608,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6523566842079163,
       "consistency_score": 0.5914140105247497
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question doesn't seem related to NASA's findings on extraterrestrial life or microbial life, so I'm not aware of any relevant information that would help answer the question about a \"cozy dog\"."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5914140105247497,
     "clip_cos": 0.6523566842079163,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question doesn't seem related to NASA's findings on extraterrestrial life or microbial life, so I'm not aware of any relevant information that would help answer the question about a \"cozy dog\".",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.12476323641396671"

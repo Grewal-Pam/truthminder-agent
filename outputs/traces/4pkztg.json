@@ -9,9 +9,9 @@
         "Fake": 0.00012296618660911918
       },
       "vilt": {
-        "Real": 0.9631776809692383,
-        "SatireMixed": 0.002066547516733408,
-        "Fake": 0.034755829721689224
+        "Real": 0.9631778597831726,
+        "SatireMixed": 0.0020665416959673166,
+        "Fake": 0.034755587577819824
       },
       "flava": {
         "Real": 0.9857945442199707,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6626676321029663,
       "consistency_score": 0.5976005792617798
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question. The context provided does not seem to be related to the topic of aliens or NASA, and I'm not aware of any information about a person named Soar Khalil or his struggles in a Baltimore high school."
     }
   ],
   "final": {
     "post_id": "4pkztg",
     "final_label": "Real",
-    "final_confidence": 0.9887930130958558,
+    "final_confidence": 0.9887930727005005,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5976005792617798,
     "clip_cos": 0.6626676321029663,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question. The context provided does not seem to be related to the topic of aliens or NASA, and I'm not aware of any information about a person named Soar Khalil or his struggles in a Baltimore high school.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12558484445873141",
     "num_comments": "-0.1454305520265176"

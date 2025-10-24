@@ -9,8 +9,8 @@
         "Fake": 0.9991286396980286
       },
       "vilt": {
-        "Real": 0.00404238048940897,
-        "SatireMixed": 0.023569684475660324,
+        "Real": 0.004042378626763821,
+        "SatireMixed": 0.02356966771185398,
         "Fake": 0.972387969493866
       },
       "flava": {
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": false
       },
-      "clip_cos": 0.6637973487377167,
-      "consistency_score": 0.5491392046213149
+      "clip_cos": 0.6637973785400391,
+      "consistency_score": 0.5491392135620117
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the context about NASA and extraterrestrial life, and I'm not aware of any connection between \"Child of Exodus\", \"Memento Mori\", and \"Ese\". Can you please provide more context or clarify what you're trying to ask?"
     }
   ],
   "final": {
     "post_id": "8ywwyj",
     "final_label": "Fake",
-    "final_confidence": 0.9643773720463117,
+    "final_confidence": 0.9643773725827536,
     "nli_label": "NEUTRAL",
-    "consistency_score": 0.5491392046213149,
-    "clip_cos": 0.6637973487377167,
+    "consistency_score": 0.5491392135620117,
+    "clip_cos": 0.6637973785400391,
     "ocr_text": "CHILD OF EXODUSese",
+    "retrieved_text": "I don't know. The question seems unrelated to the context about NASA and extraterrestrial life, and I'm not aware of any connection between \"Child of Exodus\", \"Memento Mori\", and \"Ese\". Can you please provide more context or clarify what you're trying to ask?",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.1259105897305669",
     "num_comments": "-0.138541446822334"

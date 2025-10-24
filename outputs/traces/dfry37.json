@@ -9,9 +9,9 @@
         "Fake": 0.00020283077901694924
       },
       "vilt": {
-        "Real": 0.014899968169629574,
-        "SatireMixed": 0.02124866284430027,
-        "Fake": 0.9638513922691345
+        "Real": 0.014899891801178455,
+        "SatireMixed": 0.02124864049255848,
+        "Fake": 0.9638515114784241
       },
       "flava": {
         "Real": 0.988993227481842,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6427129209041595,
-      "consistency_score": 0.5856277525424958
+      "clip_cos": 0.6427129060029984,
+      "consistency_score": 0.585627743601799
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be discussing NASA's findings on extraterrestrial life, and the mention of microbial life evidence doesn't seem relevant to a painted-over leaf."
     }
   ],
   "final": {
     "post_id": "dfry37",
     "final_label": "Real",
-    "final_confidence": 0.673018796014289,
+    "final_confidence": 0.673018770021697,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5856277525424958,
-    "clip_cos": 0.6427129209041595,
+    "consistency_score": 0.585627743601799,
+    "clip_cos": 0.6427129060029984,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be discussing NASA's findings on extraterrestrial life, and the mention of microbial life evidence doesn't seem relevant to a painted-over leaf.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12721357081790885",
     "num_comments": "-0.13165234161815034"

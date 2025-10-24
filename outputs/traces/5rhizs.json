@@ -9,9 +9,9 @@
         "Fake": 0.0010537011548876762
       },
       "vilt": {
-        "Real": 0.9717995524406433,
-        "SatireMixed": 0.003058853792026639,
-        "Fake": 0.025141524150967598
+        "Real": 0.9717996716499329,
+        "SatireMixed": 0.0030588568188250065,
+        "Fake": 0.025141512975096703
       },
       "flava": {
         "Real": 0.9877420663833618,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6462118625640869,
       "consistency_score": 0.5877271175384522
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem related to a \"really excited drummer\" or any kind of drumming at all, but rather discusses NASA and alien life."
     }
   ],
   "final": {
     "post_id": "5rhizs",
     "final_label": "Real",
-    "final_confidence": 0.9913611416816711,
+    "final_confidence": 0.9913611814181009,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5877271175384522,
     "clip_cos": 0.6462118625640869,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem related to a \"really excited drummer\" or any kind of drumming at all, but rather discusses NASA and alien life.",
     "upvote_ratio": "-1.3273753296270034",
     "score": "-0.12949378772075726",
     "num_comments": "-0.13165234161815034"

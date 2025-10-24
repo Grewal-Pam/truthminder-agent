@@ -9,9 +9,9 @@
         "Fake": 0.0002730850537773222
       },
       "vilt": {
-        "Real": 0.02385246381163597,
-        "SatireMixed": 0.01183429453521967,
-        "Fake": 0.9643132090568542
+        "Real": 0.02385225147008896,
+        "SatireMixed": 0.011834320612251759,
+        "Fake": 0.9643134474754333
       },
       "flava": {
         "Real": 0.9852703809738159,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6185458153486252,
       "consistency_score": 0.5711274892091751
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't think I can help with a question about \"creepy deer\" based on the provided context about NASA and microbial life evidence. Could you please provide more context or clarify what you mean by \"creepy deer\"?"
     }
   ],
   "final": {
     "post_id": "3pgxkc",
     "final_label": "Real",
-    "final_confidence": 0.6738768570125103,
+    "final_confidence": 0.6738767862319947,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5711274892091751,
     "clip_cos": 0.6185458153486252,
     "ocr_text": "",
+    "retrieved_text": "I don't think I can help with a question about \"creepy deer\" based on the provided context about NASA and microbial life evidence. Could you please provide more context or clarify what you mean by \"creepy deer\"?",
     "upvote_ratio": "0.12754875038845387",
     "score": "0.0011300662852727814",
     "num_comments": "-0.09720681559723217"

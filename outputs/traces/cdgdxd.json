@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.988742470741272,
-        "SatireMixed": 0.003436623839661479,
-        "Fake": 0.00782080926001072
+        "SatireMixed": 0.003436617087572813,
+        "Fake": 0.007820827886462212
       },
       "flava": {
         "Real": 0.9896049499511719,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5925003290176392,
       "consistency_score": 0.5555001974105835
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nThe question asks if the \"ws\" in a web address is actually an upside-down \"ms\". My answer is... YES! The answer is indeed yes. \"Ws\" and \"ms\" are simply reversed versions of each other when viewed from different directions."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5555001974105835,
     "clip_cos": 0.5925003290176392,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nThe question asks if the \"ws\" in a web address is actually an upside-down \"ms\". My answer is... YES! The answer is indeed yes. \"Ws\" and \"ms\" are simply reversed versions of each other when viewed from different directions.",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12753931608974434",
     "num_comments": "-0.11098502600559944"

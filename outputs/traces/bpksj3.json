@@ -9,9 +9,9 @@
         "Fake": 0.0002169643121305853
       },
       "vilt": {
-        "Real": 0.00967751257121563,
-        "SatireMixed": 0.009425628930330276,
-        "Fake": 0.9808968305587769
+        "Real": 0.009677394293248653,
+        "SatireMixed": 0.009425648488104343,
+        "Fake": 0.9808969497680664
       },
       "flava": {
         "Real": 0.9850276708602905,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6313423663377762,
       "consistency_score": 0.5788054198026658
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion! The context provided doesn't mention Nerf wars or any related information, so I don't know the answer to that question."
     }
   ],
   "final": {
     "post_id": "bpksj3",
     "final_label": "Real",
-    "final_confidence": 0.6695423348297675,
+    "final_confidence": 0.6695422954037785,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5788054198026658,
     "clip_cos": 0.6313423663377762,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion! The context provided doesn't mention Nerf wars or any related information, so I don't know the answer to that question.",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12200164646854107",
     "num_comments": "-0.1040959208014158"

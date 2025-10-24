@@ -9,9 +9,9 @@
         "Fake": 0.9964929223060608
       },
       "vilt": {
-        "Real": 0.00540513638406992,
-        "SatireMixed": 0.04021068289875984,
-        "Fake": 0.9543841481208801
+        "Real": 0.005405150819569826,
+        "SatireMixed": 0.04021096229553223,
+        "Fake": 0.954383909702301
       },
       "flava": {
         "Real": 0.5088603496551514,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6048771888017654,
       "consistency_score": 0.5314631566405296
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be a problem here!\n\nIt seems like you're trying to ask me a question, but the text is all jumbled up and doesn't make sense. I'm happy to help if I can, but I need clear and understandable information to provide an answer.\n\nCould you please rephrase or clarify your question?"
     }
   ],
   "final": {
     "post_id": "38zki8",
     "final_label": "Fake",
-    "final_confidence": 0.8004657437702021,
+    "final_confidence": 0.8004656642973423,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5314631566405296,
     "clip_cos": 0.6048771888017654,
     "ocr_text": "ALOT OF PEOPLE CRYWHEN THEY CUT SeeCEUTAOEE LEO",
+    "retrieved_text": "I think there may be a problem here!\n\nIt seems like you're trying to ask me a question, but the text is all jumbled up and doesn't make sense. I'm happy to help if I can, but I need clear and understandable information to provide an answer.\n\nCould you please rephrase or clarify your question?",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12688782554607336",
     "num_comments": "-0.1454305520265176"

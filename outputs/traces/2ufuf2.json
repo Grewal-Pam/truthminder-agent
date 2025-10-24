@@ -9,9 +9,9 @@
         "Fake": 0.5922864079475403
       },
       "vilt": {
-        "Real": 0.007447090465575457,
-        "SatireMixed": 0.015981415286660194,
-        "Fake": 0.9765714406967163
+        "Real": 0.007447069976478815,
+        "SatireMixed": 0.015981396660208702,
+        "Fake": 0.9765715599060059
       },
       "flava": {
         "Real": 0.004412749782204628,
@@ -32,18 +32,23 @@
         "consistency_score": 0.0,
         "no_ocr": false
       },
-      "clip_cos": 0.6300544589757919,
-      "consistency_score": 0.18901633769273757
+      "clip_cos": 0.6300544738769531,
+      "consistency_score": 0.18901634216308594
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must point out that the provided text does not appear to be a coherent or meaningful question. The sequence of characters seems more like nonsense or gibberish.\n\nAs such, I don't have any information or context to base an answer on, and therefore cannot provide a helpful response. If you meant to ask something else or provide more context, please feel free to do so, and I'll do my best to assist you!"
     }
   ],
   "final": {
     "post_id": "2ufuf2",
     "final_label": "Fake",
-    "final_confidence": 0.8162276106377443,
+    "final_confidence": 0.816227650642395,
     "nli_label": "CONTRADICTION",
-    "consistency_score": 0.18901633769273757,
-    "clip_cos": 0.6300544589757919,
+    "consistency_score": 0.18901634216308594,
+    "clip_cos": 0.6300544738769531,
     "ocr_text": " SToPAUToRITaRISMEDERIVE AUTORITAIRELES PREMIERS SIGNES QUI DOIVENT ALERTERa2 2 nec pce   wi        5LegniyCerSerre ta nee eepeer creePeetOe",
+    "retrieved_text": "I'm happy to help! However, I must point out that the provided text does not appear to be a coherent or meaningful question. The sequence of characters seems more like nonsense or gibberish.\n\nAs such, I don't have any information or context to base an answer on, and therefore cannot provide a helpful response. If you meant to ask something else or provide more context, please feel free to do so, and I'll do my best to assist you!",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.12916804244892177",
     "num_comments": "-0.13165234161815034"

@@ -9,8 +9,8 @@
         "Fake": 0.9950435161590576
       },
       "vilt": {
-        "Real": 0.002893117954954505,
-        "SatireMixed": 0.027242666110396385,
+        "Real": 0.0028931195847690105,
+        "SatireMixed": 0.027242694050073624,
         "Fake": 0.9698642492294312
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6092159524559975,
       "consistency_score": 0.5655295714735985
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context appears to be unrelated to Poland or the combined invasion by German and Russian forces, which seems to be a historical event. There is no connection between this topic and NASA's admission of alien life or microbial evidence."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5655295714735985,
     "clip_cos": 0.6092159524559975,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context appears to be unrelated to Poland or the combined invasion by German and Russian forces, which seems to be a historical event. There is no connection between this topic and NASA's admission of alien life or microbial evidence.",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.1281908066334153",
     "num_comments": "-0.12476323641396671"

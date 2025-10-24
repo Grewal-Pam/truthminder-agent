@@ -9,9 +9,9 @@
         "Fake": 0.9998329877853394
       },
       "vilt": {
-        "Real": 0.18114157021045685,
-        "SatireMixed": 0.01718289405107498,
-        "Fake": 0.80167555809021
+        "Real": 0.1811395138502121,
+        "SatireMixed": 0.017182903364300728,
+        "Fake": 0.8016775250434875
       },
       "flava": {
         "Real": 0.005351191386580467,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6545418798923492,
       "consistency_score": 0.5927251279354095
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not a doctor, but it sounds like you might be experiencing some sleep deprivation or maybe even a bit of paranoia! Seeing faces in your luggage is probably just your brain playing tricks on you. Maybe take a walk outside, get some fresh air and sunlight? Get back to bed when you're feeling more refreshed and alert."
     }
   ],
   "final": {
     "post_id": "1cklh8",
     "final_label": "Fake",
-    "final_confidence": 0.9198653997977575,
+    "final_confidence": 0.91986605544885,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5927251279354095,
     "clip_cos": 0.6545418798923492,
     "ocr_text": "",
+    "retrieved_text": "I'm not a doctor, but it sounds like you might be experiencing some sleep deprivation or maybe even a bit of paranoia! Seeing faces in your luggage is probably just your brain playing tricks on you. Maybe take a walk outside, get some fresh air and sunlight? Get back to bed when you're feeling more refreshed and alert.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12232739174037656",
     "num_comments": "-0.1454305520265176"

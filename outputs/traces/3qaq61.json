@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9863764643669128,
-        "SatireMixed": 0.001881286734715104,
-        "Fake": 0.011742242611944675
+        "SatireMixed": 0.0018812849884852767,
+        "Fake": 0.01174226589500904
       },
       "flava": {
         "Real": 0.5331607460975647,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6166209280490875,
       "consistency_score": 0.5699725568294525
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know the answer to this question. The provided context is about NASA and aliens, but it doesn't seem to be related to the topic of a person's life history or career path. To provide an accurate answer, I would need more information about the person in question, which isn't present in the given context."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5699725568294525,
     "clip_cos": 0.6166209280490875,
     "ocr_text": "",
+    "retrieved_text": "I don't know the answer to this question. The provided context is about NASA and aliens, but it doesn't seem to be related to the topic of a person's life history or career path. To provide an accurate answer, I would need more information about the person in question, which isn't present in the given context.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.11841844847835073",
     "num_comments": "-0.138541446822334"

@@ -9,9 +9,9 @@
         "Fake": 0.003163954708725214
       },
       "vilt": {
-        "Real": 0.6561266779899597,
-        "SatireMixed": 0.02676469460129738,
-        "Fake": 0.3171086013317108
+        "Real": 0.6561295390129089,
+        "SatireMixed": 0.026764554902911186,
+        "Fake": 0.3171059191226959
       },
       "flava": {
         "Real": 0.013963321223855019,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6421490758657455,
       "consistency_score": 0.5852894455194473
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life, and it appears to be a personal matter about someone's sexual orientation and marriage. I'm not aware of any information that would allow me to provide an answer."
     }
   ],
   "final": {
     "post_id": "1sxz9w",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5607478649864593,
+    "final_label": "Real",
+    "final_confidence": 0.5607488186607757,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5852894455194473,
     "clip_cos": 0.6421490758657455,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life, and it appears to be a personal matter about someone's sexual orientation and marriage. I'm not aware of any information that would allow me to provide an answer.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.12493335391506045",
     "num_comments": "-0.11098502600559944"

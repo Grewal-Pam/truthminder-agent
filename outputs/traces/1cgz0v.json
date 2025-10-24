@@ -9,9 +9,9 @@
         "Fake": 0.018905287608504295
       },
       "vilt": {
-        "Real": 0.02061607502400875,
-        "SatireMixed": 0.008165410719811916,
-        "Fake": 0.9712185859680176
+        "Real": 0.020616143941879272,
+        "SatireMixed": 0.008165436796844006,
+        "Fake": 0.971218466758728
       },
       "flava": {
         "Real": 0.005260603502392769,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6666072010993958,
       "consistency_score": 0.5999643206596375
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not relate to lawn mowers or their rotation direction, so I cannot provide an answer based on this information."
     }
   ],
   "final": {
     "post_id": "1cgz0v",
     "final_label": "Fake",
-    "final_confidence": 0.6497383164117734,
+    "final_confidence": 0.6497382766753436,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5999643206596375,
     "clip_cos": 0.6666072010993958,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided does not relate to lawn mowers or their rotation direction, so I cannot provide an answer based on this information.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12981953299259275",
     "num_comments": "-0.138541446822334"

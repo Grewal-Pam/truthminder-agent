@@ -9,8 +9,8 @@
         "Fake": 0.9979167580604553
       },
       "vilt": {
-        "Real": 0.005486270412802696,
-        "SatireMixed": 0.011533296667039394,
+        "Real": 0.005486275535076857,
+        "SatireMixed": 0.011533268727362156,
         "Fake": 0.982980489730835
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6326910853385925,
       "consistency_score": 0.5796146512031555
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The given context does not mention anyone's emotional state or happiness level. It appears to be about NASA and alien life, but there is no information provided about a specific person's emotions."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5796146512031555,
     "clip_cos": 0.6326910853385925,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The given context does not mention anyone's emotional state or happiness level. It appears to be about NASA and alien life, but there is no information provided about a specific person's emotions.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12949378772075726",
     "num_comments": "-0.1454305520265176"

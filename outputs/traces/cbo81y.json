@@ -9,9 +9,9 @@
         "Fake": 0.000917948258575052
       },
       "vilt": {
-        "Real": 0.9893396496772766,
-        "SatireMixed": 0.0019578381907194853,
-        "Fake": 0.008702460676431656
+        "Real": 0.9893397688865662,
+        "SatireMixed": 0.0019578346982598305,
+        "Fake": 0.008702478371560574
       },
       "flava": {
         "Real": 0.9871817827224731,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6509048044681549,
       "consistency_score": 0.5905428826808929
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to have any relevance to the question \"pup on a bed\"."
     }
   ],
   "final": {
     "post_id": "cbo81y",
     "final_label": "Real",
-    "final_confidence": 0.9972743660211563,
+    "final_confidence": 0.9972744057575861,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5905428826808929,
     "clip_cos": 0.6509048044681549,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to have any relevance to the question \"pup on a bed\".",
     "upvote_ratio": "-1.2364425746260372",
     "score": "-0.12884229717708628",
     "num_comments": "-0.138541446822334"

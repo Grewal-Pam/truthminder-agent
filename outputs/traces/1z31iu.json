@@ -9,9 +9,9 @@
         "Fake": 0.00023562823480460793
       },
       "vilt": {
-        "Real": 0.34738555550575256,
-        "SatireMixed": 0.00852404348552227,
-        "Fake": 0.6440904140472412
+        "Real": 0.34738558530807495,
+        "SatireMixed": 0.008524047210812569,
+        "Fake": 0.6440903544425964
       },
       "flava": {
         "Real": 0.007833297364413738,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6344942152500153,
-      "consistency_score": 0.5806965291500091
+      "clip_cos": 0.6344942301511765,
+      "consistency_score": 0.5806965380907059
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there may be some confusion! The phrase \"im not a man windsor woman\" seems unrelated to the NASA context or the question about alien existence. It appears to be a reference to a song title, specifically \"(I'm Not) A Man/Woman\" by Barry Manilow.\n\nTo answer your original question: I don't know. The provided context doesn't seem to relate to the topic of OHIP (Ontario Health Insurance Plan), which is a Canadian government-run health insurance program."
     }
   ],
   "final": {
     "post_id": "1z31iu",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5349052259085778,
+    "final_label": "Fake",
+    "final_confidence": 0.5349052065768046,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5806965291500091,
-    "clip_cos": 0.6344942152500153,
+    "consistency_score": 0.5806965380907059,
+    "clip_cos": 0.6344942301511765,
     "ocr_text": "",
+    "retrieved_text": "I think there may be some confusion! The phrase \"im not a man windsor woman\" seems unrelated to the NASA context or the question about alien existence. It appears to be a reference to a song title, specifically \"(I'm Not) A Man/Woman\" by Barry Manilow.\n\nTo answer your original question: I don't know. The provided context doesn't seem to relate to the topic of OHIP (Ontario Health Insurance Plan), which is a Canadian government-run health insurance program.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12200164646854107",
     "num_comments": "-0.138541446822334"

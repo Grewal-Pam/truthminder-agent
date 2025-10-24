@@ -9,9 +9,9 @@
         "Fake": 0.5486665964126587
       },
       "vilt": {
-        "Real": 0.6843772530555725,
-        "SatireMixed": 0.010468758642673492,
-        "Fake": 0.30515387654304504
+        "Real": 0.6843823194503784,
+        "SatireMixed": 0.01046865712851286,
+        "Fake": 0.30514904856681824
       },
       "flava": {
         "Real": 0.01590428501367569,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6192043945193291,
       "consistency_score": 0.5715226367115974
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context you provided doesn't relate to zombies or any kind of apocalyptic scenario, it seems to be about NASA and the search for extraterrestrial life. I'm not aware of any information that would allow me to answer this question based on the provided context."
     }
   ],
   "final": {
     "post_id": "dj34u0",
     "final_label": "Fake",
-    "final_confidence": 0.6022808478375277,
+    "final_confidence": 0.6022792385121187,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5715226367115974,
     "clip_cos": 0.6192043945193291,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context you provided doesn't relate to zombies or any kind of apocalyptic scenario, it seems to be about NASA and the search for extraterrestrial life. I'm not aware of any information that would allow me to answer this question based on the provided context.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.11972142956569268",
     "num_comments": "-0.13165234161815034"

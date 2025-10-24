@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9885894060134888,
-        "SatireMixed": 0.0027433226350694895,
-        "Fake": 0.008667363785207272
+        "SatireMixed": 0.0027433198411017656,
+        "Fake": 0.00866736751049757
       },
       "flava": {
         "Real": 0.9889941811561584,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6380305588245392,
       "consistency_score": 0.5828183352947235
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not relate to Pakistan, India, or a Pakistani Indian surgeon visiting Karachi to perform liver transplants and train doctors. It seems unrelated to the question being asked."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5828183352947235,
     "clip_cos": 0.6380305588245392,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided does not relate to Pakistan, India, or a Pakistani Indian surgeon visiting Karachi to perform liver transplants and train doctors. It seems unrelated to the question being asked.",
     "upvote_ratio": "0.7640780353952159",
     "score": "4.141352471314305",
     "num_comments": "1.7077387478988804"

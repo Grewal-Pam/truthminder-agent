@@ -9,9 +9,9 @@
         "Fake": 0.34464719891548157
       },
       "vilt": {
-        "Real": 0.9354985356330872,
-        "SatireMixed": 0.003990971017628908,
-        "Fake": 0.06051050126552582
+        "Real": 0.9354978203773499,
+        "SatireMixed": 0.003991004079580307,
+        "Fake": 0.060511235147714615
       },
       "flava": {
         "Real": 0.9893872737884521,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6740311831235886,
       "consistency_score": 0.6044187098741531
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see any connection between the context about NASA and aliens and the question about guards at Gyeongbokgung Palace. It seems like two completely unrelated topics.\n\nSo, I'll take a neutral approach: I don't know the answer to this question as it's not provided within the given context. Could you please provide more information or clarify what you're looking for?"
     }
   ],
   "final": {
     "post_id": "czf1ft",
     "final_label": "Real",
-    "final_confidence": 0.8663020123044649,
+    "final_confidence": 0.8663017738858858,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.6044187098741531,
     "clip_cos": 0.6740311831235886,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see any connection between the context about NASA and aliens and the question about guards at Gyeongbokgung Palace. It seems like two completely unrelated topics.\n\nSo, I'll take a neutral approach: I don't know the answer to this question as it's not provided within the given context. Could you please provide more information or clarify what you're looking for?",
     "upvote_ratio": "-0.05431675961347842",
     "score": "-0.1281908066334153",
     "num_comments": "-0.138541446822334"

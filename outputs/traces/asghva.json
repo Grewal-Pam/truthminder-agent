@@ -9,8 +9,8 @@
         "Fake": 0.20391245186328888
       },
       "vilt": {
-        "Real": 0.02424696274101734,
-        "SatireMixed": 0.02081359177827835,
+        "Real": 0.02424699254333973,
+        "SatireMixed": 0.02081359550356865,
         "Fake": 0.9549394249916077
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6419623494148254,
       "consistency_score": 0.5851774096488953
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The provided context is about NASA and the search for alien life, but it doesn't mention anything about Stormy Daniels or her modeling career in the milk industry."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5851774096488953,
     "clip_cos": 0.6419623494148254,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The provided context is about NASA and the search for alien life, but it doesn't mention anything about Stormy Daniels or her modeling career in the milk industry.",
     "upvote_ratio": "-0.14524951461444457",
     "score": "-0.12297888228404753",
     "num_comments": "-0.12476323641396671"

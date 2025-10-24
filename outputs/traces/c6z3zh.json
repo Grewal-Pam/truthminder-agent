@@ -10,7 +10,7 @@
       },
       "vilt": {
         "Real": 0.9868665933609009,
-        "SatireMixed": 0.0039036034140735865,
+        "SatireMixed": 0.0039036076050251722,
         "Fake": 0.009229754097759724
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6717704385519028,
       "consistency_score": 0.6030622631311416
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with your question!\n\nIt seems like you're asking for advice on how to deal with a weed growing out of a broken electrical outlet. Before we dive into solutions, can you tell me more about the situation? How long has the weed been growing there, and are you concerned about any potential safety hazards or damage to your property?\n\nIn general, it's not recommended to leave weeds growing near electrical outlets as they can attract pests and create a fire hazard. Would you like some suggestions on how to safely remove the weed and ensure your electrical system is secure?"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6030622631311416,
     "clip_cos": 0.6717704385519028,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with your question!\n\nIt seems like you're asking for advice on how to deal with a weed growing out of a broken electrical outlet. Before we dive into solutions, can you tell me more about the situation? How long has the weed been growing there, and are you concerned about any potential safety hazards or damage to your property?\n\nIn general, it's not recommended to leave weeds growing near electrical outlets as they can attract pests and create a fire hazard. Would you like som",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.12688782554607336",
     "num_comments": "-0.09031771039304853"

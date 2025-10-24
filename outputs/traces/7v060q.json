@@ -9,9 +9,9 @@
         "Fake": 0.9945698380470276
       },
       "vilt": {
-        "Real": 0.0076459432020783424,
-        "SatireMixed": 0.01132217701524496,
-        "Fake": 0.9810318350791931
+        "Real": 0.007645874749869108,
+        "SatireMixed": 0.011322157457470894,
+        "Fake": 0.9810319542884827
       },
       "flava": {
         "Real": 0.9650672674179077,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6240906417369843,
       "consistency_score": 0.5744543850421906
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life, and is instead asking about a historical event involving Lee Harvey Oswald."
     }
   ],
   "final": {
     "post_id": "7v060q",
     "final_label": "Fake",
-    "final_confidence": 0.6710571428438028,
+    "final_confidence": 0.6710571825802326,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5744543850421906,
     "clip_cos": 0.6240906417369843,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, aliens, or microbial life, and is instead asking about a historical event involving Lee Harvey Oswald.",
     "upvote_ratio": "1.2187418104000465",
     "score": "-0.0034303675204240282",
     "num_comments": "-0.07653949998468126"

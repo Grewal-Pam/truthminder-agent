@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9900920987129211,
-        "SatireMixed": 0.002935452852398157,
-        "Fake": 0.006972348317503929
+        "SatireMixed": 0.0029354726430028677,
+        "Fake": 0.006972339004278183
       },
       "flava": {
         "Real": 0.9895594120025635,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.678470641374588,
       "consistency_score": 0.6070823848247529
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided seems unrelated to a baby otter rescue in Arizona, and I'm not aware of any information that would connect this event to NASA or alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6070823848247529,
     "clip_cos": 0.678470641374588,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided seems unrelated to a baby otter rescue in Arizona, and I'm not aware of any information that would connect this event to NASA or alien life.",
     "upvote_ratio": "0.4003470153913523",
     "score": "-0.11320652412898294",
     "num_comments": "-0.13165234161815034"

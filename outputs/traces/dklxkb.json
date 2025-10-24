@@ -9,9 +9,9 @@
         "Fake": 0.0005189538351260126
       },
       "vilt": {
-        "Real": 0.14532004296779633,
-        "SatireMixed": 0.012421675026416779,
-        "Fake": 0.8422582745552063
+        "Real": 0.14532050490379333,
+        "SatireMixed": 0.01242167316377163,
+        "Fake": 0.8422577977180481
       },
       "flava": {
         "Real": 0.9839487671852112,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6437878161668777,
       "consistency_score": 0.5862726897001267
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think I can help with that!\n\nIt seems like there's some confusion between the topic of extraterrestrial life and a weird snack situation. To answer your question, I'd say that it's not uncommon to get more than one item in a single package or wrapper, especially when it comes to snacks like Fruit by the Foot! Sometimes they can get stuck together or fall into the same wrapper.\n\nSo, if you got two pieces of Fruit by the Foot in one wrapper, it might just be a packaging mishap rather than anything too extraordinary. But hey, if you're excited about your snack surprise, go for it!"
     }
   ],
   "final": {
     "post_id": "dklxkb",
     "final_label": "Real",
-    "final_confidence": 0.7147544334133467,
+    "final_confidence": 0.7147545873920123,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5862726897001267,
     "clip_cos": 0.6437878161668777,
     "ocr_text": "",
+    "retrieved_text": "I think I can help with that!\n\nIt seems like there's some confusion between the topic of extraterrestrial life and a weird snack situation. To answer your question, I'd say that it's not uncommon to get more than one item in a single package or wrapper, especially when it comes to snacks like Fruit by the Foot! Sometimes they can get stuck together or fall into the same wrapper.\n\nSo, if you got two pieces of Fruit by the Foot in one wrapper, it might just be a packaging mishap rather than anythi",
     "upvote_ratio": "-0.7817787996212066",
     "score": "-0.12330462755588302",
     "num_comments": "-0.1040959208014158"

@@ -9,9 +9,9 @@
         "Fake": 0.00026051924214698374
       },
       "vilt": {
-        "Real": 0.6124837398529053,
-        "SatireMixed": 0.009277972392737865,
-        "Fake": 0.3782382011413574
+        "Real": 0.6124671101570129,
+        "SatireMixed": 0.00927814096212387,
+        "Fake": 0.37825480103492737
       },
       "flava": {
         "Real": 0.821638286113739,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6550928354263306,
       "consistency_score": 0.5930557012557983
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to NASA, microbial life, or Trump-Kim summits. It seems to be asking about the production of plutonium at a North Korean reactor, which may not have been publicly disclosed or confirmed by credible sources. Without more context or information, I'm unable to provide an accurate answer."
     }
   ],
   "final": {
     "post_id": "aunwx4",
     "final_label": "Real",
-    "final_confidence": 0.8168637515703837,
+    "final_confidence": 0.8168582083384196,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5930557012557983,
     "clip_cos": 0.6550928354263306,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question appears to be unrelated to NASA, microbial life, or Trump-Kim summits. It seems to be asking about the production of plutonium at a North Korean reactor, which may not have been publicly disclosed or confirmed by credible sources. Without more context or information, I'm unable to provide an accurate answer.",
     "upvote_ratio": "-0.23618226961541072",
     "score": "-0.12525909918689593",
     "num_comments": "-0.138541446822334"

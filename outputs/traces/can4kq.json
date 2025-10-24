@@ -9,9 +9,9 @@
         "Fake": 0.0002195099223172292
       },
       "vilt": {
-        "Real": 0.4092809855937958,
-        "SatireMixed": 0.009363653138279915,
-        "Fake": 0.5813553929328918
+        "Real": 0.4092854857444763,
+        "SatireMixed": 0.00936361588537693,
+        "Fake": 0.5813508629798889
       },
       "flava": {
         "Real": 0.7827671766281128,
@@ -32,18 +32,23 @@
         "consistency_score": 0.5,
         "no_ocr": true
       },
-      "clip_cos": 0.6500285714864731,
-      "consistency_score": 0.5900171428918839
+      "clip_cos": 0.6500285416841507,
+      "consistency_score": 0.5900171250104904
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I think there might be some confusion here! The context you provided appears to be unrelated to the topic of snow cones or backyards. It seems to be a quote about NASA and extraterrestrial life. Therefore, I don't have any information that would allow me to provide an answer to your question about the snow cone shop in the backyard. If you'd like to clarify what you're referring to, I'd be happy to try and help!"
     }
   ],
   "final": {
     "post_id": "can4kq",
     "final_label": "Real",
-    "final_confidence": 0.7360024287104606,
+    "final_confidence": 0.7360039276878039,
     "nli_label": "NEUTRAL_NO_OCR",
-    "consistency_score": 0.5900171428918839,
-    "clip_cos": 0.6500285714864731,
+    "consistency_score": 0.5900171250104904,
+    "clip_cos": 0.6500285416841507,
     "ocr_text": "",
+    "retrieved_text": "I think there might be some confusion here! The context you provided appears to be unrelated to the topic of snow cones or backyards. It seems to be a quote about NASA and extraterrestrial life. Therefore, I don't have any information that would allow me to provide an answer to your question about the snow cone shop in the backyard. If you'd like to clarify what you're referring to, I'd be happy to try and help!",
     "upvote_ratio": "0.12754875038845387",
     "score": "-0.12753931608974434",
     "num_comments": "-0.1454305520265176"

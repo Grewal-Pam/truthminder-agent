@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9889093041419983,
-        "SatireMixed": 0.002141137607395649,
-        "Fake": 0.00894949771463871
+        "SatireMixed": 0.002141139702871442,
+        "Fake": 0.008949480950832367
       },
       "flava": {
         "Real": 0.9885769486427307,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6815735101699829,
       "consistency_score": 0.6089441061019898
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question is unrelated to NASA or alien life, and doesn't provide any relevant information about biker populations. It seems like a completely separate and unrelated topic. I'm not able to determine an answer based on the provided context."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6089441061019898,
     "clip_cos": 0.6815735101699829,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question is unrelated to NASA or alien life, and doesn't provide any relevant information about biker populations. It seems like a completely separate and unrelated topic. I'm not able to determine an answer based on the provided context.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.11353226940081843",
     "num_comments": "-0.07653949998468126"

@@ -9,9 +9,9 @@
         "Fake": 0.0005342568038031459
       },
       "vilt": {
-        "Real": 0.19860899448394775,
-        "SatireMixed": 0.01081487350165844,
-        "Fake": 0.7905761003494263
+        "Real": 0.19860902428627014,
+        "SatireMixed": 0.010814882814884186,
+        "Fake": 0.7905760407447815
       },
       "flava": {
         "Real": 0.9884114265441895,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6396921724081039,
       "consistency_score": 0.5838153034448623
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context provided doesn't seem to have any connection to Ukrainian potato chips, so I'm unable to provide an answer."
     }
   ],
   "final": {
     "post_id": "b36dy1",
     "final_label": "Real",
-    "final_confidence": 0.7338150886893272,
+    "final_confidence": 0.7338150986234346,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5838153034448623,
     "clip_cos": 0.6396921724081039,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context provided doesn't seem to have any connection to Ukrainian potato chips, so I'm unable to provide an answer.",
     "upvote_ratio": "0.855010790396182",
     "score": "-0.12493335391506045",
     "num_comments": "-0.13165234161815034"

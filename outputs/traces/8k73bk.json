@@ -9,9 +9,9 @@
         "Fake": 0.9993215799331665
       },
       "vilt": {
-        "Real": 0.3786584436893463,
-        "SatireMixed": 0.01659514755010605,
-        "Fake": 0.604746401309967
+        "Real": 0.37866178154945374,
+        "SatireMixed": 0.016595128923654556,
+        "Fake": 0.6047431230545044
       },
       "flava": {
         "Real": 0.9814879894256592,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6021921336650848,
       "consistency_score": 0.5613152801990509
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The context doesn't seem to relate to juggling balls at all, as it appears to be about NASA and extraterrestrial life."
     }
   ],
   "final": {
     "post_id": "8k73bk",
-    "final_label": "Uncertain",
-    "final_confidence": 0.5419618939186136,
+    "final_label": "Fake",
+    "final_confidence": 0.5419608011667928,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5613152801990509,
     "clip_cos": 0.6021921336650848,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The context doesn't seem to relate to juggling balls at all, as it appears to be about NASA and extraterrestrial life.",
     "upvote_ratio": "0.49127977039231846",
     "score": "-0.12069866538119912",
     "num_comments": "-0.1454305520265176"

@@ -9,8 +9,8 @@
         "Fake": 0.9996553659439087
       },
       "vilt": {
-        "Real": 0.010626157745718956,
-        "SatireMixed": 0.011448920704424381,
+        "Real": 0.01062605157494545,
+        "SatireMixed": 0.011448975652456284,
         "Fake": 0.9779249429702759
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6681515127420425,
       "consistency_score": 0.5504454538226127
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the provided context about NASA and microbial life, so I'm unable to provide a helpful answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5504454538226127,
     "clip_cos": 0.6681515127420425,
     "ocr_text": "CT A",
+    "retrieved_text": "I don't know. The question seems unrelated to the provided context about NASA and microbial life, so I'm unable to provide a helpful answer.",
     "upvote_ratio": "0.6731452803942507",
     "score": "-0.1167897221191733",
     "num_comments": "-0.138541446822334"

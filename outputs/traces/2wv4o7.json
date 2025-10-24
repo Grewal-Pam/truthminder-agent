@@ -9,8 +9,8 @@
         "Fake": 0.028069304302334785
       },
       "vilt": {
-        "Real": 0.004138077609241009,
-        "SatireMixed": 0.01213124394416809,
+        "Real": 0.004138036165386438,
+        "SatireMixed": 0.012131301686167717,
         "Fake": 0.983730673789978
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6364944726228714,
       "consistency_score": 0.5818966835737228
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided does not mention anything about highways or a highway, so I'm unable to provide an answer."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5818966835737228,
     "clip_cos": 0.6364944726228714,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided does not mention anything about highways or a highway, so I'm unable to provide an answer.",
     "upvote_ratio": "-1.145509819625071",
     "score": "-0.10310842070208287",
     "num_comments": "-0.11787413120978307"

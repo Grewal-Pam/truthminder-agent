@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9896537661552429,
-        "SatireMixed": 0.003875434398651123,
-        "Fake": 0.006470864173024893
+        "SatireMixed": 0.0038754453416913748,
+        "Fake": 0.006470866966992617
       },
       "flava": {
         "Real": 0.9892309308052063,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6482108235359192,
       "consistency_score": 0.5889264941215515
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question seems unrelated to the provided context about NASA and alien life."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5889264941215515,
     "clip_cos": 0.6482108235359192,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The question seems unrelated to the provided context about NASA and alien life.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12493335391506045",
     "num_comments": "-0.1454305520265176"

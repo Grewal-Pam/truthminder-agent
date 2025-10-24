@@ -9,8 +9,8 @@
         "Fake": 0.9968284964561462
       },
       "vilt": {
-        "Real": 0.006265891715884209,
-        "SatireMixed": 0.013335110619664192,
+        "Real": 0.006265874020755291,
+        "SatireMixed": 0.013335129246115685,
         "Fake": 0.9803990721702576
       },
       "flava": {
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.5767589509487152,
       "consistency_score": 0.5460553705692291
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm not familiar with \"rawr trex\" or \"minirex\". Can you please provide more context or clarify what these terms refer to? Since I don't have any information about them, I'll just say that I don't know."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5460553705692291,
     "clip_cos": 0.5767589509487152,
     "ocr_text": "",
+    "retrieved_text": "I'm not familiar with \"rawr trex\" or \"minirex\". Can you please provide more context or clarify what these terms refer to? Since I don't have any information about them, I'll just say that I don't know.",
     "upvote_ratio": "-0.5089805346183082",
     "score": "-0.12981953299259275",
     "num_comments": "-0.11787413120978307"

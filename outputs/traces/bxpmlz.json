@@ -9,9 +9,9 @@
         "Fake": 0.0011318415636196733
       },
       "vilt": {
-        "Real": 0.03189714998006821,
-        "SatireMixed": 0.014573069289326668,
-        "Fake": 0.9535298347473145
+        "Real": 0.03189687430858612,
+        "SatireMixed": 0.01457308605313301,
+        "Fake": 0.9535300135612488
       },
       "flava": {
         "Real": 0.9892134070396423,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6448974013328552,
       "consistency_score": 0.5869384407997131
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The given context does not mention anything about a newspaper or your father giving you one. It's a statement about NASA and extraterrestrial life, but it doesn't provide any information about newspapers."
     }
   ],
   "final": {
     "post_id": "bxpmlz",
     "final_label": "Real",
-    "final_confidence": 0.6783819134036699,
+    "final_confidence": 0.6783818215131759,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5869384407997131,
     "clip_cos": 0.6448974013328552,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The given context does not mention anything about a newspaper or your father giving you one. It's a statement about NASA and extraterrestrial life, but it doesn't provide any information about newspapers.",
     "upvote_ratio": "1.3096745654010127",
     "score": "-0.12786506136157982",
     "num_comments": "-0.13165234161815034"

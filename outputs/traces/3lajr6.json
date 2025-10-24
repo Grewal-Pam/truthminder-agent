@@ -9,9 +9,9 @@
         "Fake": 0.008298898115754128
       },
       "vilt": {
-        "Real": 0.46749240159988403,
-        "SatireMixed": 0.007322898134589195,
-        "Fake": 0.5251846313476562
+        "Real": 0.4674952030181885,
+        "SatireMixed": 0.007322883699089289,
+        "Fake": 0.5251818299293518
       },
       "flava": {
         "Real": 0.004912892356514931,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6192879006266594,
       "consistency_score": 0.5715727403759956
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know! The question \"f raptor\" doesn't seem related to the provided context about NASA and alien life, so I'm not able to provide a helpful answer."
     }
   ],
   "final": {
     "post_id": "3lajr6",
-    "final_label": "Uncertain",
-    "final_confidence": 0.4961650936752558,
+    "final_label": "Fake",
+    "final_confidence": 0.4961641598691543,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5715727403759956,
     "clip_cos": 0.6192879006266594,
     "ocr_text": "",
+    "retrieved_text": "I don't know! The question \"f raptor\" doesn't seem related to the provided context about NASA and alien life, so I'm not able to provide a helpful answer.",
     "upvote_ratio": "0.21848150538942002",
     "score": "-0.04121681905334045",
     "num_comments": "-0.0076484479428449055"

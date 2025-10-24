@@ -9,9 +9,9 @@
         "Fake": 0.004848432261496782
       },
       "vilt": {
-        "Real": 0.06741124391555786,
-        "SatireMixed": 0.009164979681372643,
-        "Fake": 0.9234237670898438
+        "Real": 0.06741033494472504,
+        "SatireMixed": 0.00916498526930809,
+        "Fake": 0.9234247207641602
       },
       "flava": {
         "Real": 0.7849745154380798,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5908422619104385,
       "consistency_score": 0.5545053571462631
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I don't see how the provided context about NASA and alien life relates to snails in a truffle vinaigrette. The question appears to be unrelated to the given context.\n\nAs such, I'll do my best to provide an answer based on general knowledge:\n\nSnails in a truffle vinaigrette? That sounds like a unique and intriguing combination! While I'm not aware of any specific recipe or culinary expertise regarding snails in truffle vinaigrette, I can tell you that snails are often cooked in a variety of ways, such as grilled, sautéed, or baked.\n\nThe addition of truffle vinaigrette might add a rich, earthy flavor to the dish. Truffles are known for their distinctive aroma and flavor, which could complement the subtle sweetness of the snails. If you're looking for a recipe or advice on cooking snails with truffle vinaigrette, I recommend consulting a trusted cookbook or culinary expert.\n\nIn any case, I hope this helps!"
     }
   ],
   "final": {
     "post_id": "c52sqh",
     "final_label": "Real",
-    "final_confidence": 0.6190580858190855,
+    "final_confidence": 0.6190577828288079,
     "nli_label": "NEUTRAL_NO_OCR",
     "consistency_score": 0.5545053571462631,
     "clip_cos": 0.5908422619104385,
     "ocr_text": "",
+    "retrieved_text": "I'm happy to help! However, I don't see how the provided context about NASA and alien life relates to snails in a truffle vinaigrette. The question appears to be unrelated to the given context.\n\nAs such, I'll do my best to provide an answer based on general knowledge:\n\nSnails in a truffle vinaigrette? That sounds like a unique and intriguing combination! While I'm not aware of any specific recipe or culinary expertise regarding snails in truffle vinaigrette, I can tell you that snails are often ",
     "upvote_ratio": "1.1278090553990805",
     "score": "1.4676352800886328",
     "num_comments": "0.047464393690624176"

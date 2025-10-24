@@ -9,9 +9,9 @@
         "Fake": 0.7147569060325623
       },
       "vilt": {
-        "Real": 0.8544812202453613,
-        "SatireMixed": 0.00741553632542491,
-        "Fake": 0.1381031572818756
+        "Real": 0.8544803857803345,
+        "SatireMixed": 0.00741555355489254,
+        "Fake": 0.13810403645038605
       },
       "flava": {
         "Real": 0.9893695116043091,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.5661625787615776,
       "consistency_score": 0.16984877362847328
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I'm happy to help! However, I must point out that the question you provided doesn't seem related to NASA or extraterrestrial life. It appears to be a random combination of words and characters.\n\nAs a result, I don't know how to answer this question. Could you please rephrase or provide more context so I can better understand what you're asking?"
     }
   ],
   "final": {
     "post_id": "47xzdt",
     "final_label": "ABSTAIN",
-    "final_confidence": 0.6851272718360027,
+    "final_confidence": 0.6851269936809937,
     "nli_label": "CONTRADICTION",
     "consistency_score": 0.16984877362847328,
     "clip_cos": 0.5661625787615776,
     "ocr_text": "db hehehpeeer eyrenee",
+    "retrieved_text": "I'm happy to help! However, I must point out that the question you provided doesn't seem related to NASA or extraterrestrial life. It appears to be a random combination of words and characters.\n\nAs a result, I don't know how to answer this question. Could you please rephrase or provide more context so I can better understand what you're asking?",
     "upvote_ratio": "0.5822125253932846",
     "score": "0.151298636601432",
     "num_comments": "0.1094663405282769"

@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.975252628326416,
-        "SatireMixed": 0.0027225713711231947,
-        "Fake": 0.022024817764759064
+        "SatireMixed": 0.0027225741650909185,
+        "Fake": 0.0220248494297266
       },
       "flava": {
         "Real": 0.9897074699401855,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6702373325824738,
       "consistency_score": 0.6021423995494842
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life. It appears to be a story about students rescuing a dog and reuniting it with its owner."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.6021423995494842,
     "clip_cos": 0.6702373325824738,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context doesn't seem related to NASA, aliens, or microbial life. It appears to be a story about students rescuing a dog and reuniting it with its owner.",
     "upvote_ratio": "-1.4183080846279696",
     "score": "-0.12916804244892177",
     "num_comments": "-0.1454305520265176"

@@ -9,9 +9,9 @@
         "Fake": 0.17363113164901733
       },
       "vilt": {
-        "Real": 0.5386465787887573,
-        "SatireMixed": 0.09173797070980072,
-        "Fake": 0.36961549520492554
+        "Real": 0.538646399974823,
+        "SatireMixed": 0.0917377695441246,
+        "Fake": 0.3696157932281494
       },
       "flava": {
         "Real": 0.9886459112167358,
@@ -34,16 +34,21 @@
       },
       "clip_cos": 0.6257635056972504,
       "consistency_score": 0.5377290517091751
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, and seems to refer to a specific topic or event that I'm not familiar with (Iraqi weapons claims, etc.). Without more information, I can't provide an answer."
     }
   ],
   "final": {
     "post_id": "4rjje9",
     "final_label": "Real",
-    "final_confidence": 0.7867625141342481,
+    "final_confidence": 0.7867624545296034,
     "nli_label": "NEUTRAL",
     "consistency_score": 0.5377290517091751,
     "clip_cos": 0.6257635056972504,
     "ocr_text": "RA Sis.",
+    "retrieved_text": "I don't know. The question appears to be unrelated to the provided context about NASA and microbial life, and seems to refer to a specific topic or event that I'm not familiar with (Iraqi weapons claims, etc.). Without more information, I can't provide an answer.",
     "upvote_ratio": "0.03661599538748772",
     "score": "-0.11320652412898294",
     "num_comments": "-0.13165234161815034"

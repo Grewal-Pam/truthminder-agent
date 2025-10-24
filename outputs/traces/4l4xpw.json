@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6402988582849503,
       "consistency_score": 0.5841793149709702
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't know. The context provided doesn't mention Marxist-Leninism or any related topics. It appears to be discussing NASA's findings on alien life, which are reportedly limited to microbial evidence. If you'd like me to answer a different question about Marxist-Leninism, I'll do my best!"
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5841793149709702,
     "clip_cos": 0.6402988582849503,
     "ocr_text": "",
+    "retrieved_text": "I don't know. The context provided doesn't mention Marxist-Leninism or any related topics. It appears to be discussing NASA's findings on alien life, which are reportedly limited to microbial evidence. If you'd like me to answer a different question about Marxist-Leninism, I'll do my best!",
     "upvote_ratio": "0.5822125253932846",
     "score": "-0.11841844847835073",
     "num_comments": "-0.0076484479428449055"

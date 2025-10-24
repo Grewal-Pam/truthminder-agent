@@ -10,8 +10,8 @@
       },
       "vilt": {
         "Real": 0.9891210198402405,
-        "SatireMixed": 0.0034580600913614035,
-        "Fake": 0.007420933339744806
+        "SatireMixed": 0.003458057064563036,
+        "Fake": 0.007420937065035105
       },
       "flava": {
         "Real": 0.9883900880813599,
@@ -34,6 +34,10 @@
       },
       "clip_cos": 0.6416556984186172,
       "consistency_score": 0.5849934190511703
+    },
+    {
+      "stage": "retrieval",
+      "retrieved_evidence": "I don't have enough context to answer this question. The provided text does not mention anything about a police woman getting her job back or being fired, nor is there any connection to NASA or aliens."
     }
   ],
   "final": {
@@ -44,6 +48,7 @@
     "consistency_score": 0.5849934190511703,
     "clip_cos": 0.6416556984186172,
     "ocr_text": "",
+    "retrieved_text": "I don't have enough context to answer this question. The provided text does not mention anything about a police woman getting her job back or being fired, nor is there any connection to NASA or aliens.",
     "upvote_ratio": "1.0368763003981143",
     "score": "-0.052617903567582475",
     "num_comments": "-0.09720681559723217"

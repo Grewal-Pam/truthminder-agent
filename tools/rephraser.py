@@ -15,7 +15,7 @@ def _rephrase_openai(prompt: str) -> str:
     resp = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.5
+        temperature=0.5,
     )
     return resp.choices[0].message.content.strip()
 
@@ -25,9 +25,7 @@ def _rephrase_ollama(prompt: str, model="llama3") -> str:
     Use local Ollama model as fallback.
     """
     result = subprocess.run(
-        ["ollama", "run", model],
-        input=prompt.encode("utf-8"),
-        capture_output=True
+        ["ollama", "run", model], input=prompt.encode("utf-8"), capture_output=True
     )
     return result.stdout.decode("utf-8").strip()
 
@@ -54,7 +52,6 @@ def rephrase_result(row: dict) -> str:
     Write 3–5 sentences that sound like you’re personally explaining the result.
     End with one takeaway sentence beginning with “In simple terms,”.
     """
-
 
     if client:  # If OpenAI key exists, try it
         try:

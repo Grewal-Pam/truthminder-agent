@@ -14,7 +14,9 @@ class ExperimentFolderManager:
             model_name (str): Name of the model (e.g., 'flava', 'vilt', 'clip').
             timestamp (str): Timestamp for the experiment folder (default is current time).
         """
-        self.timestamp = timestamp or datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        self.timestamp = timestamp or datetime.datetime.now().strftime(
+            "%Y-%m-%d_%H-%M-%S"
+        )
         self.base_dir = os.path.join(base_dir, model_name.upper(), self.timestamp)
         self.logs_dir = os.path.join(self.base_dir, "logs")
         self.metrics_dir = os.path.join(self.base_dir, "metrics")

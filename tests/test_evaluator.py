@@ -18,13 +18,24 @@ def preprocessed_dataset():
     df = compute_pixel_values(df, image_column="image_url")
 
     # Handle missing values
-    columns_to_check = ["clean_title", "image_url", "num_comments", "score", "upvote_ratio", "2_way_label", "3_way_label", "pixel_values"]
+    columns_to_check = [
+        "clean_title",
+        "image_url",
+        "num_comments",
+        "score",
+        "upvote_ratio",
+        "2_way_label",
+        "3_way_label",
+        "pixel_values",
+    ]
     df = handle_missing_values(df, columns_to_check, method="drop")
 
     # Normalize metadata
     metadata_columns = ["num_comments", "score", "upvote_ratio"]
     if not all(col in df.columns for col in metadata_columns):
-        raise KeyError(f"Missing metadata columns: {[col for col in metadata_columns if col not in df.columns]}")
+        raise KeyError(
+            f"Missing metadata columns: {[col for col in metadata_columns if col not in df.columns]}"
+        )
 
     df = normalize_metadata(df, metadata_columns)
 
@@ -33,10 +44,12 @@ def preprocessed_dataset():
 
     return df
 
+
 class RealDataset(torch.utils.data.Dataset):
     """
     Dataset class for the preprocessed dataset.
     """
+
     def __init__(self, df):
         self.df = df
 
@@ -57,12 +70,15 @@ class RealDataset(torch.utils.data.Dataset):
 
         return {
             "input_ids": torch.tensor(eval(row["input_ids"]), dtype=torch.long),
-            "attention_mask": torch.tensor(eval(row["attention_mask"]), dtype=torch.long),
+            "attention_mask": torch.tensor(
+                eval(row["attention_mask"]), dtype=torch.long
+            ),
             "pixel_values": torch.tensor(pixel_values, dtype=torch.float),
             "labels_2_way": torch.tensor(row["2_way_label"], dtype=torch.long),
             "labels_3_way": torch.tensor(row["3_way_label"], dtype=torch.long),
             "metadata": torch.tensor(row["metadata"], dtype=torch.float),
         }
+
 
 @pytest.fixture
 def dataloader(preprocessed_dataset):
@@ -72,14 +88,18 @@ def dataloader(preprocessed_dataset):
     dataset = RealDataset(preprocessed_dataset)
     return DataLoader(dataset, batch_size=16, shuffle=False)
 
+
 @pytest.fixture
 def trained_model():
     """
     Load the trained model with saved weights.
     """
-    model = CLIPMultiTaskClassifier(input_dim=512, num_classes_2=2, num_classes_3=3, metadata_dim=3)
+    model = CLIPMultiTaskClassifier(
+        input_dim=512, num_classes_2=2, num_classes_3=3, metadata_dim=3
+    )
     model.load_state_dict(torch.load("results/model_weights.pth"))
     return model
+
 
 def test_evaluate_model(trained_model, dataloader):
     """
@@ -101,6 +121,8 @@ def test_evaluate_model(trained_model, dataloader):
         assert "recall" in metrics[task], f"Recall missing for {task}"
         assert "f1" in metrics[task], f"F1-score missing for {task}"
         assert "kappa" in metrics[task], f"Kappa missing for {task}"
-        assert "confusion_matrix" in metrics[task], f"Confusion matrix missing for {task}"
+        assert (
+            "confusion_matrix" in metrics[task]
+        ), f"Confusion matrix missing for {task}"
 
     print("Evaluation test passed for the preprocessed dataset.")

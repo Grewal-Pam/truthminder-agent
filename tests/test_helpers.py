@@ -3,14 +3,10 @@ import os
 import json
 from utils.helpers import save_metrics
 
+
 def test_save_metrics():
     # Define dummy metrics
-    metrics = {
-        "accuracy": 0.9,
-        "precision": 0.85,
-        "recall": 0.87,
-        "f1_score": 0.86
-    }
+    metrics = {"accuracy": 0.9, "precision": 0.85, "recall": 0.87, "f1_score": 0.86}
     output_dir = "test_results"
     filename = "test_metrics.json"
 

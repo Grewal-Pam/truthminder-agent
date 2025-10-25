@@ -1,6 +1,5 @@
 import os
 import json
-import pandas as pd
 from PIL import Image
 import requests
 from io import BytesIO
@@ -22,6 +21,7 @@ import torch
 #     with open(file_path, "w") as f:
 #         json.dump(metrics, f, indent=4)
 
+
 def save_metrics(metrics, folder_manager, filename):
     """
     Save metrics to a JSON file.
@@ -42,12 +42,13 @@ def save_metrics(metrics, folder_manager, filename):
     }
 
     # Save the metrics to the JSON file
-    os.makedirs(folder_manager.metrics_dir, exist_ok=True)  # Ensure the directory exists
+    os.makedirs(
+        folder_manager.metrics_dir, exist_ok=True
+    )  # Ensure the directory exists
     with open(filepath, "w") as f:
         json.dump(serializable_metrics, f, indent=4)
 
     logging.info(f"Metrics saved to {filepath}")
-
 
 
 def load_image(url):
@@ -64,6 +65,7 @@ def load_image(url):
         logging.error(f"Failed to load image from URL {url}: {e}")
         return None
 
+
 def load_images(df):
     """
     Apply image loading function to a DataFrame.
@@ -71,7 +73,8 @@ def load_images(df):
     df["image"] = df["image_url"].apply(load_image)
     return df[df["image"].notnull()]
 
-def filter_invalid_rows(df, image_column='image', min_valid_rows=10):
+
+def filter_invalid_rows(df, image_column="image", min_valid_rows=10):
     """
     Filters out rows with missing or invalid images.
     Ensures the dataset has at least `min_valid_rows` remaining.
@@ -92,4 +95,3 @@ def filter_invalid_rows(df, image_column='image', min_valid_rows=10):
     if len(filtered_df) < min_valid_rows:
         logging.warning(f"Filtered dataset has less than {min_valid_rows} valid rows.")
     return filtered_df
-

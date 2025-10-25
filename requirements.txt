@@ -40,3 +40,5 @@ langchain-core==0.1.43
 faiss-cpu==1.8.0
 huggingface_hub==0.23.0
 ollama==0.2.0
+
+mlflow==2.16.2

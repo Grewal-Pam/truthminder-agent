@@ -38,3 +38,16 @@ Thumbs.db
 .cache/
 .huggingface/
 .ollama/
+
+# MLflow local runs
+mlruns/
+mlartifacts/
+# old training outputs
+runs/
+# big files
+*.pth
+*.pt
+*.ckpt
+*.tsv
+*.parquet
+*.npz

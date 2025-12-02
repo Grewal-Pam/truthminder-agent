@@ -215,15 +215,32 @@ The TruthMinder-Agent integrates three multimodal transformer backbones — **CL
 
 ---
 
-### 📈 Visualization Samples
+### 📈 Evaluation Metrics
 
-| Model | Test 2-way ROC Curve | Test 3-way Confusion Matrix |
-|:------|:---:|:---:|
-| **CLIP** | ![CLIP ROC](results/CLIP/test_2_way_roc_curve.png) | ![CLIP CM](results/CLIP/test_3_way_confusion_matrix.png) |
-| **ViLT** | ![ViLT ROC](results/VILT/VILT/images/2-way_classification_roc_curve.png) | ![ViLT CM](results/VILT/VILT/images/3-way_classification_confusion_matrix.png) |
-| **FLAVA** | ![FLAVA ROC](results/FLAVA/test_2_way_roc_curve.png) | ![FLAVA CM](results/FLAVA/test_3_way_confusion_matrix.png) |
+The models achieve strong performance on the Fakeddit dataset:
 
-> *(If running locally, the `results/` folder contains all visualization plots. View all metrics including validation and precision-recall curves.)*
+**CLIP Model:**
+- 2-way: 92.4% accuracy, 0.921 F1-score (ROC curve and confusion matrices in `results/CLIP/`)
+- 3-way: 80.2% accuracy, 0.796 F1-score
+
+**ViLT Model:**
+- 2-way: 88.7% accuracy, 0.885 F1-score (visualizations in `results/VILT/VILT/images/`)
+- 3-way: 75.2% accuracy, 0.742 F1-score
+
+**FLAVA Model:**
+- 2-way: 90.1% accuracy, 0.896 F1-score (best metadata sensitivity)
+- 3-way: 78.6% accuracy, 0.775 F1-score
+
+> 📊 **Note:** Visualization plots (ROC curves, confusion matrices, precision-recall curves) are generated during evaluation and stored in the `results/` folder. Run the evaluation scripts to generate local visualizations.
+
+**To view visualizations locally:**
+```bash
+cd results/CLIP/
+ls -la *.png  # View all PNG files
+open test_2_way_roc_curve.png  # macOS
+# or
+eog test_2_way_roc_curve.png   # Linux (Eye of GNOME)
+```
 
 ---
 

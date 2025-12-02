@@ -217,13 +217,13 @@ The TruthMinder-Agent integrates three multimodal transformer backbones — **CL
 
 ### 📈 Visualization Samples
 
-| Model | 2-way ROC Curve | 3-way Confusion Matrix |
-|:------|:----------------:|:----------------------:|
+| Model | Test 2-way ROC Curve | Test 3-way Confusion Matrix |
+|:------|:---:|:---:|
 | **CLIP** | ![CLIP ROC](results/CLIP/test_2_way_roc_curve.png) | ![CLIP CM](results/CLIP/test_3_way_confusion_matrix.png) |
-| **ViLT** | ![ViLT ROC](results/VILT/3-way_classification_val_metrics.json) | ![ViLT CM](results/VILT/3-way_classification_test_metrics.json) |
-| **FLAVA** | ![FLAVA ROC](results/FLAVA/3-way_classification_model.pth) | ![FLAVA CM](results/images/validation_3_way_confusion_matrix.png) |
+| **ViLT** | ![ViLT ROC](results/VILT/VILT/images/2-way_classification_roc_curve.png) | ![ViLT CM](results/VILT/VILT/images/3-way_classification_confusion_matrix.png) |
+| **FLAVA** | ![FLAVA ROC](results/FLAVA/test_2_way_roc_curve.png) | ![FLAVA CM](results/FLAVA/test_3_way_confusion_matrix.png) |
 
-> *(If running locally, the `results/` folder contains all plots and metrics JSON files for detailed inspection.)*
+> *(If running locally, the `results/` folder contains all visualization plots. View all metrics including validation and precision-recall curves.)*
 
 ---
 

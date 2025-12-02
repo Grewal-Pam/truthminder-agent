@@ -1,0 +1,10 @@
+{
+    "timestamp": "2025-02-27_00-03-56",
+    "model": "flava",
+    "epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 1e-05,
+    "device": "cpu",
+    "include_metadata": true,
+    "fine_tune": true
+}

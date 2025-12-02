@@ -6,7 +6,7 @@ from PIL import Image
 
 # Environment fixes
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "0"
 
 st.set_page_config(page_title="TruthMindr", layout="wide")
 st.title("📰 TruthMindr: Multimodal Disinformation Detector")
